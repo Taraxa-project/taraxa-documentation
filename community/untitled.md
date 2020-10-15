@@ -15,7 +15,25 @@ Taraxa's Lockdrop campaign is the first of many steps that go to support the suc
 * There will be 3 ETH locking periods: 3, 6, and 12 months, longer periods yield more rewards
 * Rewards will be dispersed when Taraxa's mainnet launches, which is expected in Q1 2021
 
-## Mechanics
+## Introduction
 
 ddd
+
+
+
+
+
+## Mechanics
+
+
+
+
+
+
+
+
+
+## Lockdrop contract
+
+xx
 
