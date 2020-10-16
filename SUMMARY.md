@@ -17,7 +17,6 @@
 
 ## Testnet
 
-* [Untitled](testnet/untitled-1.md)
 * [Explorer](testnet/explorer.md)
 * [Node Setup](testnet/untitled.md)
 
