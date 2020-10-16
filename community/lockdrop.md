@@ -59,9 +59,19 @@ Longer locking periods offer greater rewards, calculated as a weight multiplier.
 | 6 months | 2 |
 | 12 months | 4 |
 
-Exact rewards are calculated at the end of each Lockdrop round, and the ratio will be the same for each locking period. Here's a more detailed look, 
+Exact rewards are calculated at the end of each Lockdrop round, and the ratio will be the same for each locking period. Here's a more detailed look on how rewards are calculated.
 
+* **totalETHLocked**: total \# of ETH locked in
+* **rawETHPercent\_p**: the raw percentage of ETH, for a given locking period 
+* **w\_p**: the reward weight multiplier for a given locking period
+* **avgRewardRatio**: the overall average reward ratio of locking in ETH
+* **rewardRatio\_p**: reward ratio for a given locking period
 
+To calculate the reward ratio for each locking period, we have, 
+
+$$
+rewardRatio_p =rawETHPercent_p*w_p
+$$
 
 
 
