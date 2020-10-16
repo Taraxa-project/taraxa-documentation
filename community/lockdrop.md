@@ -53,7 +53,7 @@ The average ratio between TARA points and locked ETH is set at 1,000, with an ad
 
 Longer locking periods offer greater rewards, calculated as a weight multiplier. 
 
-| Locking Period | Reward weight multiplier |
+| Locking Period | Contribution weight multiplier |
 | :--- | :--- |
 | 3 months | 1 |
 | 6 months | 2 |
@@ -61,12 +61,12 @@ Longer locking periods offer greater rewards, calculated as a weight multiplier.
 
 Exact rewards are calculated at the end of each Lockdrop round, and the ratio will be the same for each locking period. Here's a more detailed look on how rewards are calculated.
 
-* **totalETHLocked**: total \# of ETH locked in
-* **rawETHPercent\_p**: the raw percentage of ETH, for a given locking period 
-* **w\_p**: the reward weight multiplier for a given locking period
-* **avgRewardRatio**: the overall average reward ratio of locking in ETH
-* **rewardRatio\_p**: reward ratio for a given locking period
-* **totalReward\_p**: total rewards for a given locking period  
+* _**totalETHLocked**_: total \# of ETH locked in
+* _**rawETHPercent\_p**_: the raw percentage of ETH, for a given locking period 
+* _**w\_p**_: the contribution weight multiplier for a given locking period
+* _**avgRewardRatio**_: the overall average reward ratio of locking in ETH
+* _**rewardRatio\_p**_: reward ratio for a given locking period
+* _**totalReward\_p**_: total rewards for a given locking period  
 
 To calculate the reward ratio for each locking period, we have, 
 
@@ -75,10 +75,36 @@ normalizedWeight_p =(rawETHPercent_p*w_p) / sum(rawETHPercent_p*w_p)
 $$
 
 $$
-rewardRatio_p=normalizedWeight_p*avgRewardRatio*totalETHLocked / (rawETHPercent_p*totalETHLocked)
+totalRewards_p=normalizedWeight_p*avgRewardRatio*totalETHLocked
 $$
 
-### \*\*\*\*
+$$
+rewardRatio_p = totalRewards_p / (rawETHPercent_p*totalETHLocked)
+$$
+
+Let's look at a few examples to make this clearer.
+
+**EXAMPLE 1: evenly distributed across 3 locking periods** _\(not real, for illustration only\)_
+
+| Locking Period | ETH \# | ETH % | weighted | normalized | Rewards | Reward Ratio |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 3 | 1,000 | 33% | 33% | 14% | 428,571 | 429 |
+| 6 | 1,000 | 33% | 67% | 29% | 857,143 | 857 |
+| 12 | 1,000 | 33% | 133% | 57% | 1,714,286 | 1,714 |
+| overall  | 3,000 | 100% |  | 100% | 3,000,000 | 1,000 |
+
+\*\*\*\*
+
+**EXAMPLE 2: mostly concentrated in 6 months locking period** _\(not real, for illustration only\)_
+
+| Locking Period | ETH \# | ETH % | weighted | normalized | Rewards | Reward Ratio |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 3 | 100 | 3% | 3% | 2% | 49,180 | 492 |
+| 6 | 2,800 | 93% | 187% | 92% | 2,754,098 | 984 |
+| 12 | 100 | 3% | 13% | 7% | 196,721 | 1,967 |
+| overall  | 3,000 | 100% |  | 100% | 3,000,000 | 1,000 |
+
+### 
 
 ### 
 
