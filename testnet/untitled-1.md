@@ -1,15 +1,6 @@
----
-description: A guide to all the ways you can run  a node in a Taraxa public testnet
----
+# Untitled
 
-# Node Setup
-
-### Requirements
-
-* A Mac or Linux shell environment 
-* curl with ssl support
-
-## One Liner Install Script
+## Getting Super Powers
 
 Becoming a super hero is a fairly straight forward process:
 

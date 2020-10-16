@@ -4,7 +4,12 @@
 
 ## Technical whitepaper <a id="tech-whitepaper"></a>
 
-* [Untitled](tech-whitepaper/untitled.md)
+* [Abstract](tech-whitepaper/untitled.md)
+* [Introduction](tech-whitepaper/introduction.md)
+* [Taraxa Architecture](tech-whitepaper/taraxa-architecture.md)
+* [Economic Model](tech-whitepaper/economic-model.md)
+* [Governance](tech-whitepaper/governance.md)
+* [Further Reading](tech-whitepaper/further-reading.md)
 
 ## Economics
 
@@ -12,7 +17,9 @@
 
 ## Testnet
 
-* [Untitled](testnet/untitled.md)
+* [Untitled](testnet/untitled-1.md)
+* [Explorer](testnet/explorer.md)
+* [Node Setup](testnet/untitled.md)
 
 ## Community
 
