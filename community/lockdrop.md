@@ -93,18 +93,19 @@ Let's look at a few examples to make this clearer.
 | 12 | 1,000 | 33% | 133% | 57% | 1,714,286 | 1,714 |
 | overall  | 3,000 | 100% |  | 100% | 3,000,000 | 1,000 |
 
-\*\*\*\*
-
-**EXAMPLE 2: mostly concentrated in 6 months locking period** _\(not real, for illustration only\)_
+**EXAMPLE 2: concentrated in 3 months locking period** _\(not real, for illustration only\)_
 
 | Locking Period | ETH \# | ETH % | weighted | normalized | Rewards | Reward Ratio |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 3 | 100 | 3% | 3% | 2% | 49,180 | 492 |
-| 6 | 2,800 | 93% | 187% | 92% | 2,754,098 | 984 |
-| 12 | 100 | 3% | 13% | 7% | 196,721 | 1,967 |
+| 3 | 2,999 | 99.97% | 99.97% | 99.87% | 49,180 | 492 |
+| 6 | 0 | 0% | 0% | 0% | 2,754,098 | 984 |
+| 12 | 1 | 0.03% | 0.13% | 0.13% | 196,721 | 1,967 |
 | overall  | 3,000 | 100% |  | 100% | 3,000,000 | 1,000 |
 
-### 
+There are several things to note between the two examples, 
+
+* The reward ratio is largely determined by the distribution of locked in ETH across the 3 locking periods
+* An even distribution across the three locking period results in a \(429, 857, 1714\) reward ratio set, deviation away from that  
 
 ### 
 
