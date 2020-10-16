@@ -66,14 +66,21 @@ Exact rewards are calculated at the end of each Lockdrop round, and the ratio wi
 * **w\_p**: the reward weight multiplier for a given locking period
 * **avgRewardRatio**: the overall average reward ratio of locking in ETH
 * **rewardRatio\_p**: reward ratio for a given locking period
+* **totalReward\_p**: total rewards for a given locking period  
 
 To calculate the reward ratio for each locking period, we have, 
 
 $$
-rewardRatio_p =rawETHPercent_p*w_p
+normalizedWeight_p =(rawETHPercent_p*w_p) / sum(rawETHPercent_p*w_p)
 $$
 
+$$
+rewardRatio_p=normalizedWeight_p*avgRewardRatio*totalETHLocked / (rawETHPercent_p*totalETHLocked)
+$$
 
+### \*\*\*\*
+
+### 
 
 ### Rounds 
 
