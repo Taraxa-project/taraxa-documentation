@@ -135,7 +135,7 @@ You can find Quantstamp's audit certificate here:
 
 
 
-## What's next? 
+## Next up: Testnet Staking!  
 
 While TARA points can definitely be redeemed at mainnet launch for TARA tokens, the Lockdrop is a precursor to our testnet staking and eventually mainnet staking. 
 
