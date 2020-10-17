@@ -2,7 +2,7 @@
 
 * [Welcome!](README.md)
 
-## Technical whitepaper <a id="tech-whitepaper"></a>
+## Whitepaper <a id="tech-whitepaper"></a>
 
 * [Abstract](tech-whitepaper/untitled.md)
 * [Introduction](tech-whitepaper/introduction.md)
@@ -10,10 +10,6 @@
 * [Economic Model](tech-whitepaper/economic-model.md)
 * [Governance](tech-whitepaper/governance.md)
 * [Further Reading](tech-whitepaper/further-reading.md)
-
-## Economics
-
-* [Untitled](economics/untitled.md)
 
 ## Testnet
 
