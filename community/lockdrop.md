@@ -1,5 +1,5 @@
 ---
-description: Building a sustainable community
+description: Raising awareness
 ---
 
 # Lockdrop
@@ -8,11 +8,11 @@ Taraxa's Lockdrop campaign is the first of many steps that go to support the suc
 
 ## TLDR; 
 
-* You can lock in ETH and receive TARA points as a reward in a lockdrop round
+* You can lock in ETH and receive TARA points as a reward in a Lockdrop round
 * If you were referred by another participant, entering their address will net you both +5% rewards
 * There will be 3 ETH locking periods: 3, 6, and 12 months, longer periods yield more rewards
 * TARA points will be converted into TARA tokens when Taraxa's mainnet launches, which is expected in Q1 2021
-* A maximum of 100 million TAR points will be dropped during the lockdrop
+* A maximum of 100 million TAR points will be dropped during the Lockdrop
 * You can participate &lt;here - insert link&gt;
 
 ## Purpose
@@ -117,31 +117,31 @@ This mechanism therefore has built-in incentives to roughly even out the distrib
 
 ### Referral bonus 
 
-We want to encourage community members to refer one another to join in the lockdrop, and offer a +5% bonus to BOTH the referrer and the referred. 
+We want to encourage community members to refer one another to join in the Lockdrop, and offer a +5% bonus to BOTH the referrer and the referred. 
 
-The mechanics are simple. While locking in ETH, the participant can choose to enter an ETH address whose owner referred them to the lockdrop. The address entered must be itself a participant of the lockdrop, but need not be the current round - i.e., they could have participated in a prior lockdrop round. 
+The mechanics are simple. While locking in ETH, the participant can choose to enter an ETH address whose owner referred them to the Lockdrop. The address entered must be itself a participant of the Lockdrop, but need not be the current round - i.e., they could have participated in a prior Lockdrop round. 
 
-For example, Alice referred Bob to the lockdrop. Bob enters in Alice's ETH address while locking in his own ETH. At the end of the round, Bob has earned 1,000 TARA points, but since he entered a referral, he receives an additional 5%, or 50 TARA points, and Alice also receives an additional 50 TARA points as well.
+For example, Alice referred Bob to the Lockdrop. Bob enters in Alice's ETH address while locking in his own ETH. At the end of the round, Bob has earned 1,000 TARA points, but since he entered a referral, he receives an additional 5%, or 50 TARA points, and Alice also receives an additional 50 TARA points as well.
 
  
 
-### What's next? 
+## Lockdrop smart contract
 
-While TARA points can definitely be redeemed at mainnet launch for TARA tokens, the lockdrop is a precursor to our testnet staking and eventually mainnet staking. 
+Our Lockdrop contract has been fully audited by Quantstamp, a world leader in blockchain security audits. 
 
-Testnet staking will stake TARA points, while mainnet staking will stake TARA tokens. Just like in mainnet staking, testnnet staking will also yield staking interest, for those who operate nodes and those who delegate their TARA points to the node operators. 
-
-We hope that testnnet staking will help build a community that will eventually take over the operations of the Taraxa network, by helping to stress-test both technical as well as the economic aspects of the network.  
-
-## Lockdrop contract
-
-Our lockdrop contract has been fully audited by Quantstamp, a world leader in blockchain security audits. 
-
-You can find the lockdrop contract here: 
+You can find the Lockdrop contract here: 
 
 You can find Quantstamp's audit certificate here: 
 
 
+
+## What's next? 
+
+While TARA points can definitely be redeemed at mainnet launch for TARA tokens, the Lockdrop is a precursor to our testnet staking and eventually mainnet staking. 
+
+Testnet staking will stake TARA points, while mainnet staking will stake TARA tokens. Just like in mainnet staking, testnnet staking will also yield staking interest, for those who operate nodes and those who delegate their TARA points to the node operators. 
+
+We hope that testnnet staking will help build a community that will eventually take over the operations of the Taraxa network, by helping to stress-test both technical as well as the economic aspects of the network.  
 
 ## Legal compliance 
 
