@@ -129,9 +129,9 @@ For example, Alice referred Bob to the Lockdrop. Bob enters in Alice's ETH addre
 
 Our Lockdrop contract has been fully audited by Quantstamp, a world leader in blockchain security audits. 
 
-You can find the Lockdrop contract here: 
+You can find the Lockdrop contract here: &lt;insert github link here&gt; 
 
-You can find Quantstamp's audit certificate here: 
+You can find Quantstamp's audit certificate here: &lt;insert Quantstamp audit report here&gt; 
 
 
 
