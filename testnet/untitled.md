@@ -42,7 +42,7 @@ Each run of this script will generate a Droplet on Digital Ocean running a Tarax
 
 ## Running using Docker Compose
 
-**Step 1:** Download the [docker-compose.yml](https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/scripts/docker-compose.yml) file to your machine that has Docker installed.
+**Step 1:** Download the [docker-cozaaaazzmpose.yml](https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/scripts/docker-compose.yml) file to your machine that has Docker installed.
 
 **Step 2:** Start the node
 
