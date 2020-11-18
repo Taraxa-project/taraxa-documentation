@@ -13,7 +13,7 @@
 
 ## Testnet
 
-* [Explorer](testnet/explorer.md)
+* [Testnet](testnet/explorer.md)
 * [Node Setup](testnet/untitled.md)
 
 ## Community
