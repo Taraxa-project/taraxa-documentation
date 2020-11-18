@@ -13,7 +13,7 @@ Taraxa's Lockdrop campaign is the first of many steps that go to support the suc
 * There will be 3 ETH locking periods: 3, 6, and 12 months, longer periods yield more rewards
 * TARA points will be converted into TARA tokens when Taraxa's mainnet launches, which is expected in Q1 2021
 * A maximum of 100 million TAR points will be dropped during the Lockdrop
-* You can participate &lt;here - insert link&gt;
+* You can participate using the lockdrop dApp at [https://lockdrop.taraxa.io](https://lockdrop.taraxa.io)
 
 ## Purpose
 
@@ -37,11 +37,11 @@ Each round will have a fixed duration, announced at the beginning of the round. 
 
 ### Locking in ETH
 
-Participants can choose to lock in ETH tokens into our Lockdrop contract via a web interface &lt;here - insert link&gt;. There are three locking time ranges to choose from: 3, 6, and 12 months, with longer lockup times receiving more rewards. Once the locking time range has elapsed, the contract will automatically release the ETH tokens back to the participant. 
+Participants can choose to lock in ETH tokens into our Lockdrop contract via a [dApp](https://lockdrop.taraxa.io). There are three locking time ranges to choose from: 3, 6, and 12 months, with longer lockup times receiving more rewards. Once the locking time range has elapsed, the contract will allow the participant to withdraw their deposit. 
 
 There is a minimum lockup of 1 ETH to participate.
 
-The Lockdrop contract has been fully audited by Quantstamp,  you can find the source code &lt;insert link here&gt; here and the audit certification &lt;insert link here&gt; here. 
+The Lockdrop contract has been fully audited by [Certik](https://certik.io/),  you can find the [source code here](https://github.com/Taraxa-project/lockdrop-contracts) and the audit certification &lt;insert link here&gt; here. 
 
 
 
@@ -127,11 +127,11 @@ For example, Alice referred Bob to the Lockdrop. Bob enters in Alice's ETH addre
 
 ## Lockdrop smart contract
 
-Our Lockdrop contract has been fully audited by Quantstamp, a world leader in blockchain security audits. 
+Our Lockdrop contract has been fully audited by [Certik](https://certik.io/), a leader in blockchain security audits. 
 
 You can find the Lockdrop contract here: &lt;insert github link here&gt; 
 
-You can find Quantstamp's audit certificate here: &lt;insert Quantstamp audit report here&gt; 
+You can find Certik's audit certificate here: &lt;insert Certik audit report here&gt; 
 
 
 
