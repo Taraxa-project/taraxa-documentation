@@ -1,6 +1,6 @@
 # Governance
 
-## 8. Governance
+## 7. Governance
 
 For the Taraxa network to remain healthy and viable in the long-term, it must be adaptable and responsive to the network stakeholders’ demands over time. To that end we propose the following governance model, and welcome feedback from the broader community.   
   

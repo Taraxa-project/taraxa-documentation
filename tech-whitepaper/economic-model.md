@@ -1,16 +1,16 @@
 # Economic Model
 
-## 7. Economics
+## 6. Economics
 
 Note: this is a _**preliminary outline**_ of the overall intent for the Taraxa network's economics. These designs will be finalized at network launch via the governance process by stakeholders from the community, and they are subject to alterations via the same process.
 
-### 7.1 Token Supply
+### 6.1 Token Supply
 
 The overall Taraxa token supply is 253 – 1 = 9007199254740991 tokens, with all tokens minted in the genesis block at network launch. This number was chosen because it is the largest safe integer in javascript.
 
 This number may seem big, but we are simply expanding the number of tokens into its smallest units. For example, BTC has a total supply of 21 million tokens, but each BTC token is divisible into a further 100 million Satoshis, which means the effective supply is 2100000000000000 total Satoshis, which is approximately 250.899311, which is on the same order of magnitude \(within 1dB\) as Taraxa’s tokens.
 
-### 7.2 Token Distribution
+### 6.2 Token Distribution
 
 The target tokens distribution will be as follows,
 
@@ -30,7 +30,7 @@ The target tokens distribution will be as follows,
 * The **Foundation** intends to keep a certain number of tokens to continue contributing to the Taraxa ecosystem and to participate in the decentralized network operations. 
 * **Community grants** are given out over time to incentivize positive contributions to the Taraxa ecosystem. This could range from bug bounties, to community building, or applications development. 
 
-### 7.3 Token Utility
+### 6.3 Token Utility
 
 **Transaction Fees**
 
@@ -52,7 +52,7 @@ Token holders may choose to stake their tokens via bonding to receive a correspo
 
 Each staked Taraxa token will correspond to a fixed number of bytes of eligible storage on the Taraxa network, governed by a \(token : storage\) ratio. Although the maximum number of tokens in the Taraxa network is capped, the maximum storage will be increased by the network automatically reducing the ratio should the staking rate go beyond the targeted staking rate \(see the Staking section\).
 
-### 7.4 Staking
+### 6.4 Staking
 
 Staking is a mechanism for stakeholders to signal their commitment to help maintain and grow the Taraxa network, and they are rewarded \(see Rewards section\) accordingly. To stake, the stakeholder needs to bond Taraxa tokens for a period, in return gaining additional weight in voting in governance-related decisions and become eligible to participate in the Taraxa network’s consensus process and earning rewards.   
   
@@ -106,7 +106,7 @@ The idea behind this increase is that, because the community would have no incre
 
 The mechanism is simple: the ratio will be decreased to trigger an exponential increase in the maximum amount of storage available on the network. For staking ranges less than the target staking rate, the maximum storage is constant \(flat line\).
 
-### 7.5 Rewards
+### 6.5 Rewards
 
 Rewards in Taraxa are made up of three components: block rewards, transaction fees, and storage rental.   
   

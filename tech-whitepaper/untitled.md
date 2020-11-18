@@ -4,14 +4,15 @@
 **Disclaimer**: This white paper is intended as a preliminary technical overview of the Taraxa protocol and ecosystem and is not meant to be comprehensive or fully finalized.
 {% endhint %}
 
-The advancement of IoT ecosystems has been consistently held back by technical challenges in security, maintenance, data provenance, and incompatible standards, as well as by business challenges in a generally lacking or lackluster use cases, strategically-risky platform lock-ins, and intentionally-siloed data management, and an increasing social awareness and demand for better privacy protection as devices become ubiquitous. Blockchain technology can help to address many of these challenges by building trust anchors into the ecosystem, thereby granting devices operational and economic independence, an awareness for asset ownership, and the capability to freely trade with one another. In this whitepaper, we introduce Taraxa, a public ledger focused on building trust anchors for IoT ecosystems with the following innovations,
+In today's rapidly-changing global economy, every business sector is driven to go faster, better, and cheaper simultaneously. More importantly than ever, businesses need to rely on data-driven decisions to quickly adapt to shifting market realities. But today's business operational data are becoming increasingly siloed, unstructured, unverifiable, and mostly \(&gt;80%\) uncaptured, driving increasingly misinformed decisions that hold back innovation and scaling. 
 
-* **Rapidly-finalizing DAG** to maximize throughput and minimize inclusion & finalization latency
-* **Fair & efficient proposals** to enable a PoS system to produce fair, efficient, and non-coordinated block proposals   
-* **Transaction jurisdiction** to minimize wasted work and maximize network-wide parallel processing 
-* **Speculative concurrency** to minimize transaction execution latency
-* **Adaptive protocol** to help the network learn and adjust its governing parameters on the fly
-* **Trustless light nodes** that can verify what it’s been told by full nodes 
+Public blockchain technology can help to address many of these challenges by adding clarity and verifiability into disparate and unstructured data sets, within and between organizations, to help minimize business friction. But given that the technology is still in its nascent phase, today's state of the art implementations still leave much to be desired.  
 
+In this whitepaper, we introduce Taraxa, a fast & scalable public ledger purpose-built to help minimize business friction. Taraxa implements the following key technical innovations,  
 
+* **Inclusive Block DAG** protocol that maximizes throughput without sacrificing security
+* **Fair & Efficient Proposals** to enable a POS system to produce fair, efficient, and non-coordinated block proposals
+* **Asynchronous True Finality** that eliminates the risk of state reversion and DAG reorganization
+* **Speculative Execution** that speed up processing of stateless transactions
+* **Execution Layer Optimization** which drastically increases the speed of VM execution
 
