@@ -19,6 +19,5 @@
 ## Community
 
 * [Mainnet Roadmap](community/mainnet-roadmap.md)
-* [Lockdrop](community/lockdrop.md)
 * [Testnet Staking](community/testnet-staking.md)
 
