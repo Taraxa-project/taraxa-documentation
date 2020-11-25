@@ -208,11 +208,34 @@ Also note that, the implicit definition of work load in this algorithm is simply
 
 In both cases, there is no coordination between the nodes on block proposal eligibility and transaction jurisdiction and a certain amount of tolerance or “fuzziness” is built into the validation, thereby reducing the associated network overhead and attack surface.
 
-## 3. Execution Layer Optimization
+## 3. Delegated Proof of Stake \(DPOS\)
 
-### 
+Participation in consensus at both the DAG and PBFT chain level is governed by a delegated proof of stake contract.   Token holders can lockup Taraxa tokens in the DPOS contract and delegate shares to nodes.   Nodes with sufficient stake delegated to them are able to participate in consensus.  The economics of staking are discussed further in the "Economic Model" section of this paper.   For purposes of the architecture the important properties are that \(1\) staking periods are measured in PBFT chain blocks, \(2\) deposits and withdrawals incur a delay of some number of PBFT chain blocks, and \(3\) a mapping is known to all nodes to  associate PBFT blocks to DAG levels and thus determine DAG consensus participation eligibility. 
 
-## 4. Technical Roadmap
+The key result of these properties is that PBFT and DAG participation in consensus are known in advance of the most immediate current execution of calls to the DPOS smart contract and thus as discussed in the next section, execution is able to be done asynchronous \(or only loosely synchronous\) to consensus.
 
-\*\*\*\*
+## 4. Optimized Asynchronous Execution Layer 
+
+Taraxa is compatible with Ethereum Virtual Machine \(EVM\) contracts and operation codes.   To implement the Taraxa execution layer numerous architectural improvements and optimizations have been made when compared to the EVM.  In Taraxa asynchronous execution occurs from a queue of finalized PBFT chain blocks, which denote a "block of blocks" from finalized DAG periods.   Because of this structure, PBFT is able to finalize consensus on very large set of transactions at a high rate.
+
+In contrast to Ethereum, Taraxa avoids the expensive read from an Ethereum-modified Merkle Patrica Trie \(EMPT\), and instead reads state directly from the underlying database.   This is implemented using RocksDB, and versioned access is handled using the timestamp feature of RocksDB.   Databased reads and writes via the EMPT, which scales as log\(N\), are a major offender in performance and would be prohibitive give Taraxa's large transaction throughput.   This approach used  by Taraxa is made possible, in contrast to Ethereum \(and more generally all other chains lacking in true finality\), because there is no concern about reversion of state due to block reordering.   
+
+Within Taraxa, the sole purpose of maintaining an EMPT is for deriving state roots, and therefore we need only write to it.   Therefore not only is transaction execution parallelized and asynchronous to consensus, but MPT writes are done asynchronously to transaction execution and thoroughly parallelized.  Inherently there's a limit to parallelism because EMPT is not thread safe. Therefore, we parallelize writes to individual account storage tries, as well as the top-level account trie. The whole state transition process blocks on EMPT only when the state root is required, which is late enough for almost all pending EMPT writes to finish.  In practice, observed waiting time is pessimistically ~2% of total state transition time.
+
+In practice execution of 20,000 transactions in large "blocks of blocks" enables virtual machine execution to take over 90% of CPU time, trie commits to be  around 7%, and db commits to be  around 3% of CPU time.   This architecture allows for transaction throughput greater than 25,000 TPS, and for large blocks to be continuous executed without hiccuping consensus or endangering security.
+
+![Comparison of Taraxa&apos;s Optimized Asynchronous Execution Layer to Ethereum](../.gitbook/assets/image%20%283%29.png)
+
+
+
+## 5. Technical Roadmap
+
+The rapid advancements planned for the Taraxa protocol include, but are not limited to...
+
+* Implement finalized economic model of fees and block rewards into protocol
+* Easy re-keying of accounts
+* Cross-chain security against long-range attacks
+* Architecture for light-nodes and "Immediate" bootstrapping technology
+
+These efforts are driven by the goal to make Taraxa a foundational technology for fast, fair, and faultless execution of anchoring transactions and smart contract operations to be adopted by a highly decentralized world .
 
