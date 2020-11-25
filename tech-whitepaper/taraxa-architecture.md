@@ -226,8 +226,6 @@ In practice execution of 20,000 transactions in large "blocks of blocks" enables
 
 ![Comparison of Taraxa&apos;s Optimized Asynchronous Execution Layer to Ethereum](../.gitbook/assets/image%20%283%29.png)
 
-
-
 ## 5. Technical Roadmap
 
 The rapid advancements planned for the Taraxa protocol include, but are not limited to...
