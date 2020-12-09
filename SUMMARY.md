@@ -16,8 +16,3 @@
 * [Testnet](testnet/explorer.md)
 * [Node Setup](testnet/untitled.md)
 
-## Community
-
-* [Mainnet Roadmap](community/mainnet-roadmap.md)
-* [Testnet Staking](community/testnet-staking.md)
-
