@@ -18,13 +18,3 @@
 
 #### \[8\] B. Wesolowski. Efficient verifiable delay functions. Cryptology ePrint Archive, Report 2018/623, 2018. [https://eprint.iacr.org/2018/623](https://eprint.iacr.org/2018/623).
 
-[\[13\]]() T. Dickerson, P. Gazzillo, M. Herlihy and E. Koskinen, "Adding concurrency to smart contracts," in ACM Symposium on Principles of Distributed Computing, 2017.
-
-[\[14\]]() V. Saraph and M. Herlihy, "An Empirical Study of Speculative Concurrency in Ethereum Smart Contracts," arXiv.org, vol. Computer Science, no. Distributed, Parallel, and Cluster Computing, p. arXiv:1901.01376, 2019.
-
-[\[15\]]() T. Harris, S. Marlow, S. P. Jones and M. Herlihy, "Composable Memory Transactions," in PPoPP, Chicago, 2005.
-
-[\[16\]]() Y. Liu, K. Zhang and M. Spear, "Dynamic-sized nonblocking hash tables," in Proceedings of the 2014 ACM symposium on Principles of distributed computing, Paris, 2014.
-
-[\[17\]]() H.-J. Boehm, "A garbage collector for C and C++," \[Online\]. Available: [http://www.hboehm.info/gc/](http://www.hboehm.info/gc/).
-
