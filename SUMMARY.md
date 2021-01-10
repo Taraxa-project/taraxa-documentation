@@ -4,7 +4,7 @@
 
 ## Whitepaper <a id="tech-whitepaper"></a>
 
-* [Abstract](tech-whitepaper/untitled.md)
+* [Abstract](tech-whitepaper/abstract.md)
 * [Intro: Scaling the World](tech-whitepaper/introduction.md)
 * [Taraxa Architecture](tech-whitepaper/taraxa-architecture.md)
 * [Economic Model](tech-whitepaper/economic-model.md)
