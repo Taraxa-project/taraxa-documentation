@@ -18,7 +18,7 @@ This is why we created Taraxa, a purpose-built public ledger to enable us to spe
 
 If you're curious about our technology, check out the [Architecture ](tech-whitepaper/taraxa-architecture.md)section of our whitepaper. 
 
-If you wish to run a node, check out our [Node Setup](testnet/untitled.md) section. 
+If you wish to run a node, check out our [Node Setup](testnet/node_setup.md) section. 
 
 Our first application is live! Check out [Marinate](www.marinate.io). 
 

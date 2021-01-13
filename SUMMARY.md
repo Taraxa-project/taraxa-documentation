@@ -14,5 +14,5 @@
 ## Testnet
 
 * [Testnet](testnet/explorer.md)
-* [Node Setup](testnet/untitled.md)
+* [Node Setup](testnet/node_setup.md)
 
