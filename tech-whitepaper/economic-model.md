@@ -23,16 +23,14 @@ The target tokens distribution will be as follows,
 | Distribution | % |
 | :--- | ---: |
 | Private sales | 24.1% |
-| Public sales | 25.9% |
+| Community | 40.9% |
 | Team | 15% |
 | Foundation | 20% |
-| Community grants | 15% |
 
 * **Private sales** took place and has ended in 2018. 
-* **Public sales** refer to the tokens that the foundation will inject into the market to fund ongoing development and ecosystem support. 
+* **Community** refers to a collection of tokens reserved to ensure the ongoing health and sustainability of the Taraxa ecosystem, including funding for development grants, bug bounties, driving application adoption, and raising awareness 
 * Taraxa’s founding **team** members are committed to the long-term success of the network and will hold their token allocations for an extended period. 
 * The **Foundation** intends to keep a certain number of tokens to continue contributing to the Taraxa ecosystem and to participate in the decentralized network operations. 
-* **Community grants** are given out over time to incentivize positive contributions to the Taraxa ecosystem. This could range from bug bounties, to community building, or applications development. 
 
 ### 
 
