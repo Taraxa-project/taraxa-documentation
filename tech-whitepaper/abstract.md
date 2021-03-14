@@ -4,7 +4,7 @@
 **Disclaimer**: This white paper is intended as a preliminary technical overview of the Taraxa protocol and ecosystem and is not meant to be comprehensive or fully finalized.
 {% endhint %}
 
-In today's rapidly-changing global economy, every business sector is driven to go faster, better, and cheaper simultaneously. More importantly than ever, businesses need to rely on data-driven decisions to quickly adapt to shifting market realities. But today's business operational data are becoming increasingly siloed, unstructured, unverifiable, and mostly \(&gt;80%\) uncaptured, driving increasingly misinformed decisions that hold back innovation and scaling. 
+In today's rapidly-changing global economy, every business sector is driven to go faster, better, and cheaper simultaneously. More importantly than ever, businesses need to rely on data-driven decisions to quickly adapt to shifting market realities. But today's business operational data is becoming increasingly siloed, unstructured, unverifiable, and mostly \(&gt;80%\) uncaptured, driving increasingly misinformed decisions that hold back innovation and scaling. 
 
 Public blockchain technology can help to address many of these challenges by adding clarity and verifiability into disparate and unstructured data sets, within and between organizations, to help minimize business friction. But given that the technology is still in its nascent phase, today's state of the art implementations still leave much to be desired.  
 

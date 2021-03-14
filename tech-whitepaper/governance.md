@@ -2,13 +2,13 @@
 
 ## 7. Governance
 
-For the Taraxa network to remain healthy and viable in the long-term, it must be adaptable and responsive to the network stakeholders’ demands over time. To that end we propose the following governance model, and welcome feedback from the broader community.   
+For the Taraxa network to remain healthy and viable in the long-term, it must be adaptable and responsive to the network stakeholders’ demands over time. To that end we propose the following governance model, and welcome feedback from the broader community. For the avoidance of doubt, the right to vote does not entitle Taraxa token holders to vote on the operation and management of the Foundation, its affiliates, or their assets, and does not constitute any equity interest in any of these entities.  
   
 
 
 **Council**
 
-Since voter turnout is a persistent problem in almost all electoral systems – including decentralized ecosystems – a council will be elected to represent the interests of passive stakeholders in the Taraxa network.
+Since voter turnout is a persistent problem in almost all electoral systems – including decentralized ecosystems – a council will be elected to represent the interests of passive stakeholders in the Taraxa network. These Council Members may determine features and/or parameters of Taraxa as well as protocol improvements and new product development, or even changes to the governance process itself.
 
 The size of the council will increase as the network size increases. The size of the council will be determined at network launch, starting with a relatively smaller number and then scaling upward as the network matures.   
   
@@ -47,5 +47,5 @@ Each council member has a term of approximately 12 weeks. In actual implementati
   
 
 
-**Proposals** Anyone holding Taraxa tokens may make proposals, but for a proposal to be heard by the council, it needs to reach at least a minimum percentage \(to be determined at network launch\) of the entire Taraxa token supply.
+**Proposals** Any users holding Taraxa tokens may make proposals, but for a proposal to be heard by the council, it needs to reach at least a minimum percentage \(to be determined at network launch\) of the entire Taraxa token supply.
 

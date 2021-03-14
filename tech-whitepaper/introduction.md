@@ -4,7 +4,7 @@
 
 Rapid technological innovation and globalization are driving the need for ever more urgency, quality, and competitiveness in the modern economy - the pressure to go faster, better, cheaper has never been higher. To adapt to these realities, businesses need to be increasingly data-driven in order to make decisions that are sufficiently fast and correct to survive in the market. But as the pressure mounts, cracks are starting to appear in the way we currently organize our economic activities. 
 
-**Most business data is uncaptured** because they are unstructured. But the vast majority of business operations data \(&gt;80%\) are unstructured, [\[1\]](further-reading.md#c-schneider-the-biggest-data-challenges-that-you-might-not-even-know-you-have-ibm-25-may-2018-online-available-https-www-ibm-com-blogs-watson-2016-05-biggest-data-challenges-might-not-even-know-accessed-15-november-2018) expensive to verify and wholly lacking in context. 
+**Most business data is uncaptured** because they are unstructured. But the vast majority of business operations data \(&gt;80%\) is unstructured, [\[1\]](further-reading.md#c-schneider-the-biggest-data-challenges-that-you-might-not-even-know-you-have-ibm-25-may-2018-online-available-https-www-ibm-com-blogs-watson-2016-05-biggest-data-challenges-might-not-even-know-accessed-15-november-2018) expensive to verify and wholly lacking in context. 
 
 **Captured data is siloed**, splintered across a sea of applications that are unverifiable and lacking context across their closed-garden ecosystems. 
 

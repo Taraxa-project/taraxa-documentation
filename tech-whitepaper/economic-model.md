@@ -4,6 +4,12 @@
 
 Note: this is a _**preliminary outline**_ of the overall intent for the Taraxa network's economics. These designs will be finalized at network launch via the governance process by stakeholders from the community, and they are subject to alterations via the same process.
 
+The native digital cryptographically-secured utility token of Taraxa \(**Taraxa token**\) is a transferable representation of attributed functions specified in the protocol/code of Taraxa, which is designed to play a major role in the functioning of the ecosystem on Taraxa and intended to be used solely as the primary utility token on the network. 
+
+Taraxa token is a non-refundable functional utility token which will be used as the medium of exchange between participants on Taraxa. The goal of introducing Taraxa token is to provide a convenient and secure mode of payment and settlement between participants who interact within the ecosystem on Taraxa, and it is not, and not intended to be, a medium of exchange accepted by the public \(or a section of the public\) as payment for goods or services or for the discharge of a debt; nor is it designed or intended to be used by any person as payment for any goods or services whatsoever that are not exclusively provided by the issuer. Taraxa token does not in any way represent any shareholding, participation, right, title, or interest in the Foundation, the Distributor, their respective affiliates, or any other company, enterprise or undertaking, nor will Taraxa token entitle token holders to any promise of fees, dividends, revenue, profits or investment returns, and are not intended to constitute securities in Singapore or any relevant jurisdiction. Taraxa token may only be utilized on Taraxa, and ownership of Taraxa token carries no rights, express or implied, other than the right to use Taraxa token as a means to enable usage of and interaction within Taraxa.
+
+Taraxa token would also provide the economic incentives which will be distributed to encourage users to contribute and maintain the ecosystem on Taraxa, thereby creating a win-win system where every participant is fairly compensated for its efforts. Taraxa token is an integral and indispensable part of Taraxa, because without Taraxa token, there would be no incentive for users to expend resources to participate in activities or provide services for the benefit of the entire ecosystem on Taraxa. Given that additional Taraxa token will be awarded to a user based only on its actual usage, activity and contribution on Taraxa, users of Taraxa and/or holders of Taraxa token which did not actively participate will not receive any Taraxa token incentives.
+
 
 
 ### 5.1 Token Supply
@@ -38,11 +44,11 @@ The target tokens distribution will be as follows,
 
 **Transaction Fees**
 
-Token holders may use the token to initiate and pay for the cost of processing transactions, these transaction fees are paid to the validators of the network. More on transaction fees in the Rewards section. 
+Taraxa token holders may use the token to initiate and pay for the cost of processing transactions, and these transaction fees are paid to the validators of the network. More on transaction fees in the Rewards section. 
 
 **Validator Eligibility**
 
-Token holders may choose to stake their tokens via bonding to become an eligible validator of the network, responsible for processing the network’s transactions and maintaining the network’s overall security and integrity.
+Taraxa token holders may choose to stake their tokens via bonding to become an eligible validator of the network, responsible for processing the network’s transactions and maintaining the network’s overall security and integrity. As an indication of commitment to the system and service standard assurance, users would be required to place an amount of Taraxa token as security deposit before it may participate in mining for the benefit of the network.
 
 To become a validator, a fixed number of Taraxa tokens will need to be staked. Since the total token supply in the network is fixed, the maximum number of validators is also fixed. These rules will be set at network launch and are subject to change per stakeholders’ voting. 
 
@@ -64,7 +70,7 @@ Bonding of Taraxa tokens is needed in staking in order to provide stable expecta
   
 **Stake Delegation**
 
-Not everyone who wishes to help secure the Taraxa network wishes to deal with the actual operational details of running a node. These stakeholders can choose to bond their stake and then delegate it to another entity to operate a node on its behalf. How the proceeds from the stake are divide are negotiated between the stakeholder and the node operator.   
+Not everyone who wishes to help secure the Taraxa network wishes to deal with the actual operational details of running a node. These stakeholders can choose to bond their stake and then delegate it to another entity to operate a node on its behalf. How the proceeds from the stake are divide may be negotiated between the stakeholder and the node operator, via secondary smart contracts on the Taraxa network.  
   
 **Stake Alterations**
 
@@ -89,9 +95,9 @@ Rewards in Taraxa are made up of block rewards and transaction fees.
 
 **Block Rewards**
 
-Block rewards are meant to incentivize stakeholders to help secure the network by participating in validation by driving up the overall network’s staking rate. This is especially important in the early days of the network where fees may not meet node operators’ ROI expectations.
+Block rewards \(Taraxa tokens\) will be distributed to incentivize stakeholders to help secure the network by participating in validation by driving up the overall network’s staking rate. Computational resources are required for validation and verification of blockchain information, so providers of these services / resources would require payment for the consumption of these resources to maintain network security, and Taraxa token will be used as the network currency to quantify and pay the costs of the consumed computational resources. This is especially important in the early days of the network where distributed fees may not be sufficient to attract node operators to secure the network. 
 
-Block rewards come in the form of inflation on top of the staked tokens. Since only nodes with sufficient staking or have received sufficient delegated stake are eligible to produce blocks, the amount of block rewards can be thought of as a direct yield on top of the total staked token supply. 
+Block rewards come in the form of inflation on top of the staked tokens. Since only nodes with sufficient staking or have received sufficient delegated stake are eligible to produce blocks, the amount of block rewards can be thought of as a direct yield which will be added to the total staked token supply.
 
 To incentivize the community to reach the target staking rate, the yield will be progressively increasing until it peaks at the target rate, then falls down as the network exceeds the target rate. 
 

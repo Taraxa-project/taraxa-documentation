@@ -6,7 +6,7 @@
 
 As the blockchain space matures, pioneering networks such as Bitcoin and Ethereum have run into scalability bottlenecks. One of the key scalability metrics is total network throughput, usually measured by transactions per second \(TPS\). For single-chain topologies, however, increasing TPS necessarily means a decrease in security, the recovery of which negates any TPS gains.
 
-To increase TPS, the network could increase block size β and/or block generation rate γ. Increasing β necessarily increases network delay δ, because a bigger block of data takes longer to transmit. This in turn reduces the timeliness with which all nodes hear about the block, thus increasing the likelihood of branching. Increasing γ has the effect of increasing the number of blocks proposed on the network, but since on a single-chain topology only a single block can ever be accepted, more blocks actually increases the options nodes have to make the incorrect bet on the longest chain, leading to branching. Hence, we see a hard tradeoff between TPS and security [\[2\]](further-reading.md#2-y-sompolinsky-and-a-zohar-secure-high-rate-transaction-processing-in-bitcoin-31-december-2013-online-available-https-eprint-iacr-org-2013-881-pdf-accessed-30-april-2019). The loss of security is attributable to the fact that honest nodes are not coordinated, whereas as a malicious adversary can coordinate off-chain to produce a branch-free set of blocks and thus determine the longest chain.
+To increase TPS, the network could increase block size β and/or block generation rate γ. Increasing β necessarily increases network delay δ, because a bigger block of data takes longer to transmit. This in turn reduces the timeliness with which all nodes hear about the block, thus increasing the likelihood of branching. Increasing γ has the effect of increasing the number of blocks proposed on the network, but since only a single block can ever be accepted with a single-chain topology, more blocks actually increases the options nodes have to make the incorrect bet on the longest chain, leading to branching. Hence, we see a hard tradeoff between TPS and security [\[2\]](further-reading.md#2-y-sompolinsky-and-a-zohar-secure-high-rate-transaction-processing-in-bitcoin-31-december-2013-online-available-https-eprint-iacr-org-2013-881-pdf-accessed-30-april-2019). The loss of security is attributable to the fact that honest nodes are not coordinated, whereas as a malicious adversary can coordinate off-chain to produce a branch-free set of blocks and thus determine the longest chain.
 
 * **βγ ∝ TPS**: block size and block generation increase TPS
 * **β ∝ δ**: block size increase network delay 
@@ -16,7 +16,7 @@ One elegantly simple approach is to abandon the single-chain approach and adopt 
 
 ![From a single-chain to block DAG topology](../.gitbook/assets/figure_3_-en-1-.png)
 
-However, the block DAG topology isn’t without its own set of challenges, here are a few,
+However, the block DAG topology isn’t without its own set of challenges, here are a few:
 
 * Ordering convergence
 * Finality \(confirmation latency\)
