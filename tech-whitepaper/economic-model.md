@@ -16,7 +16,7 @@ Taraxa token would also provide the economic incentives which will be distribute
 
 The overall Taraxa token supply is 10 billion tokens, with all tokens minted in the genesis block at network launch. 
 
-There will be inflation \(see the section on [Rewards](economic-model.md#5-5-rewards)\) which comes in the form of block rewards providing staking yield, but will only inflate upon stakes that are in circulation - i.e., any network stakes held by the Foundation \(including unissued community grants\) will not receive any such yield and thereby no inflation. 
+There will be inflation \(see the section on [Rewards](economic-model.md#5-5-rewards)\) which comes in the form of block rewards providing staking yield, but will only inflate upon stakes that are in and meant for circulation - i.e., any network stakes held by the Foundation will not receive any such yield and thereby no inflation. 
 
 This means that whatever the Foundation holds to help secure the network will be a constantly diminishing portion of the overall token supply, over time minimizing any centralizing effect this may have on the network. 
 
