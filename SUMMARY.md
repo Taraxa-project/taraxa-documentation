@@ -11,8 +11,14 @@
 * [Governance](tech-whitepaper/governance.md)
 * [Further Reading](tech-whitepaper/further-reading.md)
 
+## Node Setup
+
+* [Introduction](node-setup/introduction.md)
+* Docker
+    * [Windows](node-setup/windows.md)
+    * [Linux](node-setup/linux.md)
+    * [Mac](node-setup/mac.md)
+
 ## Testnet
 
 * [Testnet](testnet/explorer.md)
-* [Node Setup](testnet/node_setup.md)
-
