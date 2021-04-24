@@ -146,7 +146,7 @@ cd .\Desktop\taraxa-ops-master\scripts\
 docker-compose stop
 docker-compose rm -f
 docker-compose pull
-docker-compose u
+docker-compose up
 ```
 
 ![Update node](../../.gitbook/assets/27-update-node.png)
