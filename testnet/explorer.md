@@ -1,21 +1,24 @@
 ---
-description: Taraxa Alpha Testnet
+description: Taraxa Incentivised Testnet
 ---
 
 # Testnet
 
 ## Block Explorer
 
-Check out our alpha testnet via the [Taraxa Block Explorer](https://explorer.testnet.taraxa.io/).
+Check out our incentivised testnet via the [Taraxa Block Explorer](https://explorer.testnet.taraxa.io/).
 
 ## Ethereum compatible JSON RPC interface
 
-To connect to the Taraxa Alpha Testnet, use the following options: 1. https: [https://rpc.testnet.taraxa.io](https://rpc.testnet.taraxa.io) 2. websocket: wss://ws.rpc.testnet.taraxa.io
+To connect to the Taraxa Incentivised Testnet, use the following options:
+
+* https: [https://rpc.testnet.taraxa.io](https://rpc.testnet.taraxa.io)
+* websocket: wss://ws.rpc.testnet.taraxa.io
 
 ## Creating a wallet
 
 * [Taraxa Sandbox](https://sandbox.testnet.taraxa.io) - For the testnet, Taraxa provides a web-based wallet called the sandbox.  The sandbox wallet provides 10 addresses that can be used for sending/receiving TARA, contract deployment, and staking.
-* [MetaMask](https://metamask.io/) - MetaMask browser extention also works with Taraxa Alpha Testnet. Just use custom RPC, and set the token name to TARA, and use the block explorer above.
+* [MetaMask](https://metamask.io/) - MetaMask browser extention also works with Taraxa incentivised Testnet. Just use custom RPC, and set the token name to TARA, and use the block explorer above.
 
 ## Using the Faucet
 
