@@ -15,7 +15,7 @@ sudo apt install -y docker-compose
 rm -f get-docker.sh
 ```
 
-![Install Docker](../.gitbook/assets/node-setup/linux/1-install.png)
+![Install Docker](../../.gitbook/assets/1-install.png)
 
 ## 2. Download the Taraxa Docker Compose File
 
@@ -26,7 +26,7 @@ cd taraxa
 wget -O docker-compose.yml https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/scripts/docker-compose.yml
 ```
 
-![Download Scripts](../.gitbook/assets/node-setup/linux/2-scripts.png)
+![Download Scripts](../../.gitbook/assets/2-scripts.png)
 
 ## 3. Start the Taraxa Node
 
@@ -35,11 +35,11 @@ cd ~/Desktop/taraxa
 sudo docker-compose up
 ```
 
-![Start Node](../.gitbook/assets/node-setup/linux/3-docker-start.png)
+![Start Node](../../.gitbook/assets/3-docker-start.png)
 
 The node will start after Docker pulls the latest Taraxa Node image.
 
-![Start Node](../.gitbook/assets/node-setup/linux/4-taraxa.png)
+![Start Node](../../.gitbook/assets/4-taraxa.png)
 
 ## 4. Update the Taraxa Node
 
@@ -53,3 +53,4 @@ sudo docker-compose rm -f
 sudo docker-compose pull
 sudo docker-compose up
 ```
+

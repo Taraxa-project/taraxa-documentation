@@ -13,12 +13,13 @@
 
 ## Node Setup
 
-* [Introduction](node-setup/introduction.md)
-* Docker
-    * [Windows](node-setup/windows.md)
-    * [Linux](node-setup/linux.md)
-    * [Mac](node-setup/mac.md)
+* [Intro: run a Taraxa node](node-setup/introduction.md)
+* [Docker](node-setup/docker/README.md)
+  * [Windows](node-setup/docker/windows.md)
+  * [Linux](node-setup/docker/linux.md)
+  * [Mac](node-setup/docker/mac.md)
 
 ## Testnet
 
 * [Testnet](testnet/explorer.md)
+
