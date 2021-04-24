@@ -11,15 +11,11 @@
 * [Governance](tech-whitepaper/governance.md)
 * [Further Reading](tech-whitepaper/further-reading.md)
 
-## Node Setup
+## Testnet <a id="node-setup"></a>
 
-* [Intro: run a Taraxa node](node-setup/introduction.md)
-* [Docker](node-setup/docker/README.md)
-  * [Windows](node-setup/docker/windows.md)
-  * [Linux](node-setup/docker/linux.md)
-  * [Mac](node-setup/docker/mac.md)
-
-## Testnet
-
-* [Testnet](testnet/explorer.md)
+* [Taraxa Testnet Node Setup](node-setup/introduction/README.md)
+  * [Windows](node-setup/introduction/windows.md)
+  * [Mac](node-setup/introduction/mac.md)
+  * [Linux](node-setup/introduction/linux.md)
+* [Testnet Resources](node-setup/explorer.md)
 

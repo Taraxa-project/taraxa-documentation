@@ -1,8 +1,8 @@
 ---
-description: Taraxa Incentivised Testnet
+description: Test-related resources
 ---
 
-# Testnet
+# Testnet Resources
 
 ## Block Explorer
 
