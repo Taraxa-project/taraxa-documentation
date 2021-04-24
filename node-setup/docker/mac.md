@@ -73,6 +73,14 @@ cd taraxa
 wget -O docker-compose.yml https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/scripts/docker-compose.yml
 ```
 
+{% hint style="danger" %}
+GitHub is blocked in some countries. If you can't run the previous command use the following to start a node without Docker Compose:
+
+```text
+docker run --name taraxa-node -it -p 10002:10002 -p 10002:10002/udp -p 7777:7777 -p 8777:8777 taraxa/taraxa-node:latest join testnet
+```
+{% endhint %}
+
 Now docker is pulling the Taraxa Node image. You should see something similar to this:
 
 ![Starting Taraxa](../../.gitbook/assets/14-starting.png)
