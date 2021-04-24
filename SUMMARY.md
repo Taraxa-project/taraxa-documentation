@@ -13,9 +13,9 @@
 
 ## Testnet <a id="node-setup"></a>
 
-* [Taraxa Testnet Node Setup](node-setup/introduction/README.md)
-  * [Windows](node-setup/introduction/windows.md)
-  * [Mac](node-setup/introduction/mac.md)
-  * [Linux](node-setup/introduction/linux.md)
-* [Testnet Resources](node-setup/explorer.md)
+* [Taraxa Testnet Node Setup](node-setup/testnet_node_setup/README.md)
+  * [Windows](node-setup/testnet_node_setup/windows.md)
+  * [Mac](node-setup/testnet_node_setup/mac.md)
+  * [Linux](node-setup/testnet_node_setup/linux.md)
+* [Testnet Resources](node-setup/testnet_resources.md)
 
