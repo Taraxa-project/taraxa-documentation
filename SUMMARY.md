@@ -17,5 +17,7 @@
   * [Windows](node-setup/testnet_node_setup/windows.md)
   * [Mac](node-setup/testnet_node_setup/mac.md)
   * [Linux](node-setup/testnet_node_setup/linux.md)
+  * [GitHub is blocked](node-setup/github_blocked.md)
+* [Getting the node's public address](testnet/node_address.md)
 * [Testnet Resources](node-setup/testnet_resources.md)
 
