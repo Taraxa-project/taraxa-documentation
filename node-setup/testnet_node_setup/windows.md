@@ -28,7 +28,7 @@ Now Docker is installing:
 
 After the installation is finished you can click the "Close" button and Docker is going to start automatically.
 
-![Installed Docker](../../.gitbook/assets/5-installed.png)
+![Docker Installed](../../.gitbook/assets/5-installed.png)
 
 ## 2. Install WSL 2
 
@@ -48,25 +48,25 @@ Click on the link under "Download the latest package"
 
 You can find the executable in your downloads folder.
 
-![Downloaded WSL 2](../../.gitbook/assets/8-wsl-downloaded.png)
+![WSL 2 Downloaded](../../.gitbook/assets/8-wsl-downloaded.png)
 
 Open the executable and click "Next" on the first screen.
 
-![WSL 2 Install](../../.gitbook/assets/9-wsl-install.png)
+![Install WSL 2](../../.gitbook/assets/9-wsl-install.png)
 
-After the setup is complete click the "Finsh" button.
+After the setup is complete click the "Finish" button.
 
 ![WSL 2 Installed](../../.gitbook/assets/10-wsl-finish.png)
 
 Now you can click the "Restart" button on the original notice window.
 
-![WSL 2 Restart](../../.gitbook/assets/11-wsl-restart.png)
+![Restart WSL 2](../../.gitbook/assets/11-wsl-restart.png)
 
 ## 3. Starting Docker Desktop
 
 If everything went well you will see the following message.
 
-![Docker Desktop is starting](../../.gitbook/assets/12-docker-stating.png)
+![Docker Desktop is starting notification](../../.gitbook/assets/12-docker-stating.png)
 
 And if you open the Docker Desktop application you should see the following window.
 
@@ -82,7 +82,11 @@ In order to run the node we need a set of scripts. You can download the scripts 
 
 ![Download Taraxa Scripts](../../.gitbook/assets/15-download-scripts.png)
 
-Click on "Download ZIP" under the code menu and the download should start.
+{% hint style="danger" %}
+GitHub is blocked in some countries. If you can't access the previous link please refer to the [GitHub is blocked](../github_blocked.md) document.
+{% endhint %}
+
+Click on "Download ZIP" under the "Code" menu and the download should start.
 
 After the download is complete you can find a new zip file in your downloads folder.
 
@@ -122,9 +126,10 @@ You should see a window similar to this:
 
 Type the following commands one by one:
 
-```text
-cd .\Desktop\taraxa-ops-master\scripts\
-docker-compose up
+```bash
+cd .\Desktop\taraxa-ops-master\taraxa_compose\
+docker-compose up -d
+docker-compose logs -f 
 ```
 
 ![Go to Scripts Folder](../../.gitbook/assets/24-go-to-folder.png)
@@ -137,16 +142,28 @@ After it finishes pulling the latest version the node will start and you should 
 
 ![Node running](../../.gitbook/assets/26-node-running.png)
 
+_NOTE: You can press `CTRL` + `C` to stop displaying the logs
+
 ## 6. Update the Taraxa Node
 
 From time to time we will release new versions of the node software. Try to keep it up to date using the following commands:
 
-```text
-cd .\Desktop\taraxa-ops-master\scripts\
-docker-compose stop
-docker-compose rm -f
+```bash
+cd .\Desktop\taraxa-ops-master\taraxa_compose\
+docker-compose down
 docker-compose pull
-docker-compose up
+docker-compose up -d
+docker-compose logs -f
+```
+
+During the testing period, we will also make changes on the protocol level and you will have to re-sync all the data. Don't worry, we will let you know. To remove the current data and do a full re-sync you have to run the following commands:
+
+```bash
+cd .\Desktop\taraxa-ops-master\taraxa_compose\
+docker-compose down -v
+docker-compose pull
+docker-compose up -d
+docker-compose logs -f
 ```
 
 ![Update node](../../.gitbook/assets/27-update-node.png)

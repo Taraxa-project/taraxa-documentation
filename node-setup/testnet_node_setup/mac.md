@@ -32,7 +32,7 @@ Docker also needs some privileges to install the Docker Helper. Click "OK" and e
 
 Now you can open Finder and go to the Applications folder. You should see the Docker app.
 
-_NOTE: You can also press CMD + SPACE and search for Docker_
+_NOTE: You can also press `CMD` + `SPACE` and search for Docker_
 
 ![Open Docker](../../.gitbook/assets/8-docker.png)
 
@@ -42,19 +42,19 @@ After opening the application you should see a screen similar to this:
 
 When Docker starts you should see this screen. We can close the Docker window now.
 
-![Starting Docker](../../.gitbook/assets/10-started.png)
+![Docker Started](../../.gitbook/assets/10-started.png)
 
 ## 2. Open Terminal
 
 We need to use the `Terminal` application in order to start the Taraxa Node image.
 
-You can find the app in the `Utilities` directory under the `Applications`.
+You can find the app in the `Utilities` directory under `Applications`.
 
 ![Open Utilities](../../.gitbook/assets/11-utilities.png)
 
 Open the terminal application.
 
-_NOTE: You can also press CMD + SPACE and search for Terminal_
+_NOTE: You can also press `CMD` + `SPACE` and search for Terminal_
 
 ![Open Terminal](../../.gitbook/assets/12-terminal.png)
 
@@ -68,19 +68,20 @@ We have to run the following commands one by one:
 
 ```bash
 cd ~/Desktop
-mkdir taraxa
-cd taraxa
-wget -O docker-compose.yml https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/scripts/docker-compose.yml
-docker-compose up
+wget https://github.com/Taraxa-project/taraxa-ops/archive/refs/heads/master.zip
 ```
 
 {% hint style="danger" %}
-GitHub is blocked in some countries. If you can't run the previous command use the following to start a node without Docker Compose:
-
-```text
-docker run --name taraxa-node -it -p 10002:10002 -p 10002:10002/udp -p 7777:7777 -p 8777:8777 taraxa/taraxa-node:latest join testnet
-```
+GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](../github_blocked.md) document.
 {% endhint %}
+
+```bash
+unzip master.zip
+rm -f master.zip
+cd taraxa-ops-master/taraxa_compose
+docker-compose up -d
+docker-compose logs -f
+```
 
 Now Docker is pulling the Taraxa Node image. You should see something similar to this:
 
@@ -90,25 +91,34 @@ After it finishes pulling the latest version the node will start and you should 
 
 ![Taraxa Started](../../.gitbook/assets/15-started.png)
 
+_NOTE: You can press `CTRL` + `C` to stop displaying the logs
+
 ## 4. Updating the Taraxa Node
 
 From time to time we will release new versions of the node software. Try to keep it up to date using the following commands:
 
 ```bash
-cd ~/Desktop/taraxa
-curl -0 https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/scripts/docker-compose.yml > docker-compose.yml
-docker-compose stop
-docker-compose rm -f
-docker-compose pull
-docker-compose up
+cd ~/Desktop/taraxa-ops-master/taraxa_compose
+curl -0 https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/scripts/docker-compose.yml > docker-compose-new.yml && mv docker-compose-new.yml docker-compose.yml
 ```
 
 {% hint style="danger" %}
-If GitHub is blocked in your country, you can use the following commands:
-
-```text
-docker pull taraxa/taraxa-node:latest
-docker run --name taraxa-node -it -p 10002:10002 -p 10002:10002/udp -p 7777:7777 -p 8777:8777 taraxa/taraxa-node:latest join testnet
-```
+GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](../github_blocked.md) document.
 {% endhint %}
 
+```bash
+docker-compose down
+docker-compose pull
+docker-compose up -d
+docker-compose logs -f
+```
+
+During the testing period, we will also make changes on the protocol level and you will have to re-sync all the data. Don't worry, we will let you know. To remove the current data and do a full re-sync you have to run the following commands:
+
+```bash
+cd ~/Desktop/taraxa-ops-master/taraxa_compose
+docker-compose down -v
+docker-compose pull
+docker-compose up -d
+docker-compose logs -f
+```
