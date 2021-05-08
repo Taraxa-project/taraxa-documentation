@@ -25,7 +25,7 @@ wget https://github.com/Taraxa-project/taraxa-ops/archive/refs/heads/master.zip
 ```
 
 {% hint style="danger" %}
-GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](../github_blocked.md) document.
+GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](node-setup/github_blocked.md) document.
 {% endhint %}
 
 ```bash
@@ -62,7 +62,7 @@ wget -O docker-compose-new.yml https://raw.githubusercontent.com/Taraxa-project/
 ```
 
 {% hint style="danger" %}
-GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](../github_blocked.md) document.
+GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](node-setup/github_blocked.md) document.
 {% endhint %}
 
 ```bash

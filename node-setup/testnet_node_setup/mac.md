@@ -72,7 +72,7 @@ wget https://github.com/Taraxa-project/taraxa-ops/archive/refs/heads/master.zip
 ```
 
 {% hint style="danger" %}
-GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](../github_blocked.md) document.
+GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](node-setup/github_blocked.md) document.
 {% endhint %}
 
 ```bash
@@ -99,11 +99,11 @@ From time to time we will release new versions of the node software. Try to keep
 
 ```bash
 cd ~/Desktop/taraxa-ops-master/taraxa_compose
-curl -0 https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/scripts/docker-compose.yml > docker-compose-new.yml && mv docker-compose-new.yml docker-compose.yml
+curl -0 https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/taraxa_compose/docker-compose.yml > docker-compose-new.yml && mv docker-compose-new.yml docker-compose.yml
 ```
 
 {% hint style="danger" %}
-GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](../github_blocked.md) document.
+GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](node-setup/github_blocked.md) document.
 {% endhint %}
 
 ```bash

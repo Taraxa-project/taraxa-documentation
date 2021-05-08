@@ -83,7 +83,7 @@ In order to run the node we need a set of scripts. You can download the scripts 
 ![Download Taraxa Scripts](../../.gitbook/assets/15-download-scripts.png)
 
 {% hint style="danger" %}
-GitHub is blocked in some countries. If you can't access the previous link please refer to the [GitHub is blocked](../github_blocked.md) document.
+GitHub is blocked in some countries. If you can't access the previous link please refer to the [GitHub is blocked](node-setup/github_blocked.md) document.
 {% endhint %}
 
 Click on "Download ZIP" under the "Code" menu and the download should start.
