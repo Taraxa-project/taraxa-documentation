@@ -11,6 +11,6 @@ description: Getting started with the incentivized testnet
 3. Register the wallet address on our [Community Site](https://community.taraxa.io/)
 
 
-![Node Running](../.gitbook/assets/taraxa-community.png)
+![Community Site](../.gitbook/assets/taraxa-community.png)
 
 4. Check out the nodes page in the [Taraxa Explorer](https://explorer.testnet.taraxa.io/nodes) and see how many blocks your node produced
