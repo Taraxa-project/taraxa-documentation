@@ -68,7 +68,7 @@ We have to run the following commands one by one:
 
 ```bash
 cd ~/Desktop
-wget https://github.com/Taraxa-project/taraxa-ops/archive/refs/heads/master.zip
+curl -L https://github.com/Taraxa-project/taraxa-ops/archive/refs/heads/master.zip > master.zip && unzip master.zip && rm -f master.zip
 ```
 
 {% hint style="danger" %}
@@ -76,8 +76,6 @@ GitHub is blocked in some countries. If you can't run the previous command pleas
 {% endhint %}
 
 ```bash
-unzip master.zip
-rm -f master.zip
 cd taraxa-ops-master/taraxa_compose
 docker-compose up -d
 docker-compose logs -f

@@ -21,17 +21,12 @@ rm -f get-docker.sh
 
 ```bash
 cd ~/
-wget https://github.com/Taraxa-project/taraxa-ops/archive/refs/heads/master.zip
+wget https://github.com/Taraxa-project/taraxa-ops/archive/refs/heads/master.zip && unzip master.zip && rm -f master.zip
 ```
 
 {% hint style="danger" %}
 GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](https://docs.taraxa.io/node-setup/testnet_node_setup/github_blocked) document.
 {% endhint %}
-
-```bash
-unzip master.zip
-rm -f master.zip
-```
 
 ![Download Scripts](../../.gitbook/assets/2-scripts.png)
 
