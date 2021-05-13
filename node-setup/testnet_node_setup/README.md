@@ -2,7 +2,7 @@
 description: A guide to all the ways you can run  a node in a Taraxa public testnet
 ---
 
-# Taraxa Testnet Node Setup
+# Node Setup
 
 You can run a node:
 

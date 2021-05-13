@@ -10,7 +10,6 @@ You can use the following link to get $100 in credits:
 
 [https://m.do.co/c/4143d5ec5500](https://m.do.co/c/4143d5ec5500)
 
-
 ## 2. Create a Personal access token
 
 You can follow this guide to create a personal access token/key:
@@ -44,3 +43,4 @@ sudo docker ps
 
 sudo docker logs -f taraxa_compose_node_1
 ```
+

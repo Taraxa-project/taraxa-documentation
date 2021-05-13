@@ -28,7 +28,7 @@ Now Docker is installing:
 
 After the installation is finished you can click the "Close" button and Docker is going to start automatically.
 
-![Docker Installed](../../.gitbook/assets/5-installed.png)
+![Docker Installed](../../.gitbook/assets/5-installed.png)
 
 ## 2. Install WSL 2
 
@@ -83,7 +83,7 @@ In order to run the node we need a set of scripts. You can download the scripts 
 ![Download Taraxa Scripts](../../.gitbook/assets/15-download-scripts.png)
 
 {% hint style="danger" %}
-GitHub is blocked in some countries. If you can't access the previous link please refer to the [GitHub is blocked](node-setup/github_blocked.md) document.
+GitHub is blocked in some countries. If you can't access the previous link please refer to the [GitHub is blocked](https://docs.taraxa.io/node-setup/testnet_node_setup/github_blocked) document.
 {% endhint %}
 
 Click on "Download ZIP" under the "Code" menu and the download should start.
@@ -129,7 +129,7 @@ Type the following commands one by one:
 ```bash
 cd .\Desktop\taraxa-ops-master\taraxa_compose\
 docker-compose up -d
-docker-compose logs -f 
+docker-compose logs -f
 ```
 
 ![Go to Scripts Folder](../../.gitbook/assets/24-go-to-folder.png)
@@ -142,7 +142,7 @@ After it finishes pulling the latest version the node will start and you should 
 
 ![Node running](../../.gitbook/assets/26-node-running.png)
 
-_NOTE: You can press `CTRL` + `C` to stop displaying the logs
+\_NOTE: You can press `CTRL` + `C` to stop displaying the logs
 
 ## 6. Update the Taraxa Node
 

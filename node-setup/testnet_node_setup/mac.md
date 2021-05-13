@@ -72,7 +72,7 @@ wget https://github.com/Taraxa-project/taraxa-ops/archive/refs/heads/master.zip
 ```
 
 {% hint style="danger" %}
-GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](node-setup/github_blocked.md) document.
+GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](https://docs.taraxa.io/node-setup/testnet_node_setup/github_blocked) document.
 {% endhint %}
 
 ```bash
@@ -91,7 +91,7 @@ After it finishes pulling the latest version the node will start and you should 
 
 ![Taraxa Started](../../.gitbook/assets/15-started.png)
 
-_NOTE: You can press `CTRL` + `C` to stop displaying the logs
+\_NOTE: You can press `CTRL` + `C` to stop displaying the logs
 
 ## 4. Updating the Taraxa Node
 
@@ -103,7 +103,7 @@ curl -0 https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/tarax
 ```
 
 {% hint style="danger" %}
-GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](node-setup/github_blocked.md) document.
+GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](https://github.com/Taraxa-project/taraxa-documentation/tree/f4ee57d43b23f5ad4a2212fa5ec90254d9181f92/node-setup/testnet_node_setup/node-setup/github_blocked.md) document.
 {% endhint %}
 
 ```bash
@@ -122,3 +122,4 @@ docker-compose pull
 docker-compose up -d
 docker-compose logs -f
 ```
+

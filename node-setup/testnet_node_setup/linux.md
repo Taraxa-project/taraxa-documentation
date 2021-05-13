@@ -17,7 +17,7 @@ rm -f get-docker.sh
 
 ![Install Docker](../../.gitbook/assets/1-install.png)
 
-## 2. Download the Taraxa Scripts 
+## 2. Download the Taraxa Scripts
 
 ```bash
 cd ~/
@@ -25,7 +25,7 @@ wget https://github.com/Taraxa-project/taraxa-ops/archive/refs/heads/master.zip
 ```
 
 {% hint style="danger" %}
-GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](node-setup/github_blocked.md) document.
+GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](https://docs.taraxa.io/node-setup/testnet_node_setup/github_blocked) document.
 {% endhint %}
 
 ```bash
@@ -49,7 +49,6 @@ The node will start after Docker pulls the latest Taraxa Node image.
 
 ![Node Running](../../.gitbook/assets/4-taraxa.png)
 
-
 _NOTE: You can press `CTRL` + `C` to stop displaying the logs_
 
 ## 4. Update the Taraxa Node
@@ -62,7 +61,7 @@ wget -O docker-compose-new.yml https://raw.githubusercontent.com/Taraxa-project/
 ```
 
 {% hint style="danger" %}
-GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](node-setup/github_blocked.md) document.
+GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](https://github.com/Taraxa-project/taraxa-documentation/tree/f4ee57d43b23f5ad4a2212fa5ec90254d9181f92/node-setup/testnet_node_setup/node-setup/github_blocked.md) document.
 {% endhint %}
 
 ```bash
@@ -81,3 +80,4 @@ sudo docker-compose pull
 sudo docker-compose up -d
 sudo docker-compose logs -f
 ```
+
