@@ -1,5 +1,5 @@
 ---
-description: Getting started with the incentivized testnet
+description: Getting started with the Taraxa Incentivized Testnet
 ---
 
 # Getting started
