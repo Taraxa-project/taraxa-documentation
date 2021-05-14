@@ -24,5 +24,6 @@
   * [Upgrading Node Software](node-setup/upgrade-a-node/software-upgrade.md)
   * [Performing a Data Reset](node-setup/upgrade-a-node/data-reset.md)
 * [Find Node's Public Address](node-setup/node_address.md)
+* [Register Node For Rewards](node-setup/register-node-for-rewards.md)
 * [Testnet Resources](node-setup/testnet_resources.md)
 

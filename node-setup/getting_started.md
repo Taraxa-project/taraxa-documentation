@@ -4,11 +4,21 @@ description: Getting started with the incentivized testnet
 
 # Getting started
 
-1. Set up a Taraxa node. You can find documentation for your OS [here](https://github.com/Taraxa-project/taraxa-documentation/tree/3daf79a1292f2c8be5315fe5ee36ddb398c291aa/testnet/node-setup/testnet_node_setup/README.md)
-2. Find out your node's public wallet address by following this [guide](https://github.com/Taraxa-project/taraxa-documentation/tree/3daf79a1292f2c8be5315fe5ee36ddb398c291aa/testnet/node-setup/testnet_node_setup/README.md)
-3. Register the wallet address on our [Community Site](https://community.taraxa.io/)
+**Getting started** is **super simple**, helps accelerate Taraxa's **path to Mainnet** and makes you eligible to **earn rewards**.   All in three easy steps...
 
-![Community Site](../.gitbook/assets/taraxa-community.png)
+### Step 1
+
+{% page-ref page="testnet\_node\_setup/" %}
+
+### Step 2
+
+{% page-ref page="node\_address.md" %}
+
+### Step 3
+
+{% page-ref page="register-node-for-rewards.md" %}
+
+
 
 1. Check out the nodes page in the [Taraxa Explorer](https://explorer.testnet.taraxa.io/nodes) and see how many blocks your node produced
 
