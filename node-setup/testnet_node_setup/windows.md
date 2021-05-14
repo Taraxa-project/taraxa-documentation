@@ -146,25 +146,9 @@ After it finishes pulling the latest version the node will start and you should 
 
 ## 6. Update the Taraxa Node
 
-From time to time we will release new versions of the node software. Try to keep it up to date using the following commands:
+From time to time we will announce software updates and breaking protocol changes to the testnet via the \#node-operations channel in our [Taraxa community Discord](https://discord.com/invite/WaXnwUb), Telegram channel and Twitter account.
 
-```bash
-cd .\Desktop\taraxa-ops-master\taraxa_compose\
-docker-compose down
-docker-compose pull
-docker-compose up -d
-docker-compose logs -f
-```
+{% page-ref page="../upgrade-a-node/" %}
 
-During the testing period, we will also make changes on the protocol level and you will have to re-sync all the data. Don't worry, we will let you know. To remove the current data and do a full re-sync you have to run the following commands:
 
-```bash
-cd .\Desktop\taraxa-ops-master\taraxa_compose\
-docker-compose down -v
-docker-compose pull
-docker-compose up -d
-docker-compose logs -f
-```
-
-![Update node](../../.gitbook/assets/27-update-node.png)
 

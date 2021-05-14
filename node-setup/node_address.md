@@ -2,7 +2,7 @@
 description: Guide for getting your node's public address
 ---
 
-# Getting the node's public address
+# Find Node's Public Address
 
 To find out your node's public address you can run the following command in a new terminal window while the node is running:
 

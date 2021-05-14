@@ -11,15 +11,18 @@
 * [Governance](tech-whitepaper/governance.md)
 * [Further Reading](tech-whitepaper/further-reading.md)
 
-## Testnet <a id="node-setup"></a>
+## Join the Testnet <a id="node-setup"></a>
 
 * [Getting started](node-setup/getting_started.md)
-* [Node Setup](node-setup/testnet_node_setup/README.md)
+* [Install a Node](node-setup/testnet_node_setup/README.md)
   * [Windows](node-setup/testnet_node_setup/windows.md)
   * [Mac](node-setup/testnet_node_setup/mac.md)
   * [Linux](node-setup/testnet_node_setup/linux.md)
   * [Digital Ocean](node-setup/testnet_node_setup/digital_ocean.md)
   * [GitHub is blocked](node-setup/testnet_node_setup/github_blocked.md)
-* [Getting the node's public address](node-setup/node_address.md)
+* [Upgrade a Node](node-setup/upgrade-a-node/README.md)
+  * [Software Upgrade](node-setup/upgrade-a-node/software-upgrade.md)
+  * [Data Reset](node-setup/upgrade-a-node/data-reset.md)
+* [Find Node's Public Address](node-setup/node_address.md)
 * [Testnet Resources](node-setup/testnet_resources.md)
 
