@@ -14,11 +14,11 @@ It is our firm belief that technologies are meant to solve real world problems, 
 
 This is why we created Taraxa, a purpose-built public ledger to enable us to specifically solve challenges caused by friction in business coordination & decision-making processes. 
 
-## Getting started
+## Get Involved!
 
 If you're curious about our technology, check out the [Architecture ](tech-whitepaper/taraxa-architecture.md)section of our whitepaper. 
 
-If you wish to run a node, check out our [Node Setup]() section. 
+If you wish to run a node, check out how you can [join our incentivized testnet](node-setup/getting_started.md). 
 
 Our first application is live! Check out [Marinate](www.marinate.io). 
 
