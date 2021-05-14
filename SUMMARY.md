@@ -2,15 +2,6 @@
 
 * [Welcome!](README.md)
 
-## Whitepaper <a id="tech-whitepaper"></a>
-
-* [Abstract](tech-whitepaper/abstract.md)
-* [Intro: Scaling the World](tech-whitepaper/introduction.md)
-* [Taraxa Architecture](tech-whitepaper/taraxa-architecture.md)
-* [Economic Model](tech-whitepaper/economic-model.md)
-* [Governance](tech-whitepaper/governance.md)
-* [Further Reading](tech-whitepaper/further-reading.md)
-
 ## Join the Testnet <a id="node-setup"></a>
 
 * [Getting started](node-setup/getting_started.md)
@@ -26,4 +17,13 @@
 * [Find Node's Public Address](node-setup/node_address.md)
 * [Register Node For Rewards](node-setup/register-node-for-rewards.md)
 * [Testnet Resources](node-setup/testnet_resources.md)
+
+## Whitepaper <a id="tech-whitepaper"></a>
+
+* [Abstract](tech-whitepaper/abstract.md)
+* [Intro: Scaling the World](tech-whitepaper/introduction.md)
+* [Taraxa Architecture](tech-whitepaper/taraxa-architecture.md)
+* [Economic Model](tech-whitepaper/economic-model.md)
+* [Governance](tech-whitepaper/governance.md)
+* [Further Reading](tech-whitepaper/further-reading.md)
 
