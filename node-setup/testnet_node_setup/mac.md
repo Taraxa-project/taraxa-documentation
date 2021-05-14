@@ -93,7 +93,7 @@ After it finishes pulling the latest version the node will start and you should 
 
 ![Taraxa Started](../../.gitbook/assets/15-started.png)
 
-\_NOTE: You can press `CTRL` + `C` to stop displaying the logs
+**NOTE:** _You can press_ `CTRL` + `C` _to stop displaying the logs_
 
 ## 4. Updating the Taraxa Node
 
