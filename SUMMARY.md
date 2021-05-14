@@ -21,8 +21,8 @@
   * [Digital Ocean](node-setup/testnet_node_setup/digital_ocean.md)
   * [GitHub is blocked](node-setup/testnet_node_setup/github_blocked.md)
 * [Upgrade a Node](node-setup/upgrade-a-node/README.md)
-  * [Software Upgrade](node-setup/upgrade-a-node/software-upgrade.md)
-  * [Data Reset](node-setup/upgrade-a-node/data-reset.md)
+  * [Upgrading Node Software](node-setup/upgrade-a-node/software-upgrade.md)
+  * [Performing a Data Reset](node-setup/upgrade-a-node/data-reset.md)
 * [Find Node's Public Address](node-setup/node_address.md)
 * [Testnet Resources](node-setup/testnet_resources.md)
 

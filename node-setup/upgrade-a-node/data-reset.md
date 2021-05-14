@@ -1,4 +1,4 @@
-# Data Reset
+# Performing a Data Reset
 
 ### How to reset your node's data
 

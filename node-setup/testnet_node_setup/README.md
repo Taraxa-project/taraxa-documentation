@@ -4,24 +4,17 @@ description: A guide to all the ways you can run  a node in a Taraxa public test
 
 # Install a Node
 
-You can run a node:
+Installing a node takes only a few minutes.   The easiest way to deploy a persistent node that will be "always-on" is using a VPS service in the cloud.   
 
-### On a local machine...
+## Local Machine Installation
 
 {% page-ref page="windows.md" %}
-
-* Via deploy to a host in the cloud:
-  * [Digital Ocean](digital_ocean.md)
-* On any machine with Docker:
-  * [Windows](windows.md)
-  * [Linux](linux.md)
-  * [Mac](mac.md)
 
 {% page-ref page="mac.md" %}
 
 {% page-ref page="linux.md" %}
 
-### On your favorite VPS service...
+## VPS Service Installation
 
 {% page-ref page="digital\_ocean.md" %}
 

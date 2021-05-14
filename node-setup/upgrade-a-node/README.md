@@ -1,20 +1,28 @@
 ---
-description: Instruction for the easy upgrade of testnet nodes
+description: Instructions for the easy upgrade of Taraxa nodes on the Testnet
 ---
 
 # Upgrade a Node
 
-## Everything you need to know about maintaining your node
+## When to Upgrade Your Node
 
-### [Software Upgrade](software-upgrade.md)
+We will be announcing node upgrades in our Discord and other communication channels. Sometimes this will require only a software upgrade and sometimes we will also ask you to reset the data on your node when we perform a protocol change on our way to Mainnet. Doing both steps is easy, and will be very clear about when they are needed.  Don't worry!
+
+## Software Upgrade
+
+Software upgrades are needed when we make bug fixes and performance improvements to the node code. The Taraxa node is under very active development and improvement as we follow our roadmap to Mainnet.
+
+{% page-ref page="software-upgrade.md" %}
+
+## Data Reset
+
+Less frequent than software upgrades, we will occasionally roll-out new features and protocol changes that are most easily addressed by resetting the data within the Testnet. In those cases we will be very clear about the need for a data reset.
+
+{% page-ref page="data-reset.md" %}
 
 
 
 
-
-### [Data Reset](data-reset.md) 
-
-required after breaking protocol 
 
 
 

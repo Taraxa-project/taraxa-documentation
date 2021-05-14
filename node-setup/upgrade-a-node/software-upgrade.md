@@ -1,4 +1,4 @@
-# Software Upgrade
+# Upgrading Node Software
 
 ### Upgrade your node's software
 
