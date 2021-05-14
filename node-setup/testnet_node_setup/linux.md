@@ -4,6 +4,10 @@ description: Guide for running the Taraxa Node with Docker on Linux
 
 # Linux
 
+{% hint style="info" %}
+These instructions are specific to Linux. Instructions are also available for [Windows](windows.md) and [Mac](mac.md).
+{% endhint %}
+
 ## 1. Install Docker
 
 Open a terminal window and run the following commands to install Docker:

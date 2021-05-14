@@ -4,6 +4,10 @@ description: Guide for running the Taraxa Node with Docker on Windows
 
 # Windows
 
+{% hint style="info" %}
+These instructions are specific to Windows.  Instructions are also available for [Mac](mac.md) and [Linux](linux.md).
+{% endhint %}
+
 ## 1. Install Docker
 
 Before running the node we need to install Docker.

@@ -4,6 +4,10 @@ description: Guide for running the Taraxa Node with Docker on Mac
 
 # Mac
 
+{% hint style="info" %}
+These instructions are specific to Mac.  Instructions are also available for [Windows](windows.md) and [Linux](linux.md).
+{% endhint %}
+
 ## 1. Download Docker Desktop
 
 You can download Docker Desktop by accessing [this link for Intel Macs](https://desktop.docker.com/mac/stable/amd64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-mac-amd64) or [this link for Apple chip Macs](https://desktop.docker.com/mac/stable/arm64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-mac-arm64).
