@@ -80,7 +80,7 @@ GitHub is blocked in some countries. If you can't run the previous command pleas
 {% endhint %}
 
 ```bash
-cd taraxa-ops-master/taraxa_compose
+cd ~/Desktop/taraxa-ops-master/taraxa_compose
 docker-compose up -d
 docker-compose logs -f
 ```
