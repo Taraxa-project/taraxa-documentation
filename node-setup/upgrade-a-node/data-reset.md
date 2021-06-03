@@ -10,6 +10,7 @@ During the testing period, we will also make changes on the protocol level and y
 cd .\Desktop\taraxa-ops-master\taraxa_compose\
 docker-compose down -v
 docker-compose pull
+del config\testnet.json
 docker-compose up -d
 docker-compose logs -f
 ```
@@ -20,6 +21,7 @@ docker-compose logs -f
 cd ~/Desktop/taraxa-ops-master/taraxa_compose
 docker-compose down -v
 docker-compose pull
+rm -f config/testnet.json
 docker-compose up -d
 docker-compose logs -f
 ```
@@ -30,6 +32,7 @@ docker-compose logs -f
 cd ~/taraxa-ops-master/taraxa_compose
 sudo docker-compose down -v
 sudo docker-compose pull
+rm -f config/testnet.json
 sudo docker-compose up -d
 sudo docker-compose logs -f
 ```
