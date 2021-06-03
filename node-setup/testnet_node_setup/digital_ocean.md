@@ -24,9 +24,15 @@ Make a note of that key. We will use it in the next step.
 If you are running this on Windows you will first need to install Windows Subsystem for Linux. You can use [this guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 {% endhint %}
 
+Export your Digital Ocean access token to your environment so that the node creation script can access it without prompting you for it:
+
 ```bash
 export DIGITALOCEAN_ACCESS_TOKEN=your-token
+```
 
+Then you can download and run the node creation script using this command:
+
+```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/scripts/one-click-DO.sh)"
 ```
 
