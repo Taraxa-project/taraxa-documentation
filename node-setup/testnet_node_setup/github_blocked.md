@@ -62,23 +62,17 @@ mkdir -p taraxa/conf
 cd taraxa
 ```
 
-Now for creating the config file we have to run the following command:
+Now to configure and start the node we can run the following commands:
 
 ```text
-docker run --rm -v $(pwd):/opt/taraxa_data taraxa/taraxa-node:latest cli config node --network testnet --file /opt/taraxa_data/conf/testnet.json --prop-override db_path:/opt/taraxa_data/data
-```
-
-_NOTE: If Linux is complaining about permissions you can prefix these commands with `sudo`_
-
-And now to start the node we can run the following commmands:
-
-```text
-docker run -d --name taraxa_compose_node_1 -it -p 10002:10002 -p 10002:10002/udp -p 7777:7777 -p 8777:8777 -v $(pwd):/opt/taraxa_data taraxa/taraxa-node:latest taraxad --conf_taraxa /opt/taraxa_data/conf/testnet.json
+docker run -d --name taraxa_compose_node_1 -it -p 10002:10002 -p 10002:10002/udp -p 7777:7777 -p 8777:8777 -v $(pwd):/opt/taraxa_data taraxa/taraxa-node:latest taraxad --network-id 2 --wallet /opt/taraxa_data/conf/wallet.json --config /opt/taraxa_data/conf/testnet.json --data-dir /opt/taraxa_data/data --overwrite-config
 
 docker logs -f taraxa_compose_node_1
 ```
 
 Now the node should start.
+
+_NOTE: If Linux is complaining about permissions you can prefix these commands with `sudo`_
 
 ### Update node software
 
