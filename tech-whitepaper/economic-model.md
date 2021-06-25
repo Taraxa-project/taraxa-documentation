@@ -28,15 +28,20 @@ The target tokens distribution will be as follows,
 
 | Distribution | % |
 | :--- | ---: |
-| Private sales | 24.1% |
-| Community | 40.9% |
+| Seed sales | 9% |
+| Private sales | 15.1% |
+| Public sales | 11.8% |
 | Team | 15% |
 | Foundation | 20% |
+| Community & Ecosystem | 28.4% |
+| Exchange Security Deposit | 0.65% |
 
-* **Private sales** took place and has ended in 2018. 
-* **Community** refers to a collection of tokens reserved to ensure the ongoing health and sustainability of the Taraxa ecosystem, including funding for development grants, bug bounties, driving application adoption, and raising awareness 
-* Taraxa’s founding **team** members are committed to the long-term success of the network and will hold their token allocations for an extended period. 
-* The **Foundation** intends to keep a certain number of tokens to continue contributing to the Taraxa ecosystem and to participate in the decentralized network operations. 
+* **Seed** and **Private** rounds took place in 2018. 
+* **Public Sale** took place in March of 2021, the proceeds of which will go to fund the ongoing technology development, business development, as well as token listing in the short-term. 
+* Taraxa’s **team** members committed to the long-term success of the network and will hold their token allocations for an extended period.
+* The Taraxa **Foundation** intends to keep a certain number of tokens indefinitely \(not to be sold\) to help bootstrap and continue to participate in the decentralized network’s operations. 
+* **Community & Ecosystem** funds are used to ensure the ongoing health and sustainability of the Taraxa ecosystem, including funding for development grants, bug bounties, driving application adoption, and raising awareness in the medium to long-term.
+* **Exchange Security Deposits** were security deposits mandated by the exchanges the Foundation has partnered with, these are not meant to be circulated. 
 
 ### 
 
