@@ -8,7 +8,7 @@ description: Guide for running the Taraxa Node with Docker on Vultr
 
 You can use the following link to get $100 to test out their platform:
 
-[https://www.vultr.com/?ref=8470103-6G](https://www.vultr.com/?ref=8470103-6G)
+[https://www.vultr.com/?ref=8908059-6G](https://www.vultr.com/?ref=8908059-6G)
 
 ## 2. Create a Personal access token
 
