@@ -11,6 +11,7 @@
   * [Linux](node-setup/testnet_node_setup/linux.md)
   * [Digital Ocean](node-setup/testnet_node_setup/digital_ocean.md)
   * [Vultr](node-setup/testnet_node_setup/vultr.md)
+  * [Hetzner](node-setup/testnet_node_setup/hetzner.md)
   * [GitHub is blocked](node-setup/testnet_node_setup/github_blocked.md)
 * [Upgrade a Node](node-setup/upgrade-a-node/README.md)
   * [Upgrading Node Software](node-setup/upgrade-a-node/software-upgrade.md)
