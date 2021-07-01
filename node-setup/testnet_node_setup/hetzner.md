@@ -8,7 +8,7 @@ description: Guide for running the Taraxa Node with Docker on Hetzner
 
 You can use the following link to get Euro 20 to test out Hetzner Cloud:
 
-[https://hetzner.cloud/?ref=c0rOjmxysd7i](https://hetzner.cloud/?ref=c0rOjmxysd7i)
+[https://hetzner.cloud/](https://hetzner.cloud/)
 
 ## 2. Create a Project API access token
 
