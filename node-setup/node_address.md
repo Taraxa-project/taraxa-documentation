@@ -22,7 +22,7 @@ You should see an output similar to the following:
 }
 ```
 
-The public address is the first field in the output. In this case `49a303283915277ec9c8cb87f50368d2be41f38b`
+The public address is the first field in the output. In this case the address is:`49a303283915277ec9c8cb87f50368d2be41f38b`
 
 When registering this address on our community account you should add a `0x` prefix before it. Example:
 
