@@ -1,4 +1,4 @@
-# Azure
+# Google Cloud
 
 ## 1. Create a Google Cloud account
 
