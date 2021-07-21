@@ -12,8 +12,7 @@ You can use the following link to get Euro 20 to test out Hetzner Cloud:
 
 ## 2. Create a Project API access token
 
-First, create a project in the [Hetnzer Cloud Console](https://console.hetzner.cloud/)
-Then select the project and create an API access token in the Security menu under API Tokens tab. 
+First, create a project in the [Hetnzer Cloud Console](https://console.hetzner.cloud/) Then select the project and create an API access token in the Security menu under API Tokens tab.
 
 Make a note of that key. We will use it in the next step.
 

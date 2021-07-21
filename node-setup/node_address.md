@@ -24,6 +24,10 @@ You should see an output similar to the following:
 
 The public address is the first field in the output. In this case `49a303283915277ec9c8cb87f50368d2be41f38b`
 
+When registering this address on our community account you should add a `0x` prefix before it. Example:
+
+`0x49a303283915277ec9c8cb87f50368d2be41f38b`
+
 {% hint style="danger" %}
 Don't share your private key or config file with others. They can be used to take control of your wallet.
 

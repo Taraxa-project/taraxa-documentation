@@ -2,9 +2,9 @@
 description: Guide for running the Taraxa Node with Docker on Alibaba Cloud
 ---
 
-# Alibaba Cloud(Aliyun)
+# Alibaba Cloud
 
-## 1. Register to Alibaba Cloud(Aliyun)
+## 1. Register to Alibaba Cloud\(Aliyun\)
 
 You can use the following link to get a discount:
 
