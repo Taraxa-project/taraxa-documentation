@@ -10,6 +10,7 @@
   * [Mac](node-setup/testnet_node_setup/mac.md)
   * [Linux](node-setup/testnet_node_setup/linux.md)
   * [Digital Ocean](node-setup/testnet_node_setup/digital_ocean.md)
+  * [AWS](node-setup/testnet_node_setup/aws.md)
   * [Alibaba Cloud](node-setup/testnet_node_setup/alibaba_cloud.md)
   * [Vultr](node-setup/testnet_node_setup/vultr.md)
   * [Hetzner](node-setup/testnet_node_setup/hetzner.md)
