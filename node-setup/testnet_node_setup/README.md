@@ -20,6 +20,20 @@ Installing a node takes only a few minutes.   _The easiest way to deploy a persi
 
 {% page-ref page="digital\_ocean.md" %}
 
+{% page-ref page="aws.md" %}
+
+{% page-ref page="azure.md" %}
+
+{% page-ref page="scaleway.md" %}
+
+{% page-ref page="vultr.md" %}
+
+{% page-ref page="hetzner.md" %}
+
+{% page-ref page="alibaba\_cloud.md" %}
+
+
+
 {% hint style="info" %}
 If you want to help create install scripts and documentation for additional VPS platforms we offer [bounty rewards](https://community.taraxa.io/).
 {% endhint %}

@@ -42,11 +42,10 @@ _NOTE: It takes a few minutes after the droplet starts to install the Taraxa Nod
 
 Where is the SSH key?
 
-- If you have added a SSH public key to your default project via Scaleway console page, the script will use it.
+* If you have added a SSH public key to your default project via Scaleway console page, the script will use it.
+* If you haven't set a public key, the script will generate a new SSH key. You can find the new public key and private key in this directory: `~/.ssh/`.
 
-- If you haven't set a public key, the script will generate a new SSH key. You can find the new public key and private key in this directory: `~/.ssh/`.
-
-  ```shell
+  ```text
   ls -al .ssh/ | grep "taraxa"
   ```
 
