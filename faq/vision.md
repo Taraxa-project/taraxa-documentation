@@ -104,9 +104,9 @@ The same considerations would apply on-chain as well. These ideas aren't really 
 
 More details:  
 
-* \( qa on vision \) 
-* \( qa on informal tx \)
-* \( qa on reputation \) 
+* [Our vision](vision.md#whats-taraxas-vision)
+* [Informal transactions](vision.md#what-is-an-informal-transaction)
+* [Reputation](vision.md#how-do-you-infer-reputation-from-informal-transactions)
 
 
 
