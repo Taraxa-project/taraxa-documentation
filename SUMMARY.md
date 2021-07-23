@@ -33,3 +33,11 @@
 * [Governance](tech-whitepaper/governance.md)
 * [Further Reading](tech-whitepaper/further-reading.md)
 
+## FAQ
+
+* [Vision](faq/vision.md)
+* [Layer-1 Tech](faq/layer-1-tech.md)
+* [TARA Token](faq/tara-token.md)
+* [Testnet](faq/testnet.md)
+* [General Questions](faq/general-questions.md)
+
