@@ -22,6 +22,12 @@ Download the node install script like so:
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/scripts/one-click-GC.sh)"
 ```
 
+Before running the script, if you have already set up a Google Cloud project you would like to use, you can use an environment variable USE_PROJECT_ID and provide the project's id there.
+
+```bash
+export USE_PROJECT_ID=<projects-id>
+```
+
 You should get a Google Cloud login window in your browser after running the script. Login to proceed and click Allow when prompted.
 
 The script will run for a while and will set you up with a new project consisting of a  Compute Engine VM instance in random region, with proper firewall.
