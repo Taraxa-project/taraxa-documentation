@@ -32,6 +32,8 @@ Installing a node takes only a few minutes.   _The easiest way to deploy a persi
 
 {% page-ref page="alibaba\_cloud.md" %}
 
+{% page-ref page="linode.md" %}
+
 
 
 {% hint style="info" %}
