@@ -1,3 +1,7 @@
+---
+description: Guide for running the Taraxa Node with Docker on Google Cloud
+---
+
 # Google Cloud
 
 ## 1. Create a Google Cloud account
