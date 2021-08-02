@@ -100,11 +100,11 @@ In the real world, loans are almost always structured based on a mix of collater
 
 The same considerations would apply on-chain as well. These ideas aren't really new or complicated, just look to what's happening today in the off-chain real world and you can see how reputation signals \(e.g., credit scores\) are being used.
 
-## Can Taraxa be used to serve DeFi / NFT / \(insert your favorite use case here\)? 
+## Can Taraxa be used to serve \(insert your favorite use case here\)? 
 
-**Short answer**: Yes, Taraxa is a fully-featured, next-generation smart contract platform. You can run pretty much anything on it. But we're focused on informal transactions. 
+**Shorter answer**: Yes, Taraxa is a next-generation smart contract platform and you can run anything on it.
 
-**Longer answer**: We see Taraxa as a purpose-built, full-stack ecosystem serving informal transactions and the signals we can capture from it. We're not trying to pull in whatever happens to be the hottest DApps on the market today.  
+**Longer answer**: We see Taraxa as a purpose-built, full-stack ecosystem serving informal transactions and the signals we can capture from it. We're not trying to pull in whatever happens to be the hottest DApps on the market today. 
 
 To build a sustainable ecosystem for the long term,  you have to build up your own, organically-grown networking effects. For example, ETH is _the_ finance ecosystem, even when ETH 1.0 is slow and expensive, users still stick with it because the switching cost is too high and the networking effect too big. That's ETH's killer app. 
 
