@@ -14,6 +14,7 @@
   * [Alibaba Cloud](node-setup/testnet_node_setup/alibaba_cloud.md)
   * [Scaleway](node-setup/testnet_node_setup/scaleway.md)
   * [Vultr](node-setup/testnet_node_setup/vultr.md)
+  * [Linode](node-setup/testnet_node_setup/linode.md)
   * [Azure](node-setup/testnet_node_setup/azure.md)
   * [Hetzner](node-setup/testnet_node_setup/hetzner.md)
   * [GitHub is blocked](node-setup/testnet_node_setup/github_blocked.md)
