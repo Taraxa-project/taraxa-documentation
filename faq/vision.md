@@ -84,11 +84,19 @@ These are just generalized examples. If you leverage this onto a highly speciali
 
 All of these information could be used to quantify various aspects of reputation, which in turn could be used to create non-collateralized finance signals, or become basis of a new class of crypto assets.
 
+## Can Taraxa enable DeFi? 
+
+As mentioned in the [reputation FAQ question](vision.md#how-do-you-infer-reputation-from-informal-transactions), the informal transactions collected by Taraxa's applications and protocol can produce powerful reputation signals to enable non-collateralized financial instruments. How DeFi protocol use these signal is up to them. But looking at the real world, purely reputation-based finance is pretty rare and they do carry significant risk. 
+
+In the off-chain \(real\) world, all financial instruments take into account a mix of collateral and reputation. Take a classic loan for example, if your reputation is bad or non-existent, then perhaps I will give you 50 cents on the dollar for your collateral, but if you have great reputation, maybe it'll be 70 cents on the dollar. 
+
+In the DeFi world, all financial instruments are currently _purely collateral-based_ - all these instruments only look at how much collateral is locked in on the asset holder. Imagine what we could do if on-chain reputation signals are made available, signals that are underpinned by real world business activities. 
+
+We are building Taraxa to enable the next evolution of DeFi with verifiable reputation signals. 
+
 ## Won't you lose money by offering on-chain loans based on reputation? 
 
-Taraxa aims to offer reputation as a signal to enable non-collateralized financial instruments, how the DeFi protocol uses that signal is up to them. But looking at the real world, purely reputation-based finance is pretty rare and they do carry significant risk. 
-
-In the off-chain \(real\) world, a loan for example is usually a mix of collateral and reputation. For example, if your reputation is bad or non-existent, then perhaps I will give you 50 cents on the dollar for your collateral, but if you have great reputation, maybe it'll be 70 cents on the dollar. If a loan is purely based on reputation with no collateral to fall back on, that loan carries significant risk of default, and is exploitable by bad actors. 
+In the real world, loans are almost always structured based on a mix of collateral and reputation. If someone structures a loan purely based on reputation with no collateral to fall back on, that loan obviously carries significant risk of default, and is exploitable by bad actors. 
 
 The same considerations would apply on-chain as well. These ideas aren't really new or complicated, just look to what's happening today in the off-chain real world and you can see how reputation signals \(e.g., credit scores\) are being used.
 
