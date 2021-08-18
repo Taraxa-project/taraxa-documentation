@@ -84,7 +84,9 @@ These are just generalized examples. If you leverage this onto a highly speciali
 
 All of these information could be used to quantify various aspects of reputation, which in turn could be used to create non-collateralized finance signals, or become basis of a new class of crypto assets.
 
-More details on how informal transactions can be used to generate quantifiable reputation can be found in the [August 12, 2021 AMA.](https://youtu.be/X5ORtVMuyo0?t=232) 
+More details: 
+
+* [August 12, 2021 AMA](https://youtu.be/X5ORtVMuyo0?t=232): how informal transactions can be used to generate quantifiable reputation.  
 
 ## Can Taraxa enable DeFi? 
 
