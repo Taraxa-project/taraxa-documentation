@@ -51,8 +51,6 @@ You can find the password in the log output by the script. It is randomly genera
   ls -al .ssh/ | grep "taraxa"
   ```
 
-
-
 Next, you can login your instance.
 
 ## 5. Check the logs
@@ -64,3 +62,4 @@ sudo docker ps
 
 sudo docker logs -f taraxa_compose_node_1
 ```
+

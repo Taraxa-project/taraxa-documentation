@@ -32,25 +32,29 @@ Here are more details around the **economics** \([https://docs.taraxa.io/tech-wh
 
 The Taraxa network depends on proof of stake, therefore staking is a critical part of network security. We intend to roll out staking in several stages. 
 
-* **Simulated staking** - consists of a simple contract and a web-based UI \(part of the community site\) that enables simple lock-in of TARA tokens on the ETH network, earning stakers period yields. This is to help us understand user behaviors and get the word out prior to mainnet release. 
-* Mirrored staking - a Taraxa-ETH bridge will be set up whereby the stakes on ETH are read over to the staking contracts on the Taraxa testnet, this will help to test the actual staking contract without putting real assets at risk. 
+* **Pre-staking** - consists of a simple contract and a web-based UI \(part of the community site\) that enables simple lock-in of TARA tokens on the ETH network, earning stakers period yields. This is to help us understand user behaviors and get the word out prior to mainnet release. 
+* **Mirrored staking** - a Taraxa-ETH bridge will be set up whereby the stakes on ETH are read over to the staking contracts on the Taraxa testnet, this will help to test the actual staking contract without putting real assets at risk. 
 * **Mainnet staking** - after mainnet is released, staking will simply take place on the mainnet via native tokens. 
 
 Please also read more about Taraxa's [economics](../tech-whitepaper/economic-model.md). 
 
-\*\*\*\*
+## Will there be token burning?
 
-\*\*\*\*
+The Taraxa core development team looked very closely into Ethereum's [EIP-1559](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1559.md), and found its goals of making transactions fees more predictable and less volatile a highly laudable goal. Without going into details, the fixed component of the fees is burned during the process while the variable is tipped to the miner. 
 
-****
+Something similar is likely to be implemented in the Taraxa protocol as well, we'll keep the community updated on this. 
 
+## What’s Taraxa’s governance model?
 
+You can read more about the Foundation's proposed [governance model](../tech-whitepaper/governance.md#7-governance) here in our whitepaper. After mainnet deployment, the core team will work hard to build in governance mechanisms directly into the code to prepare for truly decentralized and community-driven decision-making process. 
 
+## How and when can I claim my rewards?
 
+You may claim your rewards at Taraxa's [claim site](https://claim.taraxa.io/). Please note that, in order to be eligible to claim rewards in the form of tokens, you must pass our KYC process on the [community site](https://community.taraxa.io/). 
 
+## Does Taraxa currently have active bounties?
 
-
-
+The Taraxa Foundation is always coming up with new ways to actively engage the community at large, check out current bounties here at the [community site](https://community.taraxa.io/). 
 
 
 

@@ -5,7 +5,7 @@ description: A guide to all the ways you can run  a node in a Taraxa public test
 # Install a Node
 
 {% hint style="info" %}
-Installing a node takes only a few minutes.   _The easiest way to deploy a persistent node that will be "always-on" is using a VPS service in the cloud._
+Installing a node takes only a few minutes. _The easiest way to deploy a persistent node that will be "always-on" is using a VPS service in the cloud._
 {% endhint %}
 
 ## Local Machine Installation
@@ -33,8 +33,6 @@ Installing a node takes only a few minutes.   _The easiest way to deploy a persi
 {% page-ref page="alibaba\_cloud.md" %}
 
 {% page-ref page="linode.md" %}
-
-
 
 {% hint style="info" %}
 If you want to help create install scripts and documentation for additional VPS platforms we offer [bounty rewards](https://community.taraxa.io/).
