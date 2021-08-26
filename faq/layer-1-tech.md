@@ -82,9 +82,5 @@ The Taraxa team believes leading by example. In order to start gaining massive a
 
 We have built several DApp platforms that are deployed with customers today, and as of this writing we're building a cryto-native application use case as well, stay tuned! 
 
-More details, 
 
-* Protect machine state integrity: \( what is Helio \) 
-* Clarify change order management: \( what is Marinate \)
-* \( future Dapps \)
 
