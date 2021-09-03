@@ -55,7 +55,7 @@ Taraxa token holders may use the token to initiate and pay for the cost of proce
 
 Taraxa token holders may choose to stake their tokens via bonding to become an eligible validator of the network, responsible for processing the network’s transactions and maintaining the network’s overall security and integrity. As an indication of commitment to the system and service standard assurance, users would be required to place an amount of Taraxa token as security deposit before it may participate in mining for the benefit of the network.
 
-To become a validator, a fixed number of Taraxa tokens will need to be staked. Since the total token supply in the network is fixed, the maximum number of validators is also fixed. These rules will be set at network launch and are subject to change per stakeholders’ voting. 
+Specific rules for validator eligibility will be set at network launch and are subject to change per stakeholders’ voting. In general, we want there to be a minimum amount staked and/or delegated to a specific node to participate in consensus, but we want to keep that threshold low to maximize participation. We also want to make sure there's a cap for the amount of tokens staked and/or delegated to a single consensus node, so that there isn't excessive concentration \(centralization\) of stake into any particular node. 
 
 
 
