@@ -10,7 +10,7 @@ Taraxa aims to democratize reputation by tracking informal transactions.
 
 The Taraxa public ledger platform purpose-built for audit logging of informal transactions, agreements, and data. In the short term, it offers immediate **operational value** to users by minimizing the amount of confusion and disputes. In the long term, it enables **financial value** by deriving **quantifiable and verifiable reputation** from these informal transactions which enables non-collateralized financial instruments over DeFi. 
 
-More details here: [https://taraxa.io/vision](https://taraxa.io/vision). 
+More details from our [vision statement](https://taraxa.io/vision). 
 
 ## Is this a Layer-1 project or a DApp?  
 
@@ -37,7 +37,7 @@ Informal transactions are everywhere, here are some examples,
 * You're an account who made a change to a spreadsheet and wanted to make sure your client is OK with it,  you quickly send them a text, and they confirmed it's OK. 
 * You're a construction contractor digging through the road and hit a natural gas pipeline, you sent the prime contractor a quick email if you should stop or go around it, they said to go around it while they get an update from the county government. 
 
-Here's a video explanation: [https://youtu.be/AhJBAZ2Hwyk](https://youtu.be/AhJBAZ2Hwyk). 
+Here's a [video explanation](https://youtu.be/AhJBAZ2Hwyk). 
 
 ## Why track informal transactions?
 

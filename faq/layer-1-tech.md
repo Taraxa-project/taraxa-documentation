@@ -41,8 +41,8 @@ We chose to implement Block DAG because it is the only technology stack that can
 
 More details: 
 
-* Taraxa Architecture \(core section of the Whitepaper\): [https://docs.taraxa.io/tech-whitepaper/taraxa-architecture](https://docs.taraxa.io/tech-whitepaper/taraxa-architecture)
-* More readable Medium articles on Taraxa's consensus: [https://medium.com/taraxa-project/tagged/taraxa-tech](https://medium.com/taraxa-project/tagged/taraxa-tech) 
+* [Taraxa Architecture](../tech-whitepaper/taraxa-architecture.md)
+* More readable articles on [Taraxa's consensus](https://medium.com/taraxa-project/tagged/taraxa-tech) from [Taraxa's blog](https://www.taraxa.io/blog). 
 
 ## I thought DAG doesn't have blocks / DAG can't handle double-spend / DAG is feeless / ...? 
 
