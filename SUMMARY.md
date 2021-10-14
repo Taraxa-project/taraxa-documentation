@@ -2,7 +2,7 @@
 
 * [Welcome!](README.md)
 
-## Join the Testnet <a id="node-setup"></a>
+## Join the Testnet <a href="node-setup" id="node-setup"></a>
 
 * [Getting started](node-setup/getting_started.md)
 * [Install a Node](node-setup/testnet_node_setup/README.md)
@@ -25,7 +25,7 @@
 * [Register Node For Rewards](node-setup/register-node-for-rewards.md)
 * [Testnet Resources](node-setup/testnet_resources.md)
 
-## Whitepaper <a id="tech-whitepaper"></a>
+## Whitepaper <a href="tech-whitepaper" id="tech-whitepaper"></a>
 
 * [Abstract](tech-whitepaper/abstract.md)
 * [Intro: Scaling the World](tech-whitepaper/introduction.md)
@@ -39,6 +39,6 @@
 * [Vision](faq/vision.md)
 * [Layer-1 Tech](faq/layer-1-tech.md)
 * [TARA Token](faq/tara-token.md)
+* [Staking](faq/staking.md)
 * [Testnet](faq/testnet.md)
 * [General Questions](faq/general-questions.md)
-

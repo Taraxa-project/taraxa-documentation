@@ -10,7 +10,7 @@ These instructions are specific to Mac.  Instructions are also available for [Wi
 
 ## 1. Download Docker Desktop
 
-You can download Docker Desktop by accessing [this link for Intel Macs](https://desktop.docker.com/mac/stable/amd64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-mac-amd64) or [this link for Apple chip Macs](https://desktop.docker.com/mac/stable/arm64/Docker.dmg?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-mac-arm64).
+You can download Docker Desktop by accessing [this link for Intel Macs](https://desktop.docker.com/mac/stable/amd64/Docker.dmg) or [this link for Apple chip Macs](https://desktop.docker.com/mac/stable/arm64/Docker.dmg).
 
 ![Download Docker Desktop](../../.gitbook/assets/1-download.png)
 
@@ -93,7 +93,7 @@ After it finishes pulling the latest version the node will start and you should 
 
 ![Taraxa Started](../../.gitbook/assets/15-started.png)
 
-**NOTE:** _You can press_ `CTRL` + `C` _to stop displaying the logs_
+**NOTE: **_You can press_ `CTRL` + `C` _to stop displaying the logs_
 
 ## 4. Updating the Taraxa Node
 
@@ -124,4 +124,3 @@ docker-compose pull
 docker-compose up -d
 docker-compose logs -f
 ```
-

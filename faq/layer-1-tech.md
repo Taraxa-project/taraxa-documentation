@@ -8,7 +8,7 @@ description: What / how / why's of Taraxa's public ledger
 
 **TLDR**: Taraxa is able to massively scale throughput with true finality without sacrificing security or decentralization. 
 
-Taraxa is designed to break the tradeoffs of the trilemma proposed by Vitalik, with a unique block DAG topology at the center of an inclusive protocol \(unlike single-chained topologies\), enabling the network to massively scale without having to sacrifice security or decentralization. 
+Taraxa is designed to break the tradeoffs of the trilemma proposed by Vitalik, with a unique block DAG topology at the center of an inclusive protocol (unlike single-chained topologies), enabling the network to massively scale without having to sacrifice security or decentralization. 
 
 We replaced traditional PoW with a fair and efficient proposal mechanism based on leveraging a combination of VRF and VDF algorithms that replicates PoW's secure, decentralized, and provable randomness but with a minimal carbon footprint. 
 
@@ -20,7 +20,7 @@ More details:
 * Our [consensus article series](https://medium.com/taraxa-project/tagged/taraxa-tech) for a more friendly and thorough explanation
 * The [architecture ](../tech-whitepaper/taraxa-architecture.md)section of our whitepaper for a more technical description
 
-## How does Taraxa resolve the **scalability** trilemma?
+## How does Taraxa resolve the **scalability **trilemma?
 
 The scalability trilemma, first proposed by Vitalik Buterin, states that it's very difficult to improve scalability without sacrificing security and/or decentralization. For example, if the network consists of a single entity processing all transactions, then this network could have very good throughput and can never be forked, but it is a centralized system and cannot be trusted. 
 
@@ -46,13 +46,13 @@ More details:
 
 ## I thought DAG doesn't have blocks / DAG can't handle double-spend / DAG is feeless / ...? 
 
-We have encountered so many misconceptions about what a directed acyclic graph \(DAG\) is that we wrote an [article specifically to debunk them](https://medium.com/taraxa-project/debunking-misconceptions-about-dag-150fcc6c6e7).
+We have encountered so many misconceptions about what a directed acyclic graph (DAG) is that we wrote an [article specifically to debunk them](https://medium.com/taraxa-project/debunking-misconceptions-about-dag-150fcc6c6e7).
 
 Simply put, DAG is simply a data structure and different projects use it differently. People often confuse the consensus architecture with this simple data structure.  
 
 ## Why is finality important? 
 
-Most blockchain topologies today have probabilistic finality, in that you are never 100% sure whether or not the transactions are truly set in stone. For example, in BTC, you get an exponential falloff in the probability that an attacker will be able to catch up to the rest of the network and reorganize the blocks as time \(or in the world of BTC, \# of blocks\) goes forward. This exponential risk falloff gave rise to the “6 block” rule of thumb whereby once you’ve observed 5 blocks built on top of the block containing your transaction, making your transaction “6 blocks deep”, then it is statistically highly unlikely that your transaction would be part of some reordering attack.
+Most blockchain topologies today have probabilistic finality, in that you are never 100% sure whether or not the transactions are truly set in stone. For example, in BTC, you get an exponential falloff in the probability that an attacker will be able to catch up to the rest of the network and reorganize the blocks as time (or in the world of BTC, # of blocks) goes forward. This exponential risk falloff gave rise to the “6 block” rule of thumb whereby once you’ve observed 5 blocks built on top of the block containing your transaction, making your transaction “6 blocks deep”, then it is statistically highly unlikely that your transaction would be part of some reordering attack.
 
 In many cases, having a probabilistic finality is fine. But in cases where you’re executing a large number of transactions that are dependent on previous outcomes, or if you’re executing one extremely valuable transaction where you need to be absolutely sure that the transaction won’t be reversed, then finality becomes critically important.
 
@@ -64,7 +64,7 @@ More details:
 
 ## Are there any performance benchmarks? 
 
-Yes, some preliminary tests were conducted and here are the results. Keep in mind that, as the protocol continues to evolve, these numbers will change \(for the better!\). 
+Yes, some preliminary tests were conducted and here are the results. Keep in mind that, as the protocol continues to evolve, these numbers will change (for the better!). 
 
 ![](../.gitbook/assets/performance.png)
 
@@ -72,7 +72,7 @@ Yes, some preliminary tests were conducted and here are the results. Keep in min
 
 While the Taraxa protocol is a fully-featured smart contract platform whose performance far outstrips that of the Ethereum network, it is not designed to try to replace Ethereum. 
 
-An ecosystem succeeds if it has a killer application with strong built-in network effects. For Ethereum, it was financial instruments, which started out with ICOs fueled by ERC-20s, to today's myriad DeFi protocols. Despite having many technically-superior alternatives available on the market, users and developers continue to flock to the Ethereum ecosystem because the network effects \(e.g., massive liquidity\) are just too strong. Thus far, copying use cases from Ethereum has proved to be unsustainable and unsuccessful. 
+An ecosystem succeeds if it has a killer application with strong built-in network effects. For Ethereum, it was financial instruments, which started out with ICOs fueled by ERC-20s, to today's myriad DeFi protocols. Despite having many technically-superior alternatives available on the market, users and developers continue to flock to the Ethereum ecosystem because the network effects (e.g., massive liquidity) are just too strong. Thus far, copying use cases from Ethereum has proved to be unsustainable and unsuccessful. 
 
 For Taraxa, we had been focused on tracking informal transactions and building a new ecosystem around use cases based them, whether it's providing short-term operational value, or long-term financial value. So while we could do everything Ethereum does better from a technical perspective, the only sustainable way forward is to build a unique use-case ecosystem that organically grows on our network. 
 
@@ -80,7 +80,5 @@ For Taraxa, we had been focused on tracking informal transactions and building a
 
 The Taraxa team believes leading by example. In order to start gaining massive adoption, we need to prove to the world that tracking informal transactions is useful as well as profitable. 
 
-We have built several DApp platforms that are deployed with customers today, and as of this writing we're building a cryto-native application use case as well, stay tuned! 
-
-
+We have built several DApp platforms that are deployed with customers today, and as of this writing we're building a crypto-native application use case as well, stay tuned! 
 

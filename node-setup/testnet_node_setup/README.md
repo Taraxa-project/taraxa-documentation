@@ -10,31 +10,52 @@ Installing a node takes only a few minutes. _The easiest way to deploy a persist
 
 ## Local Machine Installation
 
-{% page-ref page="windows.md" %}
+{% content-ref url="windows.md" %}
+[windows.md](windows.md)
+{% endcontent-ref %}
 
-{% page-ref page="mac.md" %}
+{% content-ref url="mac.md" %}
+[mac.md](mac.md)
+{% endcontent-ref %}
 
-{% page-ref page="linux.md" %}
+{% content-ref url="linux.md" %}
+[linux.md](linux.md)
+{% endcontent-ref %}
 
 ## VPS Service Installation
 
-{% page-ref page="digital\_ocean.md" %}
+{% content-ref url="digital_ocean.md" %}
+[digital_ocean.md](digital_ocean.md)
+{% endcontent-ref %}
 
-{% page-ref page="aws.md" %}
+{% content-ref url="aws.md" %}
+[aws.md](aws.md)
+{% endcontent-ref %}
 
-{% page-ref page="azure.md" %}
+{% content-ref url="azure.md" %}
+[azure.md](azure.md)
+{% endcontent-ref %}
 
-{% page-ref page="scaleway.md" %}
+{% content-ref url="scaleway.md" %}
+[scaleway.md](scaleway.md)
+{% endcontent-ref %}
 
-{% page-ref page="vultr.md" %}
+{% content-ref url="vultr.md" %}
+[vultr.md](vultr.md)
+{% endcontent-ref %}
 
-{% page-ref page="hetzner.md" %}
+{% content-ref url="hetzner.md" %}
+[hetzner.md](hetzner.md)
+{% endcontent-ref %}
 
-{% page-ref page="alibaba\_cloud.md" %}
+{% content-ref url="alibaba_cloud.md" %}
+[alibaba_cloud.md](alibaba_cloud.md)
+{% endcontent-ref %}
 
-{% page-ref page="linode.md" %}
+{% content-ref url="linode.md" %}
+[linode.md](linode.md)
+{% endcontent-ref %}
 
 {% hint style="info" %}
-If you want to help create install scripts and documentation for additional VPS platforms we offer [bounty rewards](https://community.taraxa.io/).
+If you want to help create install scripts and documentation for additional VPS platforms we offer [bounty rewards](https://community.taraxa.io).
 {% endhint %}
-
