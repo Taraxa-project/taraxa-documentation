@@ -77,7 +77,9 @@ When you first stake TARA during Pre-Staking, the tokens are locked for 30 days.
 
 ## How do I un-stake in Pre-Staking? 
 
-You can un-stake here**. \[ screenshot? ]**
+You can un-stake once the initial locking period has elapsed, the option is on the same Staking page. 
+
+![Figure: Un-staking button](../.gitbook/assets/Picture1.png)
 
 ## What happens if I don't un-stake after the locking period ends during Pre-Staking? 
 
