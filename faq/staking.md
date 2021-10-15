@@ -13,7 +13,7 @@ We are currently in the Pre-Staking phase of the total staking rollout.
 * You can stake your TARA tokens on our [community site](https://www.taraxa.io/staking)
 * Currently the yield is a flat 20% annualized during the Pre-Staking phase, please note that this is higher than what's stated in the [economics rewards](../tech-whitepaper/economic-model.md#5-5-rewards) section, as we wish to ramp up participation in preparation for the mainnet launch.
 
-More details in this [step-by-step guide](https://medium.com/taraxa-project/how-to-stake-your-tara-a-step-by-step-guide-a03b72dd519e) and a video walkthrough. 
+More details in this [step-by-step guide](https://medium.com/taraxa-project/how-to-stake-your-tara-a-step-by-step-guide-a03b72dd519e) and the [video walkthrough](https://youtu.be/7ZrzxsEcqps). 
 
 ## What is staking?
 
@@ -47,7 +47,7 @@ If you meet the following requirements you are able to participate in Pre-Stakin
 
 ## How do I stake in Pre-Staking? 
 
-Here's a [step-by-step guide](https://medium.com/taraxa-project/how-to-stake-your-tara-a-step-by-step-guide-a03b72dd519e).  
+Here's a [step-by-step guide](https://medium.com/taraxa-project/how-to-stake-your-tara-a-step-by-step-guide-a03b72dd519e) and the [video walkthrough](https://youtu.be/7ZrzxsEcqps).
 
 ## Is there a minimum to stake in Pre-Staking? 
 
