@@ -18,4 +18,6 @@ This is why we created Taraxa, a purpose-built public ledger to enable us to spe
 
 If you're curious about our technology, check out the [Architecture ](tech-whitepaper/taraxa-architecture.md)section of our whitepaper. 
 
+If you want to join the community in interacting with the network, check out our [community site](https://community.taraxa.io).
+
 If you wish to run a node, check out how you can [join our testnet](node-setup/getting_started.md). 
