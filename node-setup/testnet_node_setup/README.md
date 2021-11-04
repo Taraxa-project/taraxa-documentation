@@ -8,6 +8,12 @@ description: A guide to all the ways you can run  a node in a Taraxa public test
 Installing a node takes only a few minutes. _The easiest way to deploy a persistent node that will be "always-on" is using a VPS service in the cloud._
 {% endhint %}
 
+## Minimal requirements
+
+* CPU: 4vCPU
+* RAM: 8 GB
+* DISK SPACE: 50 GB
+
 ## Local Machine Installation
 
 {% content-ref url="windows.md" %}
@@ -25,7 +31,7 @@ Installing a node takes only a few minutes. _The easiest way to deploy a persist
 ## VPS Service Installation
 
 {% content-ref url="digital_ocean.md" %}
-[digital_ocean.md](digital_ocean.md)
+[digital\_ocean.md](digital\_ocean.md)
 {% endcontent-ref %}
 
 {% content-ref url="aws.md" %}
@@ -49,7 +55,7 @@ Installing a node takes only a few minutes. _The easiest way to deploy a persist
 {% endcontent-ref %}
 
 {% content-ref url="alibaba_cloud.md" %}
-[alibaba_cloud.md](alibaba_cloud.md)
+[alibaba\_cloud.md](alibaba\_cloud.md)
 {% endcontent-ref %}
 
 {% content-ref url="linode.md" %}
