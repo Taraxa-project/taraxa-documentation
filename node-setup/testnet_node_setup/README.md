@@ -12,7 +12,7 @@ Installing a node takes only a few minutes. _The easiest way to deploy a persist
 
 * CPU: 4vCPU
 * RAM: 8 GB
-* DISK SPACE: 50 GB
+* DISK SPACE: 250 GB
 
 ## Local Machine Installation
 
