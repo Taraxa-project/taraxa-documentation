@@ -2,7 +2,7 @@
 description: All your burning questions about Taraxa's testnet.
 ---
 
-# Testnet
+# Testnet & Node
 
 ## What errors should I NOT be concerned about?&#x20;
 
@@ -40,6 +40,19 @@ Your node determines its synchronization progress by asking the nodes it's conne
 
 We recommend comparing your node's synchronization status against the network progress on the explorer to get a better sense of where your node actually is.&#x20;
 
+## How do I know if my node is producing blocks?&#x20;
+
+There are several ways to tell,&#x20;
+
+* Go to your node's IP at port :3000, and see "Synced - Participating in consensus", or if you see that in your node's logs `STATUS: GOOD. NODE SYNCED AND PARTICIPATING IN CONSENSUS`
+* Go to the [explorer's node page](https://explorer.testnet.taraxa.io/nodes) and see if your address is listed, note it's paginated so you may not be on the first page
+* Go to the [community site's node list](https://community.taraxa.io/node) and see if your node is listed active
+
+Several things to note,&#x20;
+
+* Sometimes the explorer is reset and that will cause you to not see the node list or the community site node list, the most reliable way to tell is to look at your local node and see if it is participating in consensus&#x20;
+* You will often see messages like `PARTICIPATING IN CONSENSUS BUT NO NEW FINALIZED BLOCKS`, `PBFT STALLED, POSSIBLY PARTITIONED. NODE HAS NOT RESTARTED SYNCING`, or `STUCK. NODE HAS NOT RESTARTED SYNCING, `these happen from time to time and not necessarily specific to your node
+
 ## How do I update / reset my node?&#x20;
 
 Here are the instructions to [update](../node-setup/upgrade-a-node/software-upgrade.md#upgrade-your-nodes-software) or [reset ](../node-setup/upgrade-a-node/data-reset.md)the node.&#x20;
@@ -58,7 +71,7 @@ The tokens are sent to your node as part of the faucet to generate some transact
 
 ## Why is my node eating up so much CPU / RAM? &#x20;
 
-Our recommended system setup is 4-core CPU, 8GB RAM, and 50GB disk.&#x20;
+Our recommended system setup is 4-core CPU, 16GB RAM, and 200GB disk.&#x20;
 
 Currently in the network, CPU and RAM consumption is very high during syncing. A faster, less resource-intensive sync is on the roadmap.&#x20;
 
