@@ -23,7 +23,6 @@
   * [Performing a Data Reset](node-setup/upgrade-a-node/data-reset.md)
 * [Find Node's Public Address](node-setup/node\_address.md)
 * [Get Node Proof of Owership](node-setup/proof\_owership.md)
-* [Register Node For Rewards](node-setup/register-node-for-rewards.md)
 * [Testnet Resources](node-setup/testnet\_resources.md)
 
 ## Whitepaper <a href="tech-whitepaper" id="tech-whitepaper"></a>
