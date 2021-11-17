@@ -13,6 +13,7 @@ Here's a list of commonly seen "errors" that you should NOT be concerned about,&
 * [ERROR: Vote sortition failed](testnet.md#error-vote-sortition-failed.)
 * [ERROR: Received NewBlock xxx has missing pivot or/and tips](testnet.md#error-received-newblock-xxx-has-missing-pivot-or-and-tips)
 * [ERROR: DagBlockValidation failed](testnet.md#error-dagblockvalidation-failed)
+* [ERROR: Incorrect node version](testnet.md#error-incorrect-node-version-0-our-node-version-xxxxx-host-xxxxx-will-be-disconnected)
 
 ## Is incentivized testnet live?&#x20;
 
@@ -143,5 +144,11 @@ Typically speaking you don't need to worry about this error.
 
 The reason for this happening is the same as the error about [missing pivots or tips](testnet.md#error-received-newblock-xxx-has-missing-pivot-or-and-tips), and the node should naturally recover.&#x20;
 
+## ERROR: Incorrect node version: 0, our node version xxxxx, host xxxxx will be disconnected&#x20;
 
+You don't need to worry about this error.
+
+We added a versioning system, and nodes that have different versions will not connect to each other as peers. This message is your node encountering another node that's a different version, so it has decided to disconnect that node from its peers.&#x20;
+
+This design choice may be revisited later, as we progress towards mainnet we may have to take backwards compatibility into consideration.&#x20;
 
