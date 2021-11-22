@@ -14,6 +14,7 @@ Here's a list of commonly seen "errors" that you should NOT be concerned about,&
 * [ERROR: Received NewBlock xxx has missing pivot or/and tips](testnet.md#error-received-newblock-xxx-has-missing-pivot-or-and-tips)
 * [ERROR: DagBlockValidation failed](testnet.md#error-dagblockvalidation-failed)
 * [ERROR: Incorrect node version](testnet.md#error-incorrect-node-version-0-our-node-version-xxxxx-host-xxxxx-will-be-disconnected)
+* [ERROR: RangeError \[ERR\_HTTP\_INVALID\_STATUS\_CODE\]: Invalid status code: undefined](testnet.md#rangeerror-err\_http\_invalid\_status\_code-invalid-status-code-undefined)
 
 ## Is incentivized testnet live?&#x20;
 
@@ -151,4 +152,10 @@ You don't need to worry about this error.
 We added a versioning system, and nodes that have different versions will not connect to each other as peers. This message is your node encountering another node that's a different version, so it has decided to disconnect that node from its peers.&#x20;
 
 This design choice may be revisited later, as we progress towards mainnet we may have to take backwards compatibility into consideration.&#x20;
+
+## RangeError \[ERR\_HTTP\_INVALID\_STATUS\_CODE]: Invalid status code: undefined
+
+You don't need to worry about this error.
+
+It's actually from the node status app and it happens when the app starts before the actual node and can't get data from it.
 
