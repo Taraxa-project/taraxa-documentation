@@ -48,12 +48,19 @@ There are several ways to tell,&#x20;
 
 * Go to your node's IP at port :3000, and see "Synced - Participating in consensus", or if you see that in your node's logs `STATUS: GOOD. NODE SYNCED AND PARTICIPATING IN CONSENSUS`
 * Go to the [explorer's node page](https://explorer.testnet.taraxa.io/nodes) and see if your address is listed, note it's paginated so you may not be on the first page
+* Search for your node's public address on the [explorer](https://explorer.testnet.taraxa.io) and see how many blocks (if any) it has produced
 * Go to the [community site's node list](https://community.taraxa.io/node) and see if your node is listed active
 
 Several things to note,&#x20;
 
 * Sometimes the explorer is reset and that will cause you to not see the node list or the community site node list, the most reliable way to tell is to look at your local node and see if it is participating in consensus&#x20;
 * You will often see messages like `PARTICIPATING IN CONSENSUS BUT NO NEW FINALIZED BLOCKS`, `PBFT STALLED, POSSIBLY PARTITIONED. NODE HAS NOT RESTARTED SYNCING`, or `STUCK. NODE HAS NOT RESTARTED SYNCING, `these happen from time to time and not necessarily specific to your node
+
+## What if my node is not producing any blocks at all and just says "Synced"?&#x20;
+
+If your node is 100% synced but has not produced any block, please make sure that your node is properly registered on the community site's node page.&#x20;
+
+If it has already been registered and still it's producing no block at all, then try deleting your node from the community site and add it back in again.&#x20;
 
 ## How do I update / reset my node?&#x20;
 
