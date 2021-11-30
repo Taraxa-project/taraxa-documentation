@@ -30,6 +30,34 @@ We recommend everyone who wants to run a node join our [Discord server](https://
 
 Yes, you can look at the testnet through our [explorer](https://explorer.testnet.taraxa.io). It is a test network so occasionally it will go down or get wiped, please join our [Discord server](https://www.taraxa.io/discord) for the latest information.
 
+## How do I report a problem?&#x20;
+
+Always try include the following information when you're reporting a problem,&#x20;
+
+* Your node's public address (see [how to get your node's public address](../node-setup/node\_address.md))&#x20;
+* Your system resources: CPU (# of cores), RAM, Disk&#x20;
+* Are you running this on a dedicated or a shared machine
+* If it's in the cloud, the cloud service provider, and your instance's physical location (e.g., Frankfurt - Germany)&#x20;
+* Screenshot the error message, or better yet the logs (see [how to get the logs](testnet.md#undefined))&#x20;
+* System resource consumption screenshot - e.g., a time-series of CPU or RAM utilization
+* Anything out of the ordinary you were doing right before this error occurred, e.g., tried to import a previous state\_db.&#x20;
+
+Thanks for all your feedback!&#x20;
+
+## How do I download the node's logs when reporting a problem?&#x20;
+
+Here's the command to generate logs from the node,&#x20;
+
+`docker logs taraxa_compose_node_1 > logs`
+
+Note that, the container is not always called `taraxa_compose_node_1` on every environment. If this doesn't wrok, please check to make sure - use `docker ps` to see a list of all your containers and figure out exactly what the name of your container is.&#x20;
+
+If the node has been running for a while, the log file might be too big, so it's a good idea just to get the latest few log entries, say 50,000,  you can try this,&#x20;
+
+`docker logs --tail 50000 taraxa_compose_node_1 > logs`
+
+Now that you have the `logs` file, just send it to the dev team along with your problem report. Thanks!&#x20;
+
 ## How do I tell if my node has been synced?&#x20;
 
 Either go to the dashboard, which is located at your node's IP at port :3000, or you can look in the CLI log outputs and look for the `---- tl;dr ----` section, first line should tell you the node's sync status.&#x20;
