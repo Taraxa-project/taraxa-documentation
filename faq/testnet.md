@@ -54,7 +54,7 @@ There are several ways to tell,&#x20;
 Several things to note,&#x20;
 
 * Sometimes the explorer is reset and that will cause you to not see the node list or the community site node list, the most reliable way to tell is to look at your local node and see if it is participating in consensus&#x20;
-* You will often see messages like `PARTICIPATING IN CONSENSUS BUT NO NEW FINALIZED BLOCKS`, `PBFT STALLED, POSSIBLY PARTITIONED. NODE HAS NOT RESTARTED SYNCING`, or `STUCK. NODE HAS NOT RESTARTED SYNCING, `these happen from time to time and not necessarily specific to your node
+* You will often see messages like `PARTICIPATING IN CONSENSUS BUT NO NEW FINALIZED BLOCKS`, `PBFT STALLED, POSSIBLY PARTITIONED. NODE HAS NOT RESTARTED SYNCING`, or `STUCK. NODE HAS NOT RESTARTED SYNCING,` these happen from time to time and not necessarily specific to your node
 
 ## What if my node is not producing any blocks at all and just says "Synced"?&#x20;
 
@@ -102,7 +102,7 @@ If you would like to save disk space, you can do two things.&#x20;
 
 Inside this file, set,&#x20;
 
-`"db_max_snapshots" : 0`
+`"`db\_snapshot\_each\_n\_pbft\_block`" : 0`
 
 IMPORTANT: Now restart the node or just restart the entire machine. If you don't this change won't take effect.&#x20;
 
