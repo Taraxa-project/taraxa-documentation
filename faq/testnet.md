@@ -32,6 +32,8 @@ Yes, you can look at the testnet through our [explorer](https://explorer.testnet
 
 ## How do I report a problem?&#x20;
 
+First, join [Taraxa's Discord server](https://www.taraxa.io/discord) for technical discussions.&#x20;
+
 Always try include the following information when you're reporting a problem,&#x20;
 
 * Your node's public address (see [how to get your node's public address](../node-setup/node\_address.md))&#x20;
