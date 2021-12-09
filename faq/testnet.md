@@ -4,6 +4,53 @@ description: All your burning questions about Taraxa's testnet.
 
 # Testnet & Node
 
+## What makes one node generate more blocks than another?&#x20;
+
+This is one of the common questions we see from our community, so let's dive into some of the factors governing block production.&#x20;
+
+* **Uptime** - what percent of the time is your node turned on and actively participating in consensus?&#x20;
+* **System resources** - does your node meet the minimum suggested system requirements?
+* **Join time** - was your node one of the earliest joiners or one of the late comers?&#x20;
+* **Latency** - how good is your node's connection to other nodes?&#x20;
+
+Let's discuss these one by one.&#x20;
+
+****
+
+**#1: Uptime**
+
+Your node needs to be on, fully synced, and participating in consensus in order to produce blocks. If it's frequently not on, not synced, or not participating in consensus, it will fall behind other nodes that have higher uptime.&#x20;
+
+One of the most commonly-seen problems with having low uptime is actually related to systems resources, which leads us to the next factor.&#x20;
+
+
+
+**#2: System Resources**
+
+The recommended setup is 4vCPU, 8GB of RAM, and 200GB of disk space. If the node runs out of one of these resources, it will forcibly shut down and consequently suffer low uptime.&#x20;
+
+One of the most common issues we've encountered is with the use of shared VPS that are extremely cheap (just several USD / month). On a shared VPS, you're never guaranteed to have the stated resource allocated to you. So for example, when it says it's allocating 4vCPU but you're actually just getting 2vCPU, the node runs out of resources and shuts down, which hurts your uptime. To avoid this, we recommend using dedicated resources.&#x20;
+
+
+
+**#3: Join Time**
+
+If node A joined the network earlier than node B and both nodes have the exact same system resources, then node A of course will have produced more blocks than node B, simply because it got an earlier start.&#x20;
+
+There is a second, more nuanced reason that greatly amplifies this effect. Since the network maintains a relatively fixed Period timer (PBFT block time), the number of PBFT blocks produced for any given time interval is fixed as well. So that means if node A joined early, not only did it get an early start, it is also competing against less nodes to produce blocks.&#x20;
+
+For example, say that the network produces 15 blocks a minute, if there is only 1 node in the system during that minute, it is producing all 15 blocks. But in the second minute, 9 more nodes joined so there are 10 nodes, now each node will on average produce 1.5 block during the same minute.&#x20;
+
+It needs to be emphasized that, all block production accounting for the purposes of ranking nodes are reset at the beginning of every week (note, only the calculations are reset, the blocks are on the blockchain and are not reset), if you joined a little later this week, as long as you keep your node running, you'll be in the same competitive position as all nodes that were fully synced & participating in consensus at the beginning of next week.&#x20;
+
+
+
+**#4: Latency**
+
+In order for your node to produce a block that's accepted by the network, other nodes need to hear about it in a reasonable amount of time. If your network connection is poor, and you don't send out the proposal fast enough, or the connection is lossy and the packets need to be resent, then the chances of your block being selected as the winning block is greatly diminished.&#x20;
+
+The development team has not yet done detailed network stress tests to see just how much latency is considered "too much". When we have that analysis we'll publish some guidance to the community.&#x20;
+
 ## What errors should I NOT be concerned about?&#x20;
 
 The blockchain network exists in a constant state of flux where a lot of things are "going wrong" constantly. But the beauty of a successful blockchain network is that it can handle and fix these inconsistencies and errors gracefully. Many of the errors you see displayed from the node should not concern you because they're temporary, and the node understands them and knows how to handle them.&#x20;
@@ -107,14 +154,6 @@ A block-producing node should also show up on the [node list](https://explorer.t
 TARA tokens on the testnet are not real tokens, so please don't try to send those out (it won't work), and please do not send any tokens from another chain (e.g., ETH) into the testnet - it won't work and you'll lose your tokens.&#x20;
 
 The tokens are sent to your node as part of the faucet to generate some transaction traffic on the network, and that later on we will run community-driven stress tests which will require that everyone has some testnet tokens to send around.&#x20;
-
-## Why is my node eating up so much CPU / RAM? &#x20;
-
-Our recommended system setup is 4-core CPU, 16GB RAM, and 200GB disk.&#x20;
-
-Currently in the network, CPU and RAM consumption is very high during syncing. A faster, less resource-intensive sync is on the roadmap.&#x20;
-
-Our node currently also seems to eat up much more memory than intended, and node optimization is definitely on the roadmap after the mainnet candidate release.&#x20;
 
 ## Why is my node eating up so much disk space?&#x20;
 
