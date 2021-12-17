@@ -107,6 +107,20 @@ If the node has been running for a while, the log file might be too big, so it's
 
 Now that you have the `logs` file, just send it to the dev team along with your problem report. Thanks!&#x20;
 
+## How do I tell if I have the latest version of the node?&#x20;
+
+Taraxa nodes are published via docker images to simplify deployment. Each image comes with its own digest, which is a unique identifier for the image. As long as your current image's digest matches that of the latest image, then you have the latest version.&#x20;
+
+To **determine the digest of your own node**, use,&#x20;
+
+`docker image ls --digests`
+
+and find the digest of your node's image, typically named something like `taraxa_compose_node_1` or something extremely similar to it.&#x20;
+
+To **find the latest image's digest**, go to our docker hub, find the latest image at top, click into it, and there should be at the top the digest that's labeled,&#x20;
+
+`DIGEST:sha256:`
+
 ## How do I tell if my node has been synced?&#x20;
 
 Either go to the dashboard, which is located at your node's IP at port :3000, or you can look in the CLI log outputs and look for the `---- tl;dr ----` section, first line should tell you the node's sync status.&#x20;
