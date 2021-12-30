@@ -2,7 +2,11 @@
 
 * [Welcome!](README.md)
 
-## Join the Testnet <a href="node-setup" id="node-setup"></a>
+## JOIN THE MAINNET CANDIDATE
+
+* [Quick start](join-the-mainnet-candidate/quick-start.md)
+
+## Join the Testnet <a href="#node-setup" id="node-setup"></a>
 
 * [Getting started](node-setup/getting\_started.md)
 * [Install a Node](node-setup/testnet\_node\_setup/README.md)
@@ -25,7 +29,7 @@
 * [Get Node Proof of Owership](node-setup/proof\_owership.md)
 * [Testnet Resources](node-setup/testnet\_resources.md)
 
-## Whitepaper <a href="tech-whitepaper" id="tech-whitepaper"></a>
+## Whitepaper <a href="#tech-whitepaper" id="tech-whitepaper"></a>
 
 * [Abstract](tech-whitepaper/abstract.md)
 * [Intro: Scaling the World](tech-whitepaper/introduction.md)
