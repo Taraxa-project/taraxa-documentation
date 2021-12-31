@@ -44,5 +44,6 @@
 * [Layer-1 Tech](faq/layer-1-tech.md)
 * [TARA Token](faq/tara-token.md)
 * [Staking](faq/staking.md)
+* [Mainnet Candidate](faq/mainnet-candidate.md)
 * [Testnet & Node](faq/testnet.md)
 * [General Questions](faq/general-questions.md)
