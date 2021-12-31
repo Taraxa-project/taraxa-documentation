@@ -1,3 +1,7 @@
+---
+description: Everything you want to know about Taraxa's Mainnet Candidate!
+---
+
 # Mainnet Candidate
 
 ## What’s the purpose of the Mainnet Candidate?&#x20;
