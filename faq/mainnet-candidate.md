@@ -60,6 +60,12 @@ There is a minimum requirement because any consensus node needs to get some sort
 Each Node Operator will need to define a commission rate for every node they decide to operate, which is the percentage of overall Period Rewards (Block Rewards + Transaction Fees) that the node operator charges the Stakers. This is a purely market-driven decision, so please check out what other nodes are charging before you decide your own node’s commission rate.\
 
 
+## Can I register a Testnet node into the Mainnet Candidate network?  <a href="#2fe0" id="2fe0"></a>
+
+No.&#x20;
+
+The Testnet and the Mainnet Candidate are two different networks, with two different code bases. You cannot register a node from one codebase into another, and you cannot run a node from one codebase in the other's network.&#x20;
+
 ## Are Node Operators required to self-delegate? <a href="#2fe0" id="2fe0"></a>
 
 _No_, Node Operators are NOT required to own tokens to delegate to the nodes they operate. We wish to maximize the potential pool of Node Operators.
