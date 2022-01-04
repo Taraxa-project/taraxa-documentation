@@ -39,10 +39,10 @@ Per usual this name may be different in different environments, so to be sure yo
 It's the same command as the one on testnet, except the container name is different. Instead of `taraxa_compose_node_1`, it's `mainnet_node_1`.&#x20;
 
 ```
-docker exec mainnet_node_1 taraxa-sign sign --wallet /opt/taraxa_data/conf/wallet.jsonPer usual this name may be different in different environments, so to be sure you've got the right container name, just execute docker ps. 
+docker exec mainnet_node_1 taraxa-sign sign --wallet /opt/taraxa_data/conf/wallet.json
 ```
 
-Per usual this name may be different in different environments, so to be sure you've got the right container name, just execute `docker ps.`&#x20;
+Per usual this name may be different in different environments, so to be sure you've got the right container name, just execute `docker ps`
 
 
 
