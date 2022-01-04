@@ -65,6 +65,16 @@ There is a minimum requirement because any consensus node needs to get some sort
 Each Node Operator will need to define a commission rate for every node they decide to operate, which is the percentage of overall Period Rewards (Block Rewards + Transaction Fees) that the node operator charges the Stakers. This is a purely market-driven decision, so please check out what other nodes are charging before you decide your own node’s commission rate.\
 
 
+## How is commission calculated? <a href="#2fe0" id="2fe0"></a>
+
+The commission is a percent of the overall yield earned by the node. If a node is charging say 5% commission, and it is earning 20% annualized yield, then the commission is 5% of that 20% yield, which is 1% of the overall delegation, annualized.&#x20;
+
+Here's a simple example,&#x20;
+
+* A node has 10mn tokens delegated, it earns 20% on that per year, or 2mn tokens per year
+* This node has a 5% commission, so the node operator gets 5% of 2mn, which is 100k tokens per year&#x20;
+* The remaining 95% of the yield, 1.9mn tokens per year, goes to the staker(s) who delegated the tokens to the node
+
 ## Can I register a Testnet node into the Mainnet Candidate network?  <a href="#2fe0" id="2fe0"></a>
 
 No.&#x20;
