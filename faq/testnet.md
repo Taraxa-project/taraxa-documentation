@@ -51,6 +51,26 @@ In order for your node to produce a block that's accepted by the network, other 
 
 The development team has not yet done detailed network stress tests to see just how much latency is considered "too much". When we have that analysis we'll publish some guidance to the community.&#x20;
 
+## Why are there a few nodes producing far more blocks than the other nodes?&#x20;
+
+If you go to the [Taraxa explorer's node page](https://explorer.testnet.taraxa.io/nodes) starting in 2022, you'll see a few nodes (6 as of this writing) that are producing far more blocks than the other nodes. Why is that?&#x20;
+
+Those nodes are nodes maintained by the developer team. The reasons why the dev-operated nodes (which are _**excluded**_ from rewards, as they should be) are producing way more blocks is because they hold more delegation.&#x20;
+
+On the testnet, these developer-operated nodes (dev-nodes) are collectively (i.e., the 6 nodes together) to hold 2x the amount of delegation than all the other community nodes combined. So if you take all the blocks produced by all the non-dev nodes, add them up, that'll be 1/2 of what all the blocks produced by the dev-nodes added up.&#x20;
+
+Why are the dev-nodes given more delegation? Having the dev-nodes hold a majority voting power means that the developer team can quickly push out&#x20;
+
+
+
+Because the need to deploy new features to test out, and we want to do it quickly and see the impact, that means the dev nodes need to have a voting majority. This way it makes it easy to test, b/c we don't have to wait for the community nodes to update (which could take days or even weeks to reach 2/3 majority, as the community is slow to upgrade as we've observed) in order to test new features. We also have the added benefit of seeing what happens when a large chunk of nodes in the network are NOT updated (which happens a lot in the real world), to see if there are any forking, compatibility issues.
+
+
+
+a change was made to the way PBFT blocks are proposed. Previously they didn't take into account delegation, now they do - this was made in this PR: [https://github.com/Taraxa-project/taraxa-node/pull/1382](https://github.com/Taraxa-project/taraxa-node/pull/1382). So this is why previously although the dev-operated nodes had more delegation, they weren't producing more PBFT blocks than your average community node. This change was made to make sure the testnet's code mirrors that of the mainnet's, as it should. Another question, why are the dev nodes producing SO many more blocks?&#x20;
+
+
+
 ## What errors should I NOT be concerned about?&#x20;
 
 The blockchain network exists in a constant state of flux where a lot of things are "going wrong" constantly. But the beauty of a successful blockchain network is that it can handle and fix these inconsistencies and errors gracefully. Many of the errors you see displayed from the node should not concern you because they're temporary, and the node understands them and knows how to handle them.&#x20;
