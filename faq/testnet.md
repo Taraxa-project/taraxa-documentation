@@ -171,8 +171,6 @@ Several things to note,&#x20;
 
 If your node is 100% synced but has not produced any block, please make sure that your node is properly registered on the community site's node page.&#x20;
 
-If it has already been registered and still it's producing no block at all, then try deleting your node from the community site and add it back in again.&#x20;
-
 ## How do I update / reset my node?&#x20;
 
 Here are the instructions to [update](../node-setup/upgrade-a-node/software-upgrade.md#upgrade-your-nodes-software) or [reset ](../node-setup/upgrade-a-node/data-reset.md)the node.&#x20;
