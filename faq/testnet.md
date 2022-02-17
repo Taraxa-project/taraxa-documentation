@@ -141,6 +141,34 @@ To **find the latest image's digest**, go to our docker hub, find the latest ima
 
 `DIGEST:sha256:`
 
+## After I deleted my node and tried to register it again, there's an error that says "node already exists"
+
+You cannot delete a node and add it back again. If you delete a node, you have to get a "new node". The simplest way to do that is to delete the node's wallet, and restart the node. Afterwards you should be able to register the new node.&#x20;
+
+****
+
+**Delete the wallet**
+
+To delete the wallet, find the `wallet.json` file and delete it. It is typically located here,&#x20;
+
+`taraxa-compose/config/wallet.json`
+
+If you cannot find it, just go to the root directory and try,&#x20;
+
+`find . -name wallet.json`
+
+Then once it's found, go to the directory and delete the `wallet.json` file.&#x20;
+
+
+
+**Restart the node**
+
+The simplest way to restart the node is probably just to restart the entire server. But  you could also use the command,&#x20;
+
+`docker-compose restart`&#x20;
+
+to restart the node and the dashboard app. If it gives you an error saying the YAML file is not found, then try searching for the YAML file listed, go to that directory, and execute the restart command above again.&#x20;
+
 ## How do I tell if my node has been synced?&#x20;
 
 Either go to the dashboard, which is located at your node's IP at port :3000, or you can look in the CLI log outputs and look for the `---- tl;dr ----` section, first line should tell you the node's sync status.&#x20;
@@ -177,7 +205,7 @@ Here are the instructions to [update](../node-setup/upgrade-a-node/software-upgr
 
 ## Why is my node shown as inactive on the community site?&#x20;
 
-A node is considered active only if it has been [fully synced](testnet.md#undefined) as well as producing blocks. If it's not then it shows up as inactive on the community site.&#x20;
+A node is considered active only if it has been [fully synced](testnet.md#undefined) as well as having produced at least 1 block in the past 24 hours. If not, then it shows up as inactive on the community site.&#x20;
 
 A block-producing node should also show up on the [node list](https://explorer.testnet.taraxa.io/nodes) in the explorer.&#x20;
 
