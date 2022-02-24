@@ -91,9 +91,13 @@ This policy may of course change based on community feedback and how it impacts 
 
 Since consensus nodes are driven by delegated stake, the number of nodes will depend on how many tokens are staked in the network.
 
-As of this writing, there are \~248 million TARA tokens staked, so this will enable a minimum of 25 consensus nodes. As staking grows, so will the number of consensus nodes in the network.
+As of this writing, there are \~409 million TARA tokens staked, so this will enable a minimum of 41 consensus nodes. As staking grows, so will the number of consensus nodes in the network.
 
 The development team will initially maintain 9 consensus nodes across the world, and 9 boot nodes to bootstrap the network and help improve latency. The delegated stake for these nodes will come from the Foundation.
+
+## Do I need to unstake to claim my staking yields?  <a href="#b168" id="b168"></a>
+
+You do NOT need to unstake in order to claim your rewards. Just claim your rewards on the community site's [redeem section](https://community.taraxa.io/redeem).&#x20;
 
 ## Will there still be a testnet? <a href="#b168" id="b168"></a>
 
