@@ -46,7 +46,7 @@ Per usual this name may be different in different environments, so to be sure yo
 
 
 
-### Upgrade & Reset&#x20;
+### Upgrade&#x20;
 
 To update the node please run the following commands in the `mainnet` directory:
 
