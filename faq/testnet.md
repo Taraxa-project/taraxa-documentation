@@ -251,6 +251,22 @@ The most common problem we're seeing is that the node runs out of disk space. We
 
 In the meantime please increase the disk allocation on your own.&#x20;
 
+## Can I run multiple nodes on the same IP address?&#x20;
+
+Yes, you can have multiple nodes on the same IP address, but they need to occupy different ports. On the first node, you can just leave everything by default in the docker image. For subsequent nodes, you'll need to map the default ports to different ports (each node a different mapping, of course).&#x20;
+
+The settings are in the `docker-compose.yml` file. Inside you'll see a section called `ports`, so for example, you might do something like this on the second node,&#x20;
+
+```
+ports:
+  - "10003:10002"
+  - "10003:10002/udp"
+  - "7778:7777"
+  - "8778:8777"
+```
+
+For example, the first line maps the `10002` port to the actual port of `10003`. So if you want to set up more nodes, the mappings (the `10003`, `77781` etc. ports) will need to be different for each node.&#x20;
+
 ## ERROR: No such container: taraxa\_compose\_node-1
 
 This happens when you're trying to access the node's container (e.g., when trying to produce the prove-you-own-your-node signature), but the container's name is wrong.&#x20;
@@ -294,4 +310,6 @@ This design choice may be revisited later, as we progress towards mainnet we may
 You don't need to worry about this error.
 
 It's actually from the node status app and it happens when the app starts before the actual node and can't get data from it.
+
+
 
