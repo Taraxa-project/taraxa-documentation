@@ -24,7 +24,7 @@ However, the block DAG topology isn’t without its own set of challenges, here 
 
 Taraxa sets out to address these issues.
 
-### 2.2 Ordering via Anchor Chain
+### 2.2 DAG Ordering via Anchor Chain
 
 To ensure that the block DAG reaches rapid convergence amongst nodes, we note that not all parent block references need to be equal. The ordering algorithm originally proposed by GHOSTDAG [\[7\]](broken-reference) takes a two-step process: separating the DAG into blue vs. red clusters, and then using the GHOST rule to map out an induced chain within the blue cluster.
 
@@ -109,7 +109,7 @@ Output: ordering – total ordering of the currently non-finalized Period
 --------------------------------------------------------------------------------
 ```
 
-### 2.3 Rapid Finalization
+### 2.3 Rapid Finalization / Instant Finality
 
 In many blockchain networks, finality is a matter of probability. For example, in Bitcoin the convention is to wait for a transaction to be 6 blocks deep [\[5\]](further-reading.md#5-bitcoin-confirmation-bitcoin-wiki-online-available-https-en-bitcoin-it-wiki-confirmation-accessed-30-april-2019) (which takes on average 60 minutes) into the chain before accepting it as “finalized”, however the risk of network reordering and state reversion is never zero, and the exact probabilities depend on the assumed hash power of the attacker. The longest chain rule provides eventual finality, if you wait infinitely long, but not true or instant finality.
 
@@ -129,25 +129,74 @@ The irrevocable commitment of Anchor Block selection by byzantine agreement is t
 
 This vote is very simple because it is not a vote on the contents or the validity of the block – that has been achieved already when constructing the block DAG by implicit voting through gossiping the block throughout the network – but purely on whether or not this is the Anchor Block that should become a Period Block. A much simpler vote means the voting process is much faster, as there are less assertions to validate among the randomly-selected committee members. Once a Period Block has been finalized, all blocks connected between the new Period Block and the last Period Block now have a deterministically-defined (in other words, finalized) ordering, forming a new Period within the block DAG.
 
-Encoded inside the blocks on the Finalization Chain are not just the Period Block and their associated votes (multi-signature is on the roadmap) but also a schedule of all transactions within all the blocks included in the Period after the ordering of the blocks have been finalized. Another critical function of the schedule is to identify overlapping transactions between blocks - for network reliability and security purposes, the overlap cannot be zero - so that they are removed from the aggregate schedule. A transaction is considered overlapping if, after the absolute ordering of the blocks have been established, transactions occurring in a later block has already appeared in an earlier block, then the one in the later block is considered overlapping and removed. The associated fee rewards for processing overlapping transactions are also removed. To further incentivize honest behaviors during block proposals, blocks in the DAG that exceed a certain overlap percentage will not receive block rewards.
-
 This finalization process is asynchronous to block generation. As the block DAG at the top grows, it is only concerned with transaction inclusion – in fact nodes do not even execute the transactions within the blocks. The block DAG is just for block validation, transaction inclusion, and fair transaction ordering and grows completely independently of the finalization and execution process that happens through voting.
 
 Lastly, having finalized periods across the block DAG effectively caps the computational complexity of calculating weights via GHOST, as any node only needs to recursively calculate weights until it hits a confirmed Period Block.
 
-### 2.4 Fair & Efficient Proposals
+### 2.4 PBFT Transaction Ordering
 
-The first driver of wasted blocks is that there could simply be too many blocks if no rate-limiting mechanisms are in place. Classic blockchain projects like Bitcoin and Ethereum relies on Proof of Work (PoW) as a way to rate-limit block generation, but Taraxa uses a Proof of Stake (PoS) and we believe that the sheer amount of energy expended by PoW is not sustainable or socially responsible – we’d need a non-energy destroying method of limiting block generation rates.
+PBFY Block Transaction Ordering 
+https://github.com/Taraxa-project/taraxa-node/issues/1482
+https://github.com/Taraxa-project/taraxa-node/pull/1506
+
+
+### 2.5 PBFT During Low Activity or Network Partition
+
+Even under the edge case of low transaction generation rate for some period of time, it is still desirable to produce PBFT blocks at uniform intervals for purposes of economic rewards and DPOS staking lockup periods, which are measured in PBFT blocks, as outlined further in section 3.   In the event of no new DAG blocks being produced, empty PBFT blocks are still allowed.  https://github.com/Taraxa-project/taraxa-node/issues/1599
+
+
+A necessary property of instant finality is that under network parition, PBFT consensus will be halted, and only when > 2/3 of the network is once again restored to timely connectivity with each other will PBFT consensus resume.   During such an extreme edge case exponential backoff is employed to reduce the waste in the number of votes produced during partition.
+
+PBFT exponential backoff 
+https://github.com/Taraxa-project/taraxa-node/pull/1556
+
+
+## 3. Delegated Proof of Stake (DPOS)
+
+Participation in consensus at both the DAG and PBFT chain level is governed by a delegated proof of stake contract.   Token holders can lockup Taraxa tokens in the DPOS contract and delegate shares to nodes.   Nodes with sufficient stake delegated to them are able to participate in consensus.  The economics of staking are discussed further in the "Economic Model" section of this paper. For purposes of the architecture the important properties are that (1) staking periods are measured in PBFT chain blocks, (2) deposits and withdrawals incur a delay of some number of PBFT chain blocks, and (3) a mapping is known to all nodes to  associate PBFT blocks to DAG levels and thus determine DAG consensus participation eligibility. 
+
+A key result of these properties is that PBFT and DAG participation in consensus are known in advance of the most immediate current execution of calls to the DPOS smart contract and thus as discussed in the next section, execution is able to be done asynchronous (or only loosely synchronous) to consensus.
+
+### 3.1 Staking Contract Design
+
+NEED MORE DETAILS (JAKUB / DMITRY) 
+
+### 3.2 DPOS State to DAG Level Mapping
+
+To determine eligibility for DAG block proposal we need to reference the DPOS state without creating a circular reference between PBFT and DAG chains. To do this, a mapping between the latest DPOS state and future DAG block levels is created. DPOS state is updated via contract execution upon PBFT block finalization, and this latest state is assigned to be the state governing DAG block proposal for up to the next N DAG levels that are not already mapped beyond the maximum DAG level present in the set of DAG blocks within the just finalized PBFT block.
+
+![DAG Level Mapping](dag_level_mapping.png)
+
+### 3.3 DAG Block Proposer Selection
+
+### 3.4 PBFT Block Selection
+
+pbft leader selection
+https://github.com/Taraxa-project/taraxa-node/pull/1533
+
+### 3.5 PBFT Voter Sortition
+
+
+
+## 4. DAG Block Production
+
+### 4.1 Fair & Efficient DAG Block Proposer Selection 
+
+DAG efficiecncy is an important metric to optimize for, to achieve fast transaction inclusion with minimal transaction overlap between blocks ("block waste"). The first driver of wasted blocks is that there could simply be too many blocks if no rate-limiting mechanisms are in place. Classic blockchain projects like Bitcoin and Ethereum relies on Proof of Work (PoW) as a way to rate-limit block generation, but Taraxa uses a Proof of Stake (PoS) and we believe that the sheer amount of energy expended by PoW is not sustainable or socially responsible – we'd need a non-energy destroying method of limiting block generation rates. At the same time the rate-limitng mechanism should never make dag block production come to a complete stop.
 
 Taraxa developed an algorithm that drives Fair and Efficient Proposals by leveraging Verifiable Random Function (VRF) and Verifiable Delay Function (VDF). VRF was first proposed by Micali et al. [\[7\]](further-reading.md#7-s-micali-m-rabin-and-s-vadhan-verifiable-random-functions-in-40th-foundations-of-computer-science-focs-new-york-oct-1999). It is a pseudo-random function which provides a proof of the outputs' correctness. VRFs also have the added property that the output is indistinguishable from a uniform function given an unpredictable input. VDF is a function that is meant to take a prescribed amount of time to compute, is highly resistant to parallel computations (i.e., avoids the hardware arms race of PoW), and whose output is extremely fast to verify. Taraxa makes use of a VDF first described by Wesolowski [\[8\]](further-reading.md#8-b-wesolowski-efficient-verifiable-delay-functions-cryptology-eprint-archive-report-2018-623-2018-https-eprint-iacr-org-2018-623).
 
-At any given moment, a node's eligibility to propose a block requires the successful computation of a VDF with a difficulty factor set by a VRF. The VRF's inputs are simply the signature of the latest observed Period Block hash and the current level of the block DAG at which the node wishes to propose a block. The VDF is then adjusted for difficulty according to the output of the VRF, and the VDF's inputs are the block hash of the terminating DAG tip of the computed Anchor Chain, and the same inputs as the VRF.
+At any given moment, a node's eligibility to propose a block requires the successful computation of a VDF with a difficulty factor set by a VRF. The VRF's inputs are the current level of the block DAG at which the node wishes to propose a block and the period block hash this level points to. The VDF is then adjusted for difficulty according to the output of the VRF, and the VDF's inputs are the same inputs as the VRF. Based on the output of the VRF and the current difficulty setting there are three possible outcomes for each proposer at a specific level:
+- VRF output allows omitting VDF where a proposer can propose a DAG block without VDF calculation. A certain predefined percentage of these omit-VDF blocks is allowed to reduce CPU usage and reduce the size of DAG blocks by not including VDF output within the block
+- VRF output allows proposing dag blocks within a specified VDF difficulty
+- VRF output allows proposing a stale block
 
-This method allows any eligible node to propose a block once the VDF has been properly computed, removing the possibility of deadlocks occurring on the block DAG (i.e., no blocks are produced). However, the other implication of this property is that since blocks can always be proposed, we could end up with as many blocks as eligible node proposing nodes, potentially opening the network to block DAG reordering attacks.
+Stale blocks are blocks that are proposed only if there is no dag block currently being produced on the network. These blocks have predetermined high VDF difficulty and in general they are only produced if there is some extraordinary event on the network where most of the nodes would go offline. It is just a fail-safe mechanism for an event where no new blocks would appear on the network. This method allows any eligible node to propose a block, removing the possibility of deadlocks occurring on the block DAG (i.e., no blocks are produced).
 
-To resolve this, we define a difficulty threshold, beyond which a block has no weight via the GHOST rule and hence cannot increase the weight of any blocks they point to, effectively removing their impact in ordering. While after computing the VRF for the current level, a node should immediately know whether or not its difficulty exceeds the threshold. This however should not prevent an _honest_ node from keep computing the VDF as there's always a non-zero chance of deadlock - i.e., the statistically improbable outcome that all eligible nodes computed VRF that exceeded the difficulty threshold. An honest node would continue on to compute the VDF, while monitoring the network traffic. If the honest node observes that the expected number of blocks at the current level as defined by the difficulty threshold has been gossiped around, then it should stop computing the VDF and start a new VRF-VDF cycle for the next level, as the block it will eventually produce at the previous level is likely going to be heavily overlapping with those already produced and hence no longer useful to the network. As long as the expected number of blocks at the level is not observed, the honest node will keep calculating the VDF to its conclusion and produce its intended block.
+Difficulty threshold which is a VRF limit between normal and stale dag blocks production is adjusted dynamically to produce the desired dag efficiency. DAG efficiency is usually a result of two parameters which are number of active nodes on the network that are eligible to produce dag blocks and speed of dag blocks and transactions propagation on the network. Increasing number of nodes proposing dag blocks should decrease DAG efficiency. Any kind of delays in receiving or processing DAG blocks and transactions between nodes should also decrease efficiency. Any change in efficiency will trigger a change in difficulty threshold to adjust DAG efficiency. This mechanism should create a steady DAG blocks proposal rate. In a network consisting of large number of nodes proposing DAG blocks, at any given period only a small percentage of nodes will actually be able to propose DAG blocks. In addition to VDF being resistant to parallel computation, a node will only spend a limited amount of time doing VDF calculation in those periods when its VRF output is under the threshold so the actual average CPU usage should be small.  
 
-Note that it is also financially unprofitable to add blocks into the block DAG after observing a good many blocks appearing at the current level. The "late" block is guaranteed to be ordered behind the previously observed blocks, and because it is late, its transactions have a high probability of overlapping with those blocks that came before. Since the finalization process removes overlapping transactions, the late block producer receiving little to no rewards from fees. Rules could also be instituted that block rewards are also tied to a minimum threshold of block efficiency, refusing payout to those nodes producing blocks with a high percentage of overlapping transactions.
+Note that it is also financially unprofitable to add blocks into the block DAG after observing one or more blocks appearing at the current level. The "late" block is guaranteed to be ordered behind the previously observed blocks, and because it is late, its transactions have a high probability of overlapping with those blocks that came before. Since the finalization process removes overlapping transactions, the late block producer would be receiving little to no rewards from fees. Current node implementation while asynchronously calculating VDF will monitor the network and if another dag block of higher level is produced on the network, VDF calculation is aborted and there is a new attempt to propose the dag block at new level.
+
 
 The algorithm below describes a node's decision-making process while proposing.
 
@@ -155,66 +204,64 @@ The algorithm below describes a node's decision-making process while proposing.
 --------------------------------------------------------------------------------
 Algorithm 4: block proposal eligibility  
 --------------------------------------------------------------------------------
-Input: period_block_hash - latest period block's hash, level - the level of the block DAG to build on relative to the latest period block, anchor_tip_hash - current anchor chain's tip on the block DAG, difficulty_threshold - the difficulty beyond which the block will no longer have weight in the GHOST rule, no_expected_blocks - number of expected blocks at the current level 
+Input: 
+period_block_hash - period block's hash
+level - the level of the block DAG to build on relative to the latest period block
+threshold_upper - vrf output beyond which the block is considered stale
+threshold_range - percentage of vrf range that require VDF proof
+difficulty_min - Minimum VDF difficulty for non-stale block
+difficulty_max - Maximun VDF difficulty for non-stale block
+difficulty_stale - VDF difficulty for stale block
+
 Output: eligible - whether the node should publish, proof - proof of eligibility
-  1:  function PROPOSALELIGIBILITY (period_block_hash, level, anchor_tip_hash, difficulty_threshold):
+
+  1:  function PROPOSALELIGIBILITY (period_block_hash, level, threshold_upper, threshold_range, difficulty_min, difficulty_max, difficulty_stale):
   2:    rnd ← VRF (S(concatenate( period_block_hash, level)))
-  3:    difficulty ← ( rnd / MAX_VRF_INTEGER_OUTPUT ) * difficulty_threshold
-  4:    VDF_d ← VDF_function_generator (VDF(), difficulty)
-  5:    output_vdf ← concatenate(anchor_tip_hash, period_block_hash, level)
-  6:    for i = 1 to difficulty
-  7:      output_vdf ← VDF_d (output_vdf)
-  8:      cur_blocks ← most updated number of blocks seen through gossip at the current level
-  9:      if cur_blocks >= no_expected_blocks then
-  10:       eligible ← false
-  11:       proof ← null
-  12:       return (eligible, proof)
-  13:   eligible ← true
-  14:   proof ← (output_vdf, period_block_hash, anchor_tip_hash)
-  15:   return (eligible, proof) 
-  16: end function
+  3:    if rnd < threshold_upper * (100% - threshold_range) 
+  4:    eligible ← true
+  5:      proof ← (omit vdf, period_block_hash, level)
+  6:      return (eligible, proof)
+  7:  if rnd < threshold_upper
+  8:    difficulty = difficulty_min + rnd % (difficulty_max - difficulty_min + 1)
+  9:  else 
+  10:   difficulty = difficulty_stale
+  11:   wait for random delay
+  12:   if cur_level >= level
+  13:     eligible ← false
+  14:       proof ← null
+  15:       return (eligible, proof)
+  16:   VDF_d ← VDF_function_generator (VDF(), difficulty)
+  17:   output_vdf ← concatenate(period_block_hash, level)
+  18:   for i = 1 to difficulty
+  19:     output_vdf ← VDF_d (output_vdf)
+  20:     if cur_level >= level
+  21:       eligible ← false
+  22:       proof ← null
+  23:       return (eligible, proof)
+  24:   eligible ← true
+  25:   proof ← (output_vdf, period_block_hash, anchor_tip_hash)
+  26:   return (eligible, proof)  
+  27: end function
 --------------------------------------------------------------------------------
-```
 
-### 2.5 Transaction Jurisdiction
+### 4.2 Transaction Validation and Priority Queue
 
-The second driver of wasted blocks is that transactions contained within different blocks could overlap with one another, causing redundancy. The most basic strategy to control this is to require that when a block is proposed, it contains none of the transactions included in the tips (parents) it is referencing. The proposer further has no financial incentive to reference older transactions in non-tip blocks as its block would likely either be rejected as malicious, or that these redundant transactions will be pruned during execution and proposer would have received nothing for its efforts. But this basic approach is often not enough if transactions begin to flood the network.
+transaction validation
+https://github.com/Taraxa-project/taraxa-node/pull/1486/files
 
-Taraxa implements an algorithm that defines Transaction Jurisdiction for each node when they propose blocks in order to minimize overlap.
+transaction priority queue
+dag block production ordering
+https://github.com/Taraxa-project/taraxa-node/pull/1490
+https://github.com/Taraxa-project/taraxa-node/issues/1481
 
-![Transaction Jurisdiction](../.gitbook/assets/Figure\_8\_\[EN]\[1].png)
+Nonce handling / replay protection
 
-To define transaction jurisdiction, a proposer follows an algorithm that places it into a specific range of transaction addresses (or accounts) for which it has jurisdiction over. In other words, the proposer is only eligible to pack transactions from addresses within its jurisdiction into a new block. A proposer first signs an Anchor Block and then hashes the signature, receiving a certificate. This certificate is then mapped into the pool of pending transactions to see which ones the current node is eligible for. This could be done via a simple modulus operation, for example, as described in the simple algorithm below.
+### 4.3 Stale DAG Blocks
 
-```
---------------------------------------------------------------------------------
-Algorithm 5: find transactions within the proposer node’s jurisdiction
---------------------------------------------------------------------------------
-Input: P – pool of pending transactions, N – number of jurisdictional shards, past_period_block_id – the id of a past period block (e.g., the past 2nd from the current non-finalized Period) 
-Output: available_tx – subset of pending transactions this node has jurisdiction over 
-  1:  function FINDTXJURISDICTIONSET (P, N):    
-  2:    jurisdiction_cert ← hash of the proposing node’s signature of past_period_block_id
-  3:    for each transaction in P:
-  4:      if (transaction modulo N) equals (jurisdiction_cert modulo N) then
-  5:        add transaction to available_tx
-  6:    return available_tx
-  7:  end function
---------------------------------------------------------------------------------
-```
+https://github.com/Taraxa-project/taraxa-node/pull/1549
+As part of this a new feature of limiting inclusion of old/expired dag blocks into pbft is implemented.
 
-Note that the block id of the past Period block and its signature need to be part of the block to act as proof to help other nodes to validate whether the correct jurisdiction has been used. For each such jurisdiction proof generated, it will remain valid for two (2) Periods to account for fuzzy boundary conditions between Periods due to propagation latency.
-
-Also note that, the implicit definition of work load in this algorithm is simply the transaction count. This is a reasonable measure of load during block generation since, in the Taraxa protocol, blocks on the block DAG are not executed immediately so the resulting computational load is purely based on validation, which is a relatively simple and fixed workload for both coin and smart contract transactions.
-
-In both cases, there is no coordination between the nodes on block proposal eligibility and transaction jurisdiction and a certain amount of tolerance or “fuzziness” is built into the validation, thereby reducing the associated network overhead and attack surface.
-
-## 3. Delegated Proof of Stake (DPOS)
-
-Participation in consensus at both the DAG and PBFT chain level is governed by a delegated proof of stake contract.   Token holders can lockup Taraxa tokens in the DPOS contract and delegate shares to nodes.   Nodes with sufficient stake delegated to them are able to participate in consensus.  The economics of staking are discussed further in the "Economic Model" section of this paper. For purposes of the architecture the important properties are that (1) staking periods are measured in PBFT chain blocks, (2) deposits and withdrawals incur a delay of some number of PBFT chain blocks, and (3) a mapping is known to all nodes to  associate PBFT blocks to DAG levels and thus determine DAG consensus participation eligibility. 
-
-The key result of these properties is that PBFT and DAG participation in consensus are known in advance of the most immediate current execution of calls to the DPOS smart contract and thus as discussed in the next section, execution is able to be done asynchronous (or only loosely synchronous) to consensus.
-
-## 4. Optimized Asynchronous Execution Layer 
+## 5. Optimized Asynchronous Execution Layer 
 
 Taraxa is compatible with Ethereum Virtual Machine (EVM) contracts and operation codes. To implement the Taraxa execution layer numerous architectural improvements and optimizations have been made when compared to the EVM. In Taraxa asynchronous execution occurs from a queue of finalized PBFT chain blocks, which denote a "block of blocks" from finalized DAG periods. Because of this structure, PBFT is able to finalize consensus on very large set of transactions at a high rate.
 
@@ -226,7 +273,14 @@ In practice execution of 20,000 transactions in large "blocks of blocks" enables
 
 ![Comparison of Taraxa's Optimized Asynchronous Execution Layer to Ethereum](<../.gitbook/assets/image (1).png>)
 
-## 5. Technical Roadmap
+## 6. Light Node
+
+Light node ... https://github.com/Taraxa-project/taraxa-node/pull/1549
+Implements light node functionality by deleting old data from period_data column which takes most of the disk space in the database.
+light-node-history parameter in the config file defines how much period_data history is kept in the database. The rest is delete.
+
+
+## 7. Technical Roadmap
 
 The rapid advancements planned for the Taraxa protocol include, but are not limited to...
 
