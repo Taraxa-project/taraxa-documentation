@@ -40,7 +40,7 @@ We're currently in the **PRE-STAKING** phase.
 If you meet the following requirements you are able to participate in Pre-Staking, 
 
 * You have some TARA
-* You are able to connect your TARA via a web3 connection, such as Metamask, either by holding the TARA inside the Metamask wallet, or connect your Metamask to a hardware wallet where you hold your TARA - it is _highly _recommended to hold your TARA (or any crypto) in a hardware wallet, as it is far more secure
+* You are able to connect your TARA via a web3 connection, such as Metamask, either by holding the TARA inside the Metamask wallet, or connect your Metamask to a hardware wallet where you hold your TARA - it is _highly_ recommended to hold your TARA (or any crypto) in a hardware wallet, as it is far more secure
 * You have some ETH in your connected wallet to pay for ETH's transaction fees 
 * You have registered an account and passed KYC on our [community site](https://community.taraxa.io)
 * To comply with recent SEC rulings, United States persons cannot participate in Pre-Staking
@@ -51,7 +51,7 @@ Here's a [step-by-step guide](https://medium.com/taraxa-project/how-to-stake-you
 
 ## Is there a minimum to stake in Pre-Staking? 
 
-There is NO minimum to stake. However, please take into account the transaction fees on the Ethereum network when decide how many TARA to stake. 
+There is NO minimum to stake. However, please take into account the transaction fees on the Ethereum network when deciding how many TARA to stake. 
 
 ## Can I add more to my stake after I have already staked in Pre-Staking? 
 
@@ -63,7 +63,7 @@ Please be aware that, once you add more stake, your entire stake's (including yo
 
 Currently the yield is a flat 20% annualized during the Pre-Staking phase
 
-Please note that this is _higher _than what's stated in the [economics rewards](../tech-whitepaper/economic-model.md#5-5-rewards) section, as we wish to ramp up participation in preparation for the mainnet launch.
+Please note that this is _higher_ than what's stated in the [economics rewards](../tech-whitepaper/economic-model.md#5-5-rewards) section, as we wish to ramp up participation in preparation for the mainnet launch.
 
 ## How do I get my yields from Pre-Staking? 
 
