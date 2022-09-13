@@ -136,3 +136,74 @@ const main = async () => {
 
 main();
 ```
+
+### **Sending Transactions**
+
+{% tabs %}
+{% tab title="Web3.js" %}
+```javascript
+const Web3 = require('web3');
+const main = async () => {
+  const web3 = new Web3(new Web3.providers.HttpProvider('https://rpc.mainnet.taraxa.io'));
+  const account = web3.eth.accounts.create(web3.utils.randomHex(32));
+
+  console.log(`Using account: ${account.address}`);
+
+  const tx = await account.signTransaction({
+    from: account.address,
+    to: '0x0000000000000000000000000000000000000000',
+    value: 1,
+    gas: 21000,
+  });
+
+  web3.eth.sendSignedTransaction(tx.rawTransaction)
+    .once('transactionHash', (txHash) => {
+      console.log(`Sending tx: ${txHash}`);
+    })
+    .once('receipt', (receipt) => {
+      console.log(`Got receipt: ${receipt}`);
+    })
+    .once('error', (error) => {
+      console.error(`Got error: ${error}`);
+    });
+};
+main();
+```
+{% endtab %}
+
+{% tab title="ethers.js" %}
+```javascript
+const ethers = require('ethers');
+const main = async () => {
+  const provider = new ethers.providers.JsonRpcProvider('https://rpc.mainnet.taraxa.io');
+  const wallet = ethers.Wallet.createRandom().connect(provider);
+
+  console.log(`Using account: ${wallet.address}`);
+
+  const nonce = (await provider.getTransactionCount(wallet.address)) + 1;
+  const unsignedTx = {
+    nonce,
+    from: wallet.address,
+    to: '0x0000000000000000000000000000000000000000',
+    value: 1,
+    gasLimit: 21000,
+    gasPrice: 1,
+    chainId: await wallet.getChainId(),
+  };
+  console.log({ unsignedTx })
+  const tx = await wallet.signTransaction(unsignedTx);
+
+  try {
+    const transaction = await provider.sendTransaction(tx);
+    console.log(`Sent transaction to network:`, transaction);
+
+    const receipt = await transaction.wait();
+    console.log(`Received receipt:`, receipt);
+  } catch (e) {
+    console.error(`Received error:`, e)
+  }
+};
+main();
+```
+{% endtab %}
+{% endtabs %}
