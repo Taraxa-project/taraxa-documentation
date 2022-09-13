@@ -47,3 +47,4 @@
 * [Mainnet Candidate](faq/mainnet-candidate.md)
 * [Testnet & Node](faq/testnet.md)
 * [General Questions](faq/general-questions.md)
+* [Exchange Integration](faq/exchange-integration.md)
