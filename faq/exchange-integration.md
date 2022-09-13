@@ -1,7 +1,7 @@
 ---
 description: >-
-  This document describes how to add Taraxa's native token, TARA, to a crypto
-  exchange.
+  This document describes how you can add Taraxa's native token, TARA, to a
+  crypto exchange.
 ---
 
 # Exchange Integration
@@ -87,8 +87,6 @@ main();
 ```
 {% endtab %}
 {% endtabs %}
-
-
 
 ### Checking Deposits
 
