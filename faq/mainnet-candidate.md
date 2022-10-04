@@ -19,7 +19,7 @@ The Mainnet Candidate is meant to be a candidate network to be able to host nati
 
 ## Is the Mainnet Candidate live?  <a href="#f7c9" id="f7c9"></a>
 
-Yes, you can see it on the [mainnet candidate explorer](https://explorer.mainnet.taraxa.io) right now.&#x20;
+Yes, you can see it on the [mainnet candidate explorer](https://explorer.mainnet.taraxa.io/) right now.&#x20;
 
 ## Will yields change on the Mainnet Candidate? <a href="#f7c9" id="f7c9"></a>
 

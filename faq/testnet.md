@@ -187,7 +187,7 @@ There are several ways to tell,&#x20;
 
 * Go to your node's IP at port :3000, and see "Synced - Participating in consensus", or if you see that in your node's logs `STATUS: GOOD. NODE SYNCED AND PARTICIPATING IN CONSENSUS`
 * Go to the [explorer's node page](https://explorer.testnet.taraxa.io/nodes) and see if your address is listed, note it's paginated so you may not be on the first page
-* Search for your node's public address on the [explorer](https://explorer.testnet.taraxa.io) and see how many blocks (if any) it has produced
+* Search for your node's public address on the [explorer](https://explorer.testnet.taraxa.io/) and see how many blocks (if any) it has produced
 * Go to the [community site's node list](https://community.taraxa.io/node) and see if your node is listed active
 
 Several things to note,&#x20;

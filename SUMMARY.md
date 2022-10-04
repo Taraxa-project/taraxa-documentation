@@ -26,7 +26,7 @@
   * [Upgrading Node Software](node-setup/upgrade-a-node/software-upgrade.md)
   * [Performing a Data Reset](node-setup/upgrade-a-node/data-reset.md)
 * [Find Node's Public Address](node-setup/node\_address.md)
-* [Find Node's VRF Public Key](node-setup/node\_address-1.md)
+* [Find Node's VRF Public Key](node-setup/vrf\_key.md)
 * [Get Node Proof of Owership](node-setup/proof\_owership.md)
 * [Testnet Resources](node-setup/testnet\_resources.md)
 
