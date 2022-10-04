@@ -6,7 +6,9 @@ During the testing period, we will also make changes on the protocol level and y
 
 {% tabs %}
 {% tab title="Windows" %}
-```text
+You need to download the latest `docker-compose.yml` file from our Github repo: [https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/taraxa\_compose/docker-compose.yml](https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/taraxa\_compose/docker-compose.yml)
+
+```
 cd .\Desktop\taraxa-ops-master\taraxa_compose\
 docker-compose down -v
 docker-compose pull
@@ -17,8 +19,9 @@ docker-compose logs -f
 {% endtab %}
 
 {% tab title="Mac" %}
-```text
+```
 cd ~/Desktop/taraxa-ops-master/taraxa_compose
+curl -0 https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/taraxa_compose/docker-compose.yml > docker-compose-new.yml && mv docker-compose-new.yml docker-compose.yml
 docker-compose down -v
 docker-compose pull
 rm -f config/testnet.json
@@ -30,6 +33,7 @@ docker-compose logs -f
 {% tab title="Linux" %}
 ```
 cd ~/taraxa-ops-master/taraxa_compose
+wget -O docker-compose-new.yml https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/taraxa_compose/docker-compose.yml && mv docker-compose-new.yml docker-compose.yml
 sudo docker-compose down -v
 sudo docker-compose pull
 rm -f config/testnet.json
@@ -40,6 +44,3 @@ sudo docker-compose logs -f
 {% endtabs %}
 
 ### Checking that the reset worked
-
-
-

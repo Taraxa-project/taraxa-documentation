@@ -6,6 +6,8 @@ From time to time we will release new versions of the node software. Try to keep
 
 {% tabs %}
 {% tab title="Windows" %}
+You need to download the latest `docker-compose.yml` file from our Github repo: [https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/taraxa\_compose/docker-compose.yml](https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/taraxa\_compose/docker-compose.yml)
+
 ```bash
 cd .\Desktop\taraxa-ops-master\taraxa_compose\
 docker-compose down
