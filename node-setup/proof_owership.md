@@ -10,6 +10,12 @@ To find out your node's public address you can run the following command in a ne
 docker exec taraxa_compose_node_1 taraxa-sign sign --wallet /opt/taraxa_data/conf/wallet.json
 ```
 
+{% hint style="info" %}
+The node container's name could be different on different operating systems. For example, on Windows, it is `taraxa_compose-node-1`.&#x20;
+
+To be sure what the name of the container is, execute `docker containers ls` to see a list of the containers running.&#x20;
+{% endhint %}
+
 You should see an output similar to the following:
 
 ```
