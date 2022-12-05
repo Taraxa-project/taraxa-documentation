@@ -43,7 +43,6 @@
 
 * [💡 Introduction](tech-whitepaper-1/introduction.md)
 * [🗓 Conversion Status](tech-whitepaper-1/conversion-status.md)
-* [👍 Participating Exchanges](tech-whitepaper-1/participating-exchanges.md)
 
 ## FAQ
 
