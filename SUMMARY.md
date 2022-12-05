@@ -39,6 +39,12 @@
 * [Governance](tech-whitepaper/governance.md)
 * [Further Reading](tech-whitepaper/further-reading.md)
 
+## Native Token Conversion <a href="#tech-whitepaper" id="tech-whitepaper"></a>
+
+* [💡 Introduction](tech-whitepaper-1/introduction.md)
+* [🗓 Conversion Status](tech-whitepaper-1/conversion-status.md)
+* [👍 Participating Exchanges](tech-whitepaper-1/participating-exchanges.md)
+
 ## FAQ
 
 * [Vision](faq/vision.md)
