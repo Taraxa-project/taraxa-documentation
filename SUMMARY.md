@@ -43,6 +43,7 @@
 
 * [💡 Introduction](tech-whitepaper-1/introduction.md)
 * [🗓 Conversion Status](tech-whitepaper-1/conversion-status.md)
+* [📋 Exchange Submission](tech-whitepaper-1/exchange-submission.md)
 
 ## FAQ
 
