@@ -45,12 +45,6 @@
 * [🗓 Conversion Status](native-token-conversion/conversion-status.md)
 * [📋 Exchange Submission](native-token-conversion/exchange-submission.md)
 
-## Native Token Conversion <a href="#tech-whitepaper" id="tech-whitepaper"></a>
-
-* [💡 Introduction](tech-whitepaper-1/introduction.md)
-* [🗓 Conversion Status](tech-whitepaper-1/conversion-status.md)
-* [📋 Exchange Submission](tech-whitepaper-1/exchange-submission.md)
-
 ## FAQ
 
 * [Vision](faq/vision.md)
