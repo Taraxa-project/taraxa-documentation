@@ -12,3 +12,14 @@ Here's a simple checklist of what has been completed, and what's still pending,&
 
 
 
+### Which exchanges has responded?&#x20;
+
+Of all the exchanges the development team has reached out to in order to coordinate the technical and timeframe details of the conversion, the following has responded thus far and any progress will be updated here.&#x20;
+
+* Kucoin
+* Gate
+* AscendEx
+
+The development team will keep reaching out to all exchanges that lists the TARA token to ensure we have maximum participation for the token conversion.&#x20;
+
+Note that, if an exchange is unresponsive to attempts at contact, or unwilling for whatever reason to participate in the native token conversion, it's advised that anyone holding tokens on non-participating exchanges withdraw their tokens into their own wallet.&#x20;
