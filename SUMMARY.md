@@ -10,9 +10,9 @@
 
 ## Develop on Taraxa <a href="#develop" id="develop"></a>
 
-* [Connect to Taraxa's Network](develop/connect-to-taraxas-network.md)
-* [Smart Contracts \[WIP\]](develop/smart-contracts-wip.md)
-* [Taraxa RPC Specifications](develop/taraxa-rpc-specifications.md)
+* [🔗 Connecting to Taraxa](develop/connecting-to-taraxa.md)
+* [📓 Smart Contracts \[WIP\]](develop/smart-contracts-wip.md)
+* [🔩 Taraxa RPC](develop/taraxa-rpc.md)
 
 ## Node Operations <a href="#node-setup" id="node-setup"></a>
 
