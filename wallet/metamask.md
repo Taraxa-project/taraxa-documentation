@@ -1,5 +1,5 @@
 ---
-description: Metamask on Taraxa
+description: Using Taraxa on Metamask
 ---
 
 # Metamask
@@ -8,13 +8,13 @@ description: Metamask on Taraxa
 
 Most ETH-compatible wallets allow you to add a "custom network". As long as that network is ETH-compatible - which Taraxa is - everything just works.&#x20;
 
-You have two options to add Taraxa as a custom network into Metamask: adding it via Chainlist, or doing it manually yourself.&#x20;
+You have two options to add Taraxa as a custom network into Metamask: adding it [via Chainlist](metamask.md#option-1-add-taraxa-to-metamask-via-chainlist), or doing it manually yourself.&#x20;
 
-## Option 1: Add Taraxa to Metamask via Chainlist&#x20;
+## Add Taraxa to Metamask: via Chainlist&#x20;
 
 The first way to get add the Taraxa network onto Metamask is via [Chainlist](https://chainlist.wtf/). We highly recommend that you reference [Metamask's Chainlist Documentation](https://metamask.zendesk.com/hc/en-us/articles/360058992772).&#x20;
 
-Here's a step-by-step guide for adding via Chainlist,&#x20;
+Here's a step-by-step guide for adding Taraxa to Metamask via Chainlist,&#x20;
 
 * Go to [Chainlist](https://chainlist.wtf/)
 * Click on "Connect Wallet" on the upper-right corner
@@ -48,4 +48,14 @@ Here's a step-by-step guide for adding via Chainlist,&#x20;
 * Finally, when you open the Metamask browser plugin, you should be able to see "Taraxa Mainnet" at the top, and you're done!&#x20;
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+
+
+## Add Taraxa to Metamask: via Custom Networks
+
+You also have the option to simply add the Taraxa network into Metamask manually. The end result is exactly the same. We highly recommend that you reference [Metamask's Custom Network Documentation](https://metamask.zendesk.com/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC#h\_01G63GGJ83DGDRCS2ZWXM37CV5).&#x20;
+
+Here's a step-by-step guide for adding Taraxa to Metamask via manually configuring custom networks,&#x20;
+
+
 
