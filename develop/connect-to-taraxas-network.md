@@ -15,7 +15,7 @@ Since Taraxa's network is almost 100% ETH-compatible, you can simply follow [Eth
 
 The ETH-compatibility with Ethereum also means that almost all tools from the Ethereum ecosystem work with Taraxa. You can use, for example, [Web3.js](https://web3js.org/), [ethers.js](https://docs.ethers.io/v5/) and [Web3.py](https://web3py.readthedocs.io/en/latest/) to connect to and interact with the Taraxa Network.
 
-There are a few minor exceptions and quirks to Taraxa's ETH-compatibility, you can find them in our [full RPC specification](taraxa-rpc.md).&#x20;
+There are a few minor exceptions and quirks to Taraxa's ETH-compatibility, you can find them in our [full RPC specification](taraxa-rpc-specs.md).&#x20;
 
 
 

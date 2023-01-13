@@ -2,7 +2,7 @@
 description: Detailed RPC specs for the Taraxa Network
 ---
 
-# 🔩 Taraxa RPC
+# 🔩 Taraxa RPC Specs
 
 ## Taraxa RPC's Ethereum Compatibility
 
