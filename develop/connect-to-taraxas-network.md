@@ -28,7 +28,7 @@ You may use the RPC endpoints provided by Taraxa's core development team. Right 
 
 More details on [Taraxa's network connections](../wallet/taraxas-network-connection-details.md), including chain-ids etc.&#x20;
 
-##
+
 
 ## Connect via your own Nodes
 
