@@ -23,11 +23,11 @@ Here's a step-by-step guide for adding Taraxa to Metamask via Chainlist,&#x20;
 
 * Choose "Metamask" in the pop-up
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 * Once Metamask is connected, your wallet address will show up on the upper right corner
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Next, search for "Taraxa" in the search bar, and you should be able to see Taraxa's Mainnet and Testnet networks in the search results
 
@@ -35,11 +35,11 @@ Here's a step-by-step guide for adding Taraxa to Metamask via Chainlist,&#x20;
 
 * Click on "Add Chain" for the network you wish to join, for example, the Taraxa Mainnet
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 * You'll see a Metamask pop-up, here's where you can confirm the Taraxa network's connection details, and then click on "Approve"
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Next, Metamask will ask if you'd like to switch to the new network
 
@@ -47,7 +47,7 @@ Here's a step-by-step guide for adding Taraxa to Metamask via Chainlist,&#x20;
 
 * Finally, when you open the Metamask browser plugin, you should be able to see "Taraxa Mainnet" at the top, and you're done!&#x20;
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -59,13 +59,13 @@ Here's a step-by-step guide for adding Taraxa to Metamask via manually configuri
 
 * Open the Metamask browser plugin, click on the network selector button, which will show you a list of networks, at the bottom, there's a "Add Network" button, click on that
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 * A browser tab will pop out and show Metamask's Add a Network settings, choose "Add a network manually" at the bottom
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 * Here you'll see a brief form for you fill in details of Taraxa's network
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 

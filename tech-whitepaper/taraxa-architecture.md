@@ -224,7 +224,7 @@ Within Taraxa, the sole purpose of maintaining an EMPT is for deriving state roo
 
 In practice execution of 20,000 transactions in large "blocks of blocks" enables virtual machine execution to take over 90% of CPU time, TRIE commits to be around 7%, and DB commits to be around 3% of CPU time. This architecture allows for transaction throughput greater than 25,000 TPS, and for large blocks to be continuous executed without disrupting consensus or endangering security.
 
-![Comparison of Taraxa's Optimized Asynchronous Execution Layer to Ethereum](<../.gitbook/assets/image (1) (1) (1).png>)
+![Comparison of Taraxa's Optimized Asynchronous Execution Layer to Ethereum](<../.gitbook/assets/image (1) (1).png>)
 
 ## 5. Technical Roadmap
 
