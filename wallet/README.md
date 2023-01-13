@@ -12,5 +12,5 @@ As of this writing, the TARA token is still an ERC-20 token on the Ethereum netw
 
 Here are a few examples of wallets supported by Taraxa.&#x20;
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Metamask</td><td></td><td></td><td><a href=".gitbook/assets/800px-MetaMask_Fox.svg[1] (1).png">800px-MetaMask_Fox.svg[1] (1).png</a></td></tr><tr><td>Ledger (hardware wallet)</td><td></td><td></td><td><a href=".gitbook/assets/Ledger-Nano-X-Gear[1].jpg">Ledger-Nano-X-Gear[1].jpg</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td>Metamask</td><td></td><td></td><td><a href="../.gitbook/assets/800px-MetaMask_Fox.svg[1] (1).png">800px-MetaMask_Fox.svg[1] (1).png</a></td></tr><tr><td>Ledger (hardware wallet)</td><td></td><td></td><td><a href="../.gitbook/assets/Ledger-Nano-X-Gear[1].jpg">Ledger-Nano-X-Gear[1].jpg</a></td></tr></tbody></table>
 
