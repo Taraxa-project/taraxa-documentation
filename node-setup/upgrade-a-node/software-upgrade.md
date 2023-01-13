@@ -1,4 +1,8 @@
-# Upgrading Node Software
+---
+description: Upgrade the node to the latest version without erasing any local data.
+---
+
+# ⬆ Upgrade Node
 
 ### Upgrade your node's software
 

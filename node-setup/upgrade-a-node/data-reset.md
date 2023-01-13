@@ -1,4 +1,8 @@
-# Performing a Data Reset
+---
+description: Wipes the node's data and start over with the latest version.
+---
+
+# 🔁 Reset Node
 
 ### How to reset your node's data
 
