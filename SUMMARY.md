@@ -8,6 +8,10 @@
 * [🔥 Become a Validator](join-the-mainnet-candidate/mainnet-quick-start.md)
 * [💰 Staking & Delegation](faq/staking.md)
 
+## Develop on Taraxa
+
+* [Page 1](develop-on-taraxa/page-1.md)
+
 ## Join the Testnet <a href="#node-setup" id="node-setup"></a>
 
 * [🧪 Getting started](node-setup/getting\_started.md)
