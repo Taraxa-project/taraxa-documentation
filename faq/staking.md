@@ -8,7 +8,7 @@ description: Secure Taraxa by Staking your TARA!
 
 * You can stake your TARA tokens on the [community site's staking section](https://community.taraxa.io/staking), here is the [step-by-step guide to staking](https://medium.com/taraxa-project/how-to-stake-your-tara-a-step-by-step-guide-a03b72dd519e).&#x20;
 * To receive yields, you **MUST delegate** your staked tokens also through the [community site's delegation section](https://community.taraxa.io/delegation), here's the [step-by-step guide to delegation](https://medium.com/taraxa-project/how-to-participate-in-taraxas-mainnet-candidate-a-step-by-step-guide-fb0c0f6ad71f)&#x20;
-* Currently the yield is 20% APY, please note that this is higher than what's stated in the [economics rewards](tech-whitepaper/economic-model.md#5-5-rewards) section, as we wish to ramp up participation in the early days of the network
+* Currently the yield is 20% APY, please note that this is higher than what's stated in the [economics rewards](../tech-whitepaper/economic-model.md#5-5-rewards) section, as we wish to ramp up participation in the early days of the network
 * You can redeem your yields through the [community site's claim section](https://community.taraxa.io/redeem), yields are given out on a monthly basis, with the calculation cutoff at \~15th of each month, and the rewards given out on \~20th of each month
 
 ## Staking&#x20;
@@ -27,11 +27,11 @@ You have to delegate your staked tokens, otherwise they're not doing any work an
 
 #### Delegate you staked TARA tokens through the [community site's delegation section](https://community.taraxa.io/delegation), here's the [step-by-step guide to delegation](https://medium.com/taraxa-project/how-to-participate-in-taraxas-mainnet-candidate-a-step-by-step-guide-fb0c0f6ad71f)&#x20;
 
-## Is there a minimum to stake in Pre-Staking?
+## Is there a minimum to stake?
 
 There is NO minimum to stake. However, please take into account the transaction fees on the Ethereum network when decide how many TARA to stake.
 
-## Can I add more to my stake after I have already staked in Pre-Staking?
+## Can I add more to my stake after I have already staked?
 
 Yes, simply use the same staking procedures to add more.
 
@@ -41,30 +41,16 @@ Please be aware that, once you add more stake, your entire stake's (including yo
 
 Currently the yield is a flat 20% APY.&#x20;
 
-Please note that this is higher than what's stated in the [economics rewards](tech-whitepaper/economic-model.md#5-5-rewards) section, as we wish to ramp up participation in preparation for the mainnet launch.
+Please note that this is higher than what's stated in the [economics rewards](../tech-whitepaper/economic-model.md#5-5-rewards) section, as we wish to ramp up participation in preparation for the mainnet launch.
 
 ## How do I get my yields?
 
-Yields are calculated and settled every month, and you can claim their yields through the [claiming function](https://claim.taraxa.io) on the community site after staking.
+You can redeem your yields through the [community site's claim section](https://community.taraxa.io/redeem), yields are given out on a monthly basis, with the calculation cutoff at \~15th of each month, and the rewards given out on \~20th of each month.&#x20;
 
-After claiming the yield, you have the option to [stake the yields](https://www.taraxa.io/staking) as well, on top of your original stake.
+After claiming the yield, you can always stake and then delegate your yields too.&#x20;
 
-## How long is the locking period in Pre-Staking?
+## How long is the locking period?
 
-When you first stake TARA during Pre-Staking, the tokens are locked for 30 days. After the locking period ends, the tokens become unlocked and you are free to un-stake the tokens.
+When you first stake TARA, the tokens are locked for 30 days. After the locking period ends, the tokens become unlocked and you are free to un-stake the tokens.&#x20;
 
-## How do I un-stake in Pre-Staking?
-
-You can un-stake once the initial locking period has elapsed, the option is on the same Staking page.
-
-![Figure: Un-staking button](.gitbook/assets/Picture1.png)
-
-## What happens if I don't un-stake after the locking period ends during Pre-Staking?
-
-As long as you do not un-stake the staked tokens, it will keep earning yields.
-
-You can always re-stake any un-staked tokens, the only cost is a simple transaction fee on ETH.
-
-## Is there anything else going on besides simple staking yields in Pre-Staking?
-
-To further encourage community participation, we intend to run contests from time to time. Please stay tuned into our [latest social announcements](https://taraxa.io/latest) so you don't miss out!
+Note that you are unable to un-stake your tokens if they're delegated to validators, you must first un-delegate the stake before un-staking them.&#x20;
