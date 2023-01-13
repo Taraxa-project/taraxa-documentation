@@ -2,7 +2,7 @@
 description: Everything you want to know about Taraxa's Mainnet Candidate!
 ---
 
-# 🔥 Mainnet Candidate
+# 🌱 Mainnet Candidate
 
 ## tl;dr
 

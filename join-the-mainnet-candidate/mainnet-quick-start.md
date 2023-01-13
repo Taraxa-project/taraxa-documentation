@@ -2,7 +2,7 @@
 description: Join the Taraxa network as a Validator!
 ---
 
-# 🔥 Become a Validator
+# 🌱 Become a Validator
 
 We've launched our Mainnet Candidate network! You can now join the Mainnet Candidate as a validator.&#x20;
 

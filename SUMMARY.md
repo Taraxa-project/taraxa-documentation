@@ -5,16 +5,15 @@
   * [Metamask](wallet/metamask.md)
   * [Ledger](wallet/ledger.md)
   * [Taraxa's Network Connection Details](wallet/taraxas-network-connection-details.md)
-* [🔥 Become a Validator](join-the-mainnet-candidate/mainnet-quick-start.md)
+* [🌱 Become a Validator](join-the-mainnet-candidate/mainnet-quick-start.md)
 * [💰 Staking & Delegation](faq/staking.md)
 
-## Develop on Taraxa
+## Develop on Taraxa <a href="#develop" id="develop"></a>
 
-* [Page 1](develop-on-taraxa/page-1.md)
+* [Smart Contracts](develop/smart-contracts.md)
 
-## Join the Testnet <a href="#node-setup" id="node-setup"></a>
+## Node Operations <a href="#node-setup" id="node-setup"></a>
 
-* [🧪 Getting started](node-setup/getting\_started.md)
 * [⚙ Install a Node](node-setup/testnet\_node\_setup/README.md)
   * [Windows](node-setup/testnet\_node\_setup/windows.md)
   * [Mac](node-setup/testnet\_node\_setup/mac.md)
@@ -47,7 +46,7 @@
 * [🔭 Vision](faq/vision.md)
 * [1 Layer-1 Tech](faq/layer-1-tech.md)
 * [🪙 TARA Token](faq/tara-token.md)
-* [🔥 Mainnet Candidate](faq/mainnet-candidate.md)
+* [🌱 Mainnet Candidate](faq/mainnet-candidate.md)
 * [🧪 Testnet & Node](faq/testnet.md)
 * [🔁 Exchange Integration](faq/exchange-integration.md)
 
