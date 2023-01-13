@@ -6,14 +6,14 @@ description: Detailed RPC specs for the Taraxa Network
 
 ## Taraxa RPC's Ethereum Compatibility
 
-Taraxa is nearly 100% ETH-compatible, with a few quirks and exceptions.&#x20;
+Taraxa is nearly 100% ETH-compatible, with a few quirks, exceptions, and Taraxa-specific specs.&#x20;
 
-### Quirks
+## Quirks of ETH-RPC on Taraxa
 
 * "pending" block identifier means "latest"
 * `eth_syncing` return values are to be better defined
 
-### Not Implemented
+## ETH-RPC not implemented on Taraxa
 
 Taraxa protocol supports all Ethereum methods described on [this page](https://eth.wiki/json-rpc/API#json-rpc-methods) except:
 
@@ -45,7 +45,7 @@ Taraxa protocol supports all Ethereum methods described on [this page](https://e
 
 All unimplemented methods will return a standard json-rpc error that the method is not present
 
-## Taraxa specific methods
+## Taraxa-Specific RPC Methods&#x20;
 
 ### taraxa\_protocolVersion
 
