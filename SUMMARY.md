@@ -1,9 +1,8 @@
 # Table of contents
 
 * [👋 Welcome!](README.md)
-* [🔥 Become a Validator](become-a-validator.md)
-
-## JOIN THE MAINNET CANDIDATE
+* [💵 Wallet](wallet.md)
+* [🔥 Become a Validator](join-the-mainnet-candidate/mainnet-quick-start.md)
 
 ## Join the Testnet <a href="#node-setup" id="node-setup"></a>
 

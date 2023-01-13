@@ -7,7 +7,7 @@ description: Everything you want to know about Taraxa's Mainnet Candidate!
 ## tl;dr
 
 * [Step by step guide](https://medium.com/taraxa-project/how-to-participate-in-taraxas-mainnet-candidate-a-step-by-step-guide-fb0c0f6ad71f) on running a node and staking on the Mainnet Candidate
-* [Quick start](../become-a-validator.md) on running a node
+* [Quick start](../join-the-mainnet-candidate/mainnet-quick-start.md) on running a node
 
 ## What’s the purpose of the Mainnet Candidate?&#x20;
 
