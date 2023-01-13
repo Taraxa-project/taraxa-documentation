@@ -30,7 +30,7 @@ Here are more details around the [economics](../tech-whitepaper/economic-model.m
 
 ## How will staking work?
 
-Read all about it at the [staking ](staking.md)section.
+Read all about it at the [staking ](../staking.md)section.
 
 ## Will there be token burning?
 

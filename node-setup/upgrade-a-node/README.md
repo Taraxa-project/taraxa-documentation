@@ -2,7 +2,7 @@
 description: Instructions for the easy upgrade of Taraxa nodes on the Testnet
 ---
 
-# ⬆ Upgrade a Node
+# ⏺ Upgrade a Node
 
 ## When to Upgrade Your Node
 

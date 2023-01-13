@@ -6,6 +6,7 @@
   * [Ledger](wallet/ledger.md)
   * [Taraxa's Network Connection Details](wallet/taraxas-network-connection-details.md)
 * [🔥 Become a Validator](join-the-mainnet-candidate/mainnet-quick-start.md)
+* [💰 Staking & Delegation](staking.md)
 
 ## Join the Testnet <a href="#node-setup" id="node-setup"></a>
 
@@ -42,7 +43,6 @@
 * [🔭 Vision](faq/vision.md)
 * [1 Layer-1 Tech](faq/layer-1-tech.md)
 * [🪙 TARA Token](faq/tara-token.md)
-* [💰 Staking](faq/staking.md)
 * [🔥 Mainnet Candidate](faq/mainnet-candidate.md)
 * [🧪 Testnet & Node](faq/testnet.md)
 * [🔁 Exchange Integration](faq/exchange-integration.md)
