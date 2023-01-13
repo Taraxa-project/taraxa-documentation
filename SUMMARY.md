@@ -12,6 +12,7 @@
 
 * [Connect to Taraxa's Network](develop/connect-to-taraxas-network.md)
 * [Smart Contracts \[WIP\]](develop/smart-contracts-wip.md)
+* [Taraxa RPC Specifications](develop/taraxa-rpc-specifications.md)
 
 ## Node Operations <a href="#node-setup" id="node-setup"></a>
 
