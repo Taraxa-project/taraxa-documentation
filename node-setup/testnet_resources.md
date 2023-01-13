@@ -2,7 +2,7 @@
 description: Test-related resources
 ---
 
-# Testnet Resources
+# ❓ Testnet Resources
 
 ## Step by step guide
 

@@ -2,17 +2,17 @@
 description: Guide for getting your node's public address
 ---
 
-# Find Node's Public Address
+# 📬 Node's Public Address
 
 To find out your node's public address you can run the following command in a new terminal window while the node is running:
 
-```text
+```
 docker exec taraxa_compose_node_1 cat /opt/taraxa_data/conf/wallet.json
 ```
 
 You should see an output similar to the following:
 
-```text
+```
 {
 	"node_address" : "49a303283915277ec9c8cb87f50368d2be41f38b",
 	"node_public" : "af27e45a6e234f28e5a37fb482de35062b2088975edf98ec21f7e0eb798faf0439175b8f0f3f501fd60d160dbb86e6f7082658baa659c5fdaafe49065f444fb9",
@@ -33,4 +33,3 @@ Don't share your private key or config file with others. They can be used to tak
 
 We will never ask you to provide any sensitive information.
 {% endhint %}
-

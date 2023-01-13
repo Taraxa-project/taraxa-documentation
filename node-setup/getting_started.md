@@ -2,7 +2,7 @@
 description: Getting started with the Taraxa Incentivized Testnet
 ---
 
-# Getting started
+# 🧪 Getting started
 
 ### **Welcome to Taraxa's Californicum testnet!**&#x20;
 

@@ -1,4 +1,4 @@
-# Quick start
+# 🔥 Mainnet quick start
 
 We've launched our Mainnet Candidate network!
 

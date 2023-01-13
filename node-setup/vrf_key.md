@@ -2,7 +2,7 @@
 description: Guide for getting your node's VRF public key
 ---
 
-# Find Node's VRF Public Key
+# 🗝 Node's VRF Key
 
 To find out your node's VRF public key you can run the following command in a new terminal window while the node is running:
 

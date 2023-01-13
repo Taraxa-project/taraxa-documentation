@@ -2,7 +2,7 @@
 description: Guide for getting proof of owership for node
 ---
 
-# Get Node Proof of Owership
+# 📒 Node Proof of Owership
 
 To find out your node's public address you can run the following command in a new terminal window while the node is running:
 

@@ -4,7 +4,7 @@ description: >-
   crypto exchange.
 ---
 
-# Exchange Integration
+# 🔁 Exchange Integration
 
 ### Node Setup
 

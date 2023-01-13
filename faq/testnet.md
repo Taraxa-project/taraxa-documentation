@@ -2,7 +2,7 @@
 description: All your burning questions about Taraxa's testnet.
 ---
 
-# Testnet & Node
+# 🧪 Testnet & Node
 
 ## What makes one node generate more blocks than another?&#x20;
 

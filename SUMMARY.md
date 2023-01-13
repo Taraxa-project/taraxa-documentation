@@ -4,12 +4,12 @@
 
 ## JOIN THE MAINNET CANDIDATE
 
-* [Quick start](join-the-mainnet-candidate/quick-start.md)
+* [🔥 Mainnet quick start](join-the-mainnet-candidate/mainnet-quick-start.md)
 
 ## Join the Testnet <a href="#node-setup" id="node-setup"></a>
 
-* [Getting started](node-setup/getting\_started.md)
-* [Install a Node](node-setup/testnet\_node\_setup/README.md)
+* [🧪 Getting started](node-setup/getting\_started.md)
+* [⚙ Install a Node](node-setup/testnet\_node\_setup/README.md)
   * [Windows](node-setup/testnet\_node\_setup/windows.md)
   * [Mac](node-setup/testnet\_node\_setup/mac.md)
   * [Linux](node-setup/testnet\_node\_setup/linux.md)
@@ -22,22 +22,13 @@
   * [Azure](node-setup/testnet\_node\_setup/azure.md)
   * [Hetzner](node-setup/testnet\_node\_setup/hetzner.md)
   * [GitHub is blocked](node-setup/testnet\_node\_setup/github\_blocked.md)
-* [Upgrade a Node](node-setup/upgrade-a-node/README.md)
+* [⬆ Upgrade a Node](node-setup/upgrade-a-node/README.md)
   * [Upgrading Node Software](node-setup/upgrade-a-node/software-upgrade.md)
   * [Performing a Data Reset](node-setup/upgrade-a-node/data-reset.md)
-* [Find Node's Public Address](node-setup/node\_address.md)
-* [Find Node's VRF Public Key](node-setup/vrf\_key.md)
-* [Get Node Proof of Owership](node-setup/proof\_owership.md)
-* [Testnet Resources](node-setup/testnet\_resources.md)
-
-## Whitepaper <a href="#tech-whitepaper" id="tech-whitepaper"></a>
-
-* [Abstract](tech-whitepaper/abstract.md)
-* [Intro: Scaling the World](tech-whitepaper/introduction.md)
-* [Taraxa Architecture](tech-whitepaper/taraxa-architecture.md)
-* [Economic Model](tech-whitepaper/economic-model.md)
-* [Governance](tech-whitepaper/governance.md)
-* [Further Reading](tech-whitepaper/further-reading.md)
+* [📬 Node's Public Address](node-setup/node\_address.md)
+* [🗝 Node's VRF Key](node-setup/vrf\_key.md)
+* [📒 Node Proof of Owership](node-setup/proof\_owership.md)
+* [❓ Testnet Resources](node-setup/testnet\_resources.md)
 
 ## NATIVE TOKEN CONVERSION
 
@@ -47,11 +38,19 @@
 
 ## FAQ
 
-* [Vision](faq/vision.md)
-* [Layer-1 Tech](faq/layer-1-tech.md)
-* [TARA Token](faq/tara-token.md)
-* [Staking](faq/staking.md)
-* [Mainnet Candidate](faq/mainnet-candidate.md)
-* [Testnet & Node](faq/testnet.md)
-* [General Questions](faq/general-questions.md)
-* [Exchange Integration](faq/exchange-integration.md)
+* [🔭 Vision](faq/vision.md)
+* [1 Layer-1 Tech](faq/layer-1-tech.md)
+* [🪙 TARA Token](faq/tara-token.md)
+* [💰 Staking](faq/staking.md)
+* [🔥 Mainnet Candidate](faq/mainnet-candidate.md)
+* [🧪 Testnet & Node](faq/testnet.md)
+* [🔁 Exchange Integration](faq/exchange-integration.md)
+
+## Whitepaper <a href="#tech-whitepaper" id="tech-whitepaper"></a>
+
+* [Abstract](tech-whitepaper/abstract.md)
+* [Intro: Scaling the World](tech-whitepaper/introduction.md)
+* [Taraxa Architecture](tech-whitepaper/taraxa-architecture.md)
+* [Economic Model](tech-whitepaper/economic-model.md)
+* [Governance](tech-whitepaper/governance.md)
+* [Further Reading](tech-whitepaper/further-reading.md)
