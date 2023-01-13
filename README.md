@@ -24,4 +24,4 @@ If you're curious about our technology, check out the [Architecture ](tech-white
 
 If you want to join the community in interacting with the network, check out our [community site](https://community.taraxa.io).
 
-If you wish to run a node, check out how you can [join our testnet](node-setup/getting\_started.md).
+If you wish to run a node, check out how you can [join our testnet](node-setup/getting\_started.md) or [join our mainnet](broken-reference).&#x20;
