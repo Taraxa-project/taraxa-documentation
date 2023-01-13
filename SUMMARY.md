@@ -2,8 +2,8 @@
 
 * [👋 Welcome!](README.md)
 * [💵 Wallet](wallet/README.md)
-  * [Metamask](wallet/metamask.md)
-  * [Taraxa's Network Connection Details](wallet/taraxas-network-connection-details.md)
+  * [🦊 Metamask](wallet/metamask.md)
+  * [🔗 Taraxa's Network Connection Details](wallet/taraxas-network-connection-details.md)
 * [🔥 Become a Validator](join-the-mainnet-candidate/mainnet-quick-start.md)
 
 ## Join the Testnet <a href="#node-setup" id="node-setup"></a>
