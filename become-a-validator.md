@@ -1,8 +1,12 @@
-# 🔥 Mainnet quick start
+---
+description: Join the Taraxa network as a Validator!
+---
 
-We've launched our Mainnet Candidate network!
+# 🔥 Become a Validator
 
-The vast majority of instructions relating to the node are identical or highly similar than those for the [Testnet](broken-reference). More complete instructions & resources are coming soon, here are some quick technical instructions on how to get started right away.&#x20;
+We've launched our Mainnet Candidate network! You can now join the Mainnet Candidate as a validator.&#x20;
+
+Instructions relating to running a validator node are mostly identical or highly similar than those for the [Testnet](broken-reference). More complete instructions & resources are coming soon, here are some quick technical instructions on how to get started right away.&#x20;
 
 
 

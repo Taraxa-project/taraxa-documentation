@@ -1,10 +1,9 @@
 # Table of contents
 
 * [👋 Welcome!](README.md)
+* [🔥 Become a Validator](become-a-validator.md)
 
 ## JOIN THE MAINNET CANDIDATE
-
-* [🔥 Mainnet quick start](join-the-mainnet-candidate/mainnet-quick-start.md)
 
 ## Join the Testnet <a href="#node-setup" id="node-setup"></a>
 
