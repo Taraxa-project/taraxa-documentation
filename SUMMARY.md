@@ -11,6 +11,7 @@
 
 ## Develop on Taraxa <a href="#develop" id="develop"></a>
 
+* [🚀 Quickstart](develop/quickstart.md)
 * [🔗 Connecting to Taraxa](develop/connect-to-taraxas-network.md)
 * [📓 Smart Contracts \[WIP\]](develop/smart-contracts-wip.md)
 * [🔩 Taraxa RPC Specs](develop/taraxa-rpc-specs.md)
