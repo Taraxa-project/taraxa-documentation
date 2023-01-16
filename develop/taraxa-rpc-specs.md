@@ -1,5 +1,5 @@
 ---
-description: Detailed RPC specs for the Taraxa Network
+description: Detailed RPC specifications for the Taraxa Network
 ---
 
 # 🔩 Taraxa RPC Specs
