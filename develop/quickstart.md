@@ -8,9 +8,10 @@ description: Building on Taraxa is easy as pie.
 
 Hi! Thanks for checking out Taraxa's Layer-1 network. Here are a few quick links to get you started right away.&#x20;
 
-* Create a wallet&#x20;
-* Get some testnet tokens on the faucet&#x20;
-* Connecting to the Taraxa network&#x20;
-* Deploying a smart contract&#x20;
-* Taraxa RPC specifications&#x20;
+* [Create a wallet](../wallet/) using tools you're already familiar with such as Metamask and Ledger
+* Get some testnet tokens on the faucet on the Taraxa Explorer
+* [Connecting to the Taraxa network](connect-to-taraxas-network.md) via our dev deployed RPC endpoint, or running a node of your own&#x20;
+* [Deploying a smart contract](smart-contracts-wip.md) is super easy, all ETH-compatible tools just work&#x20;
+* [Taraxa RPC specifications](taraxa-rpc-specs.md) highlights Taraxa's near-100% compatibility with ETH's RPC specs, with a few minor quirks & exceptions
 
+Let's get building!&#x20;
