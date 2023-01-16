@@ -51,7 +51,7 @@
 * [1 Layer-1 Tech](faq/layer-1-tech.md)
 * [🪙 TARA Token](faq/tara-token.md)
 * [🌱 Mainnet Candidate](faq/mainnet-candidate.md)
-* [🧪 Testnet & Node](faq/testnet.md)
+* [🧪 Node Operations](faq/testnet.md)
 * [🔁 Exchange Integration](faq/exchange-integration.md)
 
 ## Whitepaper <a href="#tech-whitepaper" id="tech-whitepaper"></a>
