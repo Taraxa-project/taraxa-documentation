@@ -4,11 +4,21 @@ description: Using Taraxa on Metamask
 
 # Metamask
 
+## Create an account on Metamask
+
+Since Taraxa is ETH-compatible, all you need to do is create a regular ETH acccout on Metamask.&#x20;
+
+Here's the official guide from Metamask on [How to create an additional account in your wallet](https://metamask.zendesk.com/hc/en-us/articles/360015289452-How-to-create-an-additional-account-in-your-wallet), if you don't already have one you'd like to use with Taraxa.&#x20;
+
+
+
 ## Adding Custom Networks in Metamask&#x20;
 
 Most ETH-compatible wallets allow you to add a "custom network". As long as that network is ETH-compatible - which Taraxa is - everything just works.&#x20;
 
 You have two options to add Taraxa as a custom network into Metamask: adding it [via Chainlist](metamask.md#option-1-add-taraxa-to-metamask-via-chainlist), or doing it manually yourself.&#x20;
+
+##
 
 ## Add Taraxa to Metamask: via Chainlist&#x20;
 
@@ -50,6 +60,8 @@ Here's a step-by-step guide for adding Taraxa to Metamask via Chainlist,&#x20;
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 
+
+##
 
 ## Add Taraxa to Metamask: via Custom Networks
 
