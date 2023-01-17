@@ -4,9 +4,9 @@ description: Using Taraxa on Metamask
 
 # Metamask
 
-## Create an account on Metamask
+## Create a wallet on Metamask
 
-Since Taraxa is ETH-compatible, all you need to do is create a regular ETH acccout on Metamask.&#x20;
+Since Taraxa is ETH-compatible, all you need to do is create a regular ETH wallet on Metamask.&#x20;
 
 Here's the official guide from Metamask on [How to create an additional account in your wallet](https://metamask.zendesk.com/hc/en-us/articles/360015289452-How-to-create-an-additional-account-in-your-wallet), if you don't already have one you'd like to use with Taraxa.&#x20;
 

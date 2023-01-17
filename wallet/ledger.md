@@ -4,6 +4,12 @@ description: Using Taraxa on the Ledger hardware wallet
 
 # Ledger
 
+## Create a wallet on Ledger
+
+
+
+
+
 ## Ledger's Ethereum App works with Taraxa through Metamask
 
 Because the Taraxa Network is ETH-compatible, the Ethereum App actually works fine with the Taraxa Network, but needs to work through Metamask.&#x20;
