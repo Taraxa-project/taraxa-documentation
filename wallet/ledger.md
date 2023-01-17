@@ -6,13 +6,19 @@ description: Using Taraxa on the Ledger hardware wallet
 
 ## Create a Taraxa wallet on Ledger
 
-Since Taraxa is ETH-compatible, all you need to do is create a regular ETH wallet on Metamask.&#x20;
+Since Taraxa is ETH-compatible, all you need to do is create a regular ETH wallet on Ledger. We'll use this in conjunction with Metamask to get up & running on the Taraxa network!&#x20;
 
-Here's the official guide from Metamask on [How to create an additional account in your wallet](https://metamask.zendesk.com/hc/en-us/articles/360015289452-How-to-create-an-additional-account-in-your-wallet), if you don't already have one you'd like to use with Taraxa.&#x20;
+Here are a few guides you should look through,&#x20;
+
+* If you're completely new to Ledger, please check out their [Getting Started](https://support.ledger.com/hc/en-us/sections/4404369606801-Getting-Started?docs=true) guide&#x20;
+* Once you get your device set up and running, you'd want to follow [Ledger's guide on how to install the Ethereum app](https://support.ledger.com/hc/en-us/articles/360009576554-Ethereum-ETH-?support=true) onto your Ledger device, you can follow this official guide from Ledger on how to do&#x20;
+* After you have the Ethereum app installed, you should follow [Ledger's guide on adding new accounts to the hardware wallet](https://support.ledger.com/hc/en-us/articles/4404389482641-Add-your-accounts?docs=true), make sure the accounts are Ethereum accounts&#x20;
+
+Now that you have an Ethereum wallet on your Ledger, let's connect it with Metamask to get it working with the Taraxa network.&#x20;
 
 
 
-## Ledger's Ethereum App works with Taraxa through Metamask
+## Connect Ledger's with Taraxa through Metamask
 
 Because the Taraxa Network is ETH-compatible, the Ethereum App actually works fine with the Taraxa Network, but needs to work through Metamask.&#x20;
 
