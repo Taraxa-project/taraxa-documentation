@@ -10,8 +10,8 @@ Because the Taraxa Network is ETH-compatible, the Ethereum App actually works fi
 
 Here's how it works, it's pretty simple,&#x20;
 
-* You have an ETH address on your Ledger hardware wallet&#x20;
-* [Connect your Ledger hardware wallet into Metamask](https://www.ledger.com/academy/security/the-safest-way-to-use-metamask) by following Ledger's official documentation&#x20;
+* You have an ETH address on your Ledger hardware wallet, if you're new to Ledger you can check out their official [Getting Started](https://support.ledger.com/hc/en-us/sections/4404369606801-Getting-Started?docs=true) guides according to which hardware device you have
+* Follow the [How to access your Ledger Ethereum (ETH) account via Metamask](https://support.ledger.com/hc/en-us/articles/4404366864657-Set-up-and-use-MetaMask-to-access-your-Ledger-Ethereum-ETH-account?docs=true) guide by following Ledger's official documentation&#x20;
 * [Add the Taraxa network into Metamask](metamask.md)&#x20;
 * Use Metamask to send / receive TARA, and it will be signed by your wallet on the Ledger ETH app
 
