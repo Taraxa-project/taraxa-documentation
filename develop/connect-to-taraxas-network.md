@@ -40,3 +40,6 @@ Here are node setup instructions,&#x20;
 
 * Setting up a [mainnet node](../join-the-mainnet-candidate/mainnet-quick-start.md)&#x20;
 * Setting up a [testnet node](../node-setup/testnet\_node\_setup/)&#x20;
+
+The default RPC port on the Taraxa node is "7777". So if you're running this on your own node on the node's local machine, you'd send the RPC request to `localhost:7777`.&#x20;
+
