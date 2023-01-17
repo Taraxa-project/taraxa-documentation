@@ -4,7 +4,7 @@ description: Using Taraxa on Metamask
 
 # Metamask
 
-## Create a wallet on Metamask
+## Create a Taraxa wallet on Metamask
 
 Since Taraxa is ETH-compatible, all you need to do is create a regular ETH wallet on Metamask.&#x20;
 
