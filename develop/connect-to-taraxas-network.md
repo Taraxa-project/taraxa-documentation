@@ -8,8 +8,8 @@ description: Talking to the Taraxa Network via RPC
 
 There are two ways to connect to Taraxa's network,
 
-* Via RPC endpoints&#x20;
-* Via mainnet / testnet nodes
+* Via dev-deployed RPC endpoints&#x20;
+* Via your own mainnet / testnet nodes
 
 Since Taraxa's network is almost 100% ETH-compatible, you can simply follow [Ethereum's JSON-RPC documentation](https://ethereum.org/en/developers/docs/apis/json-rpc/#usage-example).&#x20;
 
