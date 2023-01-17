@@ -32,7 +32,9 @@ More details on [Taraxa's network connections](../wallet/taraxas-network-connect
 
 ## Connect via your own Nodes
 
-You may also set up your own nodes on the Mainnet or Testnet. This give you a lot of flexibility in working with your DApp.&#x20;
+You could also set up your own nodes on the Mainnet or Testnet. This give you a lot of flexibility in working with your DApp.
+
+If these nodes are being used primarily for RPC connections, they do NOT need to participate in consensus. Therefore there is no need to register them on the community site, or seek delegation for the mainnet nodes.&#x20;
 
 Here are node setup instructions,&#x20;
 
