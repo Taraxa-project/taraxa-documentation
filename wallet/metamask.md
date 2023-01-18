@@ -45,7 +45,7 @@ Here's a step-by-step guide for adding Taraxa to Metamask via Chainlist,&#x20;
 
 * Click on "Add Chain" for the network you wish to join, for example, the Taraxa Mainnet
 
-<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * You'll see a Metamask pop-up, here's where you can confirm the [Taraxa network's connection details](taraxas-network-connection-details.md) are correct, and then click on "Approve"
 
@@ -57,7 +57,7 @@ Here's a step-by-step guide for adding Taraxa to Metamask via Chainlist,&#x20;
 
 * Finally, when you open the Metamask browser plugin, you should be able to see "Taraxa Mainnet" at the top, and you're done!&#x20;
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -71,7 +71,7 @@ Here's a step-by-step guide for adding Taraxa to Metamask via manually configuri
 
 * Open the Metamask browser plugin, click on the network selector button, which will show you a list of networks, at the bottom, there's a "Add Network" button, click on that
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
 * A browser tab will pop out and show Metamask's Add a Network settings, choose "Add a network manually" at the bottom
 
@@ -83,8 +83,8 @@ Here's a step-by-step guide for adding Taraxa to Metamask via manually configuri
 
 * You can reference the connection details in the [Taraxa's network connection details](taraxas-network-connection-details.md) page, here is a screenshot for connecting to the Taraxa's mainnet network, once you finished entering the connection details just click on "Save"
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 * After saving, open the Metamask browser plugin, you should be able to see "Taraxa Mainnet" at the top, and you're done!&#x20;
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
