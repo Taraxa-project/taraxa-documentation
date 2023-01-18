@@ -4,11 +4,21 @@ description: Using Taraxa on Metamask
 
 # Metamask
 
+## Create a Taraxa wallet on Metamask
+
+Since Taraxa is ETH-compatible, all you need to do is create a regular ETH wallet on Metamask.&#x20;
+
+Here's the official guide from Metamask on [How to create an additional account in your wallet](https://metamask.zendesk.com/hc/en-us/articles/360015289452-How-to-create-an-additional-account-in-your-wallet), if you don't already have one you'd like to use with Taraxa.&#x20;
+
+
+
 ## Adding Custom Networks in Metamask&#x20;
 
 Most ETH-compatible wallets allow you to add a "custom network". As long as that network is ETH-compatible - which Taraxa is - everything just works.&#x20;
 
 You have two options to add Taraxa as a custom network into Metamask: adding it [via Chainlist](metamask.md#option-1-add-taraxa-to-metamask-via-chainlist), or doing it manually yourself.&#x20;
+
+##
 
 ## Add Taraxa to Metamask: via Chainlist&#x20;
 
@@ -19,7 +29,7 @@ Here's a step-by-step guide for adding Taraxa to Metamask via Chainlist,&#x20;
 * Go to [Chainlist](https://chainlist.wtf/)
 * Click on "Connect Wallet" on the upper-right corner
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Choose "Metamask" in the pop-up
 
@@ -51,6 +61,8 @@ Here's a step-by-step guide for adding Taraxa to Metamask via Chainlist,&#x20;
 
 
 
+##
+
 ## Add Taraxa to Metamask: via Custom Networks
 
 You also have the option to simply add the Taraxa network into Metamask manually. The end result is exactly the same. We highly recommend that you reference [Metamask's Custom Network Documentation](https://metamask.zendesk.com/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC#h\_01G63GGJ83DGDRCS2ZWXM37CV5).&#x20;
@@ -71,8 +83,8 @@ Here's a step-by-step guide for adding Taraxa to Metamask via manually configuri
 
 * You can reference the connection details in the [Taraxa's network connection details](taraxas-network-connection-details.md) page, here is a screenshot for connecting to the Taraxa's mainnet network, once you finished entering the connection details just click on "Save"
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * After saving, open the Metamask browser plugin, you should be able to see "Taraxa Mainnet" at the top, and you're done!&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
