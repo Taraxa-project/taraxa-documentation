@@ -4,6 +4,12 @@ description: Building on Taraxa is easy as pie.
 
 # 🚀 Quickstart
 
+## tl;dr where's the example?&#x20;
+
+Here's a [step-by-step smart contract deployment example](smart-contracts/remix.md).&#x20;
+
+
+
 ## Building on Taraxa's EVM-compatible Network = super easy
 
 Hi! Thanks for checking out Taraxa's Layer-1 network. Here are a few quick links to get you started right away.&#x20;
