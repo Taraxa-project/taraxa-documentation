@@ -4,7 +4,7 @@ description: Thanks for dropping by the Taraxa Project!
 
 # 👋 Welcome!
 
-## araxa is the next-gen Layer-1
+## Taraxa is the next-gen Layer-1
 
 Taraxa is a purpose-built, fast, scalable, and device-friendly Layer-1 public ledger designed to help democratize reputation by making informal data trustworthy.&#x20;
 
