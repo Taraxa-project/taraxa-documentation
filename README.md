@@ -4,7 +4,7 @@ description: Thanks for dropping by the Taraxa Project!
 
 # 👋 Welcome!
 
-## What is Taraxa?
+## araxa is the next-gen Layer-1
 
 Taraxa is a purpose-built, fast, scalable, and device-friendly Layer-1 public ledger designed to help democratize reputation by making informal data trustworthy.&#x20;
 
@@ -14,7 +14,7 @@ Taraxa tracks informal data and makes it trustworthy with its purpose-built tech
 
 ##
 
-## Why build Taraxa?
+## Solving real-world problems
 
 It is our firm belief that technologies are meant to solve real world problems, and cannot be developed in isolation. The applications we build, will build, and will enable our community to build, will (and do) have concrete functionality implications to how the public ledger infrastructural layer is designed and implemented. To this end, the application and the ledger need to be tightly coupled to create the most optimized outcomes.
 
@@ -22,10 +22,18 @@ This is why we created Taraxa, a purpose-built Layer-1 public ledger to enable u
 
 ##
 
-## Get Involved!
+## Join the ecosystem!&#x20;
 
-If you're curious about our technology, check out the [Architecture ](tech-whitepaper/taraxa-architecture.md)section of our whitepaper.
+#### For users, check out,&#x20;
 
-If you want to join the community in interacting with the network, check out our [community site](https://community.taraxa.io).
+* Get started with [creating a wallet for Taraxa](wallet/)&#x20;
+* [Stake your TARA](faq/staking.md)
+* [Network explorer](https://explorer.mainnet.taraxa.io/)&#x20;
+* Our most recent [development roadmap](roadmap.md)
 
-If you wish to run a node, check out how you can [join our testnet](broken-reference) or [join our mainnet](broken-reference).&#x20;
+#### For developers, check out,&#x20;
+
+* [Building on Taraxa](develop/quickstart.md)
+* [Becoming a Validator](join-the-mainnet-candidate/mainnet-quick-start.md)&#x20;
+* Taraxa's [technical architecture](tech-whitepaper/taraxa-architecture.md)
+
