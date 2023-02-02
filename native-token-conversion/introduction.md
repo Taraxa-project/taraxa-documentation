@@ -12,7 +12,7 @@ As of this writing, the Taraxa token is still an [ERC-20 contract](https://ether
 
 ### How will the conversion work?&#x20;
 
-Technically, the conversion is pretty simple. But the technical process must be done in coordination with the exchanges that the TARA token is currently listed on, since otherwise all deposits and withdrawals will be disabled on these exchanges, wreaking havoc on the ecosystem.&#x20;
+Technically, the conversion is pretty simple. But the technical process must be done in coordination with the exchanges that the TARA token is currently listed on, since otherwise all deposits and withdrawals will be disabled on these exchanges.&#x20;
 
 Here's a quick overview of the mechanics of the conversion,&#x20;
 
@@ -20,7 +20,8 @@ Here's a quick overview of the mechanics of the conversion,&#x20;
 2. Disable the ERC-20 contract on Ethereum&#x20;
 3. Copy down the balances of the ERC-20 contract on Ethereum
 4. Place these balances inside the genesis block of the Mainnet&#x20;
-5. Reset the Mainnet with the updated genesis block&#x20;
+5. All staked tokens will be returned to the stakers' wallets on Mainnet, a re-delegation process must take place&#x20;
+6. Reset the Mainnet with the updated genesis block&#x20;
 
 ###
 
