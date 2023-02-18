@@ -20,9 +20,8 @@ Here's a quick overview of the mechanics of the conversion,&#x20;
 2. Disable the ERC-20 contract on Ethereum&#x20;
 3. Mirror the balances of the ERC-20 contract on Ethereum
 4. All staked tokens will be returned to the stakers' wallets on Mainnet, a re-delegation process must take place after the conversion&#x20;
-5. All unclaimed reward from the community site will be automatically sent to their owners' wallets
-6. Place these resulting balances inside the genesis block of the Mainnet&#x20;
-7. Reset the Mainnet with the updated genesis block&#x20;
+5. Place these resulting balances inside the genesis block of the Mainnet&#x20;
+6. Reset the Mainnet with the updated genesis block&#x20;
 
 ###
 
