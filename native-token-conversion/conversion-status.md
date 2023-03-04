@@ -1,6 +1,6 @@
 # 🗓 Conversion Status
 
-### Where are we in the conversion process?&#x20;
+## Where are we in the conversion process?&#x20;
 
 Here's a simple checklist of what has been completed, and what's still pending,&#x20;
 
@@ -12,7 +12,7 @@ Here's a simple checklist of what has been completed, and what's still pending,&
 
 
 
-### Which exchanges has responded?&#x20;
+## Which exchanges has responded?&#x20;
 
 Of all the exchanges the development team has reached out to in order to coordinate the technical and timeframe details of the conversion, the following has responded thus far and any progress will be updated here.&#x20;
 
