@@ -44,7 +44,7 @@
 
 * [💡 Introduction](native-token-conversion/introduction.md)
 * [🗓 Conversion Status](native-token-conversion/conversion-status.md)
-* [⚗ Mock Conversion \[WIP\]](native-token-conversion/mock-conversion-wip.md)
+* [⚗ Mock Conversion](native-token-conversion/mock-conversion.md)
 * [📋 Exchange Submission](native-token-conversion/exchange-submission.md)
 
 ## FAQ

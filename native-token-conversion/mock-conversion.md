@@ -1,4 +1,4 @@
-# ⚗ Mock Conversion \[WIP]
+# ⚗ Mock Conversion
 
 ## Prepare for the Conversion!
 
@@ -46,7 +46,7 @@ On the explorer, she visits her address's page,&#x20;
 
 [https://testnet.explorer.taraxa.io/address/b2781265b0905123bed40d4d0fb08a4bff28702a](https://testnet.explorer.taraxa.io/address/b2781265b0905123bed40d4d0fb08a4bff28702a)&#x20;
 
-and the balance is exactly what you'd expect from Step #1.&#x20;
+and the balance is exactly what you'd expect from Step #1 - as of this writing.&#x20;
 
 🥳 Hooray!&#x20;
 
