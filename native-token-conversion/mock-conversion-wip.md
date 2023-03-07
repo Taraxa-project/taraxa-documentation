@@ -32,6 +32,28 @@ Alice's wallet address is `0xb2781265b0905123bed40d4d0fb08a4bff28702a` , we can 
 
 Alice has also participated in staking. As of this writing, she has `86,074,923` TARA tokens staked in the staking contract. If you have staked, you can check this in the [community site's staking section.](https://community.taraxa.io/staking)&#x20;
 
+After the conversion, Alice's balance in her wallet should be her wallet balance + her staking balance, which in this case is: `1,289,181 + 86,074,923 =`` `**`87,364,104`** tokens.&#x20;
+
+
+
+### STEP 2: Verify the balance on the Testnet&#x20;
+
+Now Alice will go to the Testnet that was recently reset, and see if her balance was correctly mirrored over from Step #1.&#x20;
+
+On the explorer, she visits her address's page,&#x20;
+
+[https://testnet.explorer.taraxa.io/address/b2781265b0905123bed40d4d0fb08a4bff28702a](https://testnet.explorer.taraxa.io/address/b2781265b0905123bed40d4d0fb08a4bff28702a)&#x20;
+
+and the balance is exactly what you'd expect from Step #1.&#x20;
+
+🥳 Hooray!&#x20;
+
+
+
+## **🪙**  Example 2/2: Verify your Ownership
+
+Now that Alice has confirmed that she has the correct balance on the Testnet, next she will try to confirm that she truly OWNS this wallet.&#x20;
+
 
 
 
