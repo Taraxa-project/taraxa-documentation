@@ -1,10 +1,16 @@
 # ⚗ Mock Conversion
 
-## Prepare for the Conversion!
+## Warning: Technical Understanding Required&#x20;
+
+This mock conversion document was prepared for the exchanges to conduct pre-conversion testing. However if you're someone who's technically-inclined then you're more than welcome to try this out yourself.&#x20;
+
+If you find these instructions hard to understand or follow, then it's probably best to just wait for the actual conversion.&#x20;
+
+
+
+## Test the Conversion Before It Happens
 
 The native token conversion is a big event for the Taraxa ecosystem. While the [conversion mechanism](https://docs.taraxa.io/native-token-conversion/introduction#how-will-the-conversion-work) is designed to minimize risk and the amount of work end users have to endure, it's nevertheless a good idea to try out the conversion for yourself prior to the actual conversion so you know what to expect.&#x20;
-
-The dev team has put together a mock conversion guide to help everyone experience the conversion before it actually happens - a "mock conversion - by mirroring the ERC-20 balances onto Taraxa's testnet.&#x20;
 
 The latest testnet reset occurred on March 1, 2023 (see [Discord announcement](https://discord.com/channels/419749122556297216/909881217216827402/1080473001138597938)), which mirrored the TARA ERC-20 contract at **`ETH block height: 16720500`**.&#x20;
 
@@ -48,7 +54,7 @@ On the explorer, she visits her address's page,&#x20;
 
 and the balance is exactly what you'd expect from Step #1 - as of this writing.&#x20;
 
-🥳 Hooray!&#x20;
+🥳 Alice has verified her balance!&#x20;
 
 
 
@@ -64,5 +70,5 @@ To do that, she can try to send some coins to other addresses from this wallet b
 4. ➡️ MAKE SURE Taraxa Testnet is selected in the wallet. ⬅️
 5. If Alice is able to successfully make a transaction, that means she does indeed has ownership over her wallet!&#x20;
 
-🥳 Hooray!&#x20;
+🥳 Alice has verified her ownership!&#x20;
 
