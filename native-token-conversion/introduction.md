@@ -18,11 +18,15 @@ Here's a quick overview of the mechanics of the conversion,&#x20;
 
 1. Coordinate with the exchanges on a specific date & time when the conversion will take place&#x20;
 2. Disable the ERC-20 contract on Ethereum
-3. Record the exact ETH block where the contract has been disabled, this is the cutoff block&#x20;
-4. Mirror the balances of the ERC-20 contract on Ethereum
+3. Record the exact ETH block where the contract has been disabled, this is the cutoff block height&#x20;
+4. Mirror the ERC-20 and staking contract balances at the cutoff block height&#x20;
 5. All staked tokens will be returned to the stakers' wallets on Mainnet, a re-delegation process must take place after the conversion&#x20;
-6. Place these resulting balances inside the genesis block of the Mainnet&#x20;
-7. Reset the Mainnet with the updated genesis block&#x20;
+6. New community site will be deployed&#x20;
+7. Place these resulting balances inside the genesis block of the Mainnet&#x20;
+8. Reset the Mainnet with the updated genesis block&#x20;
+9. Deploy updated network statistics endpoints
+10. Deploy community site claims contract&#x20;
+11. Notify Mainnet validators to reset their nodes to the new version&#x20;
 
 ###
 
