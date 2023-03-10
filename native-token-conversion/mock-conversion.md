@@ -12,7 +12,7 @@ If you find these instructions hard to understand or follow, then it's probably 
 
 The native token conversion is a big event for the Taraxa ecosystem. While the [conversion mechanism](https://docs.taraxa.io/native-token-conversion/introduction#how-will-the-conversion-work) is designed to minimize risk and the amount of work end users have to endure, it's nevertheless a good idea to try out the conversion for yourself prior to the actual conversion so you know what to expect.&#x20;
 
-The latest testnet reset occurred on March 1, 2023 (see [Discord announcement](https://discord.com/channels/419749122556297216/909881217216827402/1080473001138597938)), which mirrored the TARA ERC-20 contract at **`ETH block height: 16720500`**.&#x20;
+The latest testnet reset occurred on March 1, 2023 (see [Discord announcement](https://discord.com/channels/419749122556297216/909881217216827402/1080473001138597938)), which mirrored the TARA ERC-20 contract at the **`cutoff ETH block height: 16720500`**.&#x20;
 
 
 
