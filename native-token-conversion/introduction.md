@@ -32,6 +32,4 @@ Here's a quick overview of the mechanics of the conversion,&#x20;
 
 ## Where are in the process?&#x20;
 
-All the technical work required have been completed & thoroughly tested. We have submitted all materials & documentations required to the exchanges, and are waiting for them to give us a timeframe.&#x20;
-
 You can [track the status here](conversion-status.md).&#x20;
