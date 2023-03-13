@@ -22,13 +22,15 @@ Here's a quick overview of the mechanics of the conversion,&#x20;
 2. Disable the ERC-20 contract on Ethereum
 3. Record the exact ETH block where the contract has been disabled, this is the cutoff block height&#x20;
 4. Mirror the ERC-20 and staking contract balances at the cutoff block height&#x20;
-5. All staked tokens will be returned to the stakers' wallets on Mainnet, a re-delegation process must take place after the conversion&#x20;
-6. New community site will be deployed&#x20;
-7. Place these resulting balances inside the genesis block of the Mainnet&#x20;
-8. Reset the Mainnet with the updated genesis block&#x20;
-9. Deploy updated network statistics endpoints
-10. Deploy community site claims contract&#x20;
-11. Notify Mainnet validators to reset their nodes to the new version&#x20;
+5. All staked tokens will be returned to the stakers' wallets on Mainnet, a re-delegation process must take place after the conversion
+6. 20% of 10bn tokens will be taken from the deployer address into a new Foundation delegation address, which will be delegating to dev-operated nodes on the mainnet - meant to help bootstrap the mainnet (see [section 5.2 of the Whitepaper](https://docs.taraxa.io/tech-whitepaper/economic-model#5.2-token-distribution))
+7. A tiny amount of tokens (tbd, maybe 10 tokens) will be taken from the deployer address into a new faucet address, which will be used to generate minimal transactions traffic on the mainnet - it's not a technical requirement, but a cosmetic one&#x20;
+8. New community site will be deployed&#x20;
+9. Place these resulting balances inside the genesis block of the Mainnet&#x20;
+10. Reset the Mainnet with the updated genesis block&#x20;
+11. Deploy updated network statistics endpoints
+12. Deploy community site claims contract&#x20;
+13. Notify Mainnet validators to reset their nodes to the new version&#x20;
 
 ###
 
