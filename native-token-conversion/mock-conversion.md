@@ -1,6 +1,6 @@
 # ⚗ Mock Conversion
 
-## WARNING: Technical Understanding Required !
+## WARNING: Technical Understanding Required!
 
 This mock conversion document was prepared for the exchanges to conduct pre-conversion testing. However if you're someone who's technically-inclined then you're more than welcome to try this out yourself.&#x20;
 
