@@ -10,9 +10,11 @@ As of this writing, the Taraxa token is still an [ERC-20 contract](https://ether
 
 
 
-## How will the conversion work?&#x20;
+## How the Conversion Works - Technically Speaking
 
-Technically, the conversion is pretty simple. But the technical process must be done in coordination with the exchanges that the TARA token is currently listed on, since otherwise all deposits and withdrawals will be disabled on these exchanges.&#x20;
+Technically, the conversion is pretty simple: balances on the ERC-20 will be mirrored over to Taraxa's mainnet.&#x20;
+
+The process must be done in coordination with the exchanges that the TARA token is currently listed on, since otherwise all deposits and withdrawals will be disabled on these exchanges.&#x20;
 
 Here's a quick overview of the mechanics of the conversion,&#x20;
 
