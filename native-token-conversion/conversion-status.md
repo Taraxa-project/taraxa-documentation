@@ -18,7 +18,8 @@ Of all the exchanges the development team has reached out to in order to coordin
 
 * Kucoin - onboard with conversion
 * Gate - onboard with conversion&#x20;
-* AscendEx - confirming&#x20;
+* AscendEx - confirming
+* MEXC - confirming&#x20;
 
 The development team will keep reaching out to all exchanges that lists the TARA token to ensure we have maximum participation for the token conversion.&#x20;
 
