@@ -41,7 +41,7 @@ More instructions and scripts for other environments coming soon.&#x20;
 
 ###
 
-### Find node's public address
+### Find node's public address & VRF Key
 
 It's the same command as the one on [Testnet](../node-setup/node\_address.md), except the container name is different. Instead of `taraxa_compose_node_1`, it's `mainnet_node_1`.&#x20;
 
@@ -49,9 +49,11 @@ It's the same command as the one on [Testnet](../node-setup/node\_address.md), e
 docker exec mainnet_node_1 cat /opt/taraxa_data/conf/wallet.json
 ```
 
-Per usual this name may be different in different environments, so to be sure you've got the right container name, just execute `docker ps.`&#x20;
+Per usual this name may be different in different environments, so to be sure you've got the right container name, just execute `docker ps`.&#x20;
 
-###
+You'll find a list of keys, the Public Key and VRF Key information should be listed.&#x20;
+
+
 
 ### Get node proof of ownership&#x20;
 
