@@ -1,5 +1,13 @@
 # ❓ Conversion FAQ
 
+## Are there fees involved in the conversion?&#x20;
+
+No, there are no fees involved whatsoever.&#x20;
+
+The conversion uses a one-time mirroring method that does not require any action from the token holder's side. Pleas read the [conversion introduction](introduction.md) to learn more about how the conversion works.&#x20;
+
+
+
 ## My TARA tokens are in a wallet, do I need to do anything?&#x20;
 
 It's highly likely that you don't need to do anything at all.&#x20;
