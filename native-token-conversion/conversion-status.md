@@ -16,10 +16,10 @@ Here's a simple checklist of what has been completed, and what's still pending,&
 
 Of all the exchanges the development team has reached out to in order to coordinate the technical and timeframe details of the conversion, the following has responded thus far and any progress will be updated here.&#x20;
 
-* Kucoin - onboard with conversion
-* Gate - onboard with conversion&#x20;
-* AscendEx - confirming
-* MEXC - confirming&#x20;
+* [x] Kucoin: [https://www.kucoin.com/news/en-kucoin-will-support-the-migration-for-erc20-tara-to-mainnet-tara-tokens-230317](https://www.kucoin.com/news/en-kucoin-will-support-the-migration-for-erc20-tara-to-mainnet-tara-tokens-230317)
+* [x] Gate: [https://www.gate.io/article/29950](https://www.gate.io/article/29950)&#x20;
+* [ ] AscendEx - confirming
+* [ ] MEXC - confirming&#x20;
 
 The development team will keep reaching out to all exchanges that lists the TARA token to ensure we have maximum participation for the token conversion.&#x20;
 
