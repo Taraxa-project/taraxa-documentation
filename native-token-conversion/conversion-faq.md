@@ -32,6 +32,6 @@ Your staked tokens will be returned to your original staking wallet after the co
 
 This depends on which exchange your tokens are on. Please check the [Conversion Status](conversion-status.md) page to see which exchanges have confirmed their support for the exchange.&#x20;
 
-If your exchange is listed, then you don't need to do anything.&#x20;
+If your exchange is listed with an official announcement of their support for the conversion, then you don't need to do anything.&#x20;
 
 If your exchange is NOT listed or it has not officially confirmed or announced their support, then it's a good idea to move your tokens off that exchange and into your wallet prior to the conversion. This doesn't mean that exchange will not connect to the Taraxa mainnet in the future, it just means there may be disruptions in their deposits and withdrawals of TARA if their support does not happen in time.&#x20;
