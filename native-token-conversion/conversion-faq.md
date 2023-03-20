@@ -43,3 +43,12 @@ This depends on which exchange your tokens are on. Please check the [Conversion 
 If your exchange is listed with an official announcement of their support for the conversion, then you don't need to do anything.&#x20;
 
 If your exchange is NOT listed or it has not officially confirmed or announced their support, then it's a good idea to move your tokens off that exchange and into your wallet prior to the conversion. This doesn't mean that exchange will not connect to the Taraxa mainnet in the future, it just means there may be disruptions in their deposits and withdrawals of TARA if their support does not happen in time.&#x20;
+
+
+
+## I have unclaimed rewards, do I need to do anything?&#x20;
+
+No, you don't need to do anything.&#x20;
+
+All rewards will be mirrored over to Taraxa's Layer-1 during the conversion as well. You will be able to claim any unclaimed rewards via Taraxa's native Layer-1 after the conversion as usual.&#x20;
+
