@@ -14,7 +14,7 @@ Here's a simple checklist of what has been completed, and what's still pending,&
 
 ## Exchanges supporting the conversion
 
-Of all the exchanges the development team has reached out to in order to coordinate the technical and timeframe details of the conversion, the following has responded thus far and any progress will be updated here.&#x20;
+The following exchanges have either publicly supported or is in the process of getting ready to support Taraxa's native token conversion. If your tokens are on an exchange that has not explicitly supported the conversion then it's best to relocate your tokens into your wallet or a supporting exchange, prior to the conversion.&#x20;
 
 * [x] Kucoin: [https://www.kucoin.com/news/en-kucoin-will-support-the-migration-for-erc20-tara-to-mainnet-tara-tokens-230317](https://www.kucoin.com/news/en-kucoin-will-support-the-migration-for-erc20-tara-to-mainnet-tara-tokens-230317)
 * [x] Gate: [https://www.gate.io/article/29950](https://www.gate.io/article/29950)&#x20;
@@ -23,4 +23,3 @@ Of all the exchanges the development team has reached out to in order to coordin
 
 The development team will keep reaching out to all exchanges that lists the TARA token to ensure we have maximum participation for the token conversion.&#x20;
 
-Note that, if an exchange is unresponsive to attempts at contact, or unwilling for whatever reason to participate in the native token conversion, it's advised that anyone holding tokens on non-participating exchanges withdraw their tokens into their own wallet.&#x20;

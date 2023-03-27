@@ -6,7 +6,7 @@ description: Taraxa supports all ETH-compatible wallets!
 
 ## Taraxa supports all ETH-compatible wallets
 
-The Taraxa network is backwards-compatible with Ethereum, that means any ETH-compatible wallet that allows you to add a custom, ETH-compatible network will work with Taraxa!&#x20;
+The Taraxa network is backwards-compatible with Ethereum, that means any ETH-compatible wallet that allows you to add a custom, EVM-compatible network will work with Taraxa!&#x20;
 
 This means that,&#x20;
 
