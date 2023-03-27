@@ -18,8 +18,8 @@ Of all the exchanges the development team has reached out to in order to coordin
 
 * [x] Kucoin: [https://www.kucoin.com/news/en-kucoin-will-support-the-migration-for-erc20-tara-to-mainnet-tara-tokens-230317](https://www.kucoin.com/news/en-kucoin-will-support-the-migration-for-erc20-tara-to-mainnet-tara-tokens-230317)
 * [x] Gate: [https://www.gate.io/article/29950](https://www.gate.io/article/29950)&#x20;
+* [x] MEXC: [https://support.mexc.com/hc/en-001/articles/16936276210457](https://support.mexc.com/hc/en-001/articles/16936276210457)&#x20;
 * [ ] AscendEx - confirming
-* [ ] MEXC - confirming&#x20;
 
 The development team will keep reaching out to all exchanges that lists the TARA token to ensure we have maximum participation for the token conversion.&#x20;
 
