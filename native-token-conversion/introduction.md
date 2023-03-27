@@ -34,6 +34,6 @@ Here's a quick overview of the mechanics of the conversion,&#x20;
 
 ###
 
-## Where are in the process?&#x20;
+## Where we are in the conversion process
 
 You can [track the status here](conversion-status.md).&#x20;
