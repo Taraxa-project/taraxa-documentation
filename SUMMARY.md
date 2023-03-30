@@ -38,7 +38,7 @@
 * [📬 Node's Public Address](node-setup/node\_address.md)
 * [🗝 Node's VRF Key](node-setup/vrf\_key.md)
 * [📒 Node Proof of Owership](node-setup/proof\_owership.md)
-* [❓ Testnet Resources](node-setup/testnet\_resources.md)
+* [❓ Node Operations FAQ](node-setup/testnet.md)
 
 ## NATIVE TOKEN CONVERSION
 
@@ -54,7 +54,6 @@
 * [1 Layer-1 Tech](faq/layer-1-tech.md)
 * [🪙 TARA Token](faq/tara-token.md)
 * [🌱 Mainnet Candidate](faq/mainnet-candidate.md)
-* [🧪 Node Operations](faq/testnet.md)
 * [🔁 Exchange Integration](faq/exchange-integration.md)
 
 ## Whitepaper <a href="#tech-whitepaper" id="tech-whitepaper"></a>

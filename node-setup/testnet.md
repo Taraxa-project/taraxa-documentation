@@ -2,7 +2,7 @@
 description: All your burning questions about Taraxa's testnet.
 ---
 
-# 🧪 Node Operations
+# ❓ Node Operations FAQ
 
 ## What makes one node generate more blocks than another?&#x20;
 
@@ -113,7 +113,7 @@ First, join [Taraxa's Discord server](https://www.taraxa.io/discord) for technic
 
 Always try include the following information when you're reporting a problem,&#x20;
 
-* Your node's public address (see [how to get your node's public address](../node-setup/node\_address.md))&#x20;
+* Your node's public address (see [how to get your node's public address](node\_address.md))&#x20;
 * Your system resources: CPU (# of cores), RAM, Disk&#x20;
 * Are you running this on a dedicated or a shared machine
 * If it's in the cloud, the cloud service provider, and your instance's physical location (e.g., Frankfurt - Germany)&#x20;
@@ -227,7 +227,7 @@ If your node is 100% synced but has not produced any block, please make sure tha
 
 ## How do I update / reset my node?&#x20;
 
-Here are the instructions to [update](../node-setup/upgrade-a-node/software-upgrade.md#upgrade-your-nodes-software) or [reset ](../node-setup/upgrade-a-node/data-reset.md)the node.&#x20;
+Here are the instructions to [update](upgrade-a-node/software-upgrade.md#upgrade-your-nodes-software) or [reset ](upgrade-a-node/data-reset.md)the node.&#x20;
 
 ##
 
