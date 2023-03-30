@@ -38,7 +38,7 @@
 * [📬 Node's Public Address](node-setup/node\_address.md)
 * [🗝 Node's VRF Key](node-setup/vrf\_key.md)
 * [📒 Node Proof of Owership](node-setup/proof\_owership.md)
-* [❓ Node Operations FAQ](node-setup/testnet.md)
+* [❓ Node Operations FAQ](faq/testnet.md)
 
 ## NATIVE TOKEN CONVERSION
 
