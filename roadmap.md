@@ -42,7 +42,7 @@ Note, 🎈(stretch goal)s are aspirational milestones that may be a stretch for 
 
 * [x] Support the ecosystem by refreshing the website to clearly communicate the goals of the project
 * [x] Support the community by delivering more stable versions of the explorer
-* [ ] Support the community by delivering more stable version of the community site&#x20;
+* [x] Support the community by delivering more stable version of the community site&#x20;
 * [x] Support the community by running mock token conversions on the testnet to help the community understand how conversion works
 * [ ] Support the community by working with exchanges to complete native token conversion and drive staking & delegation adoption
 * [x] Support developers with detailed Layer-1 developer documentation, including how to use common ETH toolchains with Taraxa as it is fully backwards-compatible with ETH
