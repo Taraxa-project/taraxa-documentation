@@ -8,12 +8,12 @@ description: Join the Taraxa network as a Validator!
 
 We've launched our Mainnet network! You can now join the Mainnet Candidate as a validator.&#x20;
 
-To become a validator, you need to do the following,&#x20;
+To become a validator, you need to do and be aware of the following,&#x20;
 
 1. Set up a validator node&#x20;
-2. Register your validator node on the community site&#x20;
-3. Solicit delegation from fellow stakers in Taraxa's online communities, or delegate your own tokens&#x20;
-4. Check your node's status on the explorer&#x20;
+2. Register your validator node on the community site (optional)&#x20;
+3. Solicit delegation
+4. Node upgrade
 
 
 
@@ -105,7 +105,7 @@ Here are a few social channels where the Taraxa community congregates, &#x20;
 
 ## 4.  Node Upgrade
 
-To update the node please run the following commands in the `mainnet` directory:
+The development team will release regular technical updates. To update the node please run the following commands in the `mainnet` directory:
 
 ```
 wget -O docker-compose-new.yml https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/taraxa_compose_mainnet/docker-compose.yml && mv docker-compose-new.yml docker-compose.yml
