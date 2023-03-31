@@ -6,7 +6,7 @@
   * [Ledger](wallet/ledger.md)
   * [Taraxa's Network Connection Details](wallet/taraxas-network-connection-details.md)
 * [🌱 Become a Validator](join-the-mainnet-candidate/mainnet-quick-start.md)
-* [💰 Staking & Delegation](faq/staking.md)
+* [💰 Staking](faq/staking.md)
 * [🗺 Roadmap](roadmap.md)
 
 ## Develop on Taraxa <a href="#develop" id="develop"></a>
