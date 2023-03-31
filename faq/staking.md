@@ -2,7 +2,7 @@
 description: Secure Taraxa by Staking your TARA!
 ---
 
-# 💰 Staking & Delegation
+# 💰 Staking
 
 ## Taraxa Staking & Delegation: tl;dr version&#x20;
 
@@ -13,15 +13,27 @@ description: Secure Taraxa by Staking your TARA!
 
 ##
 
-## Staking&#x20;
+## Stake to Secure the Network!&#x20;
 
-Staking is a critical part of Taraxa's consensus mechanism, which uses proof of stake to guard against Sybil attacks. In plain language, staking makes attacking a network expensive, and aims to make attacking a network so expensive that the cost far outstrips the benefits.
+Staking is a critical part of Taraxa's consensus mechanism, which uses proof of stake (PoS) to guard against Sybil attacks. In plain language, staking makes attacking a network expensive, and aims to make attacking a network so expensive that the cost far outstrips the benefits.
 
 When you stake, not only are you helping to secure the network against attacks, you are also earning a yield (rewards) for your efforts.
 
 #### Stake your TARA tokens on the [community site's staking section](https://community.taraxa.io/staking), here is the [step-by-step guide to staking](https://medium.com/taraxa-project/how-to-stake-your-tara-a-step-by-step-guide-a03b72dd519e).&#x20;
 
-##
+
+
+
+
+## How to Stake - Step by Step&#x20;
+
+
+
+
+
+
+
+
 
 ## Delegation
 
