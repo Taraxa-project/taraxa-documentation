@@ -6,13 +6,13 @@ description: Questions about the TARA token
 
 ## What's TARA's total supply?
 
-TARA's total supply figures are updated on [CoinMarketCap](https://coinmarketcap.com/currencies/taraxa/).
+TARA's total supply figures are updated on [Taraxa's website](https://taraxa.io/token/).
 
 The initial supply is 10 billion tokens, but as outlined in our [economics](../tech-whitepaper/economic-model.md), block rewards from staking and running consensus nodes will be inflated, at a maximum of 20% annualized yield.
 
 ## What's TARA's circulation?
 
-TARA's circulation is updated on [CoinMarketCap](https://coinmarketcap.com/currencies/taraxa/).
+TARA's circulation is updated on [Taraxa's website](https://taraxa.io/token/).&#x20;
 
 ## What's TARA's unlock schedule?
 
@@ -31,12 +31,6 @@ Here are more details around the [economics](../tech-whitepaper/economic-model.m
 ## How will staking work?
 
 Read all about it at the [staking ](staking.md)section.
-
-## Will there be token burning?
-
-The Taraxa core development team looked very closely into Ethereum's [EIP-1559](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1559.md), and found its goals of making transactions fees more predictable and less volatile a highly laudable goal. Without going into details, the fixed component of the fees is burned during the process while the variable is tipped to the miner.
-
-Something similar is likely to be implemented in the Taraxa protocol as well, we'll keep the community updated on this.
 
 ## What’s Taraxa’s governance model?
 
