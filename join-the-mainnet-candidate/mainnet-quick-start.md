@@ -10,10 +10,10 @@ We've launched our Mainnet network! You can now join the Mainnet Candidate as a 
 
 To become a validator, you need to do and be aware of the following,&#x20;
 
-1. Set up a validator node&#x20;
-2. Register your validator node on the community site (optional)&#x20;
-3. Solicit delegation
-4. Node upgrade
+1. [Set up a validator node](mainnet-quick-start.md#1.-set-up-a-validator-node)&#x20;
+2. [Register your validator node](mainnet-quick-start.md#2.-register-your-validator-node-on-the-community-site-optional) on the community site (optional)&#x20;
+3. [Solicit delegation](mainnet-quick-start.md#3.-soliciting-delegation)
+4. [Node upgrade](mainnet-quick-start.md#4.-node-upgrade)
 
 
 
