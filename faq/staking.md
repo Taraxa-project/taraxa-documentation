@@ -4,7 +4,7 @@ description: Secure Taraxa by Staking your TARA!
 
 # 💰 Staking
 
-## Taraxa Staking: tl;dr version&#x20;
+Taraxa Staking tl;dr
 
 * Staking TARA means directly delegating your TARA tokens into validator nodes&#x20;
 * Staking can be done via the [community site](https://community.taraxa.io/staking\)), or you can do it by directly interacting with the on-chain DPoS contract (tutorial coming soon)
@@ -27,54 +27,51 @@ Please follow the guide below to stake and help secure the Taraxa network!&#x20;
 
 
 
+### >> Register an account on the community site&#x20;
 
+Navigate to the [community site](http://community.taraxa.io/) and register an account.&#x20;
 
+<figure><img src="../.gitbook/assets/1. register.png" alt=""><figcaption></figcaption></figure>
 
+### >> Pass KYC
 
+To claim rewards (e.g., staking commission, yields) from the community site, you must pass KYC. It is in the [profile section](https://community.taraxa.io/profile).&#x20;
 
+> DISCLAIMER: To comply with recent SEC rulings, United States persons and persons from OFAC-sanctioned regions cannot receive token rewards from running nodes. All participants will be required to pass KYC to receive rewards.
 
-## Delegation
+<figure><img src="../.gitbook/assets/2. kyc.png" alt=""><figcaption></figcaption></figure>
 
-Delegation is where you actually assign your staked TARA to a specific validator on the mainnet. This ensures that the validator has the "right" to participate in consensus on the network.&#x20;
+### >> Connect your wallet
 
-You have to delegate your staked tokens, otherwise they're not doing any work and not earning any yields!&#x20;
+Connect your wallet (upper-right corner). You may use any web3-enabled wallet that works with the Taraxa network, we recommend MetaMask.&#x20;
 
-#### Delegate you staked TARA tokens through the [community site's delegation section](https://community.taraxa.io/delegation), here's the [step-by-step guide to delegation](https://medium.com/taraxa-project/how-to-participate-in-taraxas-mainnet-candidate-a-step-by-step-guide-fb0c0f6ad71f)&#x20;
+<figure><img src="../.gitbook/assets/9. profile (connect wallet).png" alt=""><figcaption></figcaption></figure>
 
-##
+### >> Delegate to a validator
 
-## Is there a minimum to stake?
+Once your wallet is connected, navigate to the [community site's staking page](https://community.taraxa.io/staking) and select one ore more validators to delegate to.&#x20;
 
-There is NO minimum to stake. However, please take into account the transaction fees on the Ethereum network when decide how many TARA to stake.
+On this page you'll see a list of validators that have listed their nodes up for delegation. The "Avalailable for Delegation" shows you how much more delegation this specific node is able to take in. Each node can take on a total of 80 million TARA in delegation, beyond that no more delegation is possible for the specific node.&#x20;
 
-##
+_NOTE: the dev team is working to gather and display past uptime statistics (work in progress) so that you may make an informed choice on which validator to delegate your tokens to. Uptime is critical as it impacts the effective yield rate - i.e., if a node is not turned on, it does not earn any yields._&#x20;
 
-## Can I add more to my stake after I have already staked?
+<figure><img src="../.gitbook/assets/4. delegate to a node.png" alt=""><figcaption></figcaption></figure>
 
-Yes, simply use the same staking procedures to add more.
+Minimum delegation per validator node is 1000 TARA.&#x20;
 
-Please be aware that, once you add more stake, your entire stake's (including your existing stake) locking period will be reset to 30 days again.
+<figure><img src="../.gitbook/assets/5. delegation screen.png" alt=""><figcaption></figcaption></figure>
 
-##
+### >> Claim staking yields&#x20;
 
-## What is the yield?
+You may claim your staking yields by clicking the "Claim" button next to each of the nodes you've delegated to. You may claim your yields at anytime there are yields available to be claimed.&#x20;
 
-Currently the yield is a flat 20% APY.&#x20;
+<figure><img src="../.gitbook/assets/6. claim yields - staker.png" alt=""><figcaption></figcaption></figure>
 
-Please note that this is higher than what's stated in the [economics rewards](../tech-whitepaper/economic-model.md#5-5-rewards) section, as we wish to ramp up participation in preparation for the mainnet launch.
+### >> Un-delegate
 
-##
+You may choose to un-delegate your tokens from a validator node at any time, simply select the "Un-delegate" button next to the node.&#x20;
 
-## How do I get my yields?
+Note that there is an \~5 day delay between when you request an un-delegation and when you actually receive the tokens.&#x20;
 
-You can redeem your yields through the [community site's claim section](https://community.taraxa.io/redeem), yields are given out on a monthly basis, with the calculation cutoff at \~15th of each month, and the rewards given out on \~20th of each month.&#x20;
+<figure><img src="../.gitbook/assets/7. undelegate.png" alt=""><figcaption></figcaption></figure>
 
-After claiming the yield, you can always stake and then delegate your yields too.&#x20;
-
-##
-
-## How long is the locking period?
-
-When you first stake TARA, the tokens are locked for 30 days. After the locking period ends, the tokens become unlocked and you are free to un-stake the tokens.&#x20;
-
-Note that you are unable to un-stake your tokens if they're delegated to validators, you must first un-delegate the stake before un-staking them.&#x20;
