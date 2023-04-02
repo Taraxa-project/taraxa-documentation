@@ -4,28 +4,26 @@ description: Secure Taraxa by Staking your TARA!
 
 # 💰 Staking
 
-## Taraxa Staking & Delegation: tl;dr version&#x20;
+## Taraxa Staking: tl;dr version&#x20;
 
-* You can stake your TARA tokens on the [community site's staking section](https://community.taraxa.io/staking), here is the [step-by-step guide to staking](https://medium.com/taraxa-project/how-to-stake-your-tara-a-step-by-step-guide-a03b72dd519e).&#x20;
-* To receive yields, you **MUST delegate** your staked tokens also through the [community site's delegation section](https://community.taraxa.io/delegation), here's the [step-by-step guide to delegation](https://medium.com/taraxa-project/how-to-participate-in-taraxas-mainnet-candidate-a-step-by-step-guide-fb0c0f6ad71f)&#x20;
-* Currently the yield is 20% APY, please note that this is higher than what's stated in the [economics rewards](../tech-whitepaper/economic-model.md#5-5-rewards) section, as we wish to ramp up participation in the early days of the network
-* You can redeem your yields through the [community site's claim section](https://community.taraxa.io/redeem), yields are given out on a monthly basis, with the calculation cutoff at \~15th of each month, and the rewards given out on \~20th of each month
+* Staking TARA means directly delegating your TARA tokens into validator nodes&#x20;
+* Staking can be done via the [community site](https://community.taraxa.io/staking\)), or you can do it by directly interacting with the on-chain DPoS contract (tutorial coming soon)
+* Staking yields are currently 20% APY, which you will share with the validators (they will take a commission), please note that this is higher than what's stated in the [economics rewards](../tech-whitepaper/economic-model.md#5-5-rewards) section, the dev team is working to build a community voting infrastructure to facilitate community-proposed & voted-on updates to the economics
+* You can redeem your yields through the [community site's claim section](https://community.taraxa.io/redeem)
 
 ##
 
 ## Stake to Secure the Network!&#x20;
 
-Staking is a critical part of Taraxa's consensus mechanism, which uses proof of stake (PoS) to guard against Sybil attacks. In plain language, staking makes attacking a network expensive, and aims to make attacking a network so expensive that the cost far outstrips the benefits.
+Staking (delegating your TARA to validators) is a critical part of Taraxa's consensus mechanism, which uses proof of stake (PoS) to guard against Sybil attacks. In plain language, staking makes attacking a network expensive, and aims to make attacking a network so expensive that the cost far outstrips the benefits.
 
 When you stake, not only are you helping to secure the network against attacks, you are also earning a yield (rewards) for your efforts.
 
-#### Stake your TARA tokens on the [community site's staking section](https://community.taraxa.io/staking), here is the [step-by-step guide to staking](https://medium.com/taraxa-project/how-to-stake-your-tara-a-step-by-step-guide-a03b72dd519e).&#x20;
+Please follow the guide below to stake and help secure the Taraxa network!&#x20;
 
+##
 
-
-
-
-## How to Stake - Step by Step&#x20;
+## Staking Guide - Step by Step&#x20;
 
 
 
