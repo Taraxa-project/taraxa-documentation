@@ -121,9 +121,9 @@ sudo docker-compose logs -f
 
 To fully reset a node and remove all of its data (including keys!), here are the commands.&#x20;
 
-```
+```bash
 cd ~/taraxa-ops-master/taraxa_compose
-wget -O docker-compose-new.yml  && mv docker-compose-new.yml docker-compose.yml
+wget -O docker-compose-new.yml https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/taraxa_compose_mainnet/docker-compose.yml && mv docker-compose-new.yml docker-compose.yml
 sudo docker-compose down -v
 sudo docker-compose pull
 rm -f config/mainnet.json
