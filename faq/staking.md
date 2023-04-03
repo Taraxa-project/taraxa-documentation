@@ -71,7 +71,9 @@ You may claim your staking yields by clicking the "Claim" button next to each of
 
 You may choose to un-delegate your tokens from a validator node at any time, simply select the "Un-delegate" button next to the node.&#x20;
 
-Note that there is an \~5 day delay between when you request an un-delegation and when you actually receive the tokens.&#x20;
+Note that there is an \~30 day delay between when you request an un-delegation and when you actually receive the tokens.&#x20;
+
+There's also a built-in function on the on-chain DPoS contract to switch nodes for your delegation, which only has a 5-block delay (< 20 seconds). This functionality exists but has not yet bee incorporated into the community site's UI, it's coming soon!&#x20;
 
 <figure><img src="../.gitbook/assets/7. undelegate.png" alt=""><figcaption></figcaption></figure>
 
