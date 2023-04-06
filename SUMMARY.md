@@ -40,14 +40,6 @@
 * [📒 Node Proof of Owership](node-setup/proof\_owership.md)
 * [❓ Node Operations FAQ](faq/testnet.md)
 
-## NATIVE TOKEN CONVERSION
-
-* [💡 Introduction](native-token-conversion/introduction.md)
-* [🗓 Conversion Status](native-token-conversion/conversion-status.md)
-* [❓ Conversion FAQ](native-token-conversion/conversion-faq.md)
-* [⚗ Mock Conversion](native-token-conversion/mock-conversion.md)
-* [📋 Exchange Submission](native-token-conversion/exchange-submission.md)
-
 ## FAQ
 
 * [🔭 Vision](faq/vision.md)
@@ -64,3 +56,11 @@
 * [Economic Model](tech-whitepaper/economic-model.md)
 * [Governance](tech-whitepaper/governance.md)
 * [Further Reading](tech-whitepaper/further-reading.md)
+
+## NATIVE TOKEN CONVERSION
+
+* [💡 Introduction](native-token-conversion/introduction.md)
+* [🗓 Conversion Status](native-token-conversion/conversion-status.md)
+* [❓ Conversion FAQ](native-token-conversion/conversion-faq.md)
+* [⚗ Mock Conversion](native-token-conversion/mock-conversion.md)
+* [📋 Exchange Submission](native-token-conversion/exchange-submission.md)

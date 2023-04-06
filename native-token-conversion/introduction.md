@@ -4,6 +4,12 @@ description: What is the conversion and how does it work?
 
 # 💡 Introduction
 
+## Taraxa's Native Token Conversion is COMPLETE!&#x20;
+
+Taraxa's native token conversion was completed on April 3, 2023.&#x20;
+
+
+
 ## What is the Native Token Conversion?&#x20;
 
 As of this writing, the Taraxa token is still an [ERC-20 contract](https://etherscan.io/address/0xf001937650bb4f62b57521824b2c20f5b91bea05) residing on the Ethereum blockchain. The goal is to eventually convert the ERC-20 tokens into the native tokens residing on the Taraxa blockchain.
