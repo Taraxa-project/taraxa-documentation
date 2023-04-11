@@ -18,13 +18,13 @@ In addition to staking into the contract, staked tokens must now be delegated to
 
 After a Staker stakes TARA, they will need to select a node from a list of available nodes and delegate that stake into the node. Once a node has received the minimum necessary delegation, it will begin participating in consensus and earning yields.
 
-****
+
 
 **Need to pay commission to the delegated node**
 
 Staking Yields (rewarded in the form of Block Rewards) and Transaction Fees now have to be split between the Staker and the Node Operator. How much commission a Node Operator charges is up to him, and whether or not the Staker selects the Node Operator is up to the Staker, making it a purely market-driven activity.
 
-****
+
 
 **Pick a node that has the maximum expected yield**
 
@@ -43,7 +43,7 @@ Nodes will now need to receive delegated staking from Stakers in order to partic
 
 There is a minimum requirement because any consensus node needs to get some sort of community recognition before it can participate in consensus. There is a maximum because we want to avoid excessive centralization and single-point of failure that could result in too many tokens being delegated into a single node.
 
-****
+
 
 **Define a commission for your node**
 

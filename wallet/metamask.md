@@ -33,7 +33,7 @@ Here's a step-by-step guide for adding Taraxa to Metamask via Chainlist,&#x20;
 
 * Choose "Metamask" in the pop-up
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 * Once Metamask is connected, your wallet address will show up on the upper right corner
 
@@ -41,7 +41,7 @@ Here's a step-by-step guide for adding Taraxa to Metamask via Chainlist,&#x20;
 
 * Next, search for "Taraxa" in the search bar, and you should be able to see Taraxa's Mainnet and Testnet networks in the search results
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Click on "Add Chain" for the network you wish to join, for example, the Taraxa Mainnet
 
@@ -53,7 +53,7 @@ Here's a step-by-step guide for adding Taraxa to Metamask via Chainlist,&#x20;
 
 * Next, Metamask will ask if you'd like to switch to the new network
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Finally, when you open the Metamask browser plugin, you should be able to see "Taraxa Mainnet" at the top, and you're done!&#x20;
 
@@ -79,7 +79,7 @@ Here's a step-by-step guide for adding Taraxa to Metamask via manually configuri
 
 * Here you'll see a brief form for you fill in details of Taraxa's network
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 * You can reference the connection details in the [Taraxa's network connection details](taraxas-network-connection-details.md) page, here is a screenshot for connecting to the Taraxa's mainnet network, once you finished entering the connection details just click on "Save"
 

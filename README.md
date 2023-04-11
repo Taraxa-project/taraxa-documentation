@@ -34,6 +34,6 @@ This is why we created Taraxa, a purpose-built Layer-1 public ledger to enable u
 #### For developers, check out,&#x20;
 
 * [Building on Taraxa](develop/quickstart.md)
-* [Becoming a Validator](join-the-mainnet-candidate/mainnet-quick-start.md)&#x20;
+* [Becoming a Validator](become-a-validator/)&#x20;
 * Taraxa's [technical architecture](tech-whitepaper/taraxa-architecture.md)
 

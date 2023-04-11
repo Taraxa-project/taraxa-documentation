@@ -15,7 +15,7 @@ This is one of the common questions we see from our community, so let's dive int
 
 Let's discuss these one by one.&#x20;
 
-****
+
 
 **#1: Uptime**
 
@@ -161,7 +161,7 @@ To **find the latest image's digest**, go to our docker hub, find the latest ima
 
 You cannot delete a node and add it back again. If you delete a node, you have to get a "new node". The simplest way to do that is to delete the node's wallet, and restart the node. Afterwards you should be able to register the new node.&#x20;
 
-****
+
 
 **Delete the wallet**
 

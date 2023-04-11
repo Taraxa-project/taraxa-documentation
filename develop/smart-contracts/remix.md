@@ -18,23 +18,23 @@ Here's a step-by-step example to deploy a simple contract onto Taraxa's mainnet 
 
 * We'll compile with version 0.8.3
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Let's deploy, change the Environment to "Injected Provider - Metamask" and make sure that you're on the Taraxa Mainnet network on Metamask. If you don't know how, here's how you can [add Taraxa into Metamask](../../wallet/metamask.md).&#x20;
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
 
 * Make sure you have some TARA in your wallet, Confirm the Metamask transaction prompt (wallet address redacted).&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 * Check out the console output inside the Remix IDE, looks like the contract was successfully deployed! (wallet address & transaction hash redacted)&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * You can find the deployed contract address on the bottom left side of the Deploy & Run Transactions panel in the Remix IDE.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 * We can also confirm this in the [explorer](https://explorer.mainnet.taraxa.io/), we can look up the transaction ID in the explorer and make sure the deployed contract address is the same. (certain details redacted)&#x20;
 
@@ -48,6 +48,6 @@ Here's a step-by-step example to deploy a simple contract onto Taraxa's mainnet 
 
 * From the Remix IDE console output, it looks like the transaction went through, and calling the `retrieve()` function correctly recalls the stored number. Everything checks out!&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 🎊🎊 That's it, you're done! You've successfully deployed a smart contract onto Taraxa. 🎊🎊

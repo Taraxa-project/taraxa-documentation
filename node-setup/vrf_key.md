@@ -6,7 +6,7 @@ description: Guide for getting your node's VRF public key
 
 To find out your node's VRF public key you can run the following command in a new terminal window while the node is running:
 
-```
+```bash
 docker exec taraxa_compose_node_1 cat /opt/taraxa_data/conf/wallet.json
 ```
 

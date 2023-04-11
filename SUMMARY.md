@@ -5,7 +5,12 @@
   * [Metamask](wallet/metamask.md)
   * [Ledger](wallet/ledger.md)
   * [Taraxa's Network Connection Details](wallet/taraxas-network-connection-details.md)
-* [🌱 Become a Validator](join-the-mainnet-candidate/mainnet-quick-start.md)
+* [🌱 Become a Validator](become-a-validator/README.md)
+  * [⚙ Set up validator node](become-a-validator/set-up-validator-node.md)
+  * [🚩 Register node via community site](become-a-validator/register-node-via-community-site.md)
+  * [⛓ Register node directly on-chain](become-a-validator/register-node-directly-on-chain.md)
+  * [📣 Solicit delegation](become-a-validator/solicit-delegation.md)
+  * [🛠 Node upgrade & reset](become-a-validator/node-upgrade-and-reset.md)
 * [💰 Staking](faq/staking.md)
 * [🗺 Roadmap](roadmap.md)
 
