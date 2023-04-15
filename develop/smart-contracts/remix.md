@@ -42,7 +42,7 @@ Here's a step-by-step example to deploy a simple contract onto Taraxa's mainnet 
 
 * Let's try interacting with the contract via the Remix IDE, let's store a number into the contract by calling the `store()` function, and of course confirm the transaction on Metamask. (certain details redacted).&#x20;
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 

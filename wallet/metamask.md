@@ -29,7 +29,7 @@ Here's a step-by-step guide for adding Taraxa to Metamask via Chainlist,&#x20;
 * Go to [Chainlist](https://chainlist.wtf/)
 * Click on "Connect Wallet" on the upper-right corner
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 * Choose "Metamask" in the pop-up
 
@@ -49,7 +49,7 @@ Here's a step-by-step guide for adding Taraxa to Metamask via Chainlist,&#x20;
 
 * You'll see a Metamask pop-up, here's where you can confirm the [Taraxa network's connection details](taraxas-network-connection-details.md) are correct, and then click on "Approve"
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Next, Metamask will ask if you'd like to switch to the new network
 
