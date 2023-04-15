@@ -144,9 +144,9 @@ You should always verify the results by using the `getValidator` function as usu
 
 ### 8.  Un-delegating your stake
 
-You can also remove your delegation and return the staked TARA back into your wallet by using the     `unDelegate` function.&#x20;
+You can also remove your delegation and return the staked TARA back into your wallet by using the     `unDelegate` function. Note that, after calling the unDelegate function, it'll take \~30 days for the delegated tokens to unlock.&#x20;
 
-Note that, after calling the unDelegate function, it'll take \~30 days for the tokens to be returned to your wallet.&#x20;
+After the time has elapsed and tokens unlocked, you can claim the tokens via the `confirmUndelegate` function, which requires that you enter the same validator node's public address again.&#x20;
 
 
 
