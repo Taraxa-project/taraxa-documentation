@@ -14,7 +14,7 @@ Here's a step-by-step example to deploy a simple contract onto Taraxa's mainnet 
 
 * Let's start with one of the pre-populated default contracts in the Remix IDE, `1_Storage.sol`.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 * We'll compile with version 0.8.3
 

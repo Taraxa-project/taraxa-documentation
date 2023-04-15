@@ -20,7 +20,7 @@ https://raw.githubusercontent.com/Taraxa-project/taraxa-evm/master/taraxa/state/
 
 After it's been uploaded you should be able to see it in the IDE on the right side,&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.  Compile the interface&#x20;
 
@@ -51,7 +51,7 @@ Once you've switched your Metamask to the Taraxa Mainnet, go to the "Deploy & Ru
 At the top, change "Environment" to "Injected Provider - Metamask". Once you've done that, make sure to double-check that&#x20;
 
 * The network ID is indeed [Taraxa's network ID](../wallet/taraxas-network-connection-details.md) in the "Custom network" tag  under the Environment dropdown, and&#x20;
-* The wallet under "Account" is the wallet you want to use, since setting up a validator node will require gas fees but also a 1000-TARA minimum self-delegation, so make sure the wallet connected has sufficient funds
+* The wallet under "Account" is the wallet you want to use. Make sure you use the wallet that contains the TARA you wish to delegate.&#x20;
 * The right compiled interface from the previous step is loaded. Look at the "Contract (Compiled by Remix)" section and make sure the filename is the same as the one in the file explorer.&#x20;
 
 <figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
@@ -62,7 +62,7 @@ Next, we tell Remix where the DPoS contract is located. Go the "At Address" fiel
 0x00000000000000000000000000000000000000fe
 ```
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Go ahead and click the "At Address" button, and it should show up under "Deployed Contracts".&#x20;
 
@@ -71,4 +71,60 @@ Go ahead and click the "At Address" button, and it should show up under "Deploye
 Go ahead and expand the interface by clicking on the chevron ">" and you'll see a list of all the commands you can send to the contract.&#x20;
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+### 4.  Verifying the validator node
+
+Before you delegate to a validator node, let's make sure it has actually been registered in the DPoS contract. We're going to do this by calling the `getValidator` function on the validator you wish to delegate to.&#x20;
+
+For example, if I wanted to delegate to a validator node whose public address is: `0xd423413a6b4bb11e584d7de3acce40d95da6c3b1`, we simply enter this address into the function.&#x20;
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+We click on the "call" button to send the query to the DPoS contract, and we get the return value below the call. Here's how to interpret it.&#x20;
+
+* First, the returned value at the bottom is not an error! Which means the validator has been registered.&#x20;
+* If the returned value is an error, :octagonal\_sign: DO NOT :octagonal\_sign: delegate to this address. This node either does not exist at all, or it has not been registered.&#x20;
+* Part of the returned value is an 256-bit unsigned integer that indicates the current delegation (see underlined number in the screenshot above). Note that, all values on the blockchain are stored as unsigned 256-bit integers, so there are no decimals, that's why the numbers look so big because they need to also represent 10^18 decimal places as part of the integer value. Just take this number and remove 18 zeros from the end, and you'll see that, in this example, this validator node has 1000 TARA delegated to it. Since 1000 TARA is a required self-delegation from the node owner, that means this node has not received any delegation since registration.&#x20;
+* Since the minimum delegation required to participate in consensus is 500,000 TARA, that means in this example, this node is not yet eligible to participate in consensus. If the validator node has passed the minimum threshold, then you can also check it on the explorer to see its past block production history.&#x20;
+
+### 5.  Delegating to the validator&#x20;
+
+After verifying the validator node indeed exists on the network, we can now delegate to it by calling the `delegate` function.&#x20;
+
+First, we enter the number of TARA to be delegated into the node. Within the "Deploy & Run Transactions" section of Remix, navigate back towards the top and you'll see a "Value" field. This field defines how many tokens will be transferred to the contract in this transaction.&#x20;
+
+Set the following,&#x20;
+
+* Value to whatever you wish to delegate, in this example we're going to use 1000 since it's the minimum delegation amount.&#x20;
+* Unit to "Ether", this may be confusing but since Remix isn't aware of the Taraxa Network's token name, it calls all tokens for EVM-compatible networks "Ether", don't worry, it's sending TARA (since you're on the Taraxa Network)
+
+Next, we enter the validator node's public address into the `delegate` function below. &#x20;
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+After pressing the "transact" button, the output is seen on the right side in Remix's console.&#x20;
+
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+If the transaction is successful, you should see a green checkmark at the top-left corner. If you expand the output, you'll that the "status" has a successful output, and in the "va" field you should see the exact amount (with 18 extra zeros at the end) that you delegated.&#x20;
+
+Let's verify that the delegation has indeed worked, by calling the `getValidator` function on the validator node again.&#x20;
+
+&#x20;
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Now it has 2000 TARA delegation (once again, reminder there are 18 extra zeros after the number), which is exactly 1000 TARA more than before we started.&#x20;
+
+:tada: Everything worked!&#x20;
+
+
+
+### 6.  Claiming staking yields
+
+
+
+
+
+
 
