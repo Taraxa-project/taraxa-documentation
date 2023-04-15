@@ -22,6 +22,7 @@
 * [🔗 Connecting to Taraxa](develop/connect-to-taraxas-network.md)
 * [📓 Smart Contracts](develop/smart-contracts/README.md)
   * [Remix](develop/smart-contracts/remix.md)
+* [💧 Testnet faucet](develop/testnet-faucet.md)
 * [🔩 Taraxa RPC Specs](develop/taraxa-rpc-specs.md)
 
 ## Node Operations <a href="#node-setup" id="node-setup"></a>
