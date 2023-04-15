@@ -11,7 +11,9 @@
   * [⛓ Register node directly on-chain](become-a-validator/register-node-directly-on-chain.md)
   * [📣 Solicit delegation](become-a-validator/solicit-delegation.md)
   * [🛠 Node upgrade & reset](become-a-validator/node-upgrade-and-reset.md)
-* [💰 Staking](faq/staking.md)
+* [💰 Staking](staking/README.md)
+  * [🚩 Staking via community site](staking/staking-via-community-site.md)
+  * [⛓ Staking directly on-chain](staking/staking-directly-on-chain.md)
 * [🗺 Roadmap](roadmap.md)
 
 ## Develop on Taraxa <a href="#develop" id="develop"></a>

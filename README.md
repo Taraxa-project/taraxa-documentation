@@ -27,7 +27,7 @@ This is why we created Taraxa, a purpose-built Layer-1 public ledger to enable u
 #### For users, check out,&#x20;
 
 * Get started with [creating a wallet for Taraxa](wallet/)&#x20;
-* [Stake your TARA](faq/staking.md)
+* [Stake your TARA](staking/)
 * [Network explorer](https://explorer.mainnet.taraxa.io/)&#x20;
 * Our most recent [development roadmap](roadmap.md)
 
