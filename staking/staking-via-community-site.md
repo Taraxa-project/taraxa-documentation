@@ -1,6 +1,6 @@
 # 🚩 Staking via community site
 
-> To comply with recent SEC rulings, United States persons and persons from OFAC-sanctioned regions cannot receive token rewards from running nodes. All participants will be required to pass KYC to receive rewards.
+> To comply with recent SEC rulings, United States persons and persons from OFAC-sanctioned regions cannot receive token rewards from staking. All participants will be required to pass KYC to receive rewards.
 
 You don't, however need to use the community site. You may perform all staking functions [directly on-chain by interacting with DPoS contract](staking-directly-on-chain.md).&#x20;
 
