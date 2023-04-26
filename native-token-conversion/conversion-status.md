@@ -4,7 +4,7 @@
 
 Here's a simple checklist of what has been completed, and what's still pending,&#x20;
 
-* [ ] Perform the conversion
+* [x] Perform the conversion - completed on April 3, 2023
 * [x] Timeframe from exchanges - April 3, 2023, 8AM UTC
 * [x] [Security audit report](https://github.com/HalbornSecurity/PublicReports/blob/master/L1%20Audits/Taraxa\_Node\_EVM\_L1\_Security\_Audit\_Report\_Halborn\_Final.pdf) from Halborn&#x20;
 * [x] Stable [Taraxa network](https://explorer.mainnet.taraxa.io/)
@@ -19,7 +19,7 @@ The following exchanges have either publicly supported or is in the process of g
 * [x] Kucoin: [https://www.kucoin.com/news/en-kucoin-will-support-the-migration-for-erc20-tara-to-mainnet-tara-tokens-230317](https://www.kucoin.com/news/en-kucoin-will-support-the-migration-for-erc20-tara-to-mainnet-tara-tokens-230317)
 * [x] Gate: [https://www.gate.io/article/29950](https://www.gate.io/article/29950)&#x20;
 * [x] MEXC: [https://support.mexc.com/hc/en-001/articles/16936276210457](https://support.mexc.com/hc/en-001/articles/16936276210457)&#x20;
-* [ ] AscendEx - No confirmation received as of March 31, 2023.&#x20;
+* [ ] AscendEx - received confirmation but no public announcement as of April 26, 2023.&#x20;
 
 The development team will keep reaching out to all exchanges that lists the TARA token to ensure we have maximum participation for the token conversion.&#x20;
 
