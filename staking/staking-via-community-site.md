@@ -48,19 +48,45 @@ You may claim your staking yields by clicking the "Claim" button next to each of
 
 <figure><img src="../.gitbook/assets/6. claim yields - staker.png" alt=""><figcaption></figcaption></figure>
 
-### 5.  Un-delegate
+### 5.  Re-delegate (UI coming soon)
+
+Sometimes if the validator node you're delegating to is under-performing, shut down, or for whatever reason you no longer wish to delegate to that node anymore, you could shift your delegation to another validator node. This is called re-delegation.&#x20;
+
+On the [staking page of the community site](https://community.taraxa.io/staking), you can see a button called "Shift delegation OUT" next to the validator nodes you have delegated to. This button helps you to move delegation OUT of that particular node and into another one.&#x20;
+
+For example, let's say that a user is no longer happy with the validator node `0xC83e...`, and wants to shift delegation out of it, and INTO the validator node `0x94Ca...`&#x20;
+
+<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+
+The user will then click on the "Shift delegation OUT" button next to the node they're unhappy with, and you'll see a screen that asks them where you want to shift their delegation into. At the top left corner is the validator node to shift delegation OUT from, and at the bottom is a list of validator nodes, from which they'll be able to select one that they'd want to shift the delegation INTO.&#x20;
+
+In this example, they pick the one `0x94Ca...` and click on the "Shift delegation IN" button next to the node.&#x20;
+
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
+
+
+Once the button is clicked, a confirmation screen will pop up that allows the user to specify how many tokens they'd like to shift over.&#x20;
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
+
+###
+
+### 6.  Un-delegate
 
 You may choose to un-delegate your tokens from a validator node at any time, simply select the "Un-delegate" button next to the node.&#x20;
 
-Note that there is an \~30 day delay between when you request an un-delegation and when you actually receive the tokens.&#x20;
+Here are a few things to remember when un-delegating,&#x20;
+
+* Un-delegate initiates a removal of ALL your delegated tokens from the validator node
+* Once you initiate un-delegation, there's an \~30-day delay (the network counts time by blocks so timing isn't exactly 30 days) before you can claim your tokens
+* If you simply wish to shift delegation from an under-performing node to one that performs better, you should consider using re-delegation which only has a few PBFT block delay (a few seconds)
 
 
 
 <figure><img src="../.gitbook/assets/7. undelegate.png" alt=""><figcaption></figcaption></figure>
 
-### 6.  Re-delegate (UI coming soon)
-
-There's also a built-in function on the on-chain DPoS contract to switch nodes for your delegation, which only has a 5-block delay (< 20 seconds). This functionality exists but has not yet bee incorporated into the community site's UI, it's coming soon!&#x20;
-
-In the meantime you can always [access the re-delegate and all other DPoS contract functions directly on-chain](staking-directly-on-chain.md).&#x20;
+###
 

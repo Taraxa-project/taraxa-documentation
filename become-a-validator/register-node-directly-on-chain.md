@@ -33,7 +33,7 @@ https://raw.githubusercontent.com/Taraxa-project/taraxa-evm/master/taraxa/state/
 
 After it's been uploaded you should be able to see it in the IDE on the right side,&#x20;
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.  Compile the interface&#x20;
 
@@ -96,7 +96,7 @@ Set the following,&#x20;
 * Value to 1000, since we're self-delegating 1000 TARA
 * Unit to "Ether", this may be confusing but since Remix isn't aware of the Taraxa Network's token name, it calls all tokens for EVM-compatible networks "Ether", don't worry, it's sending TARA (since you're on the Taraxa Network)
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once these values are set let's move to the next step.&#x20;
 

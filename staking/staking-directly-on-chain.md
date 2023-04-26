@@ -20,7 +20,7 @@ https://raw.githubusercontent.com/Taraxa-project/taraxa-evm/master/taraxa/state/
 
 After it's been uploaded you should be able to see it in the IDE on the right side,&#x20;
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.  Compile the interface&#x20;
 
@@ -138,7 +138,7 @@ If for whatever reason, you want to move your delegation from one node to anothe
 
 Just enter the public addresses for the validator node you want to remove delegation from, to, and the amount (remember to add 18 zeros at the end of this!), and press "transact".&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 You should always verify the results by using the `getValidator` function as usual.&#x20;
 
