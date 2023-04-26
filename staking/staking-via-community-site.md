@@ -48,7 +48,7 @@ You may claim your staking yields by clicking the "Claim" button next to each of
 
 <figure><img src="../.gitbook/assets/6. claim yields - staker.png" alt=""><figcaption></figcaption></figure>
 
-### 5.  Re-delegate (UI coming soon)
+### 5.  Re-delegate
 
 Sometimes if the validator node you're delegating to is under-performing, shut down, or for whatever reason you no longer wish to delegate to that node anymore, you could shift your delegation to another validator node. This is called re-delegation.&#x20;
 
@@ -70,9 +70,15 @@ Once the button is clicked, a confirmation screen will pop up that allows the us
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
+Once the re-delegate button is clicked and the transaction is confirmed, the re-delegation has been completed.&#x20;
+
+Make sure to confirm that the re-delegation has gone through properly, refresh the staking page.&#x20;
+
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+
+Here we see that indeed 500k TARA has been moved from validator node `0xC83e...`to `0x94Ca...` :tada:
 
 
-###
 
 ### 6.  Un-delegate
 
