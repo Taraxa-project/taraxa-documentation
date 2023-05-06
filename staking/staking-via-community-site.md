@@ -86,7 +86,7 @@ You may choose to un-delegate your tokens from a validator node at any time, sim
 
 Here are a few things to remember when un-delegating,&#x20;
 
-* Un-delegate initiates a removal of ALL your delegated tokens from the validator node
+* Un-delegate initiates a removal of a defined amount of delegated tokens from the validator node
 * Once you initiate un-delegation, there's an \~30-day delay (the network counts time by blocks so timing isn't exactly 30 days) before you can claim your tokens
 * If you simply wish to shift delegation from an under-performing node to one that performs better, you should consider using re-delegation which only has a few PBFT block delay (a few seconds)
 

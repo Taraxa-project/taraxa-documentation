@@ -47,6 +47,7 @@
 * [🗝 Node's VRF Key](node-setup/vrf\_key.md)
 * [📒 Node Proof of Owership](node-setup/proof\_owership.md)
 * [❓ Node Operations FAQ](faq/testnet.md)
+* [🔢 Node Release Notes](node-setup/node-release-notes.md)
 
 ## FAQ
 
