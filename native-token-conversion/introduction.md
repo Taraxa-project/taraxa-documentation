@@ -8,6 +8,11 @@ description: What is the conversion and how does it work?
 
 Taraxa's native token conversion was completed on April 3, 2023.&#x20;
 
+* [Official announcement](https://twitter.com/taraxa\_project/status/1643946667723436033?s=20)
+* [Genesis PBFT block](https://mainnet.explorer.taraxa.io/pbft/0)
+
+If you held TARA tokens on ETH, they have been mirrored over to Taraxa's mainnet. Please [set up a wallet](../wallet/) to access your tokens!&#x20;
+
 
 
 ## What is the Native Token Conversion?&#x20;
