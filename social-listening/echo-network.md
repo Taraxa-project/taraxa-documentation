@@ -1,4 +1,4 @@
-# Echo Network
+# 📶 Echo Network
 
 Echo is a decentralized social listening network incubated by the Taraxa Project as part of our mission to model the how blockchain could be used to solve real world problems. Echo provides fair, unbiased and trustworthy social data & analytics, running on top of the Taraxa Layer-1 network.&#x20;
 

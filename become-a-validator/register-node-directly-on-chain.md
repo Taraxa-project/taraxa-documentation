@@ -49,7 +49,7 @@ If the Compile button doesn't say that, that means the interface file wasn't sel
 
 Click the Compile button. Once it has been compiled you should see a green checkmark on the compiler icon on the left sidebar, and additional options will show up below the compile button.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3.  Set up the interface&#x20;
 

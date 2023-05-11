@@ -76,5 +76,5 @@
 
 ## Social Listening
 
-* [Echo Network](social-listening/echo-network.md)
-* [Hype App](social-listening/hype-app.md)
+* [📶 Echo Network](social-listening/echo-network.md)
+* [📣 Hype App](social-listening/hype-app.md)

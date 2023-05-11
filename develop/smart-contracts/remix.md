@@ -30,7 +30,7 @@ Here's a step-by-step example to deploy a simple contract onto Taraxa's mainnet 
 
 * Check out the console output inside the Remix IDE, looks like the contract was successfully deployed! (wallet address & transaction hash redacted)&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * You can find the deployed contract address on the bottom left side of the Deploy & Run Transactions panel in the Remix IDE.&#x20;
 

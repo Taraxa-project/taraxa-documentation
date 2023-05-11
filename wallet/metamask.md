@@ -75,7 +75,7 @@ Here's a step-by-step guide for adding Taraxa to Metamask via manually configuri
 
 * A browser tab will pop out and show Metamask's Add a Network settings, choose "Add a network manually" at the bottom
 
-<figure><img src="../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Here you'll see a brief form for you fill in details of Taraxa's network
 
