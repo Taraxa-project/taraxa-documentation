@@ -73,3 +73,8 @@
 * [❓ Conversion FAQ](native-token-conversion/conversion-faq.md)
 * [⚗ Mock Conversion](native-token-conversion/mock-conversion.md)
 * [📋 Exchange Submission](native-token-conversion/exchange-submission.md)
+
+## Social Listening
+
+* [Echo Network](social-listening/echo-network.md)
+* [Hype App](social-listening/hype-app.md)

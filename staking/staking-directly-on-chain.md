@@ -36,7 +36,7 @@ If the Compile button doesn't say that, that means the interface file wasn't sel
 
 Click the Compile button. Once it has been compiled you should see a green checkmark on the compiler icon on the left sidebar, and additional options will show up below the compile button.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3.  Set up the interface&#x20;
 
@@ -78,7 +78,7 @@ Before you delegate to a validator node, let's make sure it has actually been re
 
 For example, if I wanted to delegate to a validator node whose public address is: `0xd423413a6b4bb11e584d7de3acce40d95da6c3b1`, we simply enter this address into the function.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 We click on the "call" button to send the query to the DPoS contract, and we get the return value below the call. Here's how to interpret it.&#x20;
 
