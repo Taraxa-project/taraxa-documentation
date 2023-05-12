@@ -4,19 +4,21 @@ description: Dev release nodes for mainnet node post-conversion
 
 # 🔢 Node Release Notes
 
-## version 1.3.0
+## v1.3.0
 
-Github: &#x20;
+**Github:** &#x20;
 
 [https://github.com/Taraxa-project/taraxa-node/compare/master...release/v1.3.0](https://github.com/Taraxa-project/taraxa-node/compare/master...release/v1.3.0)  &#x20;
 
-Docker image:&#x20;
+
+
+**Docker image:**&#x20;
 
 `docker pull taraxa/taraxa-node:v1.3.0-rc.10253`
 
-### Release highlights:&#x20;
 
 
+**Release Highlights:**&#x20;
 
 **Storage**
 
