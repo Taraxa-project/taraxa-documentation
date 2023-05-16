@@ -46,9 +46,7 @@ Hype relies on Echo nodes to listen in on public Telegram groups in order to gen
 
 So before you start participating in a Hype Pool, please [submit the crypto Telegram groups](https://forms.gle/CPbm6Q7ZvaRWg2s97) you that you frequently use to us and we'll ensure they get indexed.&#x20;
 
-
-
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Please enter your,&#x20;
 
@@ -63,7 +61,7 @@ Thank you for helping to make Hype better!&#x20;
 
 Go to the [Hype App](https://gethyped.app/), and on the front page select a Hype Pool you're interested in and click "Learn More".&#x20;
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 In this example you'll see that there's a Hype Pool set up for Taraxa, or "TARA". A few things to note,&#x20;
 
