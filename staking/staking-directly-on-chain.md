@@ -70,7 +70,7 @@ Go ahead and click the "At Address" button, and it should show up under "Deploye
 
 Go ahead and expand the interface by clicking on the chevron ">" and you'll see a list of all the commands you can send to the contract.&#x20;
 
-<figure><img src="../.gitbook/assets/image (5) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4.  Verifying the validator node
 

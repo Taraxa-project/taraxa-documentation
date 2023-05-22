@@ -61,7 +61,7 @@ Thank you for helping to make Hype better!&#x20;
 
 Go to the [Hype App](https://gethyped.app/), and on the front page select a Hype Pool you're interested in and click "Learn More".&#x20;
 
-<figure><img src="../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 In this example you'll see that there's a Hype Pool set up for Taraxa, or "TARA". A few things to note,&#x20;
 
@@ -109,7 +109,7 @@ This account will send you a message asking you if you'd like to Confirm or Decl
 
 Once you click Confirm, go back to the Hype App and the window will ask  you to Accept the login.&#x20;
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 You'll see a success pop-up.&#x20;
 
