@@ -85,6 +85,10 @@ Several things to caution,&#x20;
 
 ### 3.  Claim you Rewards \[Guide WIP]&#x20;
 
+**IMPORTANT**: the pool rewards are right now tabulated on a weekly basis. We're working to test analytics that can reward more quickly & frequently.&#x20;
+
+
+
 When you're ready to claim your rewards, go to the Hype App and first connect your wallet.&#x20;
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
