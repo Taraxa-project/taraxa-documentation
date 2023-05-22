@@ -6,37 +6,11 @@ description: Automated Social Campaigns, powered by Taraxa
 
 ## tl;dr
 
-[Hype App](https://gethyped.app/) is in closed Alpha, opening to general public soon!&#x20;
+Participate in the [closed alpha Hype Pool ](https://gethyped.app/pool/0x13d45c28ca661c9c8971743a5f500bd97bf88c6e8e933cdf0f5cc4d9715e6b44)right now!&#x20;
 
 
 
-## Hype Makes Social Campaigns Fair & Easy&#x20;
-
-Social campaigns are tough.&#x20;
-
-They’re especially tough in web3, where armies of scammers and bots lay waiting to pounce on every social bounty. Have you ever ran a social campaign, and,&#x20;
-
-* 99% of the rewards went to bots spamming social media instead of your community members?&#x20;
-* had an impossible time measuring the impact of your campaigns?&#x20;
-* paid a “big-name” influencer but didn’t know if their followers were even real?&#x20;
-
-We ran into these problems, constantly. This is why we’re so excited to introduce Hype, a decentralized application built specifically to make social campaigns easy, with verifiably measurable outcomes, spam blocking, and direct to community rewards that’s fully automated - built on top of Taraxa’s revolutionary Layer-1 network.&#x20;
-
-Hype helps a project to reward their community members who hype up and spread awareness for their ecosystem. Anyone in the project’s ecosystem can set up a Hype Pool, describe what you want hyped up, fund it with rewards and just sit back and watch the magic happen. Hype is powered by a set of decentralized Echo nodes that listens in on over 10k public crypto Telegram groups, automatically capturing relevant conversations to each Hype Pool, and unlocks on-chain rewards from the Pool to participants in the conversations based on their respective impressions. All data and analytics are fully transparent, with every single message fully traceable and auditable directly back to the source inside Telegram.&#x20;
-
-Hype helps community members to hype up their favorite projects, with zero hurdle to participate. All they have to do is do what they’ve always been doing - talk up their project in their favorite crypto Telegram groups. Except now their contributions are being measured and rewarded, as they should be.&#x20;
-
-We believe social campaigns should be fair and easy to do. Rewards should go directly to the community rather than some pay-to-play middleman. This is what a decentralized ecosystem is all about.&#x20;
-
-Join us in reclaiming social!&#x20;
-
-
-
-Hype is currently in closed Alpha and will be gradually opened up as the dev team iterates & improves the product. Stay tuned!
-
-
-
-## Guide: Participating in a Hype Pool
+## Step by Step Guide: Participating in a Hype Pool
 
 Participating in a Hype Pool and helping to spread awareness for your favorite projects is dead simple. Here's a step by step guide.&#x20;
 
