@@ -46,7 +46,7 @@ Hype relies on Echo nodes to listen in on public Telegram groups in order to gen
 
 So before you start participating in a Hype Pool, please [submit the crypto Telegram groups](https://forms.gle/CPbm6Q7ZvaRWg2s97) you that you frequently use to us and we'll ensure they get indexed.&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 Please enter your,&#x20;
 
@@ -61,7 +61,7 @@ Thank you for helping to make Hype better!&#x20;
 
 Go to the [Hype App](https://gethyped.app/), and on the front page select a Hype Pool you're interested in and click "Learn More".&#x20;
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 In this example you'll see that there's a Hype Pool set up for Taraxa, or "TARA". A few things to note,&#x20;
 
@@ -83,9 +83,47 @@ Several things to caution,&#x20;
 
 
 
-### 3.  Claim you Rewards
+### 3.  Claim you Rewards \[Guide WIP]&#x20;
 
-( guide coming soon )&#x20;
+When you're ready to claim your rewards, go to the Hype App and first connect your wallet.&#x20;
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Make sure that the wallet you connect is on the same network as the rewards are for the Hype Pool you participated in. For example, if you participated in a Taraxa Hype Pool, then make sure you're connected to the Taraxa Mainnet. You could of course be participating in as many Hype Pools as you'd like, but be sure to be connected to the right network for the pools you're trying to claim rewards from.&#x20;
+
+Once your wallet is connected, it'll ask you for a signature to prove that you own the wallet. Then you should see a "My Account" menu heading.&#x20;
+
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+Under "My Account", you'll see that you can connect your Telegram account.&#x20;
+
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+Once you enter your phone number, you should see a notification inside your Telegram. It should come from the offical Telegram account.&#x20;
+
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+This account will send you a message asking you if you'd like to Confirm or Decline the login, please click on Confirm.&#x20;
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+Once you click Confirm, go back to the Hype App and the window will ask  you to Accept the login.&#x20;
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+You'll see a success pop-up.&#x20;
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+You'll also see that you are now connected to the&#x20;
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+Now both your Telegram account and your wallet are connected, you're ready to claim your rewards.&#x20;
+
+
+
+( more guide coming soon )&#x20;
 
 
 

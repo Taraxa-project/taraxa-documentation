@@ -68,7 +68,7 @@ In this example, they pick the one `0x94Ca...` and click on the "Shift delegatio
 
 Once the button is clicked, a confirmation screen will pop up that allows the user to specify how many tokens they'd like to shift over.&#x20;
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 Once the re-delegate button is clicked and the transaction is confirmed, the re-delegation has been completed.&#x20;
 

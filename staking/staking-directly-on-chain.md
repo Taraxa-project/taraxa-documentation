@@ -10,7 +10,7 @@ Here are instructions on how to do this.&#x20;
 
 Go to [Remix](https://remix.ethereum.org/), and upload Taraxa's DPoS contract's Solidity interface.&#x20;
 
-<figure><img src="../.gitbook/assets/image (13) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 In the pop-up, paste in the following link to the Taraxa DPoS contract Solidity interface,&#x20;
 
@@ -62,7 +62,7 @@ Next, we tell Remix where the DPoS contract is located. Go the "At Address" fiel
 0x00000000000000000000000000000000000000fe
 ```
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Go ahead and click the "At Address" button, and it should show up under "Deployed Contracts".&#x20;
 
@@ -70,7 +70,7 @@ Go ahead and click the "At Address" button, and it should show up under "Deploye
 
 Go ahead and expand the interface by clicking on the chevron ">" and you'll see a list of all the commands you can send to the contract.&#x20;
 
-<figure><img src="../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4.  Verifying the validator node
 
@@ -78,7 +78,7 @@ Before you delegate to a validator node, let's make sure it has actually been re
 
 For example, if I wanted to delegate to a validator node whose public address is: `0xd423413a6b4bb11e584d7de3acce40d95da6c3b1`, we simply enter this address into the function.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 We click on the "call" button to send the query to the DPoS contract, and we get the return value below the call. Here's how to interpret it.&#x20;
 
@@ -104,7 +104,7 @@ Next, we enter the validator node's public address into the `delegate` function 
 
 After pressing the "transact" button, the output is seen on the right side in Remix's console.&#x20;
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (2).png" alt=""><figcaption></figcaption></figure>
 
 If the transaction is successful, you should see a green checkmark at the top-left corner. If you expand the output, you'll that the "status" has a successful output, and in the "va" field you should see the exact amount (with 18 extra zeros at the end) that you delegated.&#x20;
 
@@ -112,7 +112,7 @@ Let's verify that the delegation has indeed worked, by calling the `getValidator
 
 &#x20;
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 Now it has 2000 TARA delegation (once again, reminder there are 18 extra zeros after the number), which is exactly 1000 TARA more than before we started.&#x20;
 
