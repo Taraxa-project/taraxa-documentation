@@ -20,8 +20,8 @@ Note, 🎈(stretch goal)s are aspirational milestones that may be a stretch for 
 
 ## 📣 App Adoption&#x20;
 
-* [ ] Launch the Hype app alpha version
-* [ ] Run Hype campaigns in the Taraxa community to collect impact data and build our pitch
+* [x] Launch the Hype app alpha version
+* [x] Run Hype campaigns in the Taraxa community to collect impact data and build our pitch
 * [ ] Gain a portfolio of early project adopters for Hype to help rapidly refine the product and build business development credentials
 * [ ] Market Hype to a wider audience via publications, influencers, etc.
 * [ ] Tie in TARA consumption into Hype as traction builds to drive towards more sustainable economics in the Taraxa ecosystem
@@ -46,7 +46,7 @@ Note, 🎈(stretch goal)s are aspirational milestones that may be a stretch for 
 * [x] Support the community by running mock token conversions on the testnet to help the community understand how conversion works
 * [x] Support the community by working with exchanges to complete native token conversion and drive staking & delegation adoption
 * [x] Support developers with detailed Layer-1 developer documentation, including how to use common ETH toolchains with Taraxa as it is fully backwards-compatible with ETH
-* [ ] Support developers with development quality of life features such as smart contract tracing, newer EVM opcodes, events for on-chain economic contracts, etc.
+* [x] Support developers with development quality of life features such as smart contract tracing, newer EVM opcodes, events for on-chain economic contracts, etc.
 * [ ] Support node operators with node quality of life features such as light node, fast syncing, improved logging & reporting, etc.
 * [ ] Support the community by continuing to improve stability, security, and performance
 
