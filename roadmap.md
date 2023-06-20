@@ -34,7 +34,6 @@ Note, 🎈(stretch goal)s are aspirational milestones that may be a stretch for 
 * [ ] Develop & publish APIs & SDKs for the Echo social listening platform, with sample code to help developers build on Echo
 * [ ] Release a functional decentralized Echo client so we can begin the process to turn the social listening platform into a decentralized network
 * [ ] 🎈(stretch goal) Decentralize the Echo social listening platform with sufficiently attractive economics to help drive node operator uptake
-* [ ] 🎈(stretch goal) Integrate a cross-chain bridge, primarily focused on ETH integration so that Echo on-chain signals could be provided across chains. This is a stretch goal because it depends on other projects’ timelines that are out of our control
 
 
 
