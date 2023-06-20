@@ -49,6 +49,7 @@ Note, 🎈(stretch goal)s are aspirational milestones that may be a stretch for 
 * [x] Support developers with development quality of life features such as smart contract tracing, newer EVM opcodes, events for on-chain economic contracts, etc.
 * [ ] Support node operators with node quality of life features such as light node, fast syncing, improved logging & reporting, etc.
 * [ ] Support the community by continuing to improve stability, security, and performance
+* [ ] 🎈(stretch goal) Support the ecosystem by integrating a cross-chain bridge primarily to Ethereum&#x20;
 
 
 
