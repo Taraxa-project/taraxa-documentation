@@ -18,7 +18,7 @@ Note, 🎈(stretch goal)s are aspirational milestones that may be a stretch for 
 
 
 
-## 📣 App Adoption&#x20;
+## 📣 dApp Adoption&#x20;
 
 * [x] Launch the Hype app alpha version
 * [x] Run Hype campaigns in the Taraxa community to collect impact data and build our pitch
@@ -29,7 +29,7 @@ Note, 🎈(stretch goal)s are aspirational milestones that may be a stretch for 
 
 
 
-## 🚉 App Platform Adoption
+## 🚉 Social Listening Platform Adoption
 
 * [ ] Develop & publish APIs & SDKs for the Echo social listening platform, with sample code to help developers build on Echo
 * [ ] Release a functional decentralized Echo client so we can begin the process to turn the social listening platform into a decentralized network
