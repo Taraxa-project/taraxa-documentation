@@ -4,17 +4,39 @@ description: Dev release nodes for mainnet node post-conversion
 
 # 🔢 Node Release Notes
 
-## v1.3.0
+## v1.3.1
+
+**Docker image:**&#x20;
+
+`docker pull taraxa/taraxa-node:v1.3.1`&#x20;
 
 **Github:** &#x20;
 
-[https://github.com/Taraxa-project/taraxa-node/compare/master...release/v1.3.0](https://github.com/Taraxa-project/taraxa-node/compare/master...release/v1.3.0)  &#x20;
+[  ](https://github.com/Taraxa-project/taraxa-node/commit/24e6c310b3168dc93b5d4095556eb41544f13e8b)[https://github.com/Taraxa-project/taraxa-node/commit/24e6c310b3168dc93b5d4095556eb41544f13e8b](https://github.com/Taraxa-project/taraxa-node/commit/24e6c310b3168dc93b5d4095556eb41544f13e8b)
 
 
+
+**Release Highlights:**&#x20;
+
+**RPC**
+
+* RPC changes to increase indexer performance
+* Update EVM submodule with added `getTotalDelegation` method to DPOS contract
+
+**Consensus**
+
+* Disconnect nodes that send multiple PBFT votes (ie. equivocate) in same step in network layer
+* Properly rebroadcast blocks that local node has voted for
+
+## v1.3.0
 
 **Docker image:**&#x20;
 
 `docker pull taraxa/taraxa-node:v1.3.0-rc.10253`
+
+**Github:** &#x20;
+
+[https://github.com/Taraxa-project/taraxa-node/compare/master...release/v1.3.0](https://github.com/Taraxa-project/taraxa-node/compare/master...release/v1.3.0)  &#x20;
 
 
 
