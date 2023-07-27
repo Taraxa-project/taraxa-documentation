@@ -119,7 +119,7 @@ Just like block rewards, fees are going to be dispersed to staked validators for
 * Proposing valid blocks in the Block DAG
 * Proposing valid consensus blocks on the PBFT chain
 
-***
+
 
 **No Slashing**
 

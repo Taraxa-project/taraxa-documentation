@@ -40,6 +40,7 @@
   * [Azure](node-setup/testnet\_node\_setup/azure.md)
   * [Hetzner](node-setup/testnet\_node\_setup/hetzner.md)
   * [GitHub is blocked](node-setup/testnet\_node\_setup/github\_blocked.md)
+* [🪶 Lite Consensus Node (beta)](node-setup/lite-consensus-node-beta.md)
 * [⏺ Upgrade a Node](node-setup/upgrade-a-node/README.md)
   * [⬆ Upgrade Node](node-setup/upgrade-a-node/software-upgrade.md)
   * [🔁 Reset Node](node-setup/upgrade-a-node/data-reset.md)
