@@ -23,7 +23,7 @@ mkdir -p mainnet/config
 cd mainnet
 wget https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/taraxa_compose_mainnet/docker-compose.light.yml -O docker-compose.yml
 docker-compose up -d
-docker-compose logs// Some code
+docker-compose logs
 ```
 
 ###
