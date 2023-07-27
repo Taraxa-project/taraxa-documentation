@@ -26,7 +26,7 @@ docker-compose up -d
 docker-compose logs
 ```
 
-###
+
 
 ### 1.2  Turn an existing full node into a Lite Consensus Node on the Mainnet
 
@@ -52,6 +52,8 @@ docker-compose logs
 
 
 
+##
+
 ## 2.  Lite Consensus Node on the Taraxa Testnet &#x20;
 
 ### 2.1  Set up a Lite Consensus Node on the Testnet from scratch&#x20;
@@ -64,7 +66,7 @@ docker-compose up -d
 docker-compose logs
 ```
 
-###
+
 
 ### 2.2  Turn an existing full node into a Lite Consensus Node on the Testnet
 
