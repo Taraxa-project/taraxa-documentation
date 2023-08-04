@@ -40,16 +40,6 @@ docker-compose logs
 
 
 
-### 1.3  Revert a Lite Consensus Node back to a full node on the Mainnet
-
-```bash
-cd mainnet
-docker-compose down
-wget https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/taraxa_compose_mainnet/docker-compose.yml -O docker-compose.yml
-docker-compose up -d
-docker-compose logs
-```
-
 
 
 ##
@@ -79,16 +69,6 @@ docker-compose logs
 ```
 
 
-
-### 2.3  Revert a Lite Consensus Node back to a full node on the Testnet
-
-```bash
-cd testnet
-docker-compose down
-wget https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/taraxa_compose/docker-compose.yml -O docker-compose.yml
-docker-compose up -d
-docker-compose logs
-```
 
 
 
