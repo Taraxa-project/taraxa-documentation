@@ -17,7 +17,7 @@ If you held TARA tokens on ETH, they have been mirrored over to Taraxa's mainnet
 
 ## What is the Native Token Conversion?&#x20;
 
-As of this writing, the Taraxa token is still an [ERC-20 contract](https://etherscan.io/address/0xf001937650bb4f62b57521824b2c20f5b91bea05) residing on the Ethereum blockchain. The goal is to eventually convert the ERC-20 tokens into the native tokens residing on the Taraxa blockchain.
+Prior to the conversion on April 3, 2023, the Taraxa token used to be an [ERC-20 contract](https://etherscan.io/address/0xf001937650bb4f62b57521824b2c20f5b91bea05) residing on the Ethereum blockchain. The conversion converts the ERC-20 tokens into the native tokens residing on the Taraxa blockchain.
 
 
 
