@@ -4,6 +4,45 @@ description: Dev release nodes for mainnet node post-conversion
 
 # 🔢 Node Release Notes
 
+## v1.4.0
+
+_`Hardfork at block 3067000 on Mainnet`_
+
+**Docker image:**&#x20;
+
+`docker pull taraxa/taraxa-node:v1.4.0`&#x20;
+
+**Github:** &#x20;
+
+[https://github.com/Taraxa-project/taraxa-node/pull/2544](https://github.com/Taraxa-project/taraxa-node/pull/2544)
+
+
+
+**Release Highlights:**&#x20;
+
+**DPOS Contract**
+
+* Fixes a critical security vulnerability where a call to DPOS contract could cause a persisting error in the state readout for a validator.
+* Removes the depth limit on contract call enabling other contracts to interact with the DPOS contract
+
+## v1.3.2
+
+**Docker image:**&#x20;
+
+`docker pull taraxa/taraxa-node:v1.3.2`&#x20;
+
+**Github:** &#x20;
+
+[https://github.com/Taraxa-project/taraxa-node/pull/2539](https://github.com/Taraxa-project/taraxa-node/pull/2539)
+
+
+
+**Release Highlights:**&#x20;
+
+**RPC**
+
+* Added batch RPC request support via websockets
+
 ## v1.3.1
 
 **Docker image:**&#x20;
@@ -12,7 +51,7 @@ description: Dev release nodes for mainnet node post-conversion
 
 **Github:** &#x20;
 
-[  ](https://github.com/Taraxa-project/taraxa-node/commit/24e6c310b3168dc93b5d4095556eb41544f13e8b)[https://github.com/Taraxa-project/taraxa-node/commit/24e6c310b3168dc93b5d4095556eb41544f13e8b](https://github.com/Taraxa-project/taraxa-node/commit/24e6c310b3168dc93b5d4095556eb41544f13e8b)
+[https://github.com/Taraxa-project/taraxa-node/commit/24e6c310b3168dc93b5d4095556eb41544f13e8b](https://github.com/Taraxa-project/taraxa-node/commit/24e6c310b3168dc93b5d4095556eb41544f13e8b)
 
 
 
