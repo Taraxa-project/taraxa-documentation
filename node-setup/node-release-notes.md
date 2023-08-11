@@ -14,7 +14,7 @@ _`Hardfork at block 3067000 on Mainnet`_
 
 **Github:** &#x20;
 
-[https://github.com/Taraxa-project/taraxa-node/pull/2544](https://github.com/Taraxa-project/taraxa-node/pull/2544)
+[https://github.com/Taraxa-project/taraxa-node/pull/2548](https://github.com/Taraxa-project/taraxa-node/pull/2548)
 
 
 
