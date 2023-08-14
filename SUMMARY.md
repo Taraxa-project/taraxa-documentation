@@ -44,7 +44,7 @@
 * [⏺ Upgrade a Node](node-setup/upgrade-a-node/README.md)
   * [⬆ Upgrade Node](node-setup/upgrade-a-node/software-upgrade.md)
   * [🔁 Reset Node](node-setup/upgrade-a-node/data-reset.md)
-* [Syncing From Snapshot](node-setup/syncing-from-snapshot.md)
+* [🔀 Syncing From Snapshot](node-setup/syncing-from-snapshot.md)
 * [📬 Node's Public Address](node-setup/node\_address.md)
 * [🗝 Node's VRF Key](node-setup/vrf\_key.md)
 * [📒 Node Proof of Owership](node-setup/proof\_owership.md)
