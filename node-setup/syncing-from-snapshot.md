@@ -16,7 +16,7 @@ Follow the these steps:
 2. Uncompress the snapshot archive
 3. Rename the **`state_db`** and **`db`** folders so that they don't have a blockheight at the end or their name.  _(Example: rename state\_db3020000 to state\_db, and db3020000 to db)_
 4. Stop the node process
-5. Replace **`state_db`** and **`db`** folders into the data folder for your node. (Default path is `/opt/taraxa_data/data/`or as specified in your node config.)
+5. Replace **`state_db`** and **`db`** folders into the data folder for your node. (Default path is `~/.taraxa/data` or as specified in your node config.)
 6. Restart your node to begin syncing from the block height of your snapshot.
 
 Congrats you are all done and node will sync faster than having started from the beginning!
