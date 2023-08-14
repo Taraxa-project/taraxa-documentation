@@ -6,7 +6,7 @@ description: Dev release nodes for mainnet node post-conversion
 
 ## v1.4.0
 
-_`Hardfork at block 3067000 on Mainnet`_
+_`Hardfork at block 3091000`` ``on Mainnet`_
 
 **Docker image:**&#x20;
 
