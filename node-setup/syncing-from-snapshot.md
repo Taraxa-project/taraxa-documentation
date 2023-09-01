@@ -7,6 +7,16 @@ description: Instructions for faster syncing by use of a recent snapshot
 _**Current latest snapshot hosted by Taraxa dev team is here:**_
 
 {% embed url="https://storage.googleapis.com/mainnet-snapshot-0812202/302000.tar.gz" %}
+Full Node
+{% endembed %}
+
+{% embed url="https://storage.googleapis.com/mainnet-snapshot-light-node/mainnet-snapshot-block-3419351-1d.tar.xz" %}
+Light Node 1 DAY
+{% endembed %}
+
+{% embed url="https://storage.googleapis.com/mainnet-snapshot-light-node/mainnet-snapshot-block-3419351-7d.tar.xz" %}
+Light Node 7 DAYS
+{% endembed %}
 
 ## Installing Snapshot On Local Machine
 
