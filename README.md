@@ -6,11 +6,18 @@ description: Thanks for dropping by the Taraxa Project!
 
 ## Taraxa is the next-gen Layer-1
 
-Taraxa is a purpose-built, fast, scalable, and device-friendly Layer-1 public ledger designed to help democratize reputation by making informal data trustworthy.&#x20;
+Taraxa is an EVM-compatible smart contract platform based on t-Graph consensus utilizing blockDAG, with many world-first technical innovations.&#x20;
 
-People and devices generate data constantly, but more than 80% of it is informal and cannot be tracked. Examples range from informal verbal agreements, IoT status signals, or casual online discussions. As a result, informal transactional and interactional data remains unstructured, unverifiable, and impossible to trust.
+Founded by two Stanford Engineers in 2018, Taraxa launched its mainnet on April 3, 2023 and has since consistently built up awareness and market traction, gaining widespread recognition for its innovations on top of the next-gen blockDAG architecture,&#x20;
 
-Taraxa tracks informal data and makes it trustworthy with its purpose-built technologies, by decentralizing informal data gathering & analytics and enforcing accountability through signed commitments. With enough informal data, we can build localized reputation networks rooted in communities, enabling even most minor participants to acquire a reputation, becoming more trusted and efficiently rewarded.
+* First Native EVM Integration in blockDAG
+* First PoS blockDAG
+* First Dynamic blockDAG Proposal Rate
+* First True Finality in blockDAG
+
+These innovations give Taraxa unsurpassed throughput at scale without security or decentralization tradeoffs, paving the way for the next infrastructural upgrade from blockchain to blockDAG.&#x20;
+
+Taraxa’s vibrant community has been building DeFi and social analytics dApps organically during the bear market as the development team continues to focus on driving awareness, adoption, building demonstrative dApps, and rounding out necessary infrastructure tech such as cross-chain bridging.&#x20;
 
 ##
 
@@ -18,9 +25,9 @@ Taraxa tracks informal data and makes it trustworthy with its purpose-built tech
 
 It is our firm belief that technologies are meant to solve real world problems, and cannot be developed in isolation. The applications we build, will build, and will enable our community to build, will (and do) have concrete functionality implications to how the public ledger infrastructural layer is designed and implemented. To this end, the application and the ledger need to be tightly coupled to create the most optimized outcomes.
 
-This is why we created Taraxa, a purpose-built Layer-1 public ledger to enable us to specifically solve challenges driven by mistrust of informal data.&#x20;
+This is why we created Taraxa.&#x20;
 
-##
+
 
 ## Join the ecosystem!&#x20;
 
