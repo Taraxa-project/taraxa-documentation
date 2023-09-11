@@ -4,7 +4,7 @@ description: Commonly-seen node operations questions
 
 # ❓ Node Operations FAQ
 
-## What makes one node generate more blocks than another on the testnet?&#x20;
+## Testnet: what makes one node generate more blocks than another on the testnet?&#x20;
 
 This is one of the common questions we see from our community, so let's dive into some of the factors governing block production.&#x20;
 
@@ -53,7 +53,7 @@ The development team has not yet done detailed network stress tests to see just 
 
 ##
 
-## Why are there a few nodes producing far more blocks than the other nodes on the testnet?&#x20;
+## Testnet: why are there a few nodes producing far more blocks than the other nodes on the testnet?&#x20;
 
 If you go to the [Taraxa explorer's node page](https://explorer.testnet.taraxa.io/nodes) starting in 2022, you'll see a few nodes (6 as of this writing) that are producing far more blocks than the other nodes. Why is that?&#x20;
 
@@ -157,7 +157,7 @@ To **find the latest image's digest**, go to our docker hub, find the latest ima
 
 ##
 
-## After I deleted my node and tried to register it again, there's an error that says "node already exists"
+## Testnet: after I deleted my node and tried to register it again, there's an error that says "node already exists"
 
 You cannot delete a node and add it back again. If you delete a node, you have to get a "new node". The simplest way to do that is to delete the node's wallet, and restart the node. Afterwards you should be able to register the new node.&#x20;
 
@@ -223,11 +223,22 @@ Several things to note,&#x20;
 
 If your node is 100% synced but has not produced any block, please make sure that your node is properly registered on the community site's node page.&#x20;
 
-##
+
+
+## How come my node has "0 peers"?&#x20;
+
+There are many reasons why your node could have no peers, here are a few common reasons.&#x20;
+
+1. **Node has no internet connectivity:** if you check the logs, under the heading that looks something like this: "SUMMARY \[2023-08-25 06:06:50.300574] INFO: Number of discovered peers: 0". If this is 0 it means that node is not able to discover any node on the network and most likely node itself has some internet connectivity issues. At that point you need to figure out what's happening with your node's local internet connection that's causing this issue. We know of many jurisdictions and sometimes ISPs that block internet traffic from the US, Google, and/or peer-to-peer traffic.&#x20;
+2. **Node has the incorrect version or corrupted stateDB**: if the number of discovered peers is greater that 0 but no peer is connected than this is usually a case where node is either running some incorrect version, has incorrect configuration/genesis file or a corrupted stateDB which causes either other nodes marking it as malicious based on the data it is sending or it marking other nodes malicious based on the data it is receiving. In this case it's best to reset your node.&#x20;
+
+
 
 ## How do I update / reset my node?&#x20;
 
-Here are the instructions to [update](../node-setup/upgrade-a-node/software-upgrade.md#upgrade-your-nodes-software) or [reset ](../node-setup/upgrade-a-node/data-reset.md)the node.&#x20;
+Testnet: instructions to [update](../node-setup/upgrade-a-node/software-upgrade.md#upgrade-your-nodes-software) or [reset ](../node-setup/upgrade-a-node/data-reset.md)a testnet node.&#x20;
+
+Mainnet: instructions to [update & reset a mainnet validator](../become-a-validator/node-upgrade-and-reset.md) node.&#x20;
 
 ##
 
@@ -235,11 +246,14 @@ Here are the instructions to [update](../node-setup/upgrade-a-node/software-upgr
 
 A node is considered active only if it has been [fully synced](testnet.md#undefined) as well as having produced at least 1 block in the past 24 hours. If not, then it shows up as inactive on the community site.&#x20;
 
-A block-producing node should also show up on the [node list](https://explorer.testnet.taraxa.io/nodes) in the explorer.&#x20;
+A block-producing node should also show up on the explorer's node list.&#x20;
+
+* [Mainnet node list](https://mainnet.explorer.taraxa.io/node)&#x20;
+* [Testnet node list](https://testnet.explorer.taraxa.io/node)&#x20;
 
 ##
 
-## I received TARA on my node after registration, what does that mean?&#x20;
+## Testnet: I received TARA on my node after registration, what does that mean?&#x20;
 
 TARA tokens on the testnet are not real tokens, so please don't try to send those out (it won't work), and please do not send any tokens from another chain (e.g., ETH) into the testnet - it won't work and you'll lose your tokens.&#x20;
 
