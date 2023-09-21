@@ -80,3 +80,8 @@
 
 * [📶 Echo Network](social-listening/echo-network.md)
 * [📣 Hype App](social-listening/hype-app.md)
+
+## Governance
+
+* [ℹ Introduction](governance/introduction.md)
+* [⚡ Voting Guide](governance/voting-guide.md)
