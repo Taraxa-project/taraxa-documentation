@@ -6,7 +6,7 @@ description: Instructions for faster syncing by use of a recent snapshot
 
 _**Current latest snapshot hosted by Taraxa dev team is here:**_
 
-{% embed url="https://storage.googleapis.com/mainnet-snapshot-0812202/302000.tar.gz" %}
+{% embed url="https://storage.googleapis.com/mainnet-snapshot-13102023/4490000.tar.gz" %}
 Full Node
 {% endembed %}
 
