@@ -4,9 +4,54 @@ description: Dev release nodes for mainnet node post-conversion
 
 # 🔢 Node Release Notes
 
+## v1.5.0 BETA on TESTNET
+
+_`This is a Hardfork currently being tested on the Testnet`_&#x20;
+
+
+
+**Features:**
+
+* Parallel Execution of State Pruning: Enhanced efficiency by enabling parallel execution during state pruning.
+* Improved Tracing API: Upgraded tracing API for better performance and usability.
+* State Root Verification on Syncing: Ensured data integrity through state root verification during syncing processes.
+* Transaction Pool Overflow Improvements: Addressed transaction pool overflow issues for improved stability.
+* Sync-Gossip Transition Improvement: Optimized the transition between syncing and gossip protocols.
+* LOG.old\* Files Cleanup on Database Start: Initiated cleanup of old log files on database startup for a cleaner DB environment.
+* Syncing Optimizations: Implemented optimizations for a smoother syncing process.
+* Removal of Existing Transactions Check: Streamlined operations by removing checks for existing transactions.
+* Reduced Prune Memory Usage: Optimized memory usage during pruning processes.
+* Added RPC Methods for Faster Indexing: Introduced new RPC methods to expedite the indexing process.
+* Optimized Peer Cache Memory Usage: Improved memory utilization within the peer cache.
+* Improved Performance of Vote Weight Calculation: Enhanced efficiency in vote weight calculation.
+* Improved Ping Timeout Handling on Discovery: Optimized handling of ping timeouts during the discovery process.
+* Handled Batch Requests via WebSocket Interface: Enabled handling of batch requests through the WebSocket interface.
+* Improved Light Node History Deletion: Enhanced the process of history deletion in light nodes.
+
+
+
+**Fixes:**
+
+* Corrected Reward Votes Initialization: Fixed the initialization process of reward votes for accurate tallying.
+* Usage of All Passed Gas on Reverts: Resolved an issue with unused gas on reverts.
+* Period Data Transactions Order: Corrected the ordering of period data transactions.
+* Resolved Ignorance of PBFT Size Check on Syncing: Fixed an issue where PBFT size check was being ignored during syncing.
+* Fixed Syncing of DAG Blocks: Addressed syncing issues of DAG blocks for improved data consistency.
+
+
+
+**Hard Fork (HF) Features:**
+
+* Process Rewards in Batches Every N Blocks: Implemented batch processing of rewards every N blocks for efficiency.
+* Jailing of Validator on Double Voting: Introduced a penalty mechanism for validators engaged in double voting by jailing them.
+
+
+
+
+
 ## v1.4.0
 
-_`Hardfork at block 3091000`` ``on Mainnet`_
+_`Hardfork at block 3091000 on Mainnet`_
 
 **Docker image:**&#x20;
 
