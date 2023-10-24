@@ -12,7 +12,7 @@ _`This is a Hardfork currently being tested on the Testnet`_&#x20;
 
 **Features:**
 
-* Parallel Execution of State Pruning: Enhanced efficiency by enabling parallel execution during state pruning.
+* Parallel Execution of State Pruning: Enhanced efficiency by enabling parallel execution during state pruning for Lite Nodes.&#x20;
 * Improved Tracing API: Upgraded tracing API for better performance and usability.
 * State Root Verification on Syncing: Ensured data integrity through state root verification during syncing processes.
 * Transaction Pool Overflow Improvements: Addressed transaction pool overflow issues for improved stability.
