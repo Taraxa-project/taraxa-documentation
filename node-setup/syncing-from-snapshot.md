@@ -6,16 +6,12 @@ description: Instructions for faster syncing by use of a recent snapshot
 
 _**Current latest snapshot hosted by Taraxa dev team is here:**_
 
-{% embed url="https://storage.googleapis.com/mainnet-snapshot-13102023/4490000.tar.gz" %}
+{% embed url="https://storage.googleapis.com/taraxa-snapshot/node_db.tar.gz" %}
 Full Node
 {% endembed %}
 
-{% embed url="https://storage.googleapis.com/mainnet-snapshot-light-node/mainnet-snapshot-block-3419351-1d.tar.xz" %}
-Light Node 1 DAY
-{% endembed %}
-
-{% embed url="https://storage.googleapis.com/mainnet-snapshot-light-node/mainnet-snapshot-block-3419351-7d.tar.xz" %}
-Light Node 7 DAYS
+{% embed url="https://storage.googleapis.com/taraxa-snapshot/light_node_db.tar.gz" %}
+Light node
 {% endembed %}
 
 ## Installing Snapshot On Local Machine
@@ -24,10 +20,9 @@ Follow the these steps:
 
 1. Download the snapshot (link above)
 2. Uncompress the snapshot archive
-3. Rename the **`state_db`** and **`db`** folders so that they don't have a blockheight at the end or their name.  _(Example: rename state\_db3020000 to state\_db, and db3020000 to db)_
-4. Stop the node process
-5. Replace **`state_db`** and **`db`** folders into the data folder for your node. (Default path is `~/.taraxa/data` or as specified in your node config.)
-6. Restart your node to begin syncing from the block height of your snapshot.
+3. Stop the node process
+4. Replace **`state_db`** and **`db`** folders into the data folder for your node. (Default path is `~/.taraxa/data` or as specified in your node config.)
+5. Restart your node to begin syncing from the block height of your snapshot.
 
 Congrats you are all done and node will sync faster than having started from the beginning!
 
@@ -37,9 +32,8 @@ Follow the these steps:
 
 1. Download the snapshot (link above)
 2. Uncompress the snapshot archive
-3. Rename the **`state_db`** and **`db`** folders so that they don't have a blockheight at the end or their name.  _(Example: rename state\_db3020000 to state\_db, and db3020000 to db)_
-4. Open a terminal and navigate to the location containing the renamed snapshot state\_db and db folders.
-5. Run the following commands in the terminal to copy them into your dockerized container: \`
+3. Open a terminal and navigate to the location containing the renamed snapshot state\_db and db folders.
+4. Run the following commands in the terminal to copy them into your dockerized container: \`
 
 ```
 docker cp ./db $(docker ps --format "{{.Names}}" | grep mainnet | grep node):/opt/taraxa_data/data/db/db_new
