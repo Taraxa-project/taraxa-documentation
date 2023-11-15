@@ -35,7 +35,7 @@ Follow the these steps:
 3. Open a terminal and navigate to the location containing the renamed snapshot state\_db and db folders.
 4. Run the following commands in the terminal to copy them into your dockerized container: \`
 
-```
+```bash
 docker cp ./db $(docker ps --format "{{.Names}}" | grep mainnet | grep node):/opt/taraxa_data/data/db/db_new
 docker cp ./state_db $(docker ps --format "{{.Names}}" | grep mainnet | grep node):/opt/taraxa_data/data/db/state_db_new
 docker-compose down
