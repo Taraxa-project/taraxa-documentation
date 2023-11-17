@@ -4,52 +4,52 @@ description: Taraxa's open development roadmap
 
 # 🗺 Roadmap
 
-## 2023 Priorities
+## Brief History
 
-In 2023, Taraxa's priority is driving Adoption for Taraxa's ecosystem. This includes Taraxa's apps, app platforms, and of course Layer-1.&#x20;
+Taraxa was originally conceived in 2018 with a mission to build the next-gen technologies to leverage decentralization to solve real world problems. Here's a brief history of the project,&#x20;
 
-Taraxa takes a **product-driven**, **app-first** approach in driving ecosystem adoption. To build a sustainable ecosystem, our Layer-1 must bring highly differentiated use cases instead of copying/pasting what others are doing. Our differentiated use cases focus on leveraging trustworthy social data to help drive automated social campaigns, spot emerging trends, and help everyone build on-chain reputations based on their off-chain social activities. When the use cases receive sufficient traction & attention, the Layer-1 ecosystem can thrive.
+<figure><img src=".gitbook/assets/Picture1.png" alt=""><figcaption></figcaption></figure>
 
-See the details of our 2022 Retrospective and Outlook 2023 here.&#x20;
+## Rolling 12-Month Roadmap&#x20;
 
-{% embed url="https://medium.com/taraxa-project/taraxa-2022-retrospective-outlook-2023-8e7488516ba7" %}
+Due to rapid-paced changes, the dev team has transitioned to a rolling roadmap, whereby we periodically update the next 12-month of upcoming development priorities.&#x20;
 
-Note, 🎈(stretch goal)s are aspirational milestones that may be a stretch for us to achieve, either due to the workload, time constraints, or the unpredictability of working with third-parties.&#x20;
-
-
-
-## 📣 dApp Adoption&#x20;
-
-* [x] Launch the Hype app alpha version
-* [x] Run Hype campaigns in the Taraxa community to collect impact data and build our pitch
-* [ ] Gain a portfolio of early project adopters for Hype to help rapidly refine the product and build business development credentials
-* [ ] Market Hype to a wider audience via publications, influencers, etc.
-* [ ] Tie in TARA consumption into Hype as traction builds to drive towards more sustainable economics in the Taraxa ecosystem
-* [ ] 🎈(stretch goal) Build additional apps as resources allow, e.g., Trend Spotter, and drive adoption in the same manner as Hype
+This roadmpa is merely a subset of tasks that the development team is pursuing. The roadmap is a list of confirmed goals that the development team is committed to deliver. What is being constantly discussed and planned is a much larger list of tasks that will be added to the roadmap as their planning becomes clearer.&#x20;
 
 
 
-## 🚉 Social Listening Platform Adoption
+<figure><img src=".gitbook/assets/Picture2.png" alt=""><figcaption></figcaption></figure>
 
-* [ ] Develop & publish APIs & SDKs for the Echo social listening platform, with sample code to help developers build on Echo
-* [ ] Release a functional decentralized Echo client so we can begin the process to turn the social listening platform into a decentralized network
-* [ ] 🎈(stretch goal) Decentralize the Echo social listening platform with sufficiently attractive economics to help drive node operator uptake
+### Q4 2023&#x20;
 
-
-
-## ⛓ Layer-1 Adoption
-
-* [x] Support the ecosystem by refreshing the website to clearly communicate the goals of the project
-* [x] Support the community by delivering more stable versions of the explorer
-* [x] Support the community by delivering more stable version of the community site&#x20;
-* [x] Support the community by running mock token conversions on the testnet to help the community understand how conversion works
-* [x] Support the community by working with exchanges to complete native token conversion and drive staking & delegation adoption
-* [x] Support developers with detailed Layer-1 developer documentation, including how to use common ETH toolchains with Taraxa as it is fully backwards-compatible with ETH
-* [x] Support developers with development quality of life features such as smart contract tracing, newer EVM opcodes, events for on-chain economic contracts, etc.
-* [ ] Support node operators with node quality of life features such as light node, fast syncing, improved logging & reporting, etc.
-* [ ] Support the community by continuing to improve stability, security, and performance
-* [ ] 🎈(stretch goal) Support the ecosystem by integrating a cross-chain bridge primarily to Ethereum&#x20;
+* Magnolia Hardfork on Mainnet
+* Ficus Root Bridge Tech Specs
+* Aspen Hardfork (capping TARA supply) on Testnet
 
 
 
-2023 will be a great year for the Taraxa ecosystem and community!
+### Q1 2024
+
+* Aspen Hardfork (capping TARA supply) on Mainnet
+* Ficus Root Bridge on Testnet
+* LARA (TARA one-click liquid staking) Beta
+* Trendspotter (social trading signals) Beta DEX reference implementation on Testnet
+
+
+
+### Q2 2024
+
+* DEX reference implementation on Mainnet
+* Lending protocol reference implementation on Testnet
+* Ficus Root Bridge on Mainnet
+* Taraxa Front-Running Resistance Report
+
+
+
+### Q3 2024
+
+* Lending protocol reference implementation on Mainnet
+* Echo Decentralized Social APIs beta
+* Trendspotter APIs
+* Ecosystem Dashboard beta
+
