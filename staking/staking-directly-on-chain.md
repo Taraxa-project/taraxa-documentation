@@ -15,7 +15,7 @@ Go to [Remix](https://remix.ethereum.org/), and upload Taraxa's DPoS contract's 
 In the pop-up, paste in the following link to the Taraxa DPoS contract Solidity interface,&#x20;
 
 ```
-https://github.com/Taraxa-project/taraxa-evm/blob/master/taraxa/state/contracts/dpos/solidity/dpos_contract_interface.sol
+https://raw.githubusercontent.com/Taraxa-project/taraxa-evm/master/taraxa/state/contracts/dpos/solidity/dpos_contract_interface.sol
 ```
 
 After it's been uploaded you should be able to see it in the IDE on the right side,&#x20;
