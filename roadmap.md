@@ -14,9 +14,7 @@ Taraxa was originally conceived in 2018 with a mission to build the next-gen tec
 
 Due to rapid-paced changes, the dev team has transitioned to a rolling roadmap, whereby we periodically update the next 12-month of upcoming development priorities.&#x20;
 
-This roadmpa is merely a subset of tasks that the development team is pursuing. The roadmap is a list of confirmed goals that the development team is committed to deliver. What is being constantly discussed and planned is a much larger list of tasks that will be added to the roadmap as their planning becomes clearer.&#x20;
-
-
+This roadmap is merely a subset of tasks that the development team is pursuing. The roadmap is a list of confirmed goals that the development team is committed to deliver. What is being constantly discussed and planned is a much larger list of tasks that will be added to the roadmap as their planning becomes clearer.&#x20;
 
 <figure><img src=".gitbook/assets/Picture2.png" alt=""><figcaption></figcaption></figure>
 
