@@ -8,6 +8,10 @@ description: Dev release nodes for mainnet node post-conversion
 
 
 
+This hardfork will take effect at PBFT block height: 5,730,000.&#x20;
+
+
+
 **Features:**
 
 * **Parallel Execution of State Pruning**: Enhanced efficiency by enabling parallel execution during state pruning.
