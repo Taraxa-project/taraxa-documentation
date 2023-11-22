@@ -8,7 +8,7 @@ description: Taraxa's open development roadmap
 
 Taraxa was originally conceived in 2018 with a mission to build the next-gen technologies to leverage decentralization to solve real world problems. Here's a brief history of the project,&#x20;
 
-<figure><img src=".gitbook/assets/Picture1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Picture1 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Rolling 12-Month Roadmap&#x20;
 
@@ -16,7 +16,7 @@ Due to rapid-paced changes, the dev team has transitioned to a rolling roadmap, 
 
 This roadmap is merely a subset of tasks that the development team is pursuing. The roadmap is a list of confirmed goals that the development team is committed to deliver. What is being constantly discussed and planned is a much larger list of tasks that will be added to the roadmap as their planning becomes clearer.&#x20;
 
-<figure><img src=".gitbook/assets/Picture2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Picture1.png" alt=""><figcaption></figcaption></figure>
 
 ### Q4 2023&#x20;
 
@@ -32,6 +32,7 @@ This roadmap is merely a subset of tasks that the development team is pursuing. 
 * Ficus Root Bridge on Testnet
 * LARA (TARA one-click liquid staking) Beta
 * Trendspotter (social trading signals) Beta DEX reference implementation on Testnet
+* Token awareness on Explorer (e.g., ERC-20, 721)
 
 
 

@@ -8,7 +8,7 @@ If you don't wish to run a full archival node, you can choose to run a light-wei
 
 Here's how Taraxa's Lite Consensus Node stacks up against other PoS Layer-1s' consensus nodes.&#x20;
 
-<figure><img src="../.gitbook/assets/Picture1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Picture1 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Here's how you can set up a Lite Consensus Node.&#x20;
 
