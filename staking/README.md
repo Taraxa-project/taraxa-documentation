@@ -9,7 +9,7 @@ description: Secure Taraxa by Staking your TARA!
 * Staking TARA means directly delegating your TARA tokens into validator nodes&#x20;
 * Staking can be done via either the [community site](staking-via-community-site.md) (requires KYC), or
 * Staking can be done [directly on-chain](staking-directly-on-chain.md)
-* Staking yields are currently \~20% APY, however from previous short-term testing the yield might be closer to between \~18-19%, due to a variety of network topology and conditions this number could fluctuate, yield numbers are never exact, the longer the observation window the more accurate the measurement will be (e.g., one month of data is more accurate than one week)
+* Staking yields are currently \~20% APY, however from previous short-term testing the yield might be closer to between \~17-18%, due to a variety of network topology and conditions this number could fluctuate, yield numbers are never exact, the longer the observation window the more accurate the measurement will be (e.g., one month of data is more accurate than one week)
 * Staking yields will be shared between staker and validators (they will take a commission)
 * Staking yields , please note that this is higher than what's stated in the [economics rewards](../tech-whitepaper/economic-model.md#5-5-rewards) section, the dev team is working to build a community voting infrastructure to facilitate community-proposed & voted-on updates to the economics
 * You can redeem your yields through the [community site's claim section](https://community.taraxa.io/redeem)
