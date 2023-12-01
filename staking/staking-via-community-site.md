@@ -89,6 +89,8 @@ Here are a few things to remember when un-delegating,&#x20;
 * Un-delegate initiates a removal of a defined amount of delegated tokens from the validator node
 * Once you initiate un-delegation, there's a delay of 700,540 blocks (\~30 days) delay before you can claim your tokens
 * If you simply wish to shift delegation from an under-performing node to one that performs better, you should consider using re-delegation which only has a few PBFT block delay (a few seconds)
+* You can un-delegate, using the same wallet, from multiple validators simultaneously&#x20;
+* You can NOT un-delegate, using the same wallet, from the same validator multiple times - you'd have to either cancel the un-delegation (at the top of the community staking page), or wait till the current un-stake delay has fully elapsed and execute a new un-stake
 
 
 
