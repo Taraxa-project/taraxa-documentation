@@ -1,34 +1,16 @@
 ---
-description: A guide to all the ways you can run  a node in a Taraxa public testnet
+description: A guide to all the ways you can run a Taraxa node
 ---
 
-# ⚙ Install a Node
+# ⚙ Deploy A Node
 
 {% hint style="info" %}
-Installing a node takes only a few minutes. _The easiest way to deploy a persistent node that will be "always-on" is using a VPS service in the cloud._
+Installing a node takes only a few minutes. _The easiest way to deploy a persistent node that will be "always-on" is using a VPS service in the cloud.   If you prefer to install on your own dedicated hardware see the_[ _installing a node instructions for your platform_](../testnet\_node\_setup-1/)_._
 {% endhint %}
 
-## Minimal requirements
-
-* CPU: 4vCPU
-* RAM: 8 GB
-* DISK SPACE: 250 GB
-
-## Local Machine Installation
-
-{% content-ref url="windows.md" %}
-[windows.md](windows.md)
-{% endcontent-ref %}
-
-{% content-ref url="mac.md" %}
-[mac.md](mac.md)
-{% endcontent-ref %}
-
-{% content-ref url="linux.md" %}
-[linux.md](linux.md)
-{% endcontent-ref %}
-
 ## VPS Service Installation
+
+Choose your preferred cloud provider...
 
 {% content-ref url="digital_ocean.md" %}
 [digital\_ocean.md](digital\_ocean.md)
@@ -65,3 +47,9 @@ Installing a node takes only a few minutes. _The easiest way to deploy a persist
 {% hint style="info" %}
 If you want to help create install scripts and documentation for additional VPS platforms we offer [bounty rewards](https://community.taraxa.io).
 {% endhint %}
+
+## Minimal requirements
+
+* CPU: 4vCPU
+* RAM: 8 GB
+* DISK SPACE: 250 GB

@@ -5,7 +5,7 @@ description: Guide for running the Taraxa Node with Docker on Windows
 # Windows
 
 {% hint style="info" %}
-These instructions are specific to Windows.  Instructions are also available for [Mac](mac.md) and [Linux](linux.md).
+These instructions are specific to Windows. Instructions are also available for [Mac](broken-reference) and [Linux](broken-reference).
 {% endhint %}
 
 ## 1. Install Docker
@@ -14,21 +14,21 @@ Before running the node we need to install Docker.
 
 You can download Docker Desktop for Windows from [here](https://desktop.docker.com/win/stable/amd64/Docker%20Desktop%20Installer.exe).
 
-![Download Docker](../../.gitbook/assets/1-download%20%281%29.png)
+![Download Docker](<../../.gitbook/assets/1-download (1).png>)
 
 After the download finishes you will find the executable file in your downloads folder.
 
-![Downloaded Docker](../../.gitbook/assets/2-downloaded%20%281%29.png)
+![Downloaded Docker](<../../.gitbook/assets/2-downloaded (1).png>)
 
 Open `Docker Desktop Installer.exe`. and you should see a screen similar to this:
 
-![Open Docker](../../.gitbook/assets/3-open%20%281%29.png)
+![Open Docker](<../../.gitbook/assets/3-open (1).png>)
 
 Press "Ok" and don't uncheck any of the default options.
 
 Now Docker is installing:
 
-![Install Docker](../../.gitbook/assets/4-install%20%281%29.png)
+![Install Docker](<../../.gitbook/assets/4-install (1).png>)
 
 After the installation is finished you can click the "Close" button and Docker is going to start automatically.
 
@@ -87,7 +87,7 @@ In order to run the node we need a set of scripts. You can download the scripts 
 ![Download Taraxa Scripts](../../.gitbook/assets/15-download-scripts.png)
 
 {% hint style="danger" %}
-GitHub is blocked in some countries. If you can't access the previous link please refer to the [GitHub is blocked](https://docs.taraxa.io/node-setup/testnet_node_setup/github_blocked) document.
+GitHub is blocked in some countries. If you can't access the previous link please refer to the [GitHub is blocked](https://docs.taraxa.io/node-setup/testnet\_node\_setup/github\_blocked) document.
 {% endhint %}
 
 Click on "Download ZIP" under the "Code" menu and the download should start.
@@ -150,9 +150,8 @@ After it finishes pulling the latest version the node will start and you should 
 
 ## 6. Update the Taraxa Node
 
-From time to time we will announce software updates and breaking protocol changes to the testnet via the \#node-operations channel in our [Taraxa community Discord](https://discord.com/invite/WaXnwUb), Telegram channel and Twitter account.
+From time to time we will announce software updates and breaking protocol changes to the testnet via the #node-operations channel in our [Taraxa community Discord](https://discord.com/invite/WaXnwUb), Telegram channel and Twitter account.
 
-{% page-ref page="../upgrade-a-node/" %}
-
-
-
+{% content-ref url="../upgrade-a-node/" %}
+[upgrade-a-node](../upgrade-a-node/)
+{% endcontent-ref %}

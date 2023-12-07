@@ -30,42 +30,11 @@ Export your Digital Ocean access token to your environment so that the node crea
 export DIGITALOCEAN_ACCESS_TOKEN=your-token
 ```
 
-{% hint style="warning" %}
-The script you fetch and run in the next step depends on the network you want to deploy your node to.   Please be sure to select between mainnet and testnet as desired.
-{% endhint %}
-
-{% tabs %}
-{% tab title="Mainnet" %}
-Download and run the node install script for the type of node you wish to deploy:
-
-**Mainnet Full Node:**
-
-<pre class="language-bash"><code class="lang-bash"><strong>bash -c "$(curl -fsSL https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/scripts/one-click-DO.sh)" mainnet
-</strong></code></pre>
-
-**Mainnet Light Node:**
+Then you can download and run the node creation script using this command:
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/scripts/one-click-DO.sh)" mainnet light
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/scripts/one-click-DO.sh)"
 ```
-{% endtab %}
-
-{% tab title="Testnet " %}
-Download and run the node install script for the type of node you wish to deploy:
-
-**Testnet Full Node:**
-
-```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/scripts/one-click-DO.sh)" testnet
-```
-
-**Testnet Light Node:**
-
-```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/scripts/one-click-DO.sh)" testnet light
-```
-{% endtab %}
-{% endtabs %}
 
 Now you should see a new droplet in your Digital Ocean account and you should receive an email with the login details.
 

@@ -5,7 +5,7 @@ description: Guide for running the Taraxa Node with Docker on Mac
 # Mac
 
 {% hint style="info" %}
-These instructions are specific to Mac.  Instructions are also available for [Windows](windows.md) and [Linux](linux.md).
+These instructions are specific to Mac. Instructions are also available for [Windows](broken-reference) and [Linux](broken-reference).
 {% endhint %}
 
 ## 1. Download Docker Desktop
@@ -76,7 +76,7 @@ curl -L https://github.com/Taraxa-project/taraxa-ops/archive/refs/heads/master.z
 ```
 
 {% hint style="danger" %}
-GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](https://docs.taraxa.io/node-setup/testnet_node_setup/github_blocked) document.
+GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](https://docs.taraxa.io/node-setup/testnet\_node\_setup/github\_blocked) document.
 {% endhint %}
 
 ```bash
@@ -93,7 +93,7 @@ After it finishes pulling the latest version the node will start and you should 
 
 ![Taraxa Started](../../.gitbook/assets/15-started.png)
 
-**NOTE: **_You can press_ `CTRL` + `C` _to stop displaying the logs_
+\*\*NOTE: \*\*_You can press_ `CTRL` + `C` _to stop displaying the logs_
 
 ## 4. Updating the Taraxa Node
 
@@ -105,7 +105,7 @@ curl -0 https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/tarax
 ```
 
 {% hint style="danger" %}
-GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](https://github.com/Taraxa-project/taraxa-documentation/tree/f4ee57d43b23f5ad4a2212fa5ec90254d9181f92/node-setup/testnet_node_setup/node-setup/github_blocked.md) document.
+GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](https://github.com/Taraxa-project/taraxa-documentation/tree/f4ee57d43b23f5ad4a2212fa5ec90254d9181f92/node-setup/testnet\_node\_setup/node-setup/github\_blocked.md) document.
 {% endhint %}
 
 ```bash

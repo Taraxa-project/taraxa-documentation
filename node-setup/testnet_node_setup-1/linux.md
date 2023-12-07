@@ -5,7 +5,7 @@ description: Guide for running the Taraxa Node with Docker on Linux
 # Linux
 
 {% hint style="info" %}
-These instructions are specific to Linux. Instructions are also available for [Windows](windows.md) and [Mac](mac.md).
+These instructions are specific to Linux. Instructions are also available for [Windows](broken-reference) and [Mac](broken-reference).
 {% endhint %}
 
 ## 1. Install Docker
@@ -29,7 +29,7 @@ wget https://github.com/Taraxa-project/taraxa-ops/archive/refs/heads/master.zip 
 ```
 
 {% hint style="danger" %}
-GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](https://docs.taraxa.io/node-setup/testnet_node_setup/github_blocked) document.
+GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](https://docs.taraxa.io/node-setup/testnet\_node\_setup/github\_blocked) document.
 {% endhint %}
 
 ![Download Scripts](../../.gitbook/assets/2-scripts.png)
@@ -60,7 +60,7 @@ wget -O docker-compose-new.yml https://raw.githubusercontent.com/Taraxa-project/
 ```
 
 {% hint style="danger" %}
-GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](https://github.com/Taraxa-project/taraxa-documentation/tree/f4ee57d43b23f5ad4a2212fa5ec90254d9181f92/node-setup/testnet_node_setup/node-setup/github_blocked.md) document.
+GitHub is blocked in some countries. If you can't run the previous command please refer to the [GitHub is blocked](https://github.com/Taraxa-project/taraxa-documentation/tree/f4ee57d43b23f5ad4a2212fa5ec90254d9181f92/node-setup/testnet\_node\_setup/node-setup/github\_blocked.md) document.
 {% endhint %}
 
 ```bash
@@ -79,4 +79,3 @@ sudo docker-compose pull
 sudo docker-compose up -d
 sudo docker-compose logs -f
 ```
-

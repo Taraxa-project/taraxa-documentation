@@ -31,41 +31,11 @@ export ALY_AK_ID=your_access_key_id
 export ALY_AK_SECRET=your_access_key_secret
 ```
 
-{% hint style="warning" %}
-The script you fetch and run in the next step depends on the network you want to deploy your node to.   Please be sure to select between mainnet and testnet as desired.
-{% endhint %}
-
-{% tabs %}
-{% tab title="Mainnet" %}
-Download and run the node install script for the type of node you wish to deploy:
-
-**Mainnet Full Node:**
-
-<pre class="language-bash"><code class="lang-bash"><strong>bash -c "$(curl -fsSL https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/scripts/one-click-Alibaba-Cloud.sh)" mainnet
-</strong></code></pre>
-
-**Mainnet Light Node:**
+Then you can download and run the node creation script using this command:
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/scripts/one-click-Alibaba-Cloud.sh)" mainnet light
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/scripts/one-click-Alibaba-Cloud.sh)"
 ```
-{% endtab %}
-
-{% tab title="Testnet" %}
-Download and run the node install script for the type of node you wish to deploy:
-
-**Testnet Full Node:**
-
-<pre class="language-bash"><code class="lang-bash"><strong>bash -c "$(curl -fsSL https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/scripts/one-click-Alibaba-Cloud.sh)" testnet
-</strong></code></pre>
-
-**Testnet Light Node:**
-
-```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/scripts/one-click-Alibaba-Cloud.sh)" testnet light
-```
-{% endtab %}
-{% endtabs %}
 
 Now you should see a new droplet in your Aliyun account and you should receive an email with the resources creating details.
 

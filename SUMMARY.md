@@ -27,10 +27,7 @@
 
 ## Node Operations <a href="#node-setup" id="node-setup"></a>
 
-* [⚙ Install a Node](node-setup/testnet\_node\_setup/README.md)
-  * [Windows](node-setup/testnet\_node\_setup/windows.md)
-  * [Mac](node-setup/testnet\_node\_setup/mac.md)
-  * [Linux](node-setup/testnet\_node\_setup/linux.md)
+* [⚙ Deploy A Node](node-setup/testnet\_node\_setup/README.md)
   * [Digital Ocean](node-setup/testnet\_node\_setup/digital\_ocean.md)
   * [AWS](node-setup/testnet\_node\_setup/aws.md)
   * [Alibaba Cloud](node-setup/testnet\_node\_setup/alibaba\_cloud.md)
@@ -50,6 +47,19 @@
 * [📒 Node Proof of Owership](node-setup/proof\_owership.md)
 * [❓ Node Operations FAQ](faq/testnet.md)
 * [🔢 Node Release Notes](node-setup/node-release-notes.md)
+* [⚙ Install A Local Node](node-setup/testnet\_node\_setup-1/README.md)
+  * [Windows](node-setup/testnet\_node\_setup-1/windows.md)
+  * [Mac](node-setup/testnet\_node\_setup-1/mac.md)
+  * [Linux](node-setup/testnet\_node\_setup-1/linux.md)
+  * [Digital Ocean](node-setup/testnet\_node\_setup-1/digital\_ocean.md)
+  * [AWS](node-setup/testnet\_node\_setup-1/aws.md)
+  * [Alibaba Cloud](node-setup/testnet\_node\_setup-1/alibaba\_cloud.md)
+  * [Scaleway](node-setup/testnet\_node\_setup-1/scaleway.md)
+  * [Vultr](node-setup/testnet\_node\_setup-1/vultr.md)
+  * [Linode](node-setup/testnet\_node\_setup-1/linode.md)
+  * [Azure](node-setup/testnet\_node\_setup-1/azure.md)
+  * [Hetzner](node-setup/testnet\_node\_setup-1/hetzner.md)
+  * [GitHub is blocked](node-setup/testnet\_node\_setup-1/github\_blocked.md)
 
 ## FAQ
 
