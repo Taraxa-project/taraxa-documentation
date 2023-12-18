@@ -44,7 +44,7 @@
 * [🔀 Syncing From Snapshot](node-setup/syncing-from-snapshot.md)
 * [📬 Node's Public Address](node-setup/node\_address.md)
 * [🗝 Node's VRF Key](node-setup/vrf\_key.md)
-* [📒 Node Proof of Owership](node-setup/proof\_owership.md)
+* [📒 Node Proof of Ownership](node-setup/proof\_owership.md)
 * [❓ Node Operations FAQ](faq/testnet.md)
 * [🔢 Node Release Notes](node-setup/node-release-notes.md)
 * [⚙ Install A Local Node](node-setup/testnet\_node\_setup-1/README.md)
