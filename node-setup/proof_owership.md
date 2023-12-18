@@ -1,5 +1,5 @@
 ---
-description: Guide for getting proof of owership for node
+description: Guide for getting proof of ownership for node
 ---
 
 # 📒 Node Proof of Owership
