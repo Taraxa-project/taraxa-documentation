@@ -98,10 +98,3 @@ sudo docker-compose logs -f
 {% endtab %}
 {% endtabs %}
 
-
-
-
-
-
-
-### Checking that the reset worked
