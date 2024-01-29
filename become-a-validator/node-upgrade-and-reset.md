@@ -16,9 +16,7 @@ sudo docker-compose logs -f
 
 ## 2.  Node Reset
 
-Sometimes you need to wipe your node and restart the whole thing, e.g., maybe your state db is corrupted. This is how you'd reset your node.&#x20;
-
-To fully reset a node and remove all of its data (including keys!), here are the commands.&#x20;
+The mainnet as a network will never be reset. However, sometimes your individual node's state may have been corrupted - e.g., you were too late to a major upgrade, then you might want to reset your node and re-index. &#x20;
 
 ```bash
 cd ~/taraxa-ops-master/taraxa_compose
