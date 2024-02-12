@@ -40,7 +40,7 @@ This is why we created Taraxa.&#x20;
 
 #### For developers, check out,&#x20;
 
-* [Building on Taraxa](develop/quickstart.md)
+* [Building on Taraxa](develop/start-building-on-taraxa.md)
 * [Becoming a Validator](become-a-validator/)&#x20;
 * Taraxa's [technical architecture](tech-whitepaper/taraxa-architecture.md)
 
