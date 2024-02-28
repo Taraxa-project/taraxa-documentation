@@ -4,9 +4,34 @@ description: Dev release nodes for mainnet node post-conversion
 
 # 🔢 Node Release Notes
 
+## v1.7.0 - Aspen Hardfork PART ONE on Mainnet
+
+_`Hardfork at block 8,118,000 on Mainnet`_
+
+**Docker image:**&#x20;
+
+`docker pull taraxa/taraxa-node:v1.7.0`&#x20;
+
+**Github:** &#x20;
+
+[https://github.com/Taraxa-project/taraxa-node/pull/2675](https://github.com/Taraxa-project/taraxa-node/pull/2675)\
+
+
+**Release Highlights:**&#x20;
+
+**Token Economic Improvements**
+
+* Aspen Hardfork, when complete will implement the community approved [TIP-2](https://github.com/Taraxa-project/TIP/blob/main/TIP-2/TIP-2%20-%20Cap%20TARA's%20Total%20Supply.md) which will cap the max Taraxa token supply to 12 billion going forward. Hardfork PART ONE creates the necessary data retention to ensure light-nodes will be able to smoothly upgrade in Aspen Hardfork PART TWO which will follow shortly after Aspen Hardfork part one.\
+
+* Another significant improvement in Aspen Hardfork PART ONE is that block rewards for DAG block production will be tied more directly to stake by rewarding DAG blocks on their possessing low VDF difficulty level, which is solely determined by VRF sortition tied to stake. It will no longer be based also on unique transaction inclusion. Under the previous system nodes could game unique transaction inclusion, or were rewarded based on proximity to transaction creators, or by using significant CPU hardware to somewhat outpace the VDF calculations of others.
+
+##
+
 ## v1.5.1 - Magnolia Hardfork on Mainnet
 
 
+
+_`Hardfork at block 5,730,000 on Mainnet`_
 
 This hardfork will take effect at PBFT block height: 5,730,000.&#x20;
 
