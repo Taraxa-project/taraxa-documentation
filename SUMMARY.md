@@ -6,15 +6,15 @@
   * [Ledger](wallet/ledger.md)
   * [Taraxa's Network Connection Details](wallet/taraxas-network-connection-details.md)
 * [🌱 Become a Validator](become-a-validator/README.md)
-  * [⚙ Set up validator node](become-a-validator/set-up-validator-node.md)
+  * [⚙️ Set up validator node](become-a-validator/set-up-validator-node.md)
   * [🚩 Register node via community site](become-a-validator/register-node-via-community-site.md)
-  * [⛓ Register node directly on-chain](become-a-validator/register-node-directly-on-chain.md)
+  * [⛓️ Register node directly on-chain](become-a-validator/register-node-directly-on-chain.md)
   * [📣 Solicit delegation](become-a-validator/solicit-delegation.md)
-  * [🛠 Node upgrade & reset](become-a-validator/node-upgrade-and-reset.md)
+  * [🛠️ Node upgrade & reset](become-a-validator/node-upgrade-and-reset.md)
 * [💰 Staking](staking/README.md)
   * [🚩 Staking via community site](staking/staking-via-community-site.md)
-  * [⛓ Staking directly on-chain](staking/staking-directly-on-chain.md)
-* [🗺 Roadmap](roadmap.md)
+  * [⛓️ Staking directly on-chain](staking/staking-directly-on-chain.md)
+* [🗺️ Roadmap](roadmap.md)
 
 ## Develop on Taraxa <a href="#develop" id="develop"></a>
 
@@ -27,7 +27,7 @@
 
 ## Node Operations <a href="#node-setup" id="node-setup"></a>
 
-* [⚙ Deploy A Node](node-setup/testnet\_node\_setup/README.md)
+* [⚙️ Deploy A Node](node-setup/testnet\_node\_setup/README.md)
   * [Digital Ocean](node-setup/testnet\_node\_setup/digital\_ocean.md)
   * [AWS](node-setup/testnet\_node\_setup/aws.md)
   * [Alibaba Cloud](node-setup/testnet\_node\_setup/alibaba\_cloud.md)
@@ -38,16 +38,16 @@
   * [Hetzner](node-setup/testnet\_node\_setup/hetzner.md)
   * [GitHub is blocked](node-setup/testnet\_node\_setup/github\_blocked.md)
 * [🪶 Lite Consensus Node (beta)](node-setup/lite-consensus-node-beta.md)
-* [⏺ Upgrade a Node](node-setup/upgrade-a-node/README.md)
-  * [⬆ Upgrade Node](node-setup/upgrade-a-node/software-upgrade.md)
+* [⏺️ Upgrade a Node](node-setup/upgrade-a-node/README.md)
+  * [⬆️ Upgrade Node](node-setup/upgrade-a-node/software-upgrade.md)
   * [🔁 Reset Node](node-setup/upgrade-a-node/data-reset.md)
 * [🔀 Syncing From Snapshot](node-setup/syncing-from-snapshot.md)
 * [📬 Node's Public Address](node-setup/node\_address.md)
-* [🗝 Node's VRF Key](node-setup/vrf\_key.md)
+* [🗝️ Node's VRF Key](node-setup/vrf\_key.md)
 * [📒 Node Proof of Ownership](node-setup/proof\_owership.md)
 * [❓ Node Operations FAQ](faq/testnet.md)
 * [🔢 Node Release Notes](node-setup/node-release-notes.md)
-* [⚙ Install A Local Node](node-setup/testnet\_node\_setup-1/README.md)
+* [⚙️ Install A Local Node](node-setup/testnet\_node\_setup-1/README.md)
   * [Windows](node-setup/testnet\_node\_setup-1/windows.md)
   * [Mac](node-setup/testnet\_node\_setup-1/mac.md)
   * [Linux](node-setup/testnet\_node\_setup-1/linux.md)
@@ -64,7 +64,7 @@
 ## FAQ
 
 * [🔭 Vision](faq/vision.md)
-* [1 Layer-1 Tech](faq/layer-1-tech.md)
+* [1️ Layer-1 Tech](faq/layer-1-tech.md)
 * [🪙 TARA Token](faq/tara-token.md)
 * [🌱 Mainnet](faq/mainnet.md)
 * [🔁 Exchange Integration](faq/exchange-integration.md)
@@ -81,9 +81,9 @@
 ## NATIVE TOKEN CONVERSION
 
 * [💡 Introduction](native-token-conversion/introduction.md)
-* [🗓 Conversion Status](native-token-conversion/conversion-status.md)
+* [🗓️ Conversion Status](native-token-conversion/conversion-status.md)
 * [❓ Conversion FAQ](native-token-conversion/conversion-faq.md)
-* [⚗ Mock Conversion](native-token-conversion/mock-conversion.md)
+* [⚗️ Mock Conversion](native-token-conversion/mock-conversion.md)
 * [📋 Exchange Submission](native-token-conversion/exchange-submission.md)
 
 ## Social Listening
@@ -93,5 +93,5 @@
 
 ## Governance
 
-* [ℹ Introduction](governance/introduction.md)
+* [ℹ️ Introduction](governance/introduction.md)
 * [⚡ Voting Guide](governance/voting-guide.md)
