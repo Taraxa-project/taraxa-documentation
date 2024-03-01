@@ -4,17 +4,21 @@ description: Dev release nodes for mainnet node post-conversion
 
 # 🔢 Node Release Notes
 
-## v1.7.0 - Aspen Hardfork PART ONE on Mainnet
+## v1.7.2 - Aspen Hardfork PART ONE on Mainnet
 
 _`Hardfork at block 8,118,000 on Mainnet`_
 
 **Docker image:**&#x20;
 
-`docker pull taraxa/taraxa-node:v1.7.0`&#x20;
+`docker pull taraxa/taraxa-node:v1.7.2`&#x20;
 
 **Github:** &#x20;
 
-[https://github.com/Taraxa-project/taraxa-node/pull/2675](https://github.com/Taraxa-project/taraxa-node/pull/2675)\
+[https://github.com/Taraxa-project/taraxa-node/pull/2713](https://github.com/Taraxa-project/taraxa-node/pull/2713) (v1.7.2)
+
+[https://github.com/Taraxa-project/taraxa-node/pull/2675](https://github.com/Taraxa-project/taraxa-node/pull/2675) (v.1.7.0)
+
+_NOTE: v.1.7.0 contains the Aspen Hardfork, but v1.7.2 contains a critical bug-fix for node inter-communication during the upgrade process._\
 
 
 **Release Highlights:**&#x20;
