@@ -10,7 +10,7 @@ _**Current latest snapshot hosted by Taraxa dev team is here:**_
 Full Node
 {% endembed %}
 
-{% embed url="https://storage.googleapis.com/taraxa-snapshot/light_node_db.tar.gz" %}
+{% embed url="https://storage.googleapis.com/taraxa-snapshot/db_ln_7910000.tar.xz" %}
 Light node
 {% endembed %}
 
