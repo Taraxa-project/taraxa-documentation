@@ -4,6 +4,28 @@ description: Dev release nodes for mainnet node post-conversion
 
 # 🔢 Node Release Notes
 
+## v1.8.0 - Aspen Hardfork PART TWO on Mainnet
+
+_`Hardfork at block 8,572,000 on Mainnet`_
+
+{% hint style="info" %}
+This completes the Aspen hardfork!
+{% endhint %}
+
+**Docker image:**&#x20;
+
+`docker pull taraxa/taraxa-node:v1.8.0`&#x20;
+
+**Github:** &#x20;
+
+[https://github.com/Taraxa-project/taraxa-node/pull/2668](https://github.com/Taraxa-project/taraxa-node/pull/2668)&#x20;
+
+**Release Highlights:**&#x20;
+
+**Token Economic Improvements**
+
+* Aspen Hardfork, implements the community approved [TIP-2](https://github.com/Taraxa-project/TIP/blob/main/TIP-2/TIP-2%20-%20Cap%20TARA's%20Total%20Supply.md) which caps the max Taraxa token supply to 12 billion going forward.  The first part of the hardfork (v1.7.2 at block 8,118,000) created the necessary data retention to ensure light-nodes will be able to smoothly upgrade in the final hardfork.
+
 ## v1.7.2 - Aspen Hardfork PART ONE on Mainnet
 
 _`Hardfork at block 8,118,000 on Mainnet`_
