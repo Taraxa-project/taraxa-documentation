@@ -486,6 +486,97 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"taraxa_getConfig","params":[],"i
 }
 ```
 
+### taraxa\_getChainStats
+
+Returns current chain stats with count of transactions, PBFT blocks and DAG blocks
+
+**Parameters**
+
+none
+
+**Returns**
+
+`OBJECT` - current chain stats object
+
+* `pbft_period`: `QUANTITY` - current PBFT period
+* `dag_blocks_executed`: `QUANTITY` - count of executed(finalized) DAG blocks
+* `transactions_executed`: `QUANTITY` - count of executed transactions
+
+**Example**
+
+```json
+// Request
+curl -X POST --data '{"jsonrpc":"2.0","method":"taraxa_getChainStats","params":[],"id":1}'
+
+// Result
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "result": {
+    "pbft_period": 50,
+    "dag_blocks_executed": 100,
+    "transactions_executed": 200
+  }
+}
+```
+
+### taraxa\_yield
+
+Returns calculated total network yield for specified period
+
+**Parameters**
+
+`QUANTITY` - period
+
+**Returns**
+
+`String` - yield
+
+To transform returned yield to percents -> `decimal(yield) / 1e4`\
+To transform returned yield to fraction -> `decimal(yield) / 1e6`
+
+**Example**
+
+```json
+// Request
+curl -X POST --data '{"jsonrpc":"2.0","method":"taraxa_yield","params":["0x1D533B"],"id":1}'
+
+// Result
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "result": "0x30D40"
+}
+```
+
+### taraxa\_totalSupply
+
+Returns total supply for specified period
+
+**Parameters**
+
+`QUANTITY` - period
+
+**Returns**
+
+`String` - total supply
+
+**Example**
+
+```json
+// Request
+curl -X POST --data '{"jsonrpc":"2.0","method":"taraxa_totalSupply","params":["0x1D533B"],"id":1}'
+
+// Result
+{
+  "id": 1,
+  "jsonrpc": "2.0",
+  "result": "0x204FCE5E3E25026110000000"
+}
+```
+
+
+
 ## Test API
 
 ### get\_sortition\_change
