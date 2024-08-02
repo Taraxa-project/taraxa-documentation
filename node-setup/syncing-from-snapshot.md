@@ -6,11 +6,11 @@ description: Instructions for faster syncing by use of a recent snapshot
 
 _**Current latest snapshot hosted by Taraxa dev team is here:**_
 
-{% embed url="https://storage.googleapis.com/taraxa-snapshot/db8120000.tar.gz" %}
+{% embed url="https://storage.googleapis.com/taraxa-snapshot/db11450000.tar.gz" %}
 Full Node
 {% endembed %}
 
-{% embed url="https://storage.googleapis.com/taraxa-snapshot/db_ln_7910000.tar.xz" %}
+{% embed url="https://storage.googleapis.com/taraxa-snapshot/db_ln_11490000.tar.gz" %}
 Light node
 {% endembed %}
 
