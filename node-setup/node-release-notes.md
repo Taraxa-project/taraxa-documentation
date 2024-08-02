@@ -4,6 +4,42 @@ description: Dev release nodes for mainnet node post-conversion
 
 # 🔢 Node Release Notes
 
+## v1.11.0 - Ficus Hardfork on Mainnet
+
+_`Hardfork at block 11,616,000 on Mainnet`_
+
+{% hint style="info" %}
+This contains Pillar Blocks which make the Ficus Root Bridge possible
+{% endhint %}
+
+**Docker image:**&#x20;
+
+`docker pull taraxa/taraxa-node:v1.11.0`&#x20;
+
+**Github:** &#x20;
+
+[ ](https://github.com/Taraxa-project/taraxa-node/releases/tag/v1.11.0)[https://github.com/Taraxa-project/taraxa-node/releases/tag/v1.11.0](https://github.com/Taraxa-project/taraxa-node/releases/tag/v1.11.0)
+
+**Release Highlights:**&#x20;
+
+#### Features:
+
+* introduce pillar blocks for ficus bridge
+* update to the latest secp256k1 library
+* add debug\_dposTotalAmountDelegated method to the API
+* improve gas estimation speed
+* clang-17 support
+* add support of MCOPY instruction
+
+#### Bugfixes:
+
+* fix rewards stats cleaning
+* fix race condition while getting bulk transaction
+* fix race in ws subscription id
+* transaction gossip improvements
+* LogFilter topic filtering without address specified
+* fix null block vote
+
 ## v1.8.0 - Aspen Hardfork PART TWO on Mainnet
 
 _`Hardfork at block 8,572,000 on Mainnet`_
