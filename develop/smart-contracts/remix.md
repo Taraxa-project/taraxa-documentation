@@ -14,11 +14,11 @@ Here's a step-by-step example to deploy a simple contract onto Taraxa's mainnet 
 
 * Let's start with one of the pre-populated default contracts in the Remix IDE, `1_Storage.sol`.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * We'll compile with version 0.8.3
 
-<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Let's deploy, change the Environment to "Injected Provider - Metamask" and make sure that you're on the Taraxa Mainnet network on Metamask. If you don't know how, here's how you can [add Taraxa into Metamask](../../wallet/metamask.md).&#x20;
 
@@ -26,7 +26,7 @@ Here's a step-by-step example to deploy a simple contract onto Taraxa's mainnet 
 
 * Make sure you have some TARA in your wallet, Confirm the Metamask transaction prompt (wallet address redacted).&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Check out the console output inside the Remix IDE, looks like the contract was successfully deployed! (wallet address & transaction hash redacted)&#x20;
 
@@ -42,7 +42,7 @@ Here's a step-by-step example to deploy a simple contract onto Taraxa's mainnet 
 
 * Let's try interacting with the contract via the Remix IDE, let's store a number into the contract by calling the `store()` function, and of course confirm the transaction on Metamask. (certain details redacted).&#x20;
 
-<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 

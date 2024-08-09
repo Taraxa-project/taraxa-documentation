@@ -1,4 +1,4 @@
-# ⛓ Register node directly on-chain
+# ⛓️ Register node directly on-chain
 
 You can register a validator node by directly communicating with the on-chain DPoS contract and skip the community site altogether.&#x20;
 
@@ -75,7 +75,7 @@ Next, we tell Remix where the DPoS contract is located. Go the "At Address" fiel
 0x00000000000000000000000000000000000000fe
 ```
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Go ahead and click the "At Address" button, and it should show up under "Deployed Contracts".&#x20;
 
@@ -83,7 +83,7 @@ Go ahead and click the "At Address" button, and it should show up under "Deploye
 
 Go ahead and expand the interface by clicking on the chevron ">" and you'll see a list of all the commands you can send to the contract.&#x20;
 
-<figure><img src="../.gitbook/assets/image (5) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4.  Set the self-delegation value&#x20;
 

@@ -10,7 +10,7 @@ The dev team is publishing all on-chain contracts critical to the operation of t
 
 ## Bridge infrastructure contracts&#x20;
 
-These contracts are part of the core Ficus Root Bridge infrastructure. They are upgradable so from time to time the code they point to may change, but these addresses will stay the same.&#x20;
+These contracts are part of the core [Ficus Root Bridge](https://bridge.taraxa.io/) infrastructure. They are upgradable so from time to time the code they point to may change, but these addresses will stay the same.&#x20;
 
 
 
@@ -29,7 +29,7 @@ On the Taraxa network,&#x20;
 
 ## Asset contracts deployed by the core dev team
 
-The Ficus Root Bridge is fully permissionless, which means anyone can deploy asset connector contracts and register them with the bridge contracts. But since these deployments are completely permissionless and anonymous, there is no way for anyone to know if the asset connectors are scams or not.&#x20;
+The Ficus Root Bridge is fully permissionless, which means anyone can deploy asset connector contracts and register them with the bridge contracts. But since these deployments are completely permissionless and anonymous, there is no way for anyone to know if the asset connectors are fraudulent.&#x20;
 
 Here we publish a list of asset connector contracts that are deployed by the core Taraxa development team for maximum transparency. This list will grow over time as the core development team deploy more.&#x20;
 

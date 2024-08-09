@@ -37,7 +37,7 @@ Here's a step-by-step guide for adding Taraxa to Metamask via Chainlist,&#x20;
 
 * Once Metamask is connected, your wallet address will show up on the upper right corner
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Next, search for "Taraxa" in the search bar, and you should be able to see Taraxa's Mainnet and Testnet networks in the search results
 
@@ -49,7 +49,7 @@ Here's a step-by-step guide for adding Taraxa to Metamask via Chainlist,&#x20;
 
 * You'll see a Metamask pop-up, here's where you can confirm the [Taraxa network's connection details](taraxas-network-connection-details.md) are correct, and then click on "Approve"
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Next, Metamask will ask if you'd like to switch to the new network
 
@@ -79,11 +79,11 @@ Here's a step-by-step guide for adding Taraxa to Metamask via manually configuri
 
 * Here you'll see a brief form for you fill in details of Taraxa's network
 
-<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * You can reference the connection details in the [Taraxa's network connection details](taraxas-network-connection-details.md) page, here is a screenshot for connecting to the Taraxa's mainnet network, once you finished entering the connection details just click on "Save"
 
-<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 * After saving, open the Metamask browser plugin, you should be able to see "Taraxa Mainnet" at the top, and you're done!&#x20;
 
