@@ -14,6 +14,9 @@
 * [💰 Staking](staking/README.md)
   * [🚩 Staking via community site](staking/staking-via-community-site.md)
   * [⛓️ Staking directly on-chain](staking/staking-directly-on-chain.md)
+* [🌉 Ficus Root Bridge](ficus-root-bridge/README.md)
+  * [↔️ Bridge usage guide](ficus-root-bridge/bridge-usage-guide.md)
+  * [📜 On-chain contracts](ficus-root-bridge/on-chain-contracts.md)
 * [🗺️ Roadmap](roadmap.md)
 
 ## Develop on Taraxa <a href="#develop" id="develop"></a>
