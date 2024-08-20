@@ -17,6 +17,7 @@
 * [🌉 Ficus Root Bridge](ficus-root-bridge/README.md)
   * [↔️ Bridge usage guide](ficus-root-bridge/bridge-usage-guide.md)
   * [📜 On-chain contracts](ficus-root-bridge/on-chain-contracts.md)
+* [💥 Taraxa Grant Program](taraxa-grant-program.md)
 * [🗺️ Roadmap](roadmap.md)
 
 ## Develop on Taraxa <a href="#develop" id="develop"></a>
