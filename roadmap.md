@@ -1,8 +1,9 @@
 ---
 description: Taraxa's open development roadmap
+hidden: true
 ---
 
-# 🗺 Roadmap
+# 🗺️ Roadmap
 
 ## Brief History
 
