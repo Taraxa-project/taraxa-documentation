@@ -16,14 +16,14 @@ These contracts are part of the core [Ficus Root Bridge](https://bridge.taraxa.i
 
 On the Ethereum network,&#x20;
 
-* ETH\_bridge: 0x359CF536b1fd6248ebAd1449E1B3727caB33A01d&#x20;
-* TARA\_client: 0xcDF14446F78ea7EBCaa62Fdb0584e4D2e536B999&#x20;
+* ETH\_bridge: `0x359CF536b1fd6248ebAd1449E1B3727caB33A01d`&#x20;
+* TARA\_client: `0xcDF14446F78ea7EBCaa62Fdb0584e4D2e536B999`&#x20;
 
 On the Taraxa network,&#x20;
 
-* TARA\_bridge: 0xe126E0BaeAE904b8Cfd619Be1A8667A173b763a1&#x20;
-* ETH\_client: 0x7157233800c3c1f2ac8b12Cefe2cBE796C04446B&#x20;
-* BeaconLightClient: 0x97Eb8E024bE036eCdb25aDf842C5D6241189FB53&#x20;
+* TARA\_bridge: `0xe126E0BaeAE904b8Cfd619Be1A8667A173b763a1`&#x20;
+* ETH\_client: `0x7157233800c3c1f2ac8b12Cefe2cBE796C04446B`&#x20;
+* BeaconLightClient: `0x97Eb8E024bE036eCdb25aDf842C5D6241189FB53`&#x20;
 
 
 
