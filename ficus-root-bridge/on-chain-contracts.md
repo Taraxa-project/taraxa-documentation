@@ -37,11 +37,12 @@ Here we publish a list of asset connector contracts that are deployed by the cor
 
 On the Ethereum network,&#x20;
 
-* TARA token on ETH: 0x2F42b7d686ca3EffC69778B6ED8493A7787b4d6E
+* TARA token on ETH: `0x2F42b7d686ca3EffC69778B6ED8493A7787b4d6E`
 
 On the Taraxa network,&#x20;
 
-* ETH token on TARA: 0x39b1fC930C43606af5C353e90a55db10bCaF4087
+* ETH token on TARA: `0x39b1fC930C43606af5C353e90a55db10bCaF4087`
+* USDT (Tether) token on TARA: `0x69D411CbF6dBaD54Bfe36f81d0a39922625bC78c`
 
 
 
