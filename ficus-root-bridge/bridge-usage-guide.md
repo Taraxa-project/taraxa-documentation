@@ -125,16 +125,34 @@ The dev team will continue to work on finding optimizations to reduce this delay
 
 <figure><img src="../.gitbook/assets/9.2. Pop-up confirmation - link.png" alt=""><figcaption></figcaption></figure>
 
-### 10. Confirming your transaction in explorers&#x20;
+### 10. Confirming your transaction in explorers & wallet&#x20;
 
-Once your transaction is completed, the bridged assets will arrive into the target wallet automatically after the requisite delay has elapsed.&#x20;
 
-As an example, we can check on the first bridging transaction from Taraxa to Ethereum. Here are the transactions,&#x20;
+
+#### 10.1 Confirming in explorers&#x20;
+
+Once your transaction is completed, the bridged assets will arrive into the target wallet automatically after the requisite delay has elapsed. As an example, we can check on the first bridging transaction from Taraxa to Ethereum. Here are the transactions,&#x20;
 
 * [Transaction on Taraxa initiating the bridging transfer](https://mainnet.explorer.taraxa.io/tx/0x025cb96a7245d1005c5c43eaa9bdc480bfe3bd2cd1b0c2b57d33638f2cb59fb9)
 * [Transaction on Ethereum that automatically credits the bridging transfer](https://etherscan.io/tx/0xe78526ad0a805849dafd0da87be1520aacc1342b56328893875d20f60c7b1a4b)&#x20;
 
 You can see that there's an \~4 hour delay between the two transactions.&#x20;
+
+
+
+#### 10.2 Add to your wallet&#x20;
+
+You should also add the bridged token to your wallet.&#x20;
+
+
+
+For example, if you have just bridged over TARA coins from the Taraxa network to the Ethereum network, you should add the TARA-on-ETH token address to your wallet.&#x20;
+
+Go to the [On-chain contracts](on-chain-contracts.md) section of the guide, find the target (i.e., where you're transferring to) contract address, and add it into your wallet (e.g., Metamask). In this example the address we're looking for is the TARA Token on ETH address, add that as a custom token and you will see the balance pop up.&#x20;
+
+As a reference, here is the [official guide on how to add a custom token in Metamask](https://support.metamask.io/managing-my-tokens/custom-tokens/how-to-display-tokens-in-metamask/#how-to-add-a-custom-token).&#x20;
+
+
 
 
 
