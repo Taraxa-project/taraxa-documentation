@@ -24,6 +24,7 @@
 ## Develop on Taraxa <a href="#develop" id="develop"></a>
 
 * [🚀 Start building on Taraxa!](develop/start-building-on-taraxa.md)
+* [⚒️ Common frameworks & Examples](develop/common-frameworks-and-examples.md)
 * [🔗 Connecting to Taraxa](develop/connect-to-taraxas-network.md)
 * [📓 Smart Contracts](develop/smart-contracts/README.md)
   * [Remix](develop/smart-contracts/remix.md)
