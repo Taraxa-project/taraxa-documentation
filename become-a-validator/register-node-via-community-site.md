@@ -55,6 +55,8 @@ Here are instructions on how to find the node's,&#x20;
 
 Note that, the container name is different from the testnet. In the mainnet, instead of `taraxa_compose_node_1`, it's `mainnet_node_1`.&#x20;
 
+Also note that Public address, Proof of ownership, and VRF Key need to start with `0x`. You must add `0x` to the Public address and VRF key you copy out of the `wallet.json`.
+
 Per usual this name may be different in different environments, so to be sure you've got the right container name, just execute `docker ps`.&#x20;
 
 ### 4.  Setting the commission
