@@ -2,8 +2,6 @@
 
 ### The instructions below are for Full Taraxa nodes. Here are the [instructions for Lite Taraxa nodes](../node-setup/lite-consensus-node-beta.md).&#x20;
 
-##
-
 ## 1.  Node Upgrade
 
 The development team will release regular technical updates. To update the node please run the following commands in the `mainnet` directory:
