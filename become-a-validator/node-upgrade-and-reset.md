@@ -1,4 +1,8 @@
-# 🛠 Node upgrade & reset
+# 🛠️ Node upgrade & reset
+
+### The instructions below are for Full Taraxa nodes. Here are the [instructions for Lite Taraxa nodes](../node-setup/lite-consensus-node-beta.md).&#x20;
+
+##
 
 ## 1.  Node Upgrade
 
