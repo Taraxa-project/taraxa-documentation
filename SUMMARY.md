@@ -12,6 +12,7 @@
   * [📣 Solicit delegation](become-a-validator/solicit-delegation.md)
   * [🛠️ Node upgrade & reset](become-a-validator/node-upgrade-and-reset.md)
 * [💰 Staking](staking/README.md)
+  * [💧 Liquid Staking](staking/liquid-staking.md)
   * [🚩 Staking via community site](staking/staking-via-community-site.md)
   * [⛓️ Staking directly on-chain](staking/staking-directly-on-chain.md)
 * [🌉 Ficus Root Bridge](ficus-root-bridge/README.md)
