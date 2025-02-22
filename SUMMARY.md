@@ -7,6 +7,7 @@
   * [Taraxa's Network Connection Details](wallet/taraxas-network-connection-details.md)
 * [🌱 Become a Validator](become-a-validator/README.md)
   * [⚙️ Set up validator node](become-a-validator/set-up-validator-node.md)
+  * [🖥️ Consensus node requirements](become-a-validator/consensus-node-requirements.md)
   * [🚩 Register node via community site](become-a-validator/register-node-via-community-site.md)
   * [⛓️ Register node directly on-chain](become-a-validator/register-node-directly-on-chain.md)
   * [📣 Solicit delegation](become-a-validator/solicit-delegation.md)
