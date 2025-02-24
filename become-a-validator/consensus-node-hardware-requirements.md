@@ -1,4 +1,4 @@
-# 🖥️ Consensus node requirements
+# 🖥️ Consensus node hardware requirements
 
 ## Lite Consensus Node
 
@@ -22,5 +22,5 @@ Minimum system requirements for the Full Consensus Node is,&#x20;
 * 8GB Memory&#x20;
 * 1.5TB SSD&#x20;
 
-The full node's state db grows very quickly, especially when transaction load is high. Over time the storage requirements will keep growing. We of course encourage you to run a full node if storage is too big of a concern for you, just be aware that the disk requirement will keep growing.&#x20;
+The full node's state db grows very quickly, especially when transaction load is high. Over time the storage requirements will keep growing. We of course encourage you to run a full node if storage is not too big of a concern for you, just be aware that the disk requirement will keep growing.&#x20;
 
