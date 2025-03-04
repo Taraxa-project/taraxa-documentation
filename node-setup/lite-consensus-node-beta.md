@@ -74,7 +74,7 @@ docker-compose logs
 
 ### 3.1  Node Upgrade&#x20;
 
-```
+```bash
 cd ~/taraxa-ops-master/taraxa_compose_mainnet
 wget -O docker-compose-new.yml https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/taraxa_compose_mainnet/docker-compose.light.yml && mv docker-compose-new.yml docker-compose.yml
 sudo docker-compose down
@@ -85,7 +85,7 @@ sudo docker-compose logs -f
 
 ### 3.2  Node Reset
 
-```
+```bash
 cd ~/taraxa-ops-master/taraxa_compose_mainnet
 wget -O docker-compose-new.yml https://raw.githubusercontent.com/Taraxa-project/taraxa-ops/master/taraxa_compose_mainnet/docker-compose.yml && mv docker-compose.light.yml docker-compose.yml
 sudo docker-compose down -v
