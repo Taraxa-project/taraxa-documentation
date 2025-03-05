@@ -66,7 +66,9 @@ docker-compose up -d
 docker-compose logs
 ```
 
+## 3.  Lite Consensus Node on the Taraxa Testnet &#x20;
 
+### 2.1  Set up a Lite Consensus Node on the Testnet from scratch&#x20;
 
 
 
