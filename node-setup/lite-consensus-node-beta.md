@@ -38,6 +38,14 @@ docker-compose logs
 
 
 
+### 1.3  Syncing from snapshot&#x20;
+
+Because the Taraxa network state has gotten very large, it takes quite a long time to sync. An alternative is to sync from a snapshot, which will drastically cut down on the amount of syncing time and can get  your node up & running much more quickly.&#x20;
+
+\>> [Latest snapshots](syncing-from-snapshot.md) <<&#x20;
+
+
+
 
 
 ## 2.  Lite Consensus Node on the Taraxa Testnet &#x20;
