@@ -70,7 +70,6 @@
 
 ## FAQ
 
-* [🔭 Vision](faq/vision.md)
 * [1️ Layer-1 Tech](faq/layer-1-tech.md)
 * [🪙 TARA Token](faq/tara-token.md)
 * [🌱 Mainnet](faq/mainnet.md)
