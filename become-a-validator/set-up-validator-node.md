@@ -24,6 +24,8 @@ You could also choose to run a lite-version of the consensus nodes, with \~90% S
 
 Please follow the [instructions on light consensus nodes](../node-setup/lite-consensus-node-beta.md#1.-lite-consensus-node-on-the-taraxa-mainnet).&#x20;
 
+> Lite node requires pruning, and you need to restart your lite node for pruning to start. It's recommended to set up a script to periodically restart the lite node to keep disk space usage to a mininum.&#x20;
+
 Because the Taraxa network state has gotten very large, it takes quite a long time to sync. An alternative is to sync from a snapshot, which will drastically cut down on the amount of syncing time and can get  your node up & running much more quickly.&#x20;
 
 \>> [Latest snapshots](../node-setup/syncing-from-snapshot.md) <<&#x20;

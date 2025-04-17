@@ -6,6 +6,8 @@ description: Light-weight non-archival consensus node
 
 If you don't wish to run a full archival node, you can choose to run a light-weight consensus node that has \~90% savings in disk space requirements. The Lite Consensus Node achieves the disk space savings by pruning the state DB and only keeping a set of the most recent Periods.&#x20;
 
+> Lite node requires pruning, and you need to restart your lite node for pruning to start. It's recommended to set up a script to periodically restart the lite node to keep disk space usage to a mininum.&#x20;
+
 Here are the [hardware requirements for a lite consensus node](../become-a-validator/consensus-node-hardware-requirements.md).&#x20;
 
 Here's how you can set up a Lite Consensus Node.&#x20;
