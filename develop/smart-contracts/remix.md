@@ -16,7 +16,7 @@ Here's a step-by-step example to deploy a simple contract onto Taraxa's mainnet 
 
 <figure><img src="../../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-* We'll compile with version 0.8.3
+* We'll compile with version 0.8.3 in this example. In general you can use compiler version up to 0.8.23, our team is constantly updating our VM implementation to maximize compatibility.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
