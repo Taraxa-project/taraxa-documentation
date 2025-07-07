@@ -36,7 +36,7 @@ This is why we created Taraxa.&#x20;
 * Get started with [creating a wallet for Taraxa](wallet/)&#x20;
 * [Stake your TARA](staking/)
 * [Network explorer](https://explorer.mainnet.taraxa.io/)&#x20;
-* Our most recent [development roadmap](broken-reference)
+* Our most recent [development roadmap](https://github.com/Taraxa-project/taraxa-documentation/tree/master/tech-whitepaper)
 
 #### For developers, check out,&#x20;
 
