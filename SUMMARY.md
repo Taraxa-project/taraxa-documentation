@@ -70,7 +70,7 @@
 
 ## FAQ
 
-* [1️ Layer-1 Tech](faq/layer-1-tech.md)
+* [1️ 1️ Layer-1 Tech](faq/layer-1-tech.md)
 * [🪙 TARA Token](faq/tara-token.md)
 * [🌱 Mainnet](faq/mainnet.md)
 * [🔁 Exchange Integration](faq/exchange-integration.md)

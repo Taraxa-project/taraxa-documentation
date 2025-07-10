@@ -4,15 +4,47 @@ description: Instructions for faster syncing by use of a recent snapshot
 
 # 🔀 Syncing From Snapshot
 
-_**Current latest snapshot hosted by Taraxa dev team is here:**_
+## What are Snapshots?&#x20;
 
-{% embed url="https://storage.googleapis.com/taraxa-snapshot/snapshot.tar.gz" %}
-Full Node
-{% endembed %}
+Snapshots are versions of the Taraxa network's overall state.&#x20;
 
-{% embed url="https://storage.googleapis.com/taraxa-snapshot/ln_snapshot_18938414.tar.gz" %}
-Light node
-{% endembed %}
+The Taraxa network has an extremely high throughput, and hence a very large historical state. New nodes joining the network could have a very hard time syncing and catching up with the rest of the network if they start from scratch. So snapshots of the latest network state (with some delay) are provided so that new nodes won't have to start from scratch, and also making syncing a lite node much more painless.&#x20;
+
+
+
+## Latest Snapshots&#x20;
+
+Snapshots are provided for the Mainnet and Testnet through an API, which returns the latest image file paths in JSON. Here are some examples,&#x20;
+
+### Mainnet&#x20;
+
+FULL node snapshot
+
+```
+curl "https://snapshots.taraxa.io/api?network=mainnet" -s | jq -r '.full.url'
+```
+
+LITE node snapshot
+
+```
+curl "https://snapshots.taraxa.io/api?network=mainnet" -s | jq -r '.light.url'
+```
+
+### Testnet
+
+FULL node snapshot
+
+```
+curl "https://snapshots.taraxa.io/api?network=testnet" -s | jq -r '.full.url'
+```
+
+LITE node snapshot
+
+```
+curl "https://snapshots.taraxa.io/api?network=testnet" -s | jq -r '.light.url'
+```
+
+
 
 ## Installing Snapshot On Local Machine
 
@@ -25,6 +57,8 @@ Follow the these steps:
 5. Restart your node to begin syncing from the block height of your snapshot.
 
 Congrats you are all done and node will sync faster than having started from the beginning!
+
+##
 
 ## Installing Snapshot On Dockerized Node
 
