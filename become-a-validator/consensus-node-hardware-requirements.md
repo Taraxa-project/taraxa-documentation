@@ -2,7 +2,7 @@
 
 ## Lite Consensus Node
 
-Minimum system requirements for the Lite Consensus Node is,&#x20;
+Minimum system requirements for the Lite Consensus Node are,&#x20;
 
 * 4 CPU
 * 8GB Memory&#x20;
@@ -16,7 +16,7 @@ Beyond the state pruning, there is otherwise no difference between the full cons
 
 ## Full Consensus Node
 
-Minimum system requirements for the Full Consensus Node is,&#x20;
+Minimum system requirements for the Full Consensus Node are,&#x20;
 
 * 4 CPU
 * 8GB Memory&#x20;
