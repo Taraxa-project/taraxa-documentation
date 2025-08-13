@@ -17,6 +17,16 @@ Here are a few links to get you started with using Stork oracles on Taraxa.&#x20
 
 
 
+## blocksense
+
+blocksense has a full suite of price feeds deployed on Taraxa, check them out here.&#x20;
+
+[https://docs.blocksense.network/docs/contracts/deployed-contracts#taraxa-mainnet](https://docs.blocksense.network/docs/contracts/deployed-contracts#taraxa-mainnet)
+
+
+
+
+
 ## VIALabs
 
 VIALabs is a cross-chain bridging as well as bridgeless cross-chain communication infrastructure. As of this writing it's connected to over 138 L1 and L2 networks.&#x20;
