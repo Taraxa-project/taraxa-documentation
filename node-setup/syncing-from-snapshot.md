@@ -14,15 +14,11 @@ The Taraxa network has an extremely high throughput, and hence a very large hist
 
 ## Latest Snapshots&#x20;
 
-Snapshots are provided for the Mainnet and Testnet through an API, which returns the latest image file paths in JSON. Here are some examples,&#x20;
+Snapshots are provided for the Mainnet and Testnet through an API, which returns the latest image file paths in JSON. We have stopped providing full node snapshots as the data egress charges are pretty high, we'll update if we find an affordable alternative.&#x20;
+
+Here are some examples,&#x20;
 
 ### Mainnet&#x20;
-
-FULL node snapshot
-
-```
-curl "https://snapshots.taraxa.io/api?network=mainnet" -s | jq -r '.full.url'
-```
 
 LITE node snapshot
 
@@ -31,12 +27,6 @@ curl "https://snapshots.taraxa.io/api?network=mainnet" -s | jq -r '.light.url'
 ```
 
 ### Testnet
-
-FULL node snapshot
-
-```
-curl "https://snapshots.taraxa.io/api?network=testnet" -s | jq -r '.full.url'
-```
 
 LITE node snapshot
 
