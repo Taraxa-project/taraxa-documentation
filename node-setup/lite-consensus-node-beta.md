@@ -44,7 +44,7 @@ docker-compose logs
 
 Because the Taraxa network state has gotten very large, it takes quite a long time to sync. An alternative is to sync from a snapshot, which will drastically cut down on the amount of syncing time and can get  your node up & running much more quickly.&#x20;
 
-Please read the guide on how to [sync from snapshot](syncing-from-snapshot.md), and due to the increased state, pruning can take a very long time as well, so please also be sure to read about the lite node performance considerations section on tactics to avoid pruning altogether.&#x20;
+Please read the guide on how to [sync from snapshot](syncing-from-snapshot.md), and due to the increased state, pruning can take a very long time as well, so please also be sure to read about the [lite node performance considerations](https://taraxa.gitbook.io/taraxa-network/node-setup/syncing-from-snapshot#light-node-performance-considerations) section on tactics to avoid pruning altogether.&#x20;
 
 
 
